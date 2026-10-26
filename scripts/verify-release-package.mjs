@@ -130,6 +130,7 @@ export async function verifyReleasePackage() {
   console.log('[Check 6] Bundled Runtime Binary Assets:');
   const requiredBinaries = [
     { name: 'PDF.js Web Worker', path: path.join(distDir, 'pdf.worker.min.mjs') },
+    { name: 'Tesseract Web Worker Entrypoint', path: path.join(distDir, 'tesseract', 'worker-entry.js') },
     { name: 'Tesseract Web Worker', path: path.join(distDir, 'tesseract', 'worker.min.js') },
     { name: 'Tesseract Core LSTM WASM', path: path.join(distDir, 'tesseract', 'tesseract-core-lstm.wasm') },
     { name: 'Tesseract Core SIMD WASM', path: path.join(distDir, 'tesseract', 'tesseract-core-simd-lstm.wasm') },

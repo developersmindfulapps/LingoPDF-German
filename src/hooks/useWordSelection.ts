@@ -40,9 +40,17 @@ export function useWordSelection({
       const container = containerRef.current;
       if (!container) return;
 
-      // 1. Check if interaction happened inside the textLayer container
+      // 1. Check if interaction happened inside or in close proximity of the textLayer container
       const target = e.target as Node | null;
-      if (!target || !container.contains(target)) {
+      const cRect = container.getBoundingClientRect();
+      const isNearContainer = (
+        e.clientX >= cRect.left - 14 &&
+        e.clientX <= cRect.right + 14 &&
+        e.clientY >= cRect.top - 14 &&
+        e.clientY <= cRect.bottom + 14
+      );
+
+      if (!target || (!container.contains(target) && !isNearContainer)) {
         // Clicked outside textLayer
         if (selectedWord) {
           setSelection(null);
@@ -51,6 +59,20 @@ export function useWordSelection({
       }
 
       const selection = window.getSelection();
+
+      // Helper to find the enclosing OCR word span
+      const getOcrWordElement = (node: Node | null): HTMLElement | null => {
+        let curr: Node | null = node;
+        while (curr && curr !== container) {
+          if (curr.nodeType === Node.ELEMENT_NODE && (curr as HTMLElement).hasAttribute('data-ocr-word')) {
+            return curr as HTMLElement;
+          }
+          curr = curr.parentNode;
+        }
+        return null;
+      };
+
+      const clickedOcrEl = getOcrWordElement(target);
 
       // 2. Check for drag-highlighted text selection
       if (selection && !selection.isCollapsed && selection.rangeCount > 0) {
@@ -61,51 +83,45 @@ export function useWordSelection({
 
             // In selection-only mode (OCR), ensure the selection represents exactly ONE complete OCR word
             if (mode === 'selection-only') {
-              const getOcrWordElement = (node: Node | null): HTMLElement | null => {
-                let curr: Node | null = node;
-                while (curr && curr !== container) {
-                  if (curr.nodeType === Node.ELEMENT_NODE && (curr as HTMLElement).hasAttribute('data-ocr-word')) {
-                    return curr as HTMLElement;
-                  }
-                  curr = curr.parentNode;
-                }
-                return null;
-              };
-
               const startEl = getOcrWordElement(range.startContainer);
               const endEl = getOcrWordElement(range.endContainer);
 
-              // Multi-element selection or non-OCR element is rejected (multi-word selection suppression)
-              if (!startEl || !endEl || startEl !== endEl) {
-                setSelection(null);
-                return;
-              }
+              // If the user clicked on a distinct OCR word element, prioritize the clicked element
+              if (clickedOcrEl && startEl !== clickedOcrEl) {
+                // Fall through to click handling for clickedOcrEl
+              } else {
+                // Multi-element selection or non-OCR element is rejected (multi-word selection suppression)
+                if (!startEl || !endEl || startEl !== endEl) {
+                  setSelection(null);
+                  return;
+                }
 
-              // Multiword check on the selected text
-              if (!isSingleWord(rawText)) {
-                setSelection(null);
-                return;
-              }
+                // Multiword check on the selected text
+                if (!isSingleWord(rawText)) {
+                  setSelection(null);
+                  return;
+                }
 
-              // In OCR mode, verify that the selection represents the COMPLETE word token.
-              // Partial selections inside a word (e.g. "Lieblingsfil" or "film" inside "Lieblingsfilm") are strictly rejected.
-              const fullOcrText = startEl.getAttribute('data-ocr-word') || startEl.textContent || '';
-              const fullCleaned = cleanWordToken(fullOcrText);
-              const selectedCleaned = cleanWordToken(rawText);
+                // In OCR mode, verify that the selection represents the COMPLETE word token.
+                // Partial selections inside a word (e.g. "Lieblingsfil" or "film" inside "Lieblingsfilm") are strictly rejected.
+                const fullOcrText = startEl.getAttribute('data-ocr-word') || startEl.textContent || '';
+                const fullCleaned = cleanWordToken(fullOcrText);
+                const selectedCleaned = cleanWordToken(rawText);
 
-              if (!fullCleaned || !selectedCleaned || selectedCleaned.toLowerCase() !== fullCleaned.toLowerCase()) {
-                setSelection(null);
-                return;
-              }
+                if (!fullCleaned || !selectedCleaned || selectedCleaned.toLowerCase() !== fullCleaned.toLowerCase()) {
+                  setSelection(null);
+                  return;
+                }
 
-              const spanRect = startEl.getBoundingClientRect();
-              if (spanRect && spanRect.width > 0 && spanRect.height > 0) {
-                setSelection({
-                  word: fullCleaned,
-                  pageNumber,
-                  rect: spanRect,
-                });
-                return;
+                const spanRect = startEl.getBoundingClientRect();
+                if (spanRect && spanRect.width > 0 && spanRect.height > 0) {
+                  setSelection({
+                    word: fullCleaned,
+                    pageNumber,
+                    rect: spanRect,
+                  });
+                  return;
+                }
               }
             } else if (isSingleWord(rawText)) {
               // Normal text-PDF selection mode
@@ -136,13 +152,81 @@ export function useWordSelection({
         }
       }
 
-      // In selection-only mode (OCR), simple clicks must NEVER trigger a tooltip
+      // 3. Check for click on OCR word span (or proximity hit-test in OCR text layer)
+      let ocrEl = getOcrWordElement(target);
+
+      // If clicked on container directly or target wasn't an OCR span, check point-in-rect or proximity
+      if (!ocrEl && container.classList.contains('ocrTextLayer')) {
+        const wordSpans = container.querySelectorAll<HTMLElement>('[data-ocr-word]');
+        let closestSpan: HTMLElement | null = null;
+        let minDistance = Infinity;
+
+        for (let i = 0; i < wordSpans.length; i++) {
+          const span = wordSpans[i];
+          const rect = span.getBoundingClientRect();
+          // Direct hit within bounding rect
+          if (
+            e.clientX >= rect.left &&
+            e.clientX <= rect.right &&
+            e.clientY >= rect.top &&
+            e.clientY <= rect.bottom
+          ) {
+            closestSpan = span;
+            minDistance = 0;
+            break;
+          }
+          // Compute distance to span rect
+          const dx = Math.max(rect.left - e.clientX, 0, e.clientX - rect.right);
+          const dy = Math.max(rect.top - e.clientY, 0, e.clientY - rect.bottom);
+          const dist = Math.hypot(dx, dy);
+          if (dist < minDistance) {
+            minDistance = dist;
+            closestSpan = span;
+          }
+        }
+
+        // Accept if within 14px tolerance (covers callout interiors and marginalia)
+        if (closestSpan && minDistance <= 14) {
+          ocrEl = closestSpan;
+        }
+      }
+
+      if (ocrEl) {
+        const fullOcrText = ocrEl.getAttribute('data-ocr-word') || ocrEl.textContent || '';
+        const cleaned = cleanWordToken(fullOcrText);
+        if (cleaned) {
+          const rect = ocrEl.getBoundingClientRect();
+          if (rect.width > 0 && rect.height > 0) {
+            // Highlight the word in DOM selection for clear visual feedback
+            const domSel = window.getSelection();
+            if (domSel) {
+              try {
+                const r = document.createRange();
+                r.selectNodeContents(ocrEl);
+                domSel.removeAllRanges();
+                domSel.addRange(r);
+              } catch {
+                // Ignore range selection errors
+              }
+            }
+
+            setSelection({
+              word: cleaned,
+              pageNumber,
+              rect,
+            });
+            return;
+          }
+        }
+      }
+
+      // In selection-only mode (OCR), clicking outside word tokens clears selection
       if (mode === 'selection-only') {
         setSelection(null);
         return;
       }
 
-      // 3. Normal text-PDF mode: Check for single click at point
+      // 4. Normal text-PDF mode: Check for single click at point
       let targetNode: Node | null = null;
       let targetOffset = 0;
 

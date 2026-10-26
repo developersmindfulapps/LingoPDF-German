@@ -1,0 +1,494 @@
+{
+  "benchmarkId": "administrative-berlin-anmeldung",
+  "genre": "administrative",
+  "title": "Wohnung anmelden (Dienstleistung Berlin)",
+  "source": {
+    "publisher": "Senatsverwaltung für Inneres und Sport, Berlin",
+    "publication": "Service-Portal Berlin",
+    "urlOrEdition": "https://service.berlin.de/dienstleistung/120686/",
+    "author": "Land Berlin",
+    "publishedYear": 2024
+  },
+  "license": {
+    "type": "Amtliche Information",
+    "legalBasis": "§ 5 Abs. 2 UrhG (Official information published in official interest)",
+    "termsUrl": "https://www.gesetze-im-internet.de/urhg/__5.html",
+    "canRedistribute": true
+  },
+  "tokenMetrics": {
+    "rawTokenCount": 78,
+    "evaluatedDenominator": 78,
+    "excludedCount": 0
+  },
+  "rawText": "Wer eine Wohnung bezieht, ist verpflichtet, sich innerhalb von zwei Wochen bei der zuständigen Meldebehörde anzumelden. Für die Anmeldung ist ein Personalausweis oder Reisepass sowie die schriftliche Bestätigung des Wohnungsgebers erforderlich. Die Bestätigung muss den Namen und die Anschrift des Eigentümers sowie das genaue Einzugsdatum enthalten. Die Anmeldung ist gebührenfrei. Bei Überschreitung der gesetzlichen Frist kann ein Bußgeld verhängt werden. Bitte bringen Sie alle notwendigen Unterlagen vollständig zum Termin mit. Ein Mietvertrag ersetzt nicht die Bestätigung des Vermieters.",
+  "tokens": [
+    {
+      "raw": "Wer",
+      "cleaned": "Wer",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "eine",
+      "cleaned": "eine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wohnung",
+      "cleaned": "Wohnung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bezieht,",
+      "cleaned": "bezieht",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ist",
+      "cleaned": "ist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "verpflichtet,",
+      "cleaned": "verpflichtet",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sich",
+      "cleaned": "sich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "innerhalb",
+      "cleaned": "innerhalb",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zwei",
+      "cleaned": "zwei",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wochen",
+      "cleaned": "Wochen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bei",
+      "cleaned": "bei",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zuständigen",
+      "cleaned": "zuständigen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Meldebehörde",
+      "cleaned": "Meldebehörde",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "anzumelden.",
+      "cleaned": "anzumelden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Für",
+      "cleaned": "Für",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Anmeldung",
+      "cleaned": "Anmeldung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ist",
+      "cleaned": "ist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Personalausweis",
+      "cleaned": "Personalausweis",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "oder",
+      "cleaned": "oder",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Reisepass",
+      "cleaned": "Reisepass",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sowie",
+      "cleaned": "sowie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "schriftliche",
+      "cleaned": "schriftliche",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bestätigung",
+      "cleaned": "Bestätigung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "des",
+      "cleaned": "des",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wohnungsgebers",
+      "cleaned": "Wohnungsgebers",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "erforderlich.",
+      "cleaned": "erforderlich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Die",
+      "cleaned": "Die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bestätigung",
+      "cleaned": "Bestätigung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "muss",
+      "cleaned": "muss",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Namen",
+      "cleaned": "Namen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Anschrift",
+      "cleaned": "Anschrift",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "des",
+      "cleaned": "des",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Eigentümers",
+      "cleaned": "Eigentümers",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sowie",
+      "cleaned": "sowie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "genaue",
+      "cleaned": "genaue",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Einzugsdatum",
+      "cleaned": "Einzugsdatum",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "enthalten.",
+      "cleaned": "enthalten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Die",
+      "cleaned": "Die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Anmeldung",
+      "cleaned": "Anmeldung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ist",
+      "cleaned": "ist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gebührenfrei.",
+      "cleaned": "gebührenfrei",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bei",
+      "cleaned": "Bei",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Überschreitung",
+      "cleaned": "Überschreitung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gesetzlichen",
+      "cleaned": "gesetzlichen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Frist",
+      "cleaned": "Frist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kann",
+      "cleaned": "kann",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bußgeld",
+      "cleaned": "Bußgeld",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "verhängt",
+      "cleaned": "verhängt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "werden.",
+      "cleaned": "werden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bitte",
+      "cleaned": "Bitte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bringen",
+      "cleaned": "bringen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Sie",
+      "cleaned": "Sie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "alle",
+      "cleaned": "alle",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "notwendigen",
+      "cleaned": "notwendigen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Unterlagen",
+      "cleaned": "Unterlagen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vollständig",
+      "cleaned": "vollständig",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zum",
+      "cleaned": "zum",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Termin",
+      "cleaned": "Termin",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mit.",
+      "cleaned": "mit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ein",
+      "cleaned": "Ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Mietvertrag",
+      "cleaned": "Mietvertrag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ersetzt",
+      "cleaned": "ersetzt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "nicht",
+      "cleaned": "nicht",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bestätigung",
+      "cleaned": "Bestätigung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "des",
+      "cleaned": "des",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Vermieters.",
+      "cleaned": "Vermieters",
+      "isExcluded": false,
+      "exclusionReason": null
+    }
+  ]
+}

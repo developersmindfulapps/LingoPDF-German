@@ -70,14 +70,25 @@ export const OCRTextLayer: React.FC<OCRTextLayerProps> = ({
         ocrResult.imageHeight
       );
       const proj = projectToViewport(norm, viewportWidth, viewportHeight);
-      const fontSize = Math.max(Math.round(proj.height * 0.85), 8);
+
+      // Boundary clamping: ensure word span stays within container without being clipped
+      const left = Math.max(0, Math.min(proj.left, viewportWidth - 2));
+      const top = Math.max(0, Math.min(proj.top, viewportHeight - 2));
+      const width = Math.max(Math.min(proj.width, viewportWidth - left), 2);
+      // Ensure minimum touch/click target height (at least 12px) for small callout words
+      const height = Math.max(Math.min(proj.height, viewportHeight - top), 12);
+      const fontSize = Math.max(Math.round(height * 0.85), 9);
 
       let scaleX = 1;
-      if (ctx && proj.width > 0) {
+      if (ctx && width > 0) {
         ctx.font = `${fontSize}px sans-serif`;
         const naturalWidth = ctx.measureText(word.text).width;
         if (naturalWidth > 0) {
-          scaleX = proj.width / naturalWidth;
+          // In standard PDF text layers, the element width is not set explicitly;
+          // transform: scaleX(desiredWidth / naturalWidth) scales the natural text box
+          // to match the exact desired bounding box width without squaring it.
+          // Clamped defensively between 0.2 and 3.0 to prevent outlier ballooning.
+          scaleX = Math.min(Math.max(width / naturalWidth, 0.2), 3.0);
         }
       }
 
@@ -85,10 +96,10 @@ export const OCRTextLayer: React.FC<OCRTextLayerProps> = ({
         key: `ocr-word-${idx}-${word.text}`,
         text: word.text,
         idx,
-        left: proj.left,
-        top: proj.top,
-        width: proj.width,
-        height: proj.height,
+        left,
+        top,
+        width,
+        height,
         fontSize,
         scaleX: Math.round(scaleX * 1000) / 1000,
       };
@@ -114,7 +125,6 @@ export const OCRTextLayer: React.FC<OCRTextLayerProps> = ({
             position: 'absolute',
             left: `${span.left}px`,
             top: `${span.top}px`,
-            width: `${span.width}px`,
             height: `${span.height}px`,
             fontSize: `${span.fontSize}px`,
             lineHeight: `${span.height}px`,
@@ -124,6 +134,7 @@ export const OCRTextLayer: React.FC<OCRTextLayerProps> = ({
             whiteSpace: 'pre',
             userSelect: 'text',
             WebkitUserSelect: 'text',
+            pointerEvents: 'auto',
           }}
         >
           {span.text}

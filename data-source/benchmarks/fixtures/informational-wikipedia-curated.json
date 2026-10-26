@@ -1,0 +1,536 @@
+{
+  "benchmarkId": "informational-wikipedia-curated",
+  "genre": "informational",
+  "title": "Kaffee und Kulturgeschichte (Auszug)",
+  "source": {
+    "publisher": "Wikimedia Foundation",
+    "publication": "Wikipedia Deutsch (Kaffee)",
+    "urlOrEdition": "https://de.wikipedia.org/wiki/Kaffee",
+    "author": "Wikipedia-Autoren",
+    "publishedYear": 2024
+  },
+  "license": {
+    "type": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "legalBasis": "CC BY-SA 4.0",
+    "termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "canRedistribute": true
+  },
+  "tokenMetrics": {
+    "rawTokenCount": 85,
+    "evaluatedDenominator": 85,
+    "excludedCount": 0
+  },
+  "rawText": "Der Kaffee ist ein Heißgetränk, das aus den gerösteten und gemahlenen Kaffeebohnen zubereitet wird. Ursprünglich stammt die Kaffeepflanze aus den tropischen Regionen Afrikas. Heute gehört Kaffee zu den weltweit am meisten konsumierten Getränken und spielt eine zentrale Rolle im Alltag von Millionen Menschen. Auch das Fahrrad entwickelte sich im Laufe des neunzehnten Jahrhunderts zu einem der wichtigsten und umweltfreundlichsten Verkehrsmittel. In vielen modernen Städten wird der kontinuierliche Ausbau von Radwegen gefördert, um den Straßenverkehr spürbar zu entlasten und die allgemeine Gesundheit der Bevölkerung zu stärken.",
+  "tokens": [
+    {
+      "raw": "Der",
+      "cleaned": "Der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kaffee",
+      "cleaned": "Kaffee",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ist",
+      "cleaned": "ist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Heißgetränk,",
+      "cleaned": "Heißgetränk",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "aus",
+      "cleaned": "aus",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gerösteten",
+      "cleaned": "gerösteten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gemahlenen",
+      "cleaned": "gemahlenen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kaffeebohnen",
+      "cleaned": "Kaffeebohnen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zubereitet",
+      "cleaned": "zubereitet",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wird.",
+      "cleaned": "wird",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ursprünglich",
+      "cleaned": "Ursprünglich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "stammt",
+      "cleaned": "stammt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kaffeepflanze",
+      "cleaned": "Kaffeepflanze",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "aus",
+      "cleaned": "aus",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "tropischen",
+      "cleaned": "tropischen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Regionen",
+      "cleaned": "Regionen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Afrikas.",
+      "cleaned": "Afrikas",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Heute",
+      "cleaned": "Heute",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gehört",
+      "cleaned": "gehört",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kaffee",
+      "cleaned": "Kaffee",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "weltweit",
+      "cleaned": "weltweit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "am",
+      "cleaned": "am",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "meisten",
+      "cleaned": "meisten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "konsumierten",
+      "cleaned": "konsumierten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Getränken",
+      "cleaned": "Getränken",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "spielt",
+      "cleaned": "spielt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "eine",
+      "cleaned": "eine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zentrale",
+      "cleaned": "zentrale",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Rolle",
+      "cleaned": "Rolle",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "im",
+      "cleaned": "im",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Alltag",
+      "cleaned": "Alltag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Millionen",
+      "cleaned": "Millionen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Menschen.",
+      "cleaned": "Menschen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Auch",
+      "cleaned": "Auch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Fahrrad",
+      "cleaned": "Fahrrad",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "entwickelte",
+      "cleaned": "entwickelte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sich",
+      "cleaned": "sich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "im",
+      "cleaned": "im",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Laufe",
+      "cleaned": "Laufe",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "des",
+      "cleaned": "des",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "neunzehnten",
+      "cleaned": "neunzehnten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Jahrhunderts",
+      "cleaned": "Jahrhunderts",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einem",
+      "cleaned": "einem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wichtigsten",
+      "cleaned": "wichtigsten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "umweltfreundlichsten",
+      "cleaned": "umweltfreundlichsten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Verkehrsmittel.",
+      "cleaned": "Verkehrsmittel",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "In",
+      "cleaned": "In",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vielen",
+      "cleaned": "vielen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "modernen",
+      "cleaned": "modernen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Städten",
+      "cleaned": "Städten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wird",
+      "cleaned": "wird",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kontinuierliche",
+      "cleaned": "kontinuierliche",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ausbau",
+      "cleaned": "Ausbau",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Radwegen",
+      "cleaned": "Radwegen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gefördert,",
+      "cleaned": "gefördert",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "um",
+      "cleaned": "um",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Straßenverkehr",
+      "cleaned": "Straßenverkehr",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "spürbar",
+      "cleaned": "spürbar",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "entlasten",
+      "cleaned": "entlasten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "allgemeine",
+      "cleaned": "allgemeine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gesundheit",
+      "cleaned": "Gesundheit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bevölkerung",
+      "cleaned": "Bevölkerung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "stärken.",
+      "cleaned": "stärken",
+      "isExcluded": false,
+      "exclusionReason": null
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { WordSelection } from '../types/selection.ts';
-import type { DictionaryResult } from '../types/dictionary.ts';
+import type { DictionaryResult, InitializableDictionaryProvider } from '../types/dictionary.ts';
 import { localDictionaryProvider } from '../services/dictionary/index.ts';
 
-export function useDictionaryTooltip() {
+export function useDictionaryTooltip(provider: InitializableDictionaryProvider = localDictionaryProvider) {
   const [activeSelection, setActiveSelection] = useState<WordSelection | null>(null);
   const [dictionaryResult, setDictionaryResult] = useState<DictionaryResult | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -12,11 +12,11 @@ export function useDictionaryTooltip() {
 
   // Proactive background preload on mount (non-blocking, completely offline)
   useEffect(() => {
-    localDictionaryProvider.ensureInitialized().catch((err) => {
+    provider.ensureInitialized().catch((err) => {
       // Non-fatal background preload failure — lookup() will retry on demand
       console.warn('Background dictionary preload deferred:', err);
     });
-  }, []);
+  }, [provider]);
 
   const handleWordSelected = useCallback(async (selection: WordSelection | null) => {
     setActiveSelection(selection);
@@ -33,7 +33,7 @@ export function useDictionaryTooltip() {
     setError(null);
 
     try {
-      const result = await localDictionaryProvider.lookup(selection.word, 'de', 'en');
+      const result = await provider.lookup(selection.word, 'de', 'en');
       // Prevent stale async response race conditions
       if (lookupIdRef.current === currentId) {
         setDictionaryResult(result);
@@ -50,7 +50,7 @@ export function useDictionaryTooltip() {
         setIsLoading(false);
       }
     }
-  }, []);
+  }, [provider]);
 
   const closeTooltip = useCallback(() => {
     lookupIdRef.current++;

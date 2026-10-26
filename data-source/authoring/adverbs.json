@@ -1,0 +1,1073 @@
+[
+  {
+    "headword": "heute",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "today"
+    ],
+    "examples": [
+      {
+        "de": "Heute haben wir keinen Unterricht.",
+        "en": "Today we have no class."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "morgen",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "tomorrow"
+    ],
+    "examples": [
+      {
+        "de": "Morgen fahre ich nach Frankfurt.",
+        "en": "Tomorrow I am traveling to Frankfurt."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Lowercase adverb meaning tomorrow; homograph contrast with noun Morgen (morning)."
+    }
+  },
+  {
+    "headword": "hier",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "here"
+    ],
+    "examples": [
+      {
+        "de": "Hier ist mein neuer Pass.",
+        "en": "Here is my new passport."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dort",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "there",
+      "over there"
+    ],
+    "examples": [
+      {
+        "de": "Dort drüben steht der Bus.",
+        "en": "Over there stands the bus."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sehr",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "very",
+      "greatly"
+    ],
+    "examples": [
+      {
+        "de": "Das Konzert war sehr schön.",
+        "en": "The concert was very nice."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "oft",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "often",
+      "frequently"
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe oft ins Kino.",
+        "en": "I often go to the cinema."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "immer",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "always"
+    ],
+    "examples": [
+      {
+        "de": "Er kommt immer pünktlich an.",
+        "en": "He always arrives on time."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nie",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "never"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe nie geraucht.",
+        "en": "I have never smoked."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "jetzt",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "now",
+      "at present"
+    ],
+    "examples": [
+      {
+        "de": "Jetzt machen wir eine kurze Pause.",
+        "en": "Now we are taking a short break."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zusammen",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "together"
+    ],
+    "examples": [
+      {
+        "de": "Wir kochen heute Abend zusammen.",
+        "en": "We are cooking together tonight."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "vielleicht",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "maybe",
+      "perhaps"
+    ],
+    "examples": [
+      {
+        "de": "Vielleicht kommt er morgen vorbei.",
+        "en": "Maybe he will drop by tomorrow."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "gern",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "gladly",
+      "with pleasure",
+      "likes to"
+    ],
+    "examples": [
+      {
+        "de": "Ich trinke gern Kaffee zum Frühstück.",
+        "en": "I like to drink coffee for breakfast."
+      }
+    ],
+    "inflections": [
+      "gerne"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16",
+      "notes": "Includes variant gerne."
+    }
+  },
+  {
+    "headword": "auch",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "also",
+      "too",
+      "as well"
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne auch Deutsch.",
+        "en": "I am also learning German."
+      }
+    ],
+    "inflections": [
+      "Auch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nicht",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "not"
+    ],
+    "examples": [
+      {
+        "de": "Ich verstehe das nicht.",
+        "en": "I do not understand that."
+      }
+    ],
+    "inflections": [
+      "Nicht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schon",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "already"
+    ],
+    "examples": [
+      {
+        "de": "Bist du schon fertig?",
+        "en": "Are you already done?"
+      }
+    ],
+    "inflections": [
+      "Schon"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "noch",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "still",
+      "yet",
+      "another"
+    ],
+    "examples": [
+      {
+        "de": "Möchten Sie noch einen Kaffee?",
+        "en": "Would you like another coffee?"
+      }
+    ],
+    "inflections": [
+      "Noch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bald",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "soon"
+    ],
+    "examples": [
+      {
+        "de": "Bis bald!",
+        "en": "See you soon!"
+      }
+    ],
+    "inflections": [
+      "Bald"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "besonders",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "especially",
+      "particularly"
+    ],
+    "examples": [
+      {
+        "de": "Dieser Kurs gefällt mir besonders gut.",
+        "en": "I like this course particularly well."
+      }
+    ],
+    "inflections": [
+      "Besonders"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "draußen",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "outside",
+      "outdoors"
+    ],
+    "examples": [
+      {
+        "de": "Die Kinder spielen draußen.",
+        "en": "The children are playing outside."
+      }
+    ],
+    "inflections": [
+      "Draußen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "drinnen",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "inside",
+      "indoors"
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, wir bleiben drinnen.",
+        "en": "It is raining, we stay inside."
+      }
+    ],
+    "inflections": [
+      "Drinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "links",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "left",
+      "on the left",
+      "to the left"
+    ],
+    "examples": [
+      {
+        "de": "Biegen Sie nach links ab.",
+        "en": "Turn to the left."
+      }
+    ],
+    "inflections": [
+      "Links"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "rechts",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "right",
+      "on the right",
+      "to the right"
+    ],
+    "examples": [
+      {
+        "de": "Die Schule liegt auf der rechten Seite.",
+        "en": "The school is on the right."
+      }
+    ],
+    "inflections": [
+      "Rechts"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "oben",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "above",
+      "upstairs",
+      "at the top"
+    ],
+    "examples": [
+      {
+        "de": "Das Büro ist oben.",
+        "en": "The office is upstairs."
+      }
+    ],
+    "inflections": [
+      "Oben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "unten",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "below",
+      "downstairs",
+      "at the bottom"
+    ],
+    "examples": [
+      {
+        "de": "Der Eingang ist unten.",
+        "en": "The entrance is downstairs."
+      }
+    ],
+    "inflections": [
+      "Unten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wieder",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "again",
+      "once more"
+    ],
+    "examples": [
+      {
+        "de": "Sehen wir uns bald wieder?",
+        "en": "Will we see each other again soon?"
+      }
+    ],
+    "inflections": [
+      "Wieder"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dann",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "then",
+      "afterwards"
+    ],
+    "examples": [
+      {
+        "de": "Zuerst essen wir, dann lernen wir.",
+        "en": "First we eat, then we study."
+      }
+    ],
+    "inflections": [
+      "Dann"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zuerst",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "first",
+      "at first",
+      "first of all"
+    ],
+    "examples": [
+      {
+        "de": "Wer kommt zuerst an die Reihe?",
+        "en": "Who is first in line?"
+      }
+    ],
+    "inflections": [
+      "Zuerst"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nachts",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "at night",
+      "during the night"
+    ],
+    "examples": [
+      {
+        "de": "Er arbeitet oft nachts.",
+        "en": "He often works at night."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Temporal adverb from Nacht."
+    }
+  },
+  {
+    "headword": "leider",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "unfortunately",
+      "regrettably",
+      "sadly"
+    ],
+    "examples": [
+      {
+        "de": "Ich kann leider nicht kommen.",
+        "en": "Unfortunately I cannot come."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Common discourse modal adverb."
+    }
+  },
+  {
+    "headword": "so",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "so",
+      "thus",
+      "like this",
+      "such"
+    ],
+    "examples": [
+      {
+        "de": "Das ist so schön!",
+        "en": "That is so beautiful!"
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "High-frequency adverb / particle."
+    }
+  },
+  {
+    "headword": "super",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "super",
+      "great",
+      "terrific"
+    ],
+    "examples": [
+      {
+        "de": "Das Konzert war super!",
+        "en": "The concert was great!"
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Colloquial adverb/predicative adjective."
+    }
+  },
+  {
+    "headword": "einmal",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "once",
+      "one time"
+    ],
+    "examples": [
+      {
+        "de": "Lesen Sie den Text noch einmal.",
+        "en": "Read the text once more."
+      }
+    ],
+    "inflections": [
+      "mal"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Adverb of frequency; maps colloquial mal."
+    }
+  },
+  {
+    "headword": "eigentlich",
+    "senses": [
+      {
+        "pos": "adv",
+        "cefr": "A2",
+        "translations": [
+          "actually",
+          "really",
+          "in fact"
+        ],
+        "examples": [
+          {
+            "de": "Was machst du eigentlich beruflich?",
+            "en": "What do you actually do for a living?"
+          }
+        ]
+      },
+      {
+        "pos": "adj",
+        "cefr": "B1",
+        "translations": [
+          "actual",
+          "real",
+          "proper",
+          "original"
+        ],
+        "examples": [
+          {
+            "de": "Das eigentliche Problem ist die Zeit.",
+            "en": "The actual problem is time."
+          }
+        ]
+      }
+    ],
+    "inflections": [
+      "eigentliche",
+      "eigentlichen",
+      "eigentlicher",
+      "eigentliches",
+      "eigentlichem"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Multi-sense entry: modal adverb/focus particle and inflecting adjective."
+    }
+  },
+  {
+    "headword": "erst",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "only",
+      "not until",
+      "first"
+    ],
+    "examples": [
+      {
+        "de": "Er kommt erst um acht Uhr.",
+        "en": "He is not coming until eight o'clock."
+      },
+      {
+        "de": "Ich muss erst meine Arbeit beenden.",
+        "en": "I must finish my work first."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Temporal adverb and focus particle indicating not before / only at."
+    }
+  },
+  {
+    "headword": "überhaupt",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "at all",
+      "generally",
+      "in general"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe überhaupt keine Zeit.",
+        "en": "I don't have any time at all."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Focus and scalar particle, frequently used with negation (überhaupt nicht / überhaupt kein)."
+    }
+  },
+  {
+    "headword": "sogar",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "even"
+    ],
+    "examples": [
+      {
+        "de": "Er spricht sogar vier Sprachen.",
+        "en": "He even speaks four languages."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Scalar additive particle emphasizing an extreme or surprising case."
+    }
+  },
+  {
+    "headword": "bereits",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "already",
+      "as early as"
+    ],
+    "examples": [
+      {
+        "de": "Der Zug ist bereits abgefahren.",
+        "en": "The train has already departed."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Temporal adverb synonymous with schon, common in formal and written German."
+    }
+  },
+  {
+    "headword": "kaum",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "hardly",
+      "barely",
+      "scarcely"
+    ],
+    "examples": [
+      {
+        "de": "Ich kann dich kaum hören.",
+        "en": "I can hardly hear you."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Negative-leaning degree adverb expressing minimal degree or probability."
+    }
+  },
+  {
+    "headword": "deshalb",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "therefore",
+      "that is why",
+      "for that reason"
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, deshalb bleibe ich zu Hause.",
+        "en": "It is raining, that is why I am staying at home."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Causal conjunctive adverb triggering verb-second word order."
+    }
+  },
+  {
+    "headword": "nämlich",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "namely",
+      "you see",
+      "that is because"
+    ],
+    "examples": [
+      {
+        "de": "Ich kann nicht kommen, ich bin nämlich krank.",
+        "en": "I cannot come, you see, because I am ill."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Explanatory adverb positioned after the inflected verb in main clauses."
+    }
+  },
+  {
+    "headword": "gerade",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "just now",
+      "right now",
+      "straight",
+      "exactly"
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gerade zu Mittag.",
+        "en": "I am eating lunch right now."
+      },
+      {
+        "de": "Gehen Sie geradeaus.",
+        "en": "Go straight ahead."
+      }
+    ],
+    "inflections": [
+      "grade"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "High-frequency temporal and directional adverb; maps colloquial grade."
+    }
+  },
+  {
+    "headword": "sonst",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "otherwise",
+      "else",
+      "usually"
+    ],
+    "examples": [
+      {
+        "de": "Sonst noch etwas?",
+        "en": "Anything else?"
+      },
+      {
+        "de": "Beeil dich, sonst verpassen wir den Bus.",
+        "en": "Hurry up, otherwise we will miss the bus."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Adverb used for alternatives, conditional consequences, and habituality."
+    }
+  },
+  {
+    "headword": "weiter",
+    "senses": [
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "further",
+          "on",
+          "onward",
+          "ahead",
+          "continue"
+        ],
+        "examples": [
+          {
+            "de": "Gehen Sie bitte weiter.",
+            "en": "Please walk further / keep walking."
+          },
+          {
+            "de": "und so weiter (usw.)",
+            "en": "and so on (etc.)"
+          }
+        ]
+      },
+      {
+        "pos": "adj",
+        "cefr": "A2",
+        "translations": [
+          "additional",
+          "further",
+          "more",
+          "wider"
+        ],
+        "examples": [
+          {
+            "de": "Haben Sie weitere Fragen?",
+            "en": "Do you have further / additional questions?"
+          }
+        ]
+      }
+    ],
+    "inflections": [
+      "weitere",
+      "weiterem",
+      "weiteren",
+      "weiterer",
+      "weiteres"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Adverb and comparative adjective headword with inflected forms."
+    }
+  }
+]

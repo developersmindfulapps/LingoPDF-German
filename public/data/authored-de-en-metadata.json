@@ -1,0 +1,32 @@
+{
+  "datasetName": "PDF Language Companion — Independently Authored German-English Learner Dictionary (Pilot)",
+  "version": "0.2.0-pilot",
+  "license": "Proprietary / Independently Authored",
+  "attribution": "Authored by PDF Language Companion lexicography team",
+  "generatedAt": "2026-10-21T22:17:32.328Z",
+  "headwordsCount": 585,
+  "inflectionKeysCount": 1881,
+  "posDistribution": {
+    "adj": 42,
+    "adv": 65,
+    "pron": 22,
+    "det": 13,
+    "art": 4,
+    "prep": 28,
+    "prep+art": 10,
+    "part": 7,
+    "interj": 6,
+    "conj": 15,
+    "noun": 248,
+    "num": 21,
+    "verb": 120
+  },
+  "reviewStatusDistribution": {
+    "verified": 379,
+    "reviewed": 207
+  },
+  "nounsWithGender": 248,
+  "nounsWithPlural": 226,
+  "dictSha256": "0b10fc5bc9289371f0e018807159d0a2f69e94196463ead08fe8b43cf7c1d35b",
+  "inflSha256": "8a12cac298783ed9b0b5250ee3d97cdad49f68fd399fb2bfadb4a6feb476bc9e"
+}

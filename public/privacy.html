@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — PDF Language Companion</title>
+  <style>
+    :root {
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --primary: #4f46e5;
+      --primary-light: #eef2ff;
+      --success: #059669;
+      --success-light: #ecfdf5;
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-family);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      padding: 40px;
+    }
+    .header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: var(--success-light);
+      color: var(--success);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #0f172a;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 6px;
+    }
+    p, li {
+      font-size: 15px;
+      color: #334155;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .callout {
+      background-color: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 24px 0;
+    }
+    .callout p {
+      margin: 0;
+      color: #312e81;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="badge">
+        <span>✓</span> 100% Offline &amp; Zero-Data Collection
+      </div>
+      <h1>Privacy Policy for PDF Language Companion</h1>
+      <div class="meta">Effective Date: October 19, 2026 &bull; Version 1.0</div>
+    </div>
+
+    <div class="callout">
+      <p>
+        <strong>Executive Summary:</strong> PDF Language Companion operates completely locally inside your browser. We do not collect, transmit, store, sell, or analyze your personal information, reading materials, search queries, or browsing behavior. Zero network requests are initiated by this extension.
+      </p>
+    </div>
+
+    <h2>1. Single Purpose</h2>
+    <p>
+      PDF Language Companion is an offline study aid designed to allow users to read local PDF documents with instant German-to-English dictionary lookups and built-in optical character recognition (OCR).
+    </p>
+
+    <h2>2. Zero Data Collection</h2>
+    <p>
+      When you use PDF Language Companion:
+    </p>
+    <ul>
+      <li><strong>No Personal Identifiers:</strong> We do not collect names, email addresses, IP addresses, or device identifiers.</li>
+      <li><strong>No Document Transmission:</strong> Your PDF files are read solely into browser memory. Files are never uploaded, synchronized, or transmitted to any external server or cloud service.</li>
+      <li><strong>No Query Tracking:</strong> The words and phrases you look up are resolved against bundled local dictionary files. Lookup history is neither logged nor sent over the network.</li>
+      <li><strong>No Telemetry or Analytics:</strong> The extension contains zero tracking pixels, analytics scripts (such as Google Analytics or Mixpanel), advertising trackers, or error reporting beacons.</li>
+    </ul>
+
+    <h2>3. Offline Architecture &amp; Bundled Assets</h2>
+    <p>
+      All assets required for operation are packaged locally inside the extension archive:
+    </p>
+    <ul>
+      <li>PDF rendering is executed via a locally bundled Mozilla PDF.js web worker.</li>
+      <li>OCR is executed in-browser using locally packaged Tesseract.js WebAssembly (WASM) and local German language models (<code>deu.traineddata.gz</code>).</li>
+      <li>Dictionary definitions are retrieved from pre-indexed, locally packaged JSON files.</li>
+    </ul>
+
+    <h2>4. Manifest Permissions</h2>
+    <p>
+      In accordance with Chrome Web Store Minimal Permissions guidelines, PDF Language Companion requests <strong>zero broad permissions</strong>:
+    </p>
+    <ul>
+      <li><code>permissions</code>: None.</li>
+      <li><code>host_permissions</code>: None (the extension has no access to any websites or web requests).</li>
+      <li><code>content_security_policy</code>: Strictly restricted to local extension packages (<code>'self' 'wasm-unsafe-eval'</code>).</li>
+    </ul>
+
+    <h2>5. Local Storage &amp; Caching</h2>
+    <p>
+      Any application state (such as UI zoom preference or transient OCR word positions for the active page) is maintained solely in the active tab's volatile memory or browser-managed local cache. This data remains entirely under the user's control on their local device.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Because PDF Language Companion collects no data whatsoever, it is inherently compliant with children's privacy regulations, including COPPA and GDPR-K.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      If our privacy practices change in future versions, this document will be updated accordingly. However, our commitment to complete offline operation and zero data collection remains foundational.
+    </p>
+
+    <h2>8. Contact &amp; Open Source</h2>
+    <p>
+      PDF Language Companion is open source. You may inspect the code, verify offline behavior, or report issues on our project repository.
+    </p>
+
+    <footer>
+      PDF Language Companion &bull; Built with Privacy by Design &bull; 100% Offline
+    </footer>
+  </div>
+</body>
+</html>

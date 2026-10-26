@@ -1,0 +1,596 @@
+{
+  "benchmarkId": "spoken-tatoeba-dialogues",
+  "genre": "spoken",
+  "title": "Alltagsdialoge und Konversationen",
+  "source": {
+    "publisher": "Tatoeba Project Community",
+    "publication": "Tatoeba German Conversational Sentences",
+    "urlOrEdition": "https://tatoeba.org/de/sentences/show_random",
+    "author": "Various Tatoeba Contributors",
+    "publishedYear": 2023
+  },
+  "license": {
+    "type": "Creative Commons Attribution 2.0 FR / CC0",
+    "legalBasis": "CC BY 2.0 FR / CC0 Public Domain Dedication",
+    "termsUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "canRedistribute": true
+  },
+  "tokenMetrics": {
+    "rawTokenCount": 95,
+    "evaluatedDenominator": 95,
+    "excludedCount": 0
+  },
+  "rawText": "Guten Tag! Kann ich Ihnen helfen? Ja, gerne. Ich suche den Bahnhof. Wie komme ich am besten dorthin? Gehen Sie einfach geradeaus und biegen Sie dann links ab. Gibt es dort auch einen Fahrkartenautomaten? Na klar, direkt am Eingang vor den Gleisen. Vielen Dank, das hilft mir sehr! Keine Ursache, schönen Tag noch! Was machst du denn heute Abend? Ich weiß noch nicht, vielleicht bleibe ich einfach zu Hause. Hast du keine Lust mitzukommen? Doch, eigentlich schon, aber ich bin ziemlich müde von der langen Arbeit. Wir können uns auch morgen treffen, wenn du möchtest.",
+  "tokens": [
+    {
+      "raw": "Guten",
+      "cleaned": "Guten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Tag!",
+      "cleaned": "Tag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kann",
+      "cleaned": "Kann",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ich",
+      "cleaned": "ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ihnen",
+      "cleaned": "Ihnen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "helfen?",
+      "cleaned": "helfen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ja,",
+      "cleaned": "Ja",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gerne.",
+      "cleaned": "gerne",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ich",
+      "cleaned": "Ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "suche",
+      "cleaned": "suche",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bahnhof.",
+      "cleaned": "Bahnhof",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wie",
+      "cleaned": "Wie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "komme",
+      "cleaned": "komme",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ich",
+      "cleaned": "ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "am",
+      "cleaned": "am",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "besten",
+      "cleaned": "besten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dorthin?",
+      "cleaned": "dorthin",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gehen",
+      "cleaned": "Gehen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Sie",
+      "cleaned": "Sie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einfach",
+      "cleaned": "einfach",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "geradeaus",
+      "cleaned": "geradeaus",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "biegen",
+      "cleaned": "biegen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Sie",
+      "cleaned": "Sie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dann",
+      "cleaned": "dann",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "links",
+      "cleaned": "links",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ab.",
+      "cleaned": "ab",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gibt",
+      "cleaned": "Gibt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "es",
+      "cleaned": "es",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dort",
+      "cleaned": "dort",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "auch",
+      "cleaned": "auch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einen",
+      "cleaned": "einen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Fahrkartenautomaten?",
+      "cleaned": "Fahrkartenautomaten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Na",
+      "cleaned": "Na",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "klar,",
+      "cleaned": "klar",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "direkt",
+      "cleaned": "direkt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "am",
+      "cleaned": "am",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Eingang",
+      "cleaned": "Eingang",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vor",
+      "cleaned": "vor",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gleisen.",
+      "cleaned": "Gleisen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Vielen",
+      "cleaned": "Vielen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Dank,",
+      "cleaned": "Dank",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hilft",
+      "cleaned": "hilft",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mir",
+      "cleaned": "mir",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sehr!",
+      "cleaned": "sehr",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Keine",
+      "cleaned": "Keine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ursache,",
+      "cleaned": "Ursache",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "schönen",
+      "cleaned": "schönen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Tag",
+      "cleaned": "Tag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "noch!",
+      "cleaned": "noch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Was",
+      "cleaned": "Was",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "machst",
+      "cleaned": "machst",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "du",
+      "cleaned": "du",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "denn",
+      "cleaned": "denn",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "heute",
+      "cleaned": "heute",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Abend?",
+      "cleaned": "Abend",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ich",
+      "cleaned": "Ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "weiß",
+      "cleaned": "weiß",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "noch",
+      "cleaned": "noch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "nicht,",
+      "cleaned": "nicht",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vielleicht",
+      "cleaned": "vielleicht",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bleibe",
+      "cleaned": "bleibe",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ich",
+      "cleaned": "ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einfach",
+      "cleaned": "einfach",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Hause.",
+      "cleaned": "Hause",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Hast",
+      "cleaned": "Hast",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "du",
+      "cleaned": "du",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "keine",
+      "cleaned": "keine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Lust",
+      "cleaned": "Lust",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mitzukommen?",
+      "cleaned": "mitzukommen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Doch,",
+      "cleaned": "Doch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "eigentlich",
+      "cleaned": "eigentlich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "schon,",
+      "cleaned": "schon",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "aber",
+      "cleaned": "aber",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ich",
+      "cleaned": "ich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bin",
+      "cleaned": "bin",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ziemlich",
+      "cleaned": "ziemlich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "müde",
+      "cleaned": "müde",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "langen",
+      "cleaned": "langen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Arbeit.",
+      "cleaned": "Arbeit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wir",
+      "cleaned": "Wir",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "können",
+      "cleaned": "können",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "uns",
+      "cleaned": "uns",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "auch",
+      "cleaned": "auch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "morgen",
+      "cleaned": "morgen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "treffen,",
+      "cleaned": "treffen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wenn",
+      "cleaned": "wenn",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "du",
+      "cleaned": "du",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "möchtest.",
+      "cleaned": "möchtest",
+      "isExcluded": false,
+      "exclusionReason": null
+    }
+  ]
+}

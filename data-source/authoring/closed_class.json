@@ -1,0 +1,3025 @@
+[
+  {
+    "headword": "ich",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "I"
+    ],
+    "inflections": [
+      "mich",
+      "mir"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "du",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "you (informal singular)"
+    ],
+    "inflections": [
+      "dich",
+      "dir"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "er",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "he"
+    ],
+    "inflections": [
+      "ihn",
+      "ihm"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sie",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "she",
+      "her",
+      "they",
+      "them"
+    ],
+    "inflections": [
+      "ihr",
+      "ihnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Lowercase pronoun (she/her/they/them); distinct from formal Sie."
+    }
+  },
+  {
+    "headword": "Sie",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "you (formal)"
+    ],
+    "inflections": [
+      "Ihnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Capitalized formal pronoun (singular and plural)."
+    }
+  },
+  {
+    "headword": "es",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "it"
+    ],
+    "inflections": [
+      "ihm"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wir",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "we"
+    ],
+    "inflections": [
+      "uns"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ihr",
+    "senses": [
+      {
+        "pos": "pron",
+        "cefr": "A1",
+        "translations": [
+          "you (informal plural)",
+          "her (dative)"
+        ]
+      },
+      {
+        "pos": "det",
+        "cefr": "A1",
+        "translations": [
+          "her",
+          "their"
+        ]
+      }
+    ],
+    "inflections": [
+      "euch",
+      "ihre",
+      "ihrem",
+      "ihren",
+      "ihrer",
+      "ihres"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Lowercase pronoun/possessive; distinct from capitalized formal Ihr."
+    }
+  },
+  {
+    "headword": "Ihr",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "your (formal)"
+    ],
+    "inflections": [
+      "Ihre",
+      "Ihrem",
+      "Ihren",
+      "Ihrer",
+      "Ihres"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Capitalized formal possessive determiner."
+    }
+  },
+  {
+    "headword": "sein",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "his",
+      "its"
+    ],
+    "examples": [
+      {
+        "de": "Das ist sein Fahrrad.",
+        "en": "That is his bicycle."
+      }
+    ],
+    "inflections": [
+      "seine",
+      "seinem",
+      "seinen",
+      "seiner",
+      "seines"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Possessive determiner (masculine/neuter 3rd person singular possessive)."
+    }
+  },
+  {
+    "headword": "der",
+    "pos": "art",
+    "cefr": "A1",
+    "translations": [
+      "the (masculine)",
+      "that",
+      "who"
+    ],
+    "inflections": [
+      "den",
+      "dem",
+      "des"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "die",
+    "pos": "art",
+    "cefr": "A1",
+    "translations": [
+      "the (feminine and plural)",
+      "that",
+      "who"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "das",
+    "pos": "art",
+    "cefr": "A1",
+    "translations": [
+      "the (neuter)",
+      "that",
+      "which"
+    ],
+    "inflections": [
+      "dem",
+      "des"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ein",
+    "pos": "art",
+    "cefr": "A1",
+    "translations": [
+      "a",
+      "an",
+      "one"
+    ],
+    "inflections": [
+      "eine",
+      "einem",
+      "einen",
+      "einer",
+      "eines",
+      "eins"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "in",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "in",
+      "into",
+      "at"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "an",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "at",
+      "on",
+      "to"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "auf",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "on",
+      "upon",
+      "onto",
+      "at"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "mit",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "with",
+      "by means of"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nach",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "to",
+      "towards",
+      "after"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zu",
+    "senses": [
+      {
+        "pos": "prep",
+        "cefr": "A1",
+        "translations": [
+          "to",
+          "towards",
+          "at"
+        ]
+      },
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "too",
+          "excessively"
+        ]
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Polysemous closed-class word: preposition with dative vs degree adverb/particle."
+    }
+  },
+  {
+    "headword": "von",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "from",
+      "of",
+      "by"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bei",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "at",
+      "near",
+      "with",
+      "at the house/firm of"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ins",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "into the",
+      "in the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of in + das."
+    }
+  },
+  {
+    "headword": "im",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "in the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of in + dem."
+    }
+  },
+  {
+    "headword": "am",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "at the",
+      "on the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of an + dem."
+    }
+  },
+  {
+    "headword": "beim",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "at the",
+      "by the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of bei + dem."
+    }
+  },
+  {
+    "headword": "zum",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "to the",
+      "for the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of zu + dem."
+    }
+  },
+  {
+    "headword": "zur",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "to the",
+      "for the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of zu + der."
+    }
+  },
+  {
+    "headword": "vom",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "from the",
+      "of the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of von + dem."
+    }
+  },
+  {
+    "headword": "ans",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "onto the",
+      "to the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of an + das."
+    }
+  },
+  {
+    "headword": "aufs",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "on the",
+      "upon the",
+      "onto the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of auf + das."
+    }
+  },
+  {
+    "headword": "fürs",
+    "pos": "prep+art",
+    "cefr": "A1",
+    "translations": [
+      "for the"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Contraction of für + das."
+    }
+  },
+  {
+    "headword": "ja",
+    "pos": "part",
+    "cefr": "A1",
+    "translations": [
+      "yes",
+      "indeed",
+      "obviously"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nein",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "no"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "doch",
+    "pos": "part",
+    "cefr": "A1",
+    "translations": [
+      "yes (contradicting negative)",
+      "yet",
+      "however",
+      "surely"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core German modal particle / affirmative response to negative question."
+    }
+  },
+  {
+    "headword": "bitte",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "please",
+      "you're welcome"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "danke",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "thanks",
+      "thank you"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "mal",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "times",
+      "once",
+      "just"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "und",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "and"
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne Deutsch und Englisch.",
+        "en": "I am learning German and English."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "oder",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "or"
+    ],
+    "examples": [
+      {
+        "de": "Trinkst du Kaffee oder Tee?",
+        "en": "Do you drink coffee or tea?"
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "aber",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "but",
+      "however"
+    ],
+    "examples": [
+      {
+        "de": "Ich spreche Englisch, aber kein Spanisch.",
+        "en": "I speak English, but no Spanish."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "denn",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "because",
+      "for"
+    ],
+    "examples": [
+      {
+        "de": "Ich bleibe zu Hause, denn ich bin müde.",
+        "en": "I am staying at home, because I am tired."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sondern",
+    "pos": "conj",
+    "cefr": "A2",
+    "translations": [
+      "but (rather)",
+      "instead"
+    ],
+    "examples": [
+      {
+        "de": "Er kommt nicht aus Deutschland, sondern aus Österreich.",
+        "en": "He does not come from Germany, but rather from Austria."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wie",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "how",
+      "what (in questions like 'what is your name')"
+    ],
+    "examples": [
+      {
+        "de": "Wie heißen Sie?",
+        "en": "What is your name?"
+      }
+    ],
+    "inflections": [
+      "Wie"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "woher",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "from where",
+      "where ... from"
+    ],
+    "examples": [
+      {
+        "de": "Woher kommst du?",
+        "en": "Where do you come from?"
+      }
+    ],
+    "inflections": [
+      "Woher"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wo",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "where"
+    ],
+    "examples": [
+      {
+        "de": "Wo wohnen Sie?",
+        "en": "Where do you live?"
+      }
+    ],
+    "inflections": [
+      "Wo"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wohin",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "where to"
+    ],
+    "examples": [
+      {
+        "de": "Wohin fährst du?",
+        "en": "Where are you going/traveling to?"
+      }
+    ],
+    "inflections": [
+      "Wohin"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wer",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "who"
+    ],
+    "examples": [
+      {
+        "de": "Wer ist das?",
+        "en": "Who is that?"
+      }
+    ],
+    "inflections": [
+      "wen",
+      "wem",
+      "wessen",
+      "Wer",
+      "Wen",
+      "Wem",
+      "Wessen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "was",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "what"
+    ],
+    "examples": [
+      {
+        "de": "Was machst du heute?",
+        "en": "What are you doing today?"
+      }
+    ],
+    "inflections": [
+      "Was"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wann",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "when",
+      "at what time"
+    ],
+    "examples": [
+      {
+        "de": "Wann beginnt der Kurs?",
+        "en": "When does the course begin?"
+      }
+    ],
+    "inflections": [
+      "Wann"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "warum",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "why"
+    ],
+    "examples": [
+      {
+        "de": "Warum lernst du Deutsch?",
+        "en": "Why are you learning German?"
+      }
+    ],
+    "inflections": [
+      "Warum"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "welcher",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "which",
+      "what"
+    ],
+    "examples": [
+      {
+        "de": "Welche Sprachen sprichst du?",
+        "en": "Which languages do you speak?"
+      }
+    ],
+    "inflections": [
+      "welche",
+      "welchem",
+      "welchen",
+      "welches",
+      "Welche",
+      "Welcher",
+      "Welches",
+      "Welchen",
+      "Welchem"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "aus",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "from",
+      "out of",
+      "made of"
+    ],
+    "examples": [
+      {
+        "de": "Ich komme aus Deutschland.",
+        "en": "I come from Germany."
+      }
+    ],
+    "inflections": [
+      "Aus"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "über",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "about",
+      "over",
+      "above",
+      "across"
+    ],
+    "examples": [
+      {
+        "de": "Wir sprechen über Hobbys.",
+        "en": "We are talking about hobbies."
+      }
+    ],
+    "inflections": [
+      "Über"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bis",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "until",
+      "up to",
+      "to",
+      "by"
+    ],
+    "examples": [
+      {
+        "de": "Zahlen von eins bis zwanzig.",
+        "en": "Numbers from one to twenty."
+      }
+    ],
+    "inflections": [
+      "Bis"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "vor",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "in front of",
+      "before",
+      "ago"
+    ],
+    "examples": [
+      {
+        "de": "Wir treffen uns vor dem Kino.",
+        "en": "We meet in front of the cinema."
+      }
+    ],
+    "inflections": [
+      "Vor"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "hinter",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "behind"
+    ],
+    "examples": [
+      {
+        "de": "Der Garten liegt hinter dem Haus.",
+        "en": "The garden is behind the house."
+      }
+    ],
+    "inflections": [
+      "Hinter"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "unter",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "under",
+      "beneath",
+      "among"
+    ],
+    "examples": [
+      {
+        "de": "Die Katze schläft unter dem Tisch.",
+        "en": "The cat is sleeping under the table."
+      }
+    ],
+    "inflections": [
+      "Unter"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "neben",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "next to",
+      "beside"
+    ],
+    "examples": [
+      {
+        "de": "Er sitzt neben mir.",
+        "en": "He is sitting next to me."
+      }
+    ],
+    "inflections": [
+      "Neben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zwischen",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "between"
+    ],
+    "examples": [
+      {
+        "de": "Die Schule liegt zwischen dem Park und der Bank.",
+        "en": "The school is between the park and the bank."
+      }
+    ],
+    "inflections": [
+      "Zwischen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ohne",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "without"
+    ],
+    "examples": [
+      {
+        "de": "Kaffee ohne Zucker, bitte.",
+        "en": "Coffee without sugar, please."
+      }
+    ],
+    "inflections": [
+      "Ohne"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "durch",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "through",
+      "by means of"
+    ],
+    "examples": [
+      {
+        "de": "Wir gehen durch den Park.",
+        "en": "We are walking through the park."
+      }
+    ],
+    "inflections": [
+      "Durch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "gegen",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "against",
+      "around (with times)"
+    ],
+    "examples": [
+      {
+        "de": "Wir treffen uns gegen acht Uhr.",
+        "en": "We are meeting around eight o'clock."
+      }
+    ],
+    "inflections": [
+      "Gegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "um",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "around",
+      "at (time)"
+    ],
+    "examples": [
+      {
+        "de": "Der Zug kommt um vier Uhr an.",
+        "en": "The train arrives at four o'clock."
+      }
+    ],
+    "inflections": [
+      "Um"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sich",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "himself",
+      "herself",
+      "itself",
+      "themselves",
+      "oneself"
+    ],
+    "examples": [
+      {
+        "de": "Sie stellen sich vor.",
+        "en": "They introduce themselves."
+      }
+    ],
+    "inflections": [
+      "Sich"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "mein",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "my"
+    ],
+    "examples": [
+      {
+        "de": "Mein Name ist Peter.",
+        "en": "My name is Peter."
+      }
+    ],
+    "inflections": [
+      "meine",
+      "meinem",
+      "meinen",
+      "meiner",
+      "meines",
+      "meins",
+      "Mein",
+      "Meine",
+      "Meinem",
+      "Meinen",
+      "Meiner",
+      "Meines"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dein",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "your (informal singular)"
+    ],
+    "examples": [
+      {
+        "de": "Ist das dein Buch?",
+        "en": "Is that your book?"
+      }
+    ],
+    "inflections": [
+      "deine",
+      "deinem",
+      "deinen",
+      "deiner",
+      "deines",
+      "deins",
+      "Dein",
+      "Deine",
+      "Deinem",
+      "Deinen",
+      "Deiner",
+      "Deines"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "unser",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "our"
+    ],
+    "examples": [
+      {
+        "de": "Das ist unser Haus.",
+        "en": "That is our house."
+      }
+    ],
+    "inflections": [
+      "unsere",
+      "unserem",
+      "unseren",
+      "unserer",
+      "unseres",
+      "unsre",
+      "unsrem",
+      "unsren",
+      "unsrer",
+      "unsres",
+      "Unser",
+      "Unsere"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "euer",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "your (informal plural)"
+    ],
+    "examples": [
+      {
+        "de": "Wo ist euer Auto?",
+        "en": "Where is your car?"
+      }
+    ],
+    "inflections": [
+      "eure",
+      "eurem",
+      "euren",
+      "eurer",
+      "eures",
+      "Euer",
+      "Eure"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dieser",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "this",
+      "these"
+    ],
+    "examples": [
+      {
+        "de": "Dieser Tisch ist frei.",
+        "en": "This table is free."
+      }
+    ],
+    "inflections": [
+      "diese",
+      "diesem",
+      "diesen",
+      "dieses",
+      "Dieser",
+      "Diese",
+      "Diesem",
+      "Diesen",
+      "Dieses"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "jeder",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "each",
+      "every"
+    ],
+    "examples": [
+      {
+        "de": "Jeder Schüler hat ein Buch.",
+        "en": "Each student has a book."
+      }
+    ],
+    "inflections": [
+      "jede",
+      "jedem",
+      "jeden",
+      "jedes",
+      "Jeder",
+      "Jede",
+      "Jedem",
+      "Jeden",
+      "Jedes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "man",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "one",
+      "you (impersonal)",
+      "people"
+    ],
+    "examples": [
+      {
+        "de": "Hier spricht man Deutsch.",
+        "en": "One speaks German here / German is spoken here."
+      }
+    ],
+    "inflections": [
+      "Man"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "etwas",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "something",
+      "some",
+      "a little"
+    ],
+    "examples": [
+      {
+        "de": "Möchten Sie etwas trinken?",
+        "en": "Would you like something to drink?"
+      }
+    ],
+    "inflections": [
+      "Etwas"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nichts",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "nothing"
+    ],
+    "examples": [
+      {
+        "de": "Ich verstehe nichts.",
+        "en": "I understand nothing / I do not understand anything."
+      }
+    ],
+    "inflections": [
+      "Nichts"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "alle",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "all",
+      "everyone"
+    ],
+    "examples": [
+      {
+        "de": "Alle sind hier.",
+        "en": "Everyone is here."
+      }
+    ],
+    "inflections": [
+      "allen",
+      "aller",
+      "alles",
+      "Alle",
+      "Alles"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Hallo",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "hello",
+      "hi"
+    ],
+    "examples": [
+      {
+        "de": "Hallo, wie geht es dir?",
+        "en": "Hello, how are you?"
+      }
+    ],
+    "inflections": [
+      "hallo"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Tschüs",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "bye",
+      "goodbye"
+    ],
+    "examples": [
+      {
+        "de": "Tschüs, bis morgen!",
+        "en": "Bye, see you tomorrow!"
+      }
+    ],
+    "inflections": [
+      "tschüs",
+      "Tschüss",
+      "tschüss"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Wiedersehen",
+    "pos": "noun",
+    "gender": "n",
+    "cefr": "A1",
+    "translations": [
+      "seeing again",
+      "reunion (used in 'Auf Wiedersehen')"
+    ],
+    "examples": [
+      {
+        "de": "Auf Wiedersehen, Frau Schulz!",
+        "en": "Goodbye, Mrs. Schulz!"
+      }
+    ],
+    "inflections": [
+      "wiedersehen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "null",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "zero"
+    ],
+    "inflections": [
+      "Null"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "eins",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "one"
+    ],
+    "inflections": [
+      "Eins",
+      "ein",
+      "eine",
+      "einer",
+      "eines",
+      "einem",
+      "einen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zwei",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "two"
+    ],
+    "inflections": [
+      "Zwei"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "drei",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "three"
+    ],
+    "inflections": [
+      "Drei"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "vier",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "four"
+    ],
+    "inflections": [
+      "Vier"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fünf",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "five"
+    ],
+    "inflections": [
+      "Fünf"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sechs",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "six"
+    ],
+    "inflections": [
+      "Sechs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sieben",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "seven"
+    ],
+    "inflections": [
+      "Sieben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "acht",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "eight"
+    ],
+    "inflections": [
+      "Acht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "neun",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "nine"
+    ],
+    "inflections": [
+      "Neun"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "ten"
+    ],
+    "inflections": [
+      "Zehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "elf",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "eleven"
+    ],
+    "inflections": [
+      "Elf"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zwölf",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "twelve"
+    ],
+    "inflections": [
+      "Zwölf"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dreizehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "thirteen"
+    ],
+    "inflections": [
+      "Dreizehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "vierzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "fourteen"
+    ],
+    "inflections": [
+      "Vierzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fünfzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "fifteen"
+    ],
+    "inflections": [
+      "Fünfzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sechzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "sixteen"
+    ],
+    "inflections": [
+      "Sechzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "siebzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "seventeen"
+    ],
+    "inflections": [
+      "Siebzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "achtzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "eighteen"
+    ],
+    "inflections": [
+      "Achtzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "neunzehn",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "nineteen"
+    ],
+    "inflections": [
+      "Neunzehn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zwanzig",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "twenty"
+    ],
+    "inflections": [
+      "Zwanzig"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nee",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "no (informal)",
+      "nope"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Informal spoken negative interjection."
+    }
+  },
+  {
+    "headword": "für",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "for"
+    ],
+    "inflections": [
+      "fürs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Preposition governing accusative case; maps contraction fürs."
+    }
+  },
+  {
+    "headword": "ab",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "from",
+      "starting from",
+      "as of"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Preposition governing dative case for time/place."
+    }
+  },
+  {
+    "headword": "pro",
+    "pos": "prep",
+    "cefr": "A1",
+    "translations": [
+      "per",
+      "each"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Preposition for rates (z.B. pro Woche, pro Stunde)."
+    }
+  },
+  {
+    "headword": "geht's",
+    "pos": "interj",
+    "cefr": "A1",
+    "translations": [
+      "how goes it",
+      "how are you (contraction of geht es)"
+    ],
+    "inflections": [
+      "gehts"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Standard conversational contraction in Wie geht's?"
+    }
+  },
+  {
+    "headword": "weil",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "because",
+      "since"
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne Deutsch, weil ich in Wien arbeite.",
+        "en": "I am learning German because I work in Vienna."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Subordinating conjunction initiating a subordinate clause with verb-final word order."
+    }
+  },
+  {
+    "headword": "dass",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "that"
+    ],
+    "examples": [
+      {
+        "de": "Ich weiß, dass du recht hast.",
+        "en": "I know that you are right."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Subordinating complementizer introducing noun clauses with verb-final word order."
+    }
+  },
+  {
+    "headword": "wenn",
+    "pos": "conj",
+    "cefr": "A1",
+    "translations": [
+      "if",
+      "when",
+      "whenever"
+    ],
+    "examples": [
+      {
+        "de": "Wenn es morgen regnet, bleiben wir drinnen.",
+        "en": "If it rains tomorrow, we will stay inside."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Subordinating conjunction for conditional and recurring temporal clauses."
+    }
+  },
+  {
+    "headword": "obwohl",
+    "pos": "conj",
+    "cefr": "B1",
+    "translations": [
+      "although",
+      "even though",
+      "though"
+    ],
+    "examples": [
+      {
+        "de": "Er geht spazieren, obwohl es kalt ist.",
+        "en": "He goes for a walk although it is cold."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Concessive subordinating conjunction triggering verb-final word order."
+    }
+  },
+  {
+    "headword": "ob",
+    "pos": "conj",
+    "cefr": "A2",
+    "translations": [
+      "whether",
+      "if"
+    ],
+    "examples": [
+      {
+        "de": "Ich weiß nicht, ob er heute Zeit hat.",
+        "en": "I don't know whether he has time today."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Subordinating interrogative conjunction introducing indirect yes/no questions."
+    }
+  },
+  {
+    "headword": "als",
+    "senses": [
+      {
+        "pos": "conj",
+        "cefr": "A2",
+        "translations": [
+          "when",
+          "as",
+          "than"
+        ]
+      },
+      {
+        "pos": "prep",
+        "cefr": "A1",
+        "translations": [
+          "as",
+          "in the role of",
+          "in the capacity of"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Subordinating temporal conjunction for single past events, comparative conjunction after adjectives, and role preposition."
+    }
+  },
+  {
+    "headword": "da",
+    "senses": [
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "there",
+          "here",
+          "then"
+        ]
+      },
+      {
+        "pos": "conj",
+        "cefr": "B1",
+        "translations": [
+          "since",
+          "as",
+          "because"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Locative/temporal adverb and causal subordinating conjunction."
+    }
+  },
+  {
+    "headword": "damit",
+    "senses": [
+      {
+        "pos": "adv",
+        "cefr": "A2",
+        "translations": [
+          "with it",
+          "with that",
+          "thereby"
+        ]
+      },
+      {
+        "pos": "conj",
+        "cefr": "B1",
+        "translations": [
+          "so that",
+          "in order that"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da + mit) and purposive subordinating conjunction."
+    }
+  },
+  {
+    "headword": "während",
+    "senses": [
+      {
+        "pos": "prep",
+        "cefr": "A2",
+        "translations": [
+          "during",
+          "throughout"
+        ]
+      },
+      {
+        "pos": "conj",
+        "cefr": "B1",
+        "translations": [
+          "while",
+          "whereas"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Temporal preposition governing genitive (or colloquial dative) and temporal/adversative subordinating conjunction."
+    }
+  },
+  {
+    "headword": "seit",
+    "senses": [
+      {
+        "pos": "prep",
+        "cefr": "A1",
+        "translations": [
+          "since",
+          "for (a period of time)"
+        ]
+      },
+      {
+        "pos": "conj",
+        "cefr": "B1",
+        "translations": [
+          "since",
+          "ever since"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Temporal preposition governing dative case and temporal subordinating conjunction."
+    }
+  },
+  {
+    "headword": "wegen",
+    "pos": "prep",
+    "cefr": "A2",
+    "translations": [
+      "because of",
+      "on account of",
+      "due to"
+    ],
+    "examples": [
+      {
+        "de": "Wegen des Regens bleiben wir hier.",
+        "en": "Because of the rain we are staying here."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Causal preposition governing genitive case (dative in colloquial German)."
+    }
+  },
+  {
+    "headword": "trotz",
+    "pos": "prep",
+    "cefr": "B1",
+    "translations": [
+      "despite",
+      "in spite of"
+    ],
+    "examples": [
+      {
+        "de": "Trotz des schlechten Wetters gehen wir wandern.",
+        "en": "In spite of the bad weather we go hiking."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Concessive preposition governing genitive case (dative in spoken German)."
+    }
+  },
+  {
+    "headword": "jemand",
+    "pos": "pron",
+    "cefr": "A2",
+    "translations": [
+      "someone",
+      "somebody",
+      "anyone"
+    ],
+    "examples": [
+      {
+        "de": "Ist da jemand?",
+        "en": "Is someone there?"
+      }
+    ],
+    "inflections": [
+      "jemandem",
+      "jemanden",
+      "jemands",
+      "jemandes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Indefinite pronoun with optional case declension."
+    }
+  },
+  {
+    "headword": "niemand",
+    "pos": "pron",
+    "cefr": "A2",
+    "translations": [
+      "no one",
+      "nobody"
+    ],
+    "examples": [
+      {
+        "de": "Niemand weiß die Antwort.",
+        "en": "Nobody knows the answer."
+      }
+    ],
+    "inflections": [
+      "niemandem",
+      "niemanden",
+      "niemands",
+      "niemandes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Negative indefinite pronoun with optional case declension."
+    }
+  },
+  {
+    "headword": "keiner",
+    "pos": "pron",
+    "cefr": "A1",
+    "translations": [
+      "no one",
+      "nobody",
+      "none",
+      "neither"
+    ],
+    "examples": [
+      {
+        "de": "Keiner von uns wusste Bescheid.",
+        "en": "None of us knew about it."
+      }
+    ],
+    "inflections": [
+      "keine",
+      "keinem",
+      "keinen",
+      "keines",
+      "keins"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Negative indefinite pronoun forms."
+    }
+  },
+  {
+    "headword": "dessen",
+    "pos": "pron",
+    "cefr": "B1",
+    "translations": [
+      "whose",
+      "of which",
+      "his",
+      "its"
+    ],
+    "examples": [
+      {
+        "de": "Der Mann, dessen Auto gestohlen wurde, rief die Polizei.",
+        "en": "The man whose car was stolen called the police."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Genitive masculine/neuter relative and demonstrative pronoun."
+    }
+  },
+  {
+    "headword": "deren",
+    "pos": "pron",
+    "cefr": "B1",
+    "translations": [
+      "whose",
+      "of which",
+      "their",
+      "her"
+    ],
+    "examples": [
+      {
+        "de": "Die Frau, deren Name ich vergessen habe, war sehr nett.",
+        "en": "The woman whose name I forgot was very nice."
+      }
+    ],
+    "inflections": [
+      "derer"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Genitive feminine/plural relative and demonstrative pronoun."
+    }
+  },
+  {
+    "headword": "einige",
+    "senses": [
+      {
+        "pos": "pron",
+        "cefr": "A2",
+        "translations": [
+          "some",
+          "a few",
+          "several"
+        ]
+      },
+      {
+        "pos": "det",
+        "cefr": "A2",
+        "translations": [
+          "some",
+          "a few",
+          "several"
+        ]
+      }
+    ],
+    "inflections": [
+      "einigem",
+      "einigen",
+      "einiger",
+      "einiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Indefinite pronoun and determiner."
+    }
+  },
+  {
+    "headword": "beide",
+    "senses": [
+      {
+        "pos": "pron",
+        "cefr": "A1",
+        "translations": [
+          "both",
+          "the two"
+        ]
+      },
+      {
+        "pos": "det",
+        "cefr": "A1",
+        "translations": [
+          "both"
+        ]
+      }
+    ],
+    "inflections": [
+      "beidem",
+      "beiden",
+      "beider",
+      "beides"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Dual quantifier pronoun and determiner."
+    }
+  },
+  {
+    "headword": "darauf",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "on it",
+      "on that",
+      "thereupon",
+      "after that"
+    ],
+    "inflections": [
+      "drauf"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da(r) + auf)."
+    }
+  },
+  {
+    "headword": "davon",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "of it",
+      "from it",
+      "about that",
+      "away"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da + von)."
+    }
+  },
+  {
+    "headword": "daran",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "at it",
+      "on it",
+      "about it",
+      "to it"
+    ],
+    "inflections": [
+      "dran"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da(r) + an)."
+    }
+  },
+  {
+    "headword": "dafür",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "for it",
+      "for that",
+      "in favor of it"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da + für)."
+    }
+  },
+  {
+    "headword": "dazu",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "to it",
+      "in addition",
+      "for that purpose"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da + zu)."
+    }
+  },
+  {
+    "headword": "darüber",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "about it",
+      "over it",
+      "above that"
+    ],
+    "inflections": [
+      "drüber"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da(r) + über)."
+    }
+  },
+  {
+    "headword": "woran",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "at what",
+      "about what",
+      "on what",
+      "whereon"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Interrogative and relative pronominal adverb (wo(r) + an)."
+    }
+  },
+  {
+    "headword": "darum",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "around it",
+      "therefore",
+      "that is why"
+    ],
+    "inflections": [
+      "drum"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da(r) + um)."
+    }
+  },
+  {
+    "headword": "darin",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "in it",
+      "inside",
+      "therein"
+    ],
+    "inflections": [
+      "drin"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Pronominal adverb (da(r) + in)."
+    }
+  },
+  {
+    "headword": "nur",
+    "pos": "part",
+    "cefr": "A1",
+    "translations": [
+      "only",
+      "just",
+      "merely"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe nur zwei Euro.",
+        "en": "I only have two euros."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Focus particle restricting scope to the following element."
+    }
+  },
+  {
+    "headword": "halt",
+    "pos": "part",
+    "cefr": "A2",
+    "translations": [
+      "just",
+      "simply (indicating resignation or accepted fact)"
+    ],
+    "examples": [
+      {
+        "de": "Das ist halt so.",
+        "en": "That's just the way it is."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Colloquial modal particle conveying that a situation cannot be changed."
+    }
+  },
+  {
+    "headword": "eben",
+    "senses": [
+      {
+        "pos": "part",
+        "cefr": "A2",
+        "translations": [
+          "just",
+          "simply",
+          "precisely"
+        ]
+      },
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "just now",
+          "a moment ago"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Modal particle expressing inevitability and temporal adverb."
+    }
+  },
+  {
+    "headword": "wohl",
+    "senses": [
+      {
+        "pos": "part",
+        "cefr": "A2",
+        "translations": [
+          "probably",
+          "presumably",
+          "surely"
+        ]
+      },
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "well",
+          "comfortably"
+        ]
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Modal particle expressing assumption and adverb of well-being."
+    }
+  },
+  {
+    "headword": "gar",
+    "pos": "part",
+    "cefr": "A2",
+    "translations": [
+      "at all",
+      "even",
+      "completely (with negation: gar nicht / gar kein)"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe gar keine Lust.",
+        "en": "I don't feel like it at all."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Intensifying focus particle almost always accompanying negative polarity items."
+    }
+  },
+  {
+    "headword": "kein",
+    "pos": "det",
+    "cefr": "A1",
+    "translations": [
+      "no",
+      "not a",
+      "not any"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe kein Geld dabei.",
+        "en": "I have no money with me."
+      },
+      {
+        "de": "Das ist kein Problem.",
+        "en": "That is no problem / not a problem."
+      }
+    ],
+    "inflections": [
+      "keine",
+      "keinem",
+      "keinen",
+      "keines"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Negative determiner / indefinite article; declension patterns like ein."
+    }
+  }
+]

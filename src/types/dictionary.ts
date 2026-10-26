@@ -24,7 +24,15 @@ export interface DictionaryResult {
   plural?: string;
   senses?: LexicalSense[];
   isDerived?: boolean;
-  source?: 'dictionary' | 'compositional';
+  source?: 'dictionary' | 'compositional' | 'ocr-correction';
+  /**
+   * Internal source identifier indicating which provider resolved the query:
+   * - 'authored': Independently authored learner dictionary (Primary)
+   * - 'legacy': Kaikki/Wiktextract dataset (Fallback)
+   * - 'compositional': Runtime morphological/compound rule engine
+   * - 'ocr-correction': Recovered via conservative OCR confusion pair correction
+   */
+  providerId?: 'authored' | 'legacy' | 'compositional' | 'ocr-correction';
 }
 
 export interface DictionaryEntry {
@@ -40,7 +48,7 @@ export interface DictionaryData {
   source: string;
   license: string;
   entries: Record<string, HeadwordEntry | { t: string[]; pos?: string; lemma?: string }>;
-  lemmas?: Record<string, string>;
+  lemmas?: Record<string, string | string[]>;
 }
 
 export interface DictionaryProvider {
@@ -52,4 +60,13 @@ export interface DictionaryProvider {
     sourceLang: string,
     targetLang: string
   ): Promise<DictionaryResult | null>;
+}
+
+/**
+ * Extended interface for providers that require asynchronous offline asset loading.
+ */
+export interface InitializableDictionaryProvider extends DictionaryProvider {
+  ensureInitialized(): Promise<void>;
+  isInitialized(): boolean;
+  getInitializationError(): Error | null;
 }

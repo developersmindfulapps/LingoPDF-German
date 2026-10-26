@@ -10,7 +10,18 @@
     "preview": "vite preview",
     "dictionary:fetch": "node scripts/fetch-dictionary-source.mjs",
     "dictionary:build": "node scripts/build-dictionary.mjs",
-    "dictionary:verify": "node scripts/verify-dictionary.mjs"
+    "dictionary:verify": "node scripts/verify-dictionary.mjs",
+    "pilot:validate": "node scripts/validate-authored-data.mjs",
+    "pilot:build": "node scripts/build-authored-dictionary.mjs",
+    "pilot:test": "node scripts/test-authored-lookups.mjs",
+    "pilot:evaluate": "node scripts/evaluate-kursbuch-pilot.mjs",
+    "composite:test": "node scripts/test-composite-provider.mjs",
+    "integration:verify": "node scripts/verify-phase7-integration.mjs",
+    "evaluate:3way": "node scripts/evaluate-3way-kursbuch.mjs",
+    "evaluate:ch1-2": "node scripts/evaluate-chapters-1-2.mjs",
+    "test:browser": "node scripts/verify-phase15-browser-defects.mjs",
+    "test:phase16": "node scripts/verify-phase16-browser-defects.mjs",
+    "package:release": "node scripts/build-release-package.mjs"
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.20",

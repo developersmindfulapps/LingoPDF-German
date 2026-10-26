@@ -1,0 +1,1240 @@
+[
+  {
+    "headword": "gut",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "good",
+      "well",
+      "fine"
+    ],
+    "examples": [
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "en": "The food tastes very good."
+      }
+    ],
+    "inflections": [
+      "gute",
+      "gutem",
+      "guten",
+      "guter",
+      "gutes",
+      "besser",
+      "bessere",
+      "besserem",
+      "besseren",
+      "besserer",
+      "besseres",
+      "beste",
+      "bestem",
+      "besten",
+      "bester",
+      "bestes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Irregular comparative (besser) and superlative (beste/am besten)."
+    }
+  },
+  {
+    "headword": "schlecht",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "bad",
+      "poor"
+    ],
+    "examples": [
+      {
+        "de": "Das Wetter ist heute leider schlecht.",
+        "en": "Unfortunately the weather is bad today."
+      }
+    ],
+    "inflections": [
+      "schlechte",
+      "schlechtem",
+      "schlechten",
+      "schlechter",
+      "schlechtes",
+      "schlechteste",
+      "schlechtesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "groß",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "big",
+      "large",
+      "tall"
+    ],
+    "examples": [
+      {
+        "de": "Er wohnt in einer großen Wohnung.",
+        "en": "He lives in a large apartment."
+      }
+    ],
+    "inflections": [
+      "große",
+      "großem",
+      "großen",
+      "großer",
+      "großes",
+      "größer",
+      "größere",
+      "größerem",
+      "größeren",
+      "größerer",
+      "größeres",
+      "größte",
+      "größtem",
+      "größten",
+      "größter",
+      "größtes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Comparative with umlaut (größer) and superlative (größte)."
+    }
+  },
+  {
+    "headword": "klein",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "small",
+      "little"
+    ],
+    "examples": [
+      {
+        "de": "Das Zimmer ist zwar klein, aber gemütlich.",
+        "en": "The room is small, but cozy."
+      }
+    ],
+    "inflections": [
+      "kleine",
+      "kleinem",
+      "kleinen",
+      "kleiner",
+      "kleines",
+      "kleinste",
+      "kleinsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schön",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "beautiful",
+      "lovely",
+      "nice"
+    ],
+    "examples": [
+      {
+        "de": "Wien ist eine sehr schöne Stadt.",
+        "en": "Vienna is a very beautiful city."
+      }
+    ],
+    "inflections": [
+      "schöne",
+      "schönem",
+      "schönen",
+      "schöner",
+      "schönes",
+      "schönste",
+      "schönstem",
+      "schönsten",
+      "schönster",
+      "schönstes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core adjective with umlaut; verified superlative schönste."
+    }
+  },
+  {
+    "headword": "neu",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "new"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe ein neues Buch gekauft.",
+        "en": "I bought a new book."
+      }
+    ],
+    "inflections": [
+      "neue",
+      "neuem",
+      "neuen",
+      "neuer",
+      "neues",
+      "neueste",
+      "neuesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "alt",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "old"
+    ],
+    "examples": [
+      {
+        "de": "Das alte Rathaus ist sehr bekannt.",
+        "en": "The old town hall is very well known."
+      }
+    ],
+    "inflections": [
+      "alte",
+      "altem",
+      "alten",
+      "alter",
+      "altes",
+      "älter",
+      "ältere",
+      "älterem",
+      "älteren",
+      "älterer",
+      "älteres",
+      "älteste",
+      "ältesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schnell",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "fast",
+      "quick",
+      "rapid"
+    ],
+    "examples": [
+      {
+        "de": "Der ICE ist ein schneller Zug.",
+        "en": "The ICE is a fast train."
+      }
+    ],
+    "inflections": [
+      "schnelle",
+      "schnellem",
+      "schnellen",
+      "schneller",
+      "schnelles",
+      "schnellste",
+      "schnellsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "langsam",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "slow",
+      "slowly"
+    ],
+    "examples": [
+      {
+        "de": "Bitte sprechen Sie etwas langsamer.",
+        "en": "Please speak a little slower."
+      }
+    ],
+    "inflections": [
+      "langsame",
+      "langsamem",
+      "langsamen",
+      "langsamer",
+      "langsames",
+      "langsamste",
+      "langsamsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "richtig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "correct",
+      "right",
+      "proper"
+    ],
+    "examples": [
+      {
+        "de": "Ihre Antwort ist vollkommen richtig.",
+        "en": "Your answer is completely correct."
+      }
+    ],
+    "inflections": [
+      "richtige",
+      "richtigem",
+      "richtigen",
+      "richtiger",
+      "richtiges",
+      "richtigste",
+      "richtigsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wichtig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "important"
+    ],
+    "examples": [
+      {
+        "de": "Pünktlichkeit ist im Beruf sehr wichtig.",
+        "en": "Punctuality is very important at work."
+      }
+    ],
+    "inflections": [
+      "wichtige",
+      "wichtigem",
+      "wichtigen",
+      "wichtiger",
+      "wichtiges",
+      "wichtigste",
+      "wichtigsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "einfach",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "simple",
+      "easy"
+    ],
+    "examples": [
+      {
+        "de": "Die deutsche Aussprache ist am Anfang einfach.",
+        "en": "German pronunciation is simple at the beginning."
+      }
+    ],
+    "inflections": [
+      "einfache",
+      "einfachem",
+      "einfachen",
+      "einfacher",
+      "einfaches",
+      "einfachste",
+      "einfachsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schwer",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "heavy",
+      "difficult",
+      "hard"
+    ],
+    "examples": [
+      {
+        "de": "Dieser Koffer ist ziemlich schwer.",
+        "en": "This suitcase is quite heavy."
+      }
+    ],
+    "inflections": [
+      "schwere",
+      "schwerem",
+      "schweren",
+      "schwerer",
+      "schweres",
+      "schwerste",
+      "schwersten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "deutsch",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "German"
+    ],
+    "examples": [
+      {
+        "de": "Wir lesen eine deutsche Zeitung.",
+        "en": "We are reading a German newspaper."
+      }
+    ],
+    "inflections": [
+      "deutsche",
+      "deutschem",
+      "deutschen",
+      "deutscher",
+      "deutsches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "interessant",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "interesting"
+    ],
+    "examples": [
+      {
+        "de": "Das Buch hat viele interessante Geschichten.",
+        "en": "The book has many interesting stories."
+      }
+    ],
+    "inflections": [
+      "interessante",
+      "interessantem",
+      "interessanten",
+      "interessanter",
+      "interessantes",
+      "interessanteste",
+      "interessantesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ander",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "other",
+      "different"
+    ],
+    "examples": [
+      {
+        "de": "Über sich und andere sprechen.",
+        "en": "Speaking about oneself and others."
+      }
+    ],
+    "inflections": [
+      "andere",
+      "anderem",
+      "anderen",
+      "anderer",
+      "anderes",
+      "Anderer",
+      "Andere",
+      "Anderem",
+      "Anderen",
+      "Anderes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bekannt",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "well-known",
+      "familiar",
+      "known"
+    ],
+    "examples": [
+      {
+        "de": "Diese Person ist in Deutschland sehr bekannt.",
+        "en": "This person is very well-known in Germany."
+      }
+    ],
+    "inflections": [
+      "bekannte",
+      "bekanntem",
+      "bekannten",
+      "bekannter",
+      "bekanntes",
+      "bekanntesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "falsch",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "wrong",
+      "false",
+      "incorrect"
+    ],
+    "examples": [
+      {
+        "de": "Ist diese Antwort richtig oder falsch?",
+        "en": "Is this answer right or wrong?"
+      }
+    ],
+    "inflections": [
+      "falsche",
+      "falschem",
+      "falschen",
+      "falscher",
+      "falsches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "klar",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "clear",
+      "obvious",
+      "plain"
+    ],
+    "examples": [
+      {
+        "de": "Alles klar!",
+        "en": "All clear! / Everything understood!"
+      }
+    ],
+    "inflections": [
+      "klare",
+      "klarem",
+      "klaren",
+      "klarer",
+      "klares",
+      "klarer",
+      "klarsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "kurz",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "short",
+      "brief"
+    ],
+    "examples": [
+      {
+        "de": "Wir machen eine kurze Pause.",
+        "en": "We are taking a short break."
+      }
+    ],
+    "inflections": [
+      "kurze",
+      "kurzem",
+      "kurzen",
+      "kurzer",
+      "kurzes",
+      "kürzer",
+      "kürzesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "lang",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "long"
+    ],
+    "examples": [
+      {
+        "de": "Der Weg zum Bahnhof ist sehr lang.",
+        "en": "The way to the station is very long."
+      }
+    ],
+    "inflections": [
+      "lange",
+      "langem",
+      "langen",
+      "langer",
+      "langes",
+      "länger",
+      "längsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "müde",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "tired",
+      "sleepy"
+    ],
+    "examples": [
+      {
+        "de": "Nach dem Unterricht bin ich müde.",
+        "en": "After the lesson I am tired."
+      }
+    ],
+    "inflections": [
+      "müde",
+      "müdem",
+      "müden",
+      "müder",
+      "müdes",
+      "müder",
+      "müdesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nett",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "nice",
+      "kind",
+      "friendly"
+    ],
+    "examples": [
+      {
+        "de": "Die Lehrerin ist sehr nett.",
+        "en": "The teacher is very nice."
+      }
+    ],
+    "inflections": [
+      "nette",
+      "nettem",
+      "netten",
+      "netter",
+      "nettes",
+      "netter",
+      "nettesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "toll",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "great",
+      "terrific",
+      "fantastic"
+    ],
+    "examples": [
+      {
+        "de": "Das war ein toller Tag!",
+        "en": "That was a great day!"
+      }
+    ],
+    "inflections": [
+      "tolle",
+      "tollem",
+      "tollen",
+      "toller",
+      "tolles",
+      "toller",
+      "tollsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "spät",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "late"
+    ],
+    "examples": [
+      {
+        "de": "Wie spät ist es?",
+        "en": "What time is it? (How late is it?)"
+      }
+    ],
+    "inflections": [
+      "späte",
+      "spätem",
+      "späten",
+      "später",
+      "spätes",
+      "später",
+      "spätesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "früh",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "early"
+    ],
+    "examples": [
+      {
+        "de": "Ich stehe früh auf.",
+        "en": "I get up early."
+      }
+    ],
+    "inflections": [
+      "frühe",
+      "frühem",
+      "frühen",
+      "früher",
+      "frühes",
+      "früher",
+      "frühsten",
+      "frühesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "warm",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "warm"
+    ],
+    "examples": [
+      {
+        "de": "Heute ist es angenehm warm.",
+        "en": "Today it is pleasantly warm."
+      }
+    ],
+    "inflections": [
+      "warme",
+      "warmem",
+      "warmen",
+      "warmer",
+      "warmes",
+      "wärmer",
+      "wärmsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "kalt",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "cold"
+    ],
+    "examples": [
+      {
+        "de": "Im Winter ist es sehr kalt.",
+        "en": "In winter it is very cold."
+      }
+    ],
+    "inflections": [
+      "kalte",
+      "kaltem",
+      "kalten",
+      "kalter",
+      "kaltes",
+      "kälter",
+      "kältesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fertig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "ready",
+      "finished",
+      "done"
+    ],
+    "examples": [
+      {
+        "de": "Bist du mit der Aufgabe fertig?",
+        "en": "Are you done with the task?"
+      }
+    ],
+    "inflections": [
+      "fertige",
+      "fertigem",
+      "fertigen",
+      "fertiger",
+      "fertiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "frei",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "free",
+      "available",
+      "off (work)"
+    ],
+    "examples": [
+      {
+        "de": "Am Wochenende habe ich frei.",
+        "en": "On the weekend I am off work."
+      }
+    ],
+    "inflections": [
+      "freie",
+      "freiem",
+      "freien",
+      "freier",
+      "freies",
+      "freiste",
+      "freisten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Predicate/attributive adjective."
+    }
+  },
+  {
+    "headword": "beliebt",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "popular",
+      "well-liked"
+    ],
+    "examples": [
+      {
+        "de": "Fußball ist in Deutschland sehr beliebt.",
+        "en": "Soccer is very popular in Germany."
+      }
+    ],
+    "inflections": [
+      "beliebte",
+      "beliebtem",
+      "beliebten",
+      "beliebter",
+      "beliebtes",
+      "beliebteste",
+      "beliebtesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Adjective from past participle of belieben."
+    }
+  },
+  {
+    "headword": "männlich",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "male",
+      "masculine"
+    ],
+    "examples": [
+      {
+        "de": "Wählen Sie männlich oder weiblich.",
+        "en": "Choose male or female."
+      }
+    ],
+    "inflections": [
+      "männliche",
+      "männlichem",
+      "männlichen",
+      "männlicher",
+      "männliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Adjective derived from Mann + -lich."
+    }
+  },
+  {
+    "headword": "weiblich",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "female",
+      "feminine"
+    ],
+    "examples": [
+      {
+        "de": "Bitte kreuzen Sie weiblich an.",
+        "en": "Please tick female."
+      }
+    ],
+    "inflections": [
+      "weibliche",
+      "weiblichem",
+      "weiblichen",
+      "weiblicher",
+      "weibliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Adjective derived from Weib + -lich."
+    }
+  },
+  {
+    "headword": "online",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "online"
+    ],
+    "examples": [
+      {
+        "de": "Sie ist jetzt online.",
+        "en": "She is online now."
+      }
+    ],
+    "inflections": [
+      "online"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Indeclinable loan adjective/adverb."
+    }
+  },
+  {
+    "headword": "persönlich",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "personal"
+    ],
+    "examples": [
+      {
+        "de": "Das sind persönliche Daten.",
+        "en": "Those are personal details."
+      }
+    ],
+    "inflections": [
+      "persönliche",
+      "persönlichem",
+      "persönlichen",
+      "persönlicher",
+      "persönliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Derived from Person."
+    }
+  },
+  {
+    "headword": "lustig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "funny",
+      "amusing",
+      "cheerful"
+    ],
+    "examples": [
+      {
+        "de": "Der Film ist sehr lustig.",
+        "en": "The movie is very funny."
+      }
+    ],
+    "inflections": [
+      "lustige",
+      "lustigem",
+      "lustigen",
+      "lustiger",
+      "lustiges",
+      "lustigste",
+      "lustigsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Common A1 adjective."
+    }
+  },
+  {
+    "headword": "viel",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "much",
+      "a lot of",
+      "many"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe viel Arbeit.",
+        "en": "I have a lot of work."
+      }
+    ],
+    "inflections": [
+      "viele",
+      "vielen",
+      "vieler",
+      "vieles",
+      "mehr",
+      "meiste",
+      "meisten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Quantifying determiner/adjective with irregular comparison mehr/meist."
+    }
+  },
+  {
+    "headword": "krank",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "sick",
+      "ill"
+    ],
+    "examples": [
+      {
+        "de": "Er kann heute nicht arbeiten, er ist krank.",
+        "en": "He cannot work today, he is sick."
+      }
+    ],
+    "inflections": [
+      "kranke",
+      "krankem",
+      "kranken",
+      "kranker",
+      "krankes",
+      "kränker",
+      "kränkste",
+      "kränksten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Umlaut comparison kränker; inflections map substantivized Kranke."
+    }
+  },
+  {
+    "headword": "weit",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "far",
+      "wide",
+      "distant",
+      "broad"
+    ],
+    "examples": [
+      {
+        "de": "Wie weit ist es zum Bahnhof?",
+        "en": "How far is it to the train station?"
+      },
+      {
+        "de": "Das Hemd ist mir zu weit.",
+        "en": "The shirt is too wide for me."
+      }
+    ],
+    "inflections": [
+      "weite",
+      "weitem",
+      "weiten",
+      "weites",
+      "weitest",
+      "weiteste",
+      "weitestem",
+      "weitesten",
+      "weitester",
+      "weitestes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "High-utility adjective/adverb; covers wide/far senses and superlative weitest-."
+    }
+  },
+  {
+    "headword": "unbestimmt",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "indefinite",
+      "undetermined",
+      "vague"
+    ],
+    "examples": [
+      {
+        "de": "Der unbestimmte Artikel im Maskulinum heißt ein.",
+        "en": "The indefinite article in the masculine is ein."
+      }
+    ],
+    "inflections": [
+      "unbestimmte",
+      "unbestimmter",
+      "unbestimmtes",
+      "unbestimmten",
+      "unbestimmtem"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical adjective; unbestimmter Artikel."
+    }
+  }
+]

@@ -1,0 +1,3655 @@
+[
+  {
+    "headword": "sein",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to be",
+      "to exist"
+    ],
+    "examples": [
+      {
+        "de": "Ich bin Student in Wien.",
+        "en": "I am a student in Vienna."
+      }
+    ],
+    "inflections": [
+      "bin",
+      "bist",
+      "ist",
+      "sind",
+      "seid",
+      "war",
+      "warst",
+      "waren",
+      "wart",
+      "gewesen",
+      "sei",
+      "seien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Essential A1 irregular copula and auxiliary verb."
+    }
+  },
+  {
+    "headword": "haben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to have"
+    ],
+    "examples": [
+      {
+        "de": "Wir haben heute viel Zeit.",
+        "en": "We have plenty of time today."
+      }
+    ],
+    "inflections": [
+      "habe",
+      "hast",
+      "hat",
+      "haben",
+      "habt",
+      "hatte",
+      "hattest",
+      "hatten",
+      "hattet",
+      "gehabt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "werden",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to become",
+      "will (future auxiliary)"
+    ],
+    "examples": [
+      {
+        "de": "Er wird bald dreißig Jahre alt.",
+        "en": "He will soon become thirty years old."
+      }
+    ],
+    "inflections": [
+      "werde",
+      "wirst",
+      "wird",
+      "werden",
+      "werdet",
+      "wurde",
+      "wurdest",
+      "wurden",
+      "wurdet",
+      "geworden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "können",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "can",
+      "to be able to"
+    ],
+    "examples": [
+      {
+        "de": "Können Sie mir helfen?",
+        "en": "Can you help me?"
+      }
+    ],
+    "inflections": [
+      "kann",
+      "kannst",
+      "können",
+      "könnt",
+      "konnte",
+      "konntest",
+      "konnten",
+      "konntet",
+      "gekonnt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "müssen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "must",
+      "to have to"
+    ],
+    "examples": [
+      {
+        "de": "Ich muss jetzt nach Hause gehen.",
+        "en": "I must go home now."
+      }
+    ],
+    "inflections": [
+      "muss",
+      "musst",
+      "müssen",
+      "müsst",
+      "musste",
+      "musstest",
+      "mussten",
+      "musstet",
+      "gemusst"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wollen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to want",
+      "to intend to"
+    ],
+    "examples": [
+      {
+        "de": "Was willst du heute Abend machen?",
+        "en": "What do you want to do tonight?"
+      }
+    ],
+    "inflections": [
+      "will",
+      "willst",
+      "wollen",
+      "wollt",
+      "wollte",
+      "wolltest",
+      "wollten",
+      "wolltet",
+      "gewollt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "dürfen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "may",
+      "to be allowed to"
+    ],
+    "examples": [
+      {
+        "de": "Darf man hier parken?",
+        "en": "May one park here?"
+      }
+    ],
+    "inflections": [
+      "darf",
+      "darfst",
+      "dürfen",
+      "dürft",
+      "durfte",
+      "durftest",
+      "durften",
+      "durftet",
+      "gedurft"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sollen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "should",
+      "ought to",
+      "to be supposed to"
+    ],
+    "examples": [
+      {
+        "de": "Soll ich das Fenster aufmachen?",
+        "en": "Should I open the window?"
+      }
+    ],
+    "inflections": [
+      "soll",
+      "sollst",
+      "sollen",
+      "sollt",
+      "sollte",
+      "solltest",
+      "sollten",
+      "solltet",
+      "gesollt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "möchten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "would like to"
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte einen Kaffee trinken.",
+        "en": "I would like to drink a coffee."
+      }
+    ],
+    "inflections": [
+      "möchte",
+      "möchtest",
+      "möchten",
+      "möchtet"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "arbeiten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to work",
+      "to labor"
+    ],
+    "examples": [
+      {
+        "de": "Er arbeitet fleißig im Büro.",
+        "en": "He works hard in the office."
+      }
+    ],
+    "inflections": [
+      "arbeite",
+      "arbeitest",
+      "arbeitet",
+      "arbeitete",
+      "arbeiteten",
+      "arbeitetet",
+      "gearbeitet",
+      "arbeitend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core regular weak verb."
+    }
+  },
+  {
+    "headword": "lernen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to learn",
+      "to study"
+    ],
+    "examples": [
+      {
+        "de": "Wir lernen Deutsch mit dem Computer.",
+        "en": "We are learning German with the computer."
+      }
+    ],
+    "inflections": [
+      "lerne",
+      "lernst",
+      "lernt",
+      "lernte",
+      "lernten",
+      "gelernt",
+      "lernend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "machen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to do",
+      "to make"
+    ],
+    "examples": [
+      {
+        "de": "Was machst du am Wochenende?",
+        "en": "What are you doing at the weekend?"
+      }
+    ],
+    "inflections": [
+      "mache",
+      "machst",
+      "macht",
+      "machte",
+      "machten",
+      "gemacht",
+      "machend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "gehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to go",
+      "to walk"
+    ],
+    "examples": [
+      {
+        "de": "Wir gehen heute zu Fuß zur Arbeit.",
+        "en": "We are walking to work today."
+      }
+    ],
+    "inflections": [
+      "gehe",
+      "gehst",
+      "geht",
+      "ging",
+      "gingst",
+      "gingen",
+      "gingt",
+      "gegangen",
+      "gehend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "High-frequency strong verb; ging/gegangen verified."
+    }
+  },
+  {
+    "headword": "kommen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to come",
+      "to arrive"
+    ],
+    "examples": [
+      {
+        "de": "Woher kommst du?",
+        "en": "Where do you come from?"
+      }
+    ],
+    "inflections": [
+      "komme",
+      "kommst",
+      "kommt",
+      "kam",
+      "kamst",
+      "kamen",
+      "kamt",
+      "gekommen",
+      "kommend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to see",
+      "to look",
+      "to watch"
+    ],
+    "examples": [
+      {
+        "de": "Ich sehe den schönen Park vom Fenster aus.",
+        "en": "I see the beautiful park from the window."
+      }
+    ],
+    "inflections": [
+      "sehe",
+      "siehst",
+      "sieht",
+      "seht",
+      "sah",
+      "sahst",
+      "sahen",
+      "saht",
+      "gesehen",
+      "sehend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "hören",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to hear",
+      "to listen"
+    ],
+    "examples": [
+      {
+        "de": "Hörst du die Musik?",
+        "en": "Do you hear the music?"
+      }
+    ],
+    "inflections": [
+      "höre",
+      "hörst",
+      "hört",
+      "hörte",
+      "hörten",
+      "gehört",
+      "hörend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "lesen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to read"
+    ],
+    "examples": [
+      {
+        "de": "Sie liest jeden Abend ein Kapitel.",
+        "en": "She reads a chapter every evening."
+      }
+    ],
+    "inflections": [
+      "lese",
+      "liest",
+      "lest",
+      "las",
+      "last",
+      "lasen",
+      "gelesen",
+      "lesend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schreiben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to write"
+    ],
+    "examples": [
+      {
+        "de": "Er schreibt einen Brief an seine Eltern.",
+        "en": "He is writing a letter to his parents."
+      }
+    ],
+    "inflections": [
+      "schreibe",
+      "schreibst",
+      "schreibt",
+      "schrieb",
+      "schriebst",
+      "schrieben",
+      "geschrieben",
+      "schreibend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sprechen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to speak",
+      "to talk"
+    ],
+    "examples": [
+      {
+        "de": "Sprechen Sie Englisch oder Deutsch?",
+        "en": "Do you speak English or German?"
+      }
+    ],
+    "inflections": [
+      "spreche",
+      "sprichst",
+      "spricht",
+      "sprecht",
+      "sprach",
+      "sprachst",
+      "sprachen",
+      "gesprochen",
+      "sprechend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "verstehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to understand"
+    ],
+    "examples": [
+      {
+        "de": "Ich verstehe den Satz nicht.",
+        "en": "I do not understand the sentence."
+      }
+    ],
+    "inflections": [
+      "verstehe",
+      "verstehst",
+      "versteht",
+      "verstand",
+      "verstanden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "essen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to eat"
+    ],
+    "examples": [
+      {
+        "de": "Wir essen um zwölf Uhr zu Mittag.",
+        "en": "We eat lunch at twelve o'clock."
+      }
+    ],
+    "inflections": [
+      "esse",
+      "isst",
+      "esst",
+      "aß",
+      "aßen",
+      "gegessen",
+      "essend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "trinken",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to drink"
+    ],
+    "examples": [
+      {
+        "de": "Morgens trinke ich immer Tee.",
+        "en": "In the morning I always drink tea."
+      }
+    ],
+    "inflections": [
+      "trinke",
+      "trinkst",
+      "trinkt",
+      "trank",
+      "tranken",
+      "getrunken",
+      "trinkend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fahren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to drive",
+      "to ride",
+      "to travel"
+    ],
+    "examples": [
+      {
+        "de": "Fährst du mit dem Zug nach Berlin?",
+        "en": "Are you traveling by train to Berlin?"
+      }
+    ],
+    "inflections": [
+      "fahre",
+      "fährst",
+      "fährt",
+      "fahrt",
+      "fuhr",
+      "fuhren",
+      "gefahren",
+      "fahrend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wohnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to live",
+      "to reside"
+    ],
+    "examples": [
+      {
+        "de": "Ich wohne seit zwei Jahren in Leipzig.",
+        "en": "I have been living in Leipzig for two years."
+      }
+    ],
+    "inflections": [
+      "wohne",
+      "wohnst",
+      "wohnt",
+      "wohnte",
+      "wohnten",
+      "gewohnt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "kaufen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to buy",
+      "to purchase"
+    ],
+    "examples": [
+      {
+        "de": "Wir kaufen Obst auf dem Markt.",
+        "en": "We buy fruit at the market."
+      }
+    ],
+    "inflections": [
+      "kaufe",
+      "kaufst",
+      "kauft",
+      "kaufte",
+      "kauften",
+      "gekauft"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fragen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to ask",
+      "to question"
+    ],
+    "examples": [
+      {
+        "de": "Er fragt nach dem Weg zum Museum.",
+        "en": "He asks for the way to the museum."
+      }
+    ],
+    "inflections": [
+      "frage",
+      "fragst",
+      "fragt",
+      "fragte",
+      "fragten",
+      "gefragt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "antworten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to answer",
+      "to reply"
+    ],
+    "examples": [
+      {
+        "de": "Bitte antworten Sie auf meine E-Mail.",
+        "en": "Please reply to my email."
+      }
+    ],
+    "inflections": [
+      "antworte",
+      "antwortest",
+      "antwortet",
+      "antwortete",
+      "geantwortet"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "spielen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to play"
+    ],
+    "examples": [
+      {
+        "de": "Die Kinder spielen draußen Fußball.",
+        "en": "The children are playing football outside."
+      }
+    ],
+    "inflections": [
+      "spiele",
+      "spielst",
+      "spielt",
+      "spielte",
+      "spielten",
+      "gespielt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "suchen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to search",
+      "to look for"
+    ],
+    "examples": [
+      {
+        "de": "Ich suche meine Brille.",
+        "en": "I am looking for my glasses."
+      }
+    ],
+    "inflections": [
+      "suche",
+      "suchst",
+      "sucht",
+      "suchte",
+      "suchten",
+      "gesucht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "finden",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to find",
+      "to think (opinion)"
+    ],
+    "examples": [
+      {
+        "de": "Wie findest du diesen Kurs?",
+        "en": "How do you find this course?"
+      }
+    ],
+    "inflections": [
+      "finde",
+      "findest",
+      "findet",
+      "fand",
+      "fanden",
+      "gefunden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "geben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to give"
+    ],
+    "examples": [
+      {
+        "de": "Es gibt viele Möglichkeiten.",
+        "en": "There are many possibilities."
+      }
+    ],
+    "inflections": [
+      "gebe",
+      "gibst",
+      "gibt",
+      "gebt",
+      "gab",
+      "gaben",
+      "gegeben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nehmen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to take"
+    ],
+    "examples": [
+      {
+        "de": "Ich nehme ein Stück Kuchen.",
+        "en": "I will take a piece of cake."
+      }
+    ],
+    "inflections": [
+      "nehme",
+      "nimmst",
+      "nimmt",
+      "nehmt",
+      "nahm",
+      "nahmen",
+      "genommen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "heißen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to be named",
+      "to be called"
+    ],
+    "examples": [
+      {
+        "de": "Wie heißen Sie?",
+        "en": "What is your name?"
+      }
+    ],
+    "inflections": [
+      "heiße",
+      "heißt",
+      "hieß",
+      "hießen",
+      "geheißen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "aufstehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to get up",
+      "to stand up"
+    ],
+    "examples": [
+      {
+        "de": "Ich stehe jeden Tag um sieben Uhr auf.",
+        "en": "I get up at seven o'clock every day."
+      }
+    ],
+    "inflections": [
+      "aufstehe",
+      "aufstehst",
+      "aufsteht",
+      "aufstand",
+      "aufstanden",
+      "aufgestanden",
+      "aufzustehen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Separable prefix auf-; indexed by single-token subordinate and non-finite forms."
+    }
+  },
+  {
+    "headword": "einkaufen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to shop",
+      "to buy groceries"
+    ],
+    "examples": [
+      {
+        "de": "Samstags kaufe ich im Supermarkt ein.",
+        "en": "On Saturdays I shop at the supermarket."
+      }
+    ],
+    "inflections": [
+      "einkaufe",
+      "einkaufst",
+      "einkauft",
+      "einkaufte",
+      "einkauften",
+      "eingekauft",
+      "einzukaufen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Separable prefix ein-; indexed by single-token subordinate and non-finite forms."
+    }
+  },
+  {
+    "headword": "sagen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "say",
+      "tell"
+    ],
+    "examples": [
+      {
+        "de": "Was sagen Sie dazu?",
+        "en": "What do you say to that?"
+      }
+    ],
+    "inflections": [
+      "sage",
+      "sagst",
+      "sagt",
+      "sagte",
+      "gesagt",
+      "Sag",
+      "Sagt",
+      "Sagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "buchstabieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "spell",
+      "spell out"
+    ],
+    "examples": [
+      {
+        "de": "Können Sie Ihren Namen buchstabieren?",
+        "en": "Can you spell your name?"
+      }
+    ],
+    "inflections": [
+      "buchstabiere",
+      "buchstabierst",
+      "buchstabiert",
+      "buchstabierte",
+      "buchstabieren",
+      "Buchstabiere",
+      "Buchstabieren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "stellen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "put",
+      "place",
+      "set",
+      "pose (a question)"
+    ],
+    "examples": [
+      {
+        "de": "Er stellt eine Frage.",
+        "en": "He asks a question."
+      }
+    ],
+    "inflections": [
+      "stelle",
+      "stellst",
+      "stellt",
+      "stellte",
+      "gestellt",
+      "Stellen",
+      "Stelle"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "vorstellen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "introduce",
+      "imagine"
+    ],
+    "examples": [
+      {
+        "de": "Darf ich mich vorstellen?",
+        "en": "May I introduce myself?"
+      }
+    ],
+    "inflections": [
+      "vorstelle",
+      "vorstellst",
+      "vorstellt",
+      "vorstellte",
+      "vorgestellt",
+      "vorzustellen",
+      "Vorstellen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "verabschieden",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "say goodbye to",
+      "bid farewell"
+    ],
+    "examples": [
+      {
+        "de": "Wir verabschieden uns von den Kollegen.",
+        "en": "We say goodbye to our colleagues."
+      }
+    ],
+    "inflections": [
+      "verabschiede",
+      "verabschiedest",
+      "verabschiedet",
+      "verabschiedete",
+      "verabschiedet",
+      "Verabschieden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ordnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "arrange",
+      "put in order",
+      "sort"
+    ],
+    "examples": [
+      {
+        "de": "Ordnen Sie die Wörter zu.",
+        "en": "Match/arrange the words."
+      }
+    ],
+    "inflections": [
+      "ordne",
+      "ordnest",
+      "ordnet",
+      "ordnete",
+      "geordnet",
+      "Ordnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "kennen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "know",
+      "be acquainted with",
+      "be familiar with"
+    ],
+    "examples": [
+      {
+        "de": "Kennst du diese Person?",
+        "en": "Do you know this person?"
+      }
+    ],
+    "inflections": [
+      "kenne",
+      "kennst",
+      "kennt",
+      "kannte",
+      "gekannt",
+      "Kennen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sammeln",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "collect",
+      "gather"
+    ],
+    "examples": [
+      {
+        "de": "Wir sammeln Ideen an der Tafel.",
+        "en": "We gather ideas on the board."
+      }
+    ],
+    "inflections": [
+      "sammle",
+      "sammelst",
+      "sammelt",
+      "sammelte",
+      "gesammelt",
+      "Sammeln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "ergänzen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "complete",
+      "fill in",
+      "supplement"
+    ],
+    "examples": [
+      {
+        "de": "Ergänzen Sie die Lücken im Text.",
+        "en": "Fill in the blanks in the text."
+      }
+    ],
+    "inflections": [
+      "ergänze",
+      "ergänzt",
+      "ergänzte",
+      "Ergänzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "notieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "note down",
+      "write down"
+    ],
+    "examples": [
+      {
+        "de": "Notieren Sie die Telefonnummer.",
+        "en": "Write down the phone number."
+      }
+    ],
+    "inflections": [
+      "notiere",
+      "notierst",
+      "notiert",
+      "notierte",
+      "Notieren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "grüßen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "greet",
+      "say hello to"
+    ],
+    "examples": [
+      {
+        "de": "Er grüßt seine Nachbarn jeden Tag.",
+        "en": "He greets his neighbors every day."
+      }
+    ],
+    "inflections": [
+      "grüße",
+      "grüßt",
+      "grüßte",
+      "gegrüßt",
+      "Grüßen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "nennen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "name",
+      "call",
+      "mention"
+    ],
+    "examples": [
+      {
+        "de": "Nennen Sie drei europäische Länder.",
+        "en": "Name three European countries."
+      }
+    ],
+    "inflections": [
+      "nenne",
+      "nennst",
+      "nennt",
+      "nannte",
+      "genannt",
+      "Nennen",
+      "NENNEN"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "raten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "guess",
+      "advise"
+    ],
+    "examples": [
+      {
+        "de": "Raten Sie das richtige Wort.",
+        "en": "Guess the correct word."
+      }
+    ],
+    "inflections": [
+      "rate",
+      "rätst",
+      "rät",
+      "riet",
+      "geraten",
+      "Raten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zeigen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "show",
+      "point to"
+    ],
+    "examples": [
+      {
+        "de": "Zeigen Sie das Bild Ihrer Partnerin.",
+        "en": "Show the picture to your partner."
+      }
+    ],
+    "inflections": [
+      "zeige",
+      "zeigst",
+      "zeigt",
+      "zeigte",
+      "gezeigt",
+      "Zeigen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "beginnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "begin",
+      "start"
+    ],
+    "examples": [
+      {
+        "de": "Der Unterricht beginnt um neun Uhr.",
+        "en": "The lesson begins at nine o'clock."
+      }
+    ],
+    "inflections": [
+      "beginne",
+      "beginnst",
+      "beginnt",
+      "begann",
+      "begonnen",
+      "Beginnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bleiben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "stay",
+      "remain"
+    ],
+    "examples": [
+      {
+        "de": "Wie lange bleibst du hier?",
+        "en": "How long are you staying here?"
+      }
+    ],
+    "inflections": [
+      "bleibe",
+      "bleibst",
+      "bleibt",
+      "blieb",
+      "geblieben",
+      "Bleiben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "brauchen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "need",
+      "require"
+    ],
+    "examples": [
+      {
+        "de": "Ich brauche ein neues Wörterbuch.",
+        "en": "I need a new dictionary."
+      }
+    ],
+    "inflections": [
+      "brauche",
+      "brauchst",
+      "braucht",
+      "brauchte",
+      "gebraucht",
+      "Brauchen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "bringen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "bring",
+      "take (something somewhere)"
+    ],
+    "examples": [
+      {
+        "de": "Bringen Sie bitte ein Foto mit.",
+        "en": "Please bring along a photo."
+      }
+    ],
+    "inflections": [
+      "bringe",
+      "bringst",
+      "bringt",
+      "brachte",
+      "gebracht",
+      "Bringen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "denken",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "think"
+    ],
+    "examples": [
+      {
+        "de": "Was denkst du darüber?",
+        "en": "What do you think about that?"
+      }
+    ],
+    "inflections": [
+      "denke",
+      "denkst",
+      "denkt",
+      "dachte",
+      "gedacht",
+      "Denken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "erklären",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "explain"
+    ],
+    "examples": [
+      {
+        "de": "Können Sie diese Grammatikregel erklären?",
+        "en": "Can you explain this grammar rule?"
+      }
+    ],
+    "inflections": [
+      "erkläre",
+      "erklärst",
+      "erklärt",
+      "erklärte",
+      "Erklären"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "fehlen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "be missing",
+      "lack"
+    ],
+    "examples": [
+      {
+        "de": "Welche Wörter fehlen hier?",
+        "en": "Which words are missing here?"
+      }
+    ],
+    "inflections": [
+      "fehle",
+      "fehlst",
+      "fehlt",
+      "fehlte",
+      "gefehlt",
+      "Fehlen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "gehören",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "belong to"
+    ],
+    "examples": [
+      {
+        "de": "Das Buch gehört mir.",
+        "en": "The book belongs to me."
+      }
+    ],
+    "inflections": [
+      "gehöre",
+      "gehörst",
+      "gehört",
+      "gehörte",
+      "Gehören"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "glauben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "believe",
+      "think"
+    ],
+    "examples": [
+      {
+        "de": "Ich glaube, das ist richtig.",
+        "en": "I believe that is correct."
+      }
+    ],
+    "inflections": [
+      "glaube",
+      "glaubst",
+      "glaubt",
+      "glaubte",
+      "geglaubt",
+      "Glauben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "helfen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "help",
+      "assist"
+    ],
+    "examples": [
+      {
+        "de": "Kannst du mir helfen?",
+        "en": "Can you help me?"
+      }
+    ],
+    "inflections": [
+      "helfe",
+      "hilfst",
+      "hilft",
+      "half",
+      "geholfen",
+      "Hilf",
+      "Helft",
+      "Helfen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "hoffen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "hope"
+    ],
+    "examples": [
+      {
+        "de": "Ich hoffe, es geht dir gut.",
+        "en": "I hope you are doing well."
+      }
+    ],
+    "inflections": [
+      "hoffe",
+      "hoffst",
+      "hofft",
+      "hoffte",
+      "gehofft",
+      "Hoffen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "kosten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "cost"
+    ],
+    "examples": [
+      {
+        "de": "Wie viel kostet dieser Kurs?",
+        "en": "How much does this course cost?"
+      }
+    ],
+    "inflections": [
+      "koste",
+      "kostest",
+      "kostet",
+      "kostete",
+      "gekostet",
+      "Kosten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "leben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "live",
+      "be alive"
+    ],
+    "examples": [
+      {
+        "de": "Meine Großeltern leben in Wien.",
+        "en": "My grandparents live in Vienna."
+      }
+    ],
+    "inflections": [
+      "lebe",
+      "lebst",
+      "lebt",
+      "lebte",
+      "gelebt",
+      "Leben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "liegen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "lie",
+      "be situated",
+      "be located"
+    ],
+    "examples": [
+      {
+        "de": "München liegt in Deutschland.",
+        "en": "Munich is located in Germany."
+      }
+    ],
+    "inflections": [
+      "liege",
+      "liegst",
+      "liegt",
+      "lag",
+      "gelegen",
+      "Liegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "passen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "fit",
+      "suit"
+    ],
+    "examples": [
+      {
+        "de": "Passt dieser Termin für Sie?",
+        "en": "Does this appointment suit you?"
+      }
+    ],
+    "inflections": [
+      "passe",
+      "passt",
+      "passte",
+      "gepasst",
+      "Passen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "reisen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "travel",
+      "journey"
+    ],
+    "examples": [
+      {
+        "de": "Wir reisen gerne im Sommer.",
+        "en": "We like traveling in summer."
+      }
+    ],
+    "inflections": [
+      "reise",
+      "reist",
+      "reiste",
+      "gereist",
+      "Reisen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "schmecken",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "taste",
+      "taste good"
+    ],
+    "examples": [
+      {
+        "de": "Das Essen schmeckt wunderbar.",
+        "en": "The food tastes wonderful."
+      }
+    ],
+    "inflections": [
+      "schmecke",
+      "schmeckst",
+      "schmeckt",
+      "schmeckte",
+      "geschmeckt",
+      "Schmecken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "sitzen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "sit",
+      "be seated"
+    ],
+    "examples": [
+      {
+        "de": "Wir sitzen im Café.",
+        "en": "We are sitting in the café."
+      }
+    ],
+    "inflections": [
+      "sitze",
+      "sitzt",
+      "saß",
+      "gesessen",
+      "Sitzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "stehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "stand",
+      "be upright"
+    ],
+    "examples": [
+      {
+        "de": "Der Lehrer steht vor der Klasse.",
+        "en": "The teacher stands in front of the class."
+      }
+    ],
+    "inflections": [
+      "stehe",
+      "stehst",
+      "steht",
+      "stand",
+      "gestanden",
+      "Stehen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "stimmen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "be correct",
+      "be right",
+      "tune (instrument)"
+    ],
+    "examples": [
+      {
+        "de": "Das stimmt genau.",
+        "en": "That is exactly right."
+      }
+    ],
+    "inflections": [
+      "stimme",
+      "stimmst",
+      "stimmt",
+      "stimmte",
+      "gestimmt",
+      "Stimmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "treffen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "meet",
+      "encounter"
+    ],
+    "examples": [
+      {
+        "de": "Ich treffe heute meine Freunde.",
+        "en": "I am meeting my friends today."
+      }
+    ],
+    "inflections": [
+      "treffe",
+      "triffst",
+      "trifft",
+      "traf",
+      "getroffen",
+      "Triff",
+      "Treffen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "warten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "wait",
+      "await"
+    ],
+    "examples": [
+      {
+        "de": "Wir warten auf den Bus.",
+        "en": "We are waiting for the bus."
+      }
+    ],
+    "inflections": [
+      "warte",
+      "wartest",
+      "wartet",
+      "wartete",
+      "gewartet",
+      "Warten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "wissen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "know (a fact/information)"
+    ],
+    "examples": [
+      {
+        "de": "Weißt du, wo der Bahnhof ist?",
+        "en": "Do you know where the train station is?"
+      }
+    ],
+    "inflections": [
+      "weiß",
+      "weißt",
+      "wusste",
+      "gewusst",
+      "Wissen",
+      "wisst"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "zahlen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "pay"
+    ],
+    "examples": [
+      {
+        "de": "Wir möchten bitte zahlen.",
+        "en": "We would like to pay, please."
+      }
+    ],
+    "inflections": [
+      "zahle",
+      "zahlst",
+      "zahlt",
+      "zahlte",
+      "gezahlt",
+      "Zahlen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "tanzen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to dance"
+    ],
+    "examples": [
+      {
+        "de": "Wir tanzen gern am Wochenende.",
+        "en": "We like to dance on the weekend."
+      }
+    ],
+    "inflections": [
+      "tanze",
+      "tanzt",
+      "tanzte",
+      "tanzten",
+      "getanzt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular verb; 2nd person sg du tanzt."
+    }
+  },
+  {
+    "headword": "joggen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to jog"
+    ],
+    "examples": [
+      {
+        "de": "Sie joggt jeden Morgen im Park.",
+        "en": "She jogs every morning in the park."
+      }
+    ],
+    "inflections": [
+      "jogge",
+      "joggt",
+      "joggte",
+      "joggten",
+      "gejoggt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular loan verb."
+    }
+  },
+  {
+    "headword": "fotografieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to photograph",
+      "to take photos"
+    ],
+    "examples": [
+      {
+        "de": "Er fotografiert gern alte Gebäude.",
+        "en": "He likes photographing old buildings."
+      }
+    ],
+    "inflections": [
+      "fotografiere",
+      "fotografierst",
+      "fotografiert",
+      "fotografierte",
+      "fotografierten",
+      "photographieren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb with -ieren; participle without ge-."
+    }
+  },
+  {
+    "headword": "kochen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to cook",
+      "to boil"
+    ],
+    "examples": [
+      {
+        "de": "Was kochen wir heute Abend?",
+        "en": "What are we cooking this evening?"
+      }
+    ],
+    "inflections": [
+      "koche",
+      "kochst",
+      "kocht",
+      "kochte",
+      "kochten",
+      "gekocht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular weak verb."
+    }
+  },
+  {
+    "headword": "schwimmen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to swim"
+    ],
+    "examples": [
+      {
+        "de": "Im Sommer schwimme ich im See.",
+        "en": "In summer I swim in the lake."
+      }
+    ],
+    "inflections": [
+      "schwimme",
+      "schwimmst",
+      "schwimmt",
+      "schwamm",
+      "geschwommen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Strong verb (Class 3)."
+    }
+  },
+  {
+    "headword": "singen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to sing"
+    ],
+    "examples": [
+      {
+        "de": "Sie singt sehr schön.",
+        "en": "She sings very beautifully."
+      }
+    ],
+    "inflections": [
+      "singe",
+      "singst",
+      "singt",
+      "sang",
+      "gesungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Strong verb (Class 3)."
+    }
+  },
+  {
+    "headword": "chatten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to chat (online)"
+    ],
+    "examples": [
+      {
+        "de": "Ich chatte mit meinen Freunden.",
+        "en": "I chat with my friends."
+      }
+    ],
+    "inflections": [
+      "chatte",
+      "chattest",
+      "chattet",
+      "chattete",
+      "chatteten",
+      "gechattet"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular loan verb."
+    }
+  },
+  {
+    "headword": "lieben",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to love"
+    ],
+    "examples": [
+      {
+        "de": "Ich liebe Musik.",
+        "en": "I love music."
+      }
+    ],
+    "inflections": [
+      "liebe",
+      "liebst",
+      "liebt",
+      "liebte",
+      "liebten",
+      "geliebt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular weak verb."
+    }
+  },
+  {
+    "headword": "verabreden",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to arrange (to meet)",
+      "to make an appointment"
+    ],
+    "examples": [
+      {
+        "de": "Wir verabreden uns für morgen Abend.",
+        "en": "We arrange to meet for tomorrow evening."
+      }
+    ],
+    "inflections": [
+      "verabrede",
+      "verabredest",
+      "verabredet",
+      "verabredete",
+      "verabredeten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb, inseparable prefix ver-."
+    }
+  },
+  {
+    "headword": "benennen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to name",
+      "to designate"
+    ],
+    "examples": [
+      {
+        "de": "Können Sie die Wochentage benennen?",
+        "en": "Can you name the days of the week?"
+      }
+    ],
+    "inflections": [
+      "benenne",
+      "benennst",
+      "benennt",
+      "benannte",
+      "benannt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Mixed verb with inseparable prefix be-."
+    }
+  },
+  {
+    "headword": "kreuzen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to tick",
+      "to check (a box)",
+      "to cross"
+    ],
+    "examples": [
+      {
+        "de": "Kreuzen Sie die richtige Antwort an.",
+        "en": "Tick the correct answer."
+      }
+    ],
+    "inflections": [
+      "kreuze",
+      "kreuzt",
+      "kreuzte",
+      "gekreuzt",
+      "ankreuzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Regular weak verb, common in classroom exercises."
+    }
+  },
+  {
+    "headword": "studieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to study (at university)",
+      "to major in"
+    ],
+    "examples": [
+      {
+        "de": "Ich studiere Architektur in Köln.",
+        "en": "I study architecture in Cologne."
+      }
+    ],
+    "inflections": [
+      "studiere",
+      "studierst",
+      "studiert",
+      "studierte",
+      "studierten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb ending in -ieren; past participle studiert."
+    }
+  },
+  {
+    "headword": "produzieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to produce",
+      "to manufacture"
+    ],
+    "examples": [
+      {
+        "de": "Wir produzieren Autos.",
+        "en": "We produce cars."
+      }
+    ],
+    "inflections": [
+      "produziere",
+      "produzierst",
+      "produziert",
+      "produzierte",
+      "produzierten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb ending in -ieren."
+    }
+  },
+  {
+    "headword": "berichten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to report",
+      "to recount",
+      "to tell"
+    ],
+    "examples": [
+      {
+        "de": "Berichten Sie im Kurs über Ihren Beruf.",
+        "en": "Report to the class about your profession."
+      }
+    ],
+    "inflections": [
+      "berichte",
+      "berichtest",
+      "berichtet",
+      "berichtete",
+      "berichteten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Inseparable weak verb."
+    }
+  },
+  {
+    "headword": "erstellen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to create",
+      "to generate",
+      "to make"
+    ],
+    "examples": [
+      {
+        "de": "Erstellen Sie ein Profil im Internet.",
+        "en": "Create a profile on the internet."
+      }
+    ],
+    "inflections": [
+      "erstelle",
+      "erstellst",
+      "erstellt",
+      "erstellte",
+      "erstellten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb with inseparable prefix er-."
+    }
+  },
+  {
+    "headword": "registrieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to register",
+      "to sign up"
+    ],
+    "examples": [
+      {
+        "de": "Sie registrieren sich auf der Internetseite.",
+        "en": "They register on the website."
+      }
+    ],
+    "inflections": [
+      "registriere",
+      "registrierst",
+      "registriert",
+      "registrierte",
+      "registrierten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb with -ieren ending."
+    }
+  },
+  {
+    "headword": "präsentieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to present",
+      "to showcase"
+    ],
+    "examples": [
+      {
+        "de": "Die Teilnehmer präsentieren ihr Plakat.",
+        "en": "The participants present their poster."
+      }
+    ],
+    "inflections": [
+      "präsentiere",
+      "präsentierst",
+      "präsentiert",
+      "präsentierte",
+      "präsentierten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak verb with -ieren ending."
+    }
+  },
+  {
+    "headword": "unterstreichen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to underline",
+      "to emphasize"
+    ],
+    "examples": [
+      {
+        "de": "Unterstreichen Sie die Verben im Text.",
+        "en": "Underline the verbs in the text."
+      }
+    ],
+    "inflections": [
+      "unterstreiche",
+      "unterstreichst",
+      "unterstreicht",
+      "unterstrich",
+      "unterstrichen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Strong verb (Class 1) with inseparable prefix unter-."
+    }
+  },
+  {
+    "headword": "lassen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to let",
+      "to allow",
+      "to leave",
+      "to have done"
+    ],
+    "examples": [
+      {
+        "de": "Lass mich in Ruhe!",
+        "en": "Leave me alone!"
+      },
+      {
+        "de": "Ich lasse mein Fahrrad reparieren.",
+        "en": "I am having my bicycle repaired."
+      }
+    ],
+    "inflections": [
+      "lasse",
+      "lässt",
+      "lasst",
+      "ließ",
+      "ließe",
+      "ließen",
+      "ließt",
+      "gelassen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "High-utility modal-like strong verb (Class 7) with causative and permissive uses."
+    }
+  },
+  {
+    "headword": "halten",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to hold",
+      "to stop",
+      "to keep",
+      "to consider"
+    ],
+    "examples": [
+      {
+        "de": "Der Bus hält hier.",
+        "en": "The bus stops here."
+      },
+      {
+        "de": "Halt bitte meine Tasche.",
+        "en": "Please hold my bag."
+      }
+    ],
+    "inflections": [
+      "halte",
+      "hältst",
+      "hält",
+      "haltet",
+      "hielt",
+      "hielten",
+      "hieltet",
+      "gehalten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 7) with a-ä vowel change and extensive prefix derivatives."
+    }
+  },
+  {
+    "headword": "führen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to lead",
+      "to guide",
+      "to conduct",
+      "to manage"
+    ],
+    "examples": [
+      {
+        "de": "Dieser Weg führt zum Park.",
+        "en": "This path leads to the park."
+      },
+      {
+        "de": "Er führt ein erfolgreiches Unternehmen.",
+        "en": "He runs a successful business."
+      }
+    ],
+    "inflections": [
+      "führe",
+      "führst",
+      "führt",
+      "führte",
+      "führten",
+      "geführt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "High-utility weak verb expressing physical guidance and managerial leadership."
+    }
+  },
+  {
+    "headword": "setzen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to set",
+      "to put",
+      "to place",
+      "to sit down (reflexive)"
+    ],
+    "examples": [
+      {
+        "de": "Setzen Sie sich bitte!",
+        "en": "Please sit down!"
+      },
+      {
+        "de": "Sie setzt das Kind auf den Stuhl.",
+        "en": "She puts the child onto the chair."
+      }
+    ],
+    "inflections": [
+      "setze",
+      "setzt",
+      "setzte",
+      "setzten",
+      "gesetzt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Positional weak verb paired with sitzen; governs accusative direction."
+    }
+  },
+  {
+    "headword": "legen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to lay",
+      "to put horizontally",
+      "to place"
+    ],
+    "examples": [
+      {
+        "de": "Er legt das Buch auf den Tisch.",
+        "en": "He lays the book on the table."
+      }
+    ],
+    "inflections": [
+      "lege",
+      "legst",
+      "legt",
+      "legte",
+      "legten",
+      "gelegt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Positional weak verb paired with liegen; governs accusative direction."
+    }
+  },
+  {
+    "headword": "ziehen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to pull",
+      "to draw",
+      "to move (residence)"
+    ],
+    "examples": [
+      {
+        "de": "Bitte ziehen, nicht drücken!",
+        "en": "Please pull, do not push!"
+      },
+      {
+        "de": "Wir ziehen nächsten Monat nach Berlin.",
+        "en": "We are moving to Berlin next month."
+      }
+    ],
+    "inflections": [
+      "ziehe",
+      "ziehst",
+      "zieht",
+      "zog",
+      "zogen",
+      "zogt",
+      "gezogen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 2) with ie-o-o ablaut series."
+    }
+  },
+  {
+    "headword": "gelten",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to apply",
+      "to be valid",
+      "to count as"
+    ],
+    "examples": [
+      {
+        "de": "Die Fahrkarte gilt für eine Stunde.",
+        "en": "The ticket is valid for one hour."
+      }
+    ],
+    "inflections": [
+      "gelte",
+      "giltst",
+      "gilt",
+      "geltet",
+      "galt",
+      "galten",
+      "gegolten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 3) with e-i change and e-a-o ablaut."
+    }
+  },
+  {
+    "headword": "scheinen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to shine",
+      "to seem",
+      "to appear"
+    ],
+    "examples": [
+      {
+        "de": "Die Sonne scheint heute hell.",
+        "en": "The sun is shining brightly today."
+      },
+      {
+        "de": "Es scheint ein Problem zu geben.",
+        "en": "There seems to be a problem."
+      }
+    ],
+    "inflections": [
+      "scheine",
+      "scheinst",
+      "scheint",
+      "schien",
+      "schienen",
+      "geschienen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 1) with ei-ie-ie ablaut series."
+    }
+  },
+  {
+    "headword": "tragen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to wear",
+      "to carry",
+      "to bear"
+    ],
+    "examples": [
+      {
+        "de": "Er trägt einen warmen Pullover.",
+        "en": "He is wearing a warm sweater."
+      },
+      {
+        "de": "Kannst du den Koffer tragen?",
+        "en": "Can you carry the suitcase?"
+      }
+    ],
+    "inflections": [
+      "trage",
+      "trägst",
+      "trägt",
+      "tragt",
+      "trug",
+      "trugen",
+      "trugt",
+      "getragen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 6) with a-ä vowel change and a-u-a ablaut."
+    }
+  },
+  {
+    "headword": "schließen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to close",
+      "to shut",
+      "to conclude"
+    ],
+    "examples": [
+      {
+        "de": "Bitte schließen Sie die Tür.",
+        "en": "Please close the door."
+      },
+      {
+        "de": "Das Geschäft schließt um 18 Uhr.",
+        "en": "The shop closes at 6 p.m."
+      }
+    ],
+    "inflections": [
+      "schließe",
+      "schließt",
+      "schloss",
+      "schlossen",
+      "geschlossen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 2) with ie-o-o ablaut series."
+    }
+  },
+  {
+    "headword": "fallen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to fall",
+      "to drop",
+      "to tumble"
+    ],
+    "examples": [
+      {
+        "de": "Die Blätter fallen von den Bäumen.",
+        "en": "The leaves are falling from the trees."
+      }
+    ],
+    "inflections": [
+      "falle",
+      "fällst",
+      "fällt",
+      "fallt",
+      "fiel",
+      "fielen",
+      "fielt",
+      "gefallen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Strong verb (Class 7) with a-ä vowel change and a-ie-a ablaut."
+    }
+  },
+  {
+    "headword": "mitnehmen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to take along",
+      "to take with",
+      "to take away"
+    ],
+    "examples": [
+      {
+        "de": "Nimm einen Regenschirm mit!",
+        "en": "Take an umbrella with you!"
+      }
+    ],
+    "inflections": [
+      "mitnehme",
+      "mitnimmst",
+      "mitnimmt",
+      "mitnehmt",
+      "mitnahm",
+      "mitnahmen",
+      "mitgenommen",
+      "mitzunehmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix mit-; indexed by single-token subordinate and non-finite forms."
+    }
+  },
+  {
+    "headword": "anfangen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to begin",
+      "to start"
+    ],
+    "examples": [
+      {
+        "de": "Der Kurs fängt um neun Uhr an.",
+        "en": "The course starts at nine o'clock."
+      }
+    ],
+    "inflections": [
+      "anfange",
+      "anfängst",
+      "anfängt",
+      "anfangt",
+      "anfing",
+      "anfingen",
+      "angefangen",
+      "anzufangen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix an-; strong verb (Class 7) with a-ä change."
+    }
+  },
+  {
+    "headword": "aussehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to look",
+      "to appear",
+      "to look like"
+    ],
+    "examples": [
+      {
+        "de": "Du siehst heute gut aus.",
+        "en": "You look good today."
+      }
+    ],
+    "inflections": [
+      "aussehe",
+      "aussiehst",
+      "aussieht",
+      "ausseht",
+      "aussah",
+      "aussahen",
+      "ausgesehen",
+      "auszusehen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix aus-; strong verb (Class 5) with e-ie vowel change."
+    }
+  },
+  {
+    "headword": "ankommen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to arrive",
+      "to reach"
+    ],
+    "examples": [
+      {
+        "de": "Wann kommt der Zug in Berlin an?",
+        "en": "When does the train arrive in Berlin?"
+      }
+    ],
+    "inflections": [
+      "ankomme",
+      "ankommst",
+      "ankommt",
+      "ankam",
+      "ankamen",
+      "angekommen",
+      "anzukommen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix an-; strong verb (Class 4) with o-a-o ablaut."
+    }
+  },
+  {
+    "headword": "anrufen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to call (on the phone)",
+      "to ring up"
+    ],
+    "examples": [
+      {
+        "de": "Ich rufe dich heute Abend an.",
+        "en": "I will call you this evening."
+      }
+    ],
+    "inflections": [
+      "anrufe",
+      "anrufst",
+      "anruft",
+      "anrief",
+      "anriefen",
+      "angerufen",
+      "anzurufen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix an-; strong verb (Class 7) with u-ie-u ablaut."
+    }
+  },
+  {
+    "headword": "aufpassen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to pay attention",
+      "to watch out",
+      "to look after"
+    ],
+    "examples": [
+      {
+        "de": "Pass gut im Straßenverkehr auf!",
+        "en": "Pay close attention in traffic!"
+      }
+    ],
+    "inflections": [
+      "aufpasse",
+      "aufpasst",
+      "aufpasste",
+      "aufpassten",
+      "aufgepasst",
+      "aufzupassen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix auf-; weak verb with regular dental preterite."
+    }
+  },
+  {
+    "headword": "aufmachen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to open",
+      "to unlock"
+    ],
+    "examples": [
+      {
+        "de": "Mach bitte das Fenster auf.",
+        "en": "Please open the window."
+      }
+    ],
+    "inflections": [
+      "aufmache",
+      "aufmachst",
+      "aufmacht",
+      "aufmachte",
+      "aufmachten",
+      "aufgemacht",
+      "aufzumachen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix auf-; weak verb."
+    }
+  },
+  {
+    "headword": "zumachen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to close",
+      "to shut"
+    ],
+    "examples": [
+      {
+        "de": "Kannst du die Tür zumachen?",
+        "en": "Can you close the door?"
+      }
+    ],
+    "inflections": [
+      "zumache",
+      "zumachst",
+      "zumacht",
+      "zumachte",
+      "zumachten",
+      "zugemacht",
+      "zuzumachen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix zu-; weak verb."
+    }
+  },
+  {
+    "headword": "vorbereiten",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to prepare",
+      "to get ready"
+    ],
+    "examples": [
+      {
+        "de": "Ich bereite das Abendessen vor.",
+        "en": "I am preparing dinner."
+      }
+    ],
+    "inflections": [
+      "vorbereite",
+      "vorbereitest",
+      "vorbereitet",
+      "vorbereitete",
+      "vorbereiteten",
+      "vorzubereiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix vor-; weak verb with stem ending in -t."
+    }
+  },
+  {
+    "headword": "mitbringen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to bring along",
+      "to bring with"
+    ],
+    "examples": [
+      {
+        "de": "Bring bitte etwas zum Trinken mit.",
+        "en": "Please bring something to drink along."
+      }
+    ],
+    "inflections": [
+      "mitbringe",
+      "mitbringst",
+      "mitbringt",
+      "mitbrachte",
+      "mitbrachten",
+      "mitgebracht",
+      "mitzubringen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix mit-; mixed verb with consonant shift ch in preterite/participle."
+    }
+  },
+  {
+    "headword": "mitkommen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to come along",
+      "to join"
+    ],
+    "examples": [
+      {
+        "de": "Kommst du heute ins Kino mit?",
+        "en": "Are you coming along to the cinema today?"
+      }
+    ],
+    "inflections": [
+      "mitkomme",
+      "mitkommst",
+      "mitkommt",
+      "mitkam",
+      "mitkamen",
+      "mitgekommen",
+      "mitzukommen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix mit-; strong verb (Class 4)."
+    }
+  },
+  {
+    "headword": "abholen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to pick up",
+      "to collect"
+    ],
+    "examples": [
+      {
+        "de": "Ich hole dich um fünf Uhr ab.",
+        "en": "I will pick you up at five o'clock."
+      }
+    ],
+    "inflections": [
+      "abhole",
+      "abholst",
+      "abholt",
+      "abholte",
+      "abholten",
+      "abgeholt",
+      "abzuholen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix ab-; weak verb."
+    }
+  },
+  {
+    "headword": "einladen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to invite",
+      "to treat"
+    ],
+    "examples": [
+      {
+        "de": "Ich lade dich zu meiner Geburtstagsparty ein.",
+        "en": "I invite you to my birthday party."
+      }
+    ],
+    "inflections": [
+      "einlade",
+      "einlädst",
+      "einlädt",
+      "einladet",
+      "einlud",
+      "einluden",
+      "eingeladen",
+      "einzuladen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix ein-; strong verb (Class 6) with a-ä vowel change."
+    }
+  },
+  {
+    "headword": "einsteigen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to get in",
+      "to board",
+      "to step into (vehicle)"
+    ],
+    "examples": [
+      {
+        "de": "Bitte alle einsteigen!",
+        "en": "All aboard, please!"
+      }
+    ],
+    "inflections": [
+      "einsteige",
+      "einsteigst",
+      "einsteigt",
+      "einstieg",
+      "einstiegen",
+      "eingestiegen",
+      "einzusteigen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix ein-; strong verb (Class 1) with ei-ie-ie ablaut."
+    }
+  },
+  {
+    "headword": "aussteigen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to get off",
+      "to alight",
+      "to step out of (vehicle)"
+    ],
+    "examples": [
+      {
+        "de": "Wir steigen an der nächsten Station aus.",
+        "en": "We get off at the next station."
+      }
+    ],
+    "inflections": [
+      "aussteige",
+      "aussteigst",
+      "aussteigt",
+      "ausstieg",
+      "ausstiegen",
+      "ausgestiegen",
+      "auszusteigen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix aus-; strong verb (Class 1) with ei-ie-ie ablaut."
+    }
+  },
+  {
+    "headword": "abfahren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to depart",
+      "to leave (by vehicle)"
+    ],
+    "examples": [
+      {
+        "de": "Der Zug fährt um 10:15 Uhr ab.",
+        "en": "The train departs at 10:15 a.m."
+      }
+    ],
+    "inflections": [
+      "abfahre",
+      "abfährst",
+      "abfährt",
+      "abfahrt",
+      "abfuhr",
+      "abfuhren",
+      "abgefahren",
+      "abzufahren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-18",
+      "notes": "Separable prefix ab-; strong verb (Class 6) with a-ä vowel change."
+    }
+  },
+  {
+    "headword": "gefallen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to please",
+      "to appeal to",
+      "to be liked"
+    ],
+    "examples": [
+      {
+        "de": "Das Buch gefällt mir gut.",
+        "en": "I like the book / The book pleases me."
+      },
+      {
+        "de": "Wie gefällt Ihnen Deutschland?",
+        "en": "How do you like Germany?"
+      }
+    ],
+    "inflections": [
+      "gefalle",
+      "gefällst",
+      "gefällt",
+      "gefallt",
+      "gefiel",
+      "gefielen",
+      "gefielt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Strong verb (Class 7) with a-ä vowel change; takes dative object; resolves homograph with fallen."
+    }
+  },
+  {
+    "headword": "kontrollieren",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to check",
+      "to verify",
+      "to control",
+      "to inspect"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie noch einmal und kontrollieren Sie Ihre Antworten.",
+        "en": "Listen again and check your answers."
+      }
+    ],
+    "inflections": [
+      "kontrolliere",
+      "kontrollierst",
+      "kontrolliert",
+      "kontrollieren",
+      "kontrollierte",
+      "kontrolliertest",
+      "kontrollierten",
+      "kontrolliertet",
+      "kontrollierend"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Regular textbook instruction verb with -ieren."
+    }
+  }
+]

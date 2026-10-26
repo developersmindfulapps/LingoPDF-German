@@ -16,13 +16,13 @@ import {
 function resolveWorkerPath(): string | undefined {
   if (typeof chrome !== 'undefined' && chrome.runtime?.getURL) {
     try {
-      return chrome.runtime.getURL('tesseract/worker.min.js');
+      return chrome.runtime.getURL('tesseract/worker-entry.js');
     } catch {
       // Fallback to relative URL
     }
   }
   if (typeof window !== 'undefined') {
-    return '/tesseract/worker.min.js';
+    return '/tesseract/worker-entry.js';
   }
   return undefined;
 }
@@ -59,6 +59,181 @@ function resolveLangPath(): string {
     return '/tessdata';
   }
   return 'public/tessdata';
+}
+
+interface EmbeddedRegion {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+/**
+ * Detects embedded tinted/callout/sidebar regions on a page canvas or bitmap.
+ * Downsamples by 4x for sub-millisecond connected component analysis.
+ */
+function detectEmbeddedRegionsFromRgba(
+  rgba: Uint8ClampedArray | Uint8Array,
+  width: number,
+  height: number
+): EmbeddedRegion[] {
+  if (width < 200 || height < 200) return [];
+
+  const ds = 4;
+  const dsW = Math.floor(width / ds);
+  const dsH = Math.floor(height / ds);
+  const mask = new Uint8Array(dsW * dsH);
+
+  for (let dy = 0; dy < dsH; dy++) {
+    const y = dy * ds;
+    const rowStart = y * width * 4;
+    for (let dx = 0; dx < dsW; dx++) {
+      const x = dx * ds;
+      const px = rowStart + x * 4;
+      const r = rgba[px];
+      const g = rgba[px + 1];
+      const b = rgba[px + 2];
+      const maxC = Math.max(r, g, b);
+      const minC = Math.min(r, g, b);
+      const diff = maxC - minC;
+      const lum = 0.299 * r + 0.587 * g + 0.114 * b;
+      // Tinted / shaded callout background (color saturation / chroma difference > 18, not black text, not pure white)
+      if (lum > 110 && lum < 248 && diff > 18) {
+        mask[dy * dsW + dx] = 1;
+      }
+    }
+  }
+
+  const visited = new Uint8Array(dsW * dsH);
+  const regions: Array<EmbeddedRegion & { score: number }> = [];
+
+  for (let y = 0; y < dsH; y++) {
+    for (let x = 0; x < dsW; x++) {
+      const idx = y * dsW + x;
+      if (mask[idx] === 1 && visited[idx] === 0) {
+        let minX = x, maxX = x, minY = y, maxY = y;
+        let count = 0;
+        const queue = [x, y];
+        visited[idx] = 1;
+        let qHead = 0;
+
+        while (qHead < queue.length) {
+          const cx = queue[qHead++];
+          const cy = queue[qHead++];
+          count++;
+          if (cx < minX) minX = cx;
+          if (cx > maxX) maxX = cx;
+          if (cy < minY) minY = cy;
+          if (cy > maxY) maxY = cy;
+
+          const neighbors = [[cx + 1, cy], [cx - 1, cy], [cx, cy + 1], [cx, cy - 1]];
+          for (const [nx, ny] of neighbors) {
+            if (nx >= 0 && nx < dsW && ny >= 0 && ny < dsH) {
+              const nIdx = ny * dsW + nx;
+              if (mask[nIdx] === 1 && visited[nIdx] === 0) {
+                visited[nIdx] = 1;
+                queue.push(nx, ny);
+              }
+            }
+          }
+        }
+
+        const nativeW = (maxX - minX + 1) * ds;
+        const nativeH = (maxY - minY + 1) * ds;
+        // Bounding box filter: minimum 100x50px for callout boxes/tables, max 95% of page
+        if (nativeW >= 100 && nativeH >= 50 && count >= 50 && nativeW < width * 0.95 && nativeH < height * 0.95) {
+          const pad = 10;
+          const px0 = Math.max(0, minX * ds - pad);
+          const py0 = Math.max(0, minY * ds - pad);
+          const px1 = Math.min(width, (maxX + 1) * ds + pad);
+          const py1 = Math.min(height, (maxY + 1) * ds + pad);
+          regions.push({
+            x: px0,
+            y: py0,
+            width: px1 - px0,
+            height: py1 - py0,
+            score: count,
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by prominence (pixel count) and take up to 6 prominent embedded regions
+  regions.sort((a, b) => b.score - a.score);
+  return regions.slice(0, 6);
+}
+
+function extractWordsFromData(data: { blocks?: any[] | null; words?: any[] | null }): OCRWord[] {
+  const words: OCRWord[] = [];
+  if (data.blocks) {
+    for (const block of data.blocks) {
+      if (block.paragraphs) {
+        for (const paragraph of block.paragraphs) {
+          if (paragraph.lines) {
+            for (const line of paragraph.lines) {
+              if (line.words) {
+                for (const word of line.words) {
+                  const rawText = word.text ? word.text.trim() : '';
+                  if (rawText.length > 0 && word.bbox) {
+                    let x0 = Math.round(word.bbox.x0);
+                    let y0 = Math.round(word.bbox.y0);
+                    let x1 = Math.round(word.bbox.x1);
+                    let y1 = Math.round(word.bbox.y1);
+
+                    // Clamp to line bounds if line has valid bounding box and word spans anomalously
+                    if (line.bbox) {
+                      const lineY0 = Math.round(line.bbox.y0);
+                      const lineY1 = Math.round(line.bbox.y1);
+                      const lineH = lineY1 - lineY0;
+                      if (lineH > 0 && (y1 - y0) > lineH * 2.2) {
+                        y0 = Math.max(y0, lineY0);
+                        y1 = Math.min(y1, lineY1);
+                      }
+                    }
+
+                    // Reject anomalous single- or two-character noise spans that stretch excessively wide (e.g. photo grain/squiggles)
+                    const wWidth = x1 - x0;
+                    const conf = typeof word.confidence === 'number' ? Math.round(word.confidence) : 0;
+                    if (rawText.length <= 2 && wWidth > 80 && conf < 50) {
+                      continue;
+                    }
+
+                    words.push({
+                      text: rawText,
+                      bbox: { x0, y0, x1, y1 },
+                      confidence: conf,
+                    });
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  if (words.length === 0 && Array.isArray((data as unknown as { words?: Array<{ text: string; bbox: OCRBoundingBox; confidence: number }> }).words)) {
+    const directWords = (data as unknown as { words: Array<{ text: string; bbox: OCRBoundingBox; confidence: number }> }).words;
+    for (const word of directWords) {
+      const rawText = word.text ? word.text.trim() : '';
+      if (rawText.length > 0 && word.bbox) {
+        words.push({
+          text: rawText,
+          bbox: {
+            x0: Math.round(word.bbox.x0),
+            y0: Math.round(word.bbox.y0),
+            x1: Math.round(word.bbox.x1),
+            y1: Math.round(word.bbox.y1),
+          },
+          confidence: typeof word.confidence === 'number' ? Math.round(word.confidence) : 0,
+        });
+      }
+    }
+  }
+
+  return words;
 }
 
 interface ActiveJob {
@@ -160,10 +335,17 @@ export class OCRService {
           workerOptions
         );
 
-        // Configure Page Segmentation Mode (PSM.AUTO is ideal for multi-element textbook pages)
+        // Configure Page Segmentation Mode (PSM.SPARSE_TEXT preserves marginalia, headers, footers, and page numbers)
         await worker.setParameters({
-          tessedit_pageseg_mode: PSM.AUTO,
+          tessedit_pageseg_mode: PSM.SPARSE_TEXT,
         });
+
+        // Cold-start cancellation guard: terminate worker if cancelled while initializing
+        if (this.status === 'cancelled') {
+          await worker.terminate().catch(() => {});
+          this.worker = null;
+          return worker;
+        }
 
         this.worker = worker;
         this.status = 'idle';
@@ -253,58 +435,7 @@ export class OCRService {
         }
 
         const data = result.data;
-        const words: OCRWord[] = [];
-
-        // Extract word tokens from hierarchical blocks -> paragraphs -> lines -> words
-        if (data.blocks) {
-          for (const block of data.blocks) {
-            if (block.paragraphs) {
-              for (const paragraph of block.paragraphs) {
-                if (paragraph.lines) {
-                  for (const line of paragraph.lines) {
-                    if (line.words) {
-                      for (const word of line.words) {
-                        const rawText = word.text ? word.text.trim() : '';
-                        if (rawText.length > 0 && word.bbox) {
-                          words.push({
-                            text: rawText,
-                            bbox: {
-                              x0: Math.round(word.bbox.x0),
-                              y0: Math.round(word.bbox.y0),
-                              x1: Math.round(word.bbox.x1),
-                              y1: Math.round(word.bbox.y1),
-                            },
-                            confidence: typeof word.confidence === 'number' ? Math.round(word.confidence) : 0,
-                          });
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        // Fallback: check if words array exists directly on result.data
-        if (words.length === 0 && Array.isArray((data as unknown as { words?: Array<{ text: string; bbox: OCRBoundingBox; confidence: number }> }).words)) {
-          const directWords = (data as unknown as { words: Array<{ text: string; bbox: OCRBoundingBox; confidence: number }> }).words;
-          for (const word of directWords) {
-            const rawText = word.text ? word.text.trim() : '';
-            if (rawText.length > 0 && word.bbox) {
-              words.push({
-                text: rawText,
-                bbox: {
-                  x0: Math.round(word.bbox.x0),
-                  y0: Math.round(word.bbox.y0),
-                  x1: Math.round(word.bbox.x1),
-                  y1: Math.round(word.bbox.y1),
-                },
-                confidence: typeof word.confidence === 'number' ? Math.round(word.confidence) : 0,
-              });
-            }
-          }
-        }
+        let words = extractWordsFromData(data);
 
         // Determine source image dimensions
         let imageWidth = 0;
@@ -319,6 +450,119 @@ export class OCRService {
           }
         }
 
+        // Detect embedded callout boxes, sidebars, and tables
+        let embeddedRegions: EmbeddedRegion[] = [];
+        let createSubImage: ((r: EmbeddedRegion) => ImageLike) | null = null;
+
+        if (typeof HTMLCanvasElement !== 'undefined' && imageSource instanceof HTMLCanvasElement) {
+          const ctx = imageSource.getContext('2d', { willReadFrequently: true });
+          if (ctx) {
+            const imgData = ctx.getImageData(0, 0, imageSource.width, imageSource.height);
+            embeddedRegions = detectEmbeddedRegionsFromRgba(imgData.data, imageSource.width, imageSource.height);
+            createSubImage = (r) => {
+              const subCanvas = document.createElement('canvas');
+              subCanvas.width = r.width;
+              subCanvas.height = r.height;
+              const subCtx = subCanvas.getContext('2d');
+              if (subCtx) {
+                subCtx.drawImage(imageSource, r.x, r.y, r.width, r.height, 0, 0, r.width, r.height);
+              }
+              return subCanvas;
+            };
+          }
+        } else if (
+          typeof Buffer !== 'undefined' &&
+          Buffer.isBuffer(imageSource) &&
+          imageSource.length > 54 &&
+          imageSource[0] === 0x42 &&
+          imageSource[1] === 0x4d
+        ) {
+          // Node.js test environment support for BMP buffers
+          const bW = imageSource.readInt32LE(18);
+          const bH = Math.abs(imageSource.readInt32LE(22));
+          imageWidth = imageWidth || bW;
+          imageHeight = imageHeight || bH;
+          const rowSize = Math.floor((24 * bW + 31) / 32) * 4;
+          const rgba = new Uint8Array(bW * bH * 4);
+          let dstIdx = 0;
+          for (let y = 0; y < bH; y++) {
+            const rowStart = 54 + y * rowSize;
+            for (let x = 0; x < bW; x++) {
+              const px = rowStart + x * 3;
+              rgba[dstIdx++] = imageSource[px + 2]; // R
+              rgba[dstIdx++] = imageSource[px + 1]; // G
+              rgba[dstIdx++] = imageSource[px]; // B
+              rgba[dstIdx++] = 255;
+            }
+          }
+          embeddedRegions = detectEmbeddedRegionsFromRgba(rgba, bW, bH);
+          createSubImage = (r) => {
+            const cropRowSize = Math.floor((24 * r.width + 31) / 32) * 4;
+            const cropBuf = Buffer.alloc(54 + cropRowSize * r.height);
+            imageSource.copy(cropBuf, 0, 0, 54);
+            cropBuf.writeInt32LE(r.width, 18);
+            cropBuf.writeInt32LE(-r.height, 22);
+            cropBuf.writeUInt32LE(cropRowSize * r.height, 34);
+            let dst = 54;
+            for (let y = r.y; y < r.y + r.height; y++) {
+              const srcRow = 54 + y * rowSize;
+              const rowDst = dst;
+              for (let x = r.x; x < r.x + r.width; x++) {
+                const px = srcRow + x * 3;
+                cropBuf[dst++] = imageSource[px];
+                cropBuf[dst++] = imageSource[px + 1];
+                cropBuf[dst++] = imageSource[px + 2];
+              }
+              while ((dst - rowDst) % 4 !== 0) cropBuf[dst++] = 0;
+            }
+            return cropBuf;
+          };
+        }
+
+        // Layout-aware secondary pass: run isolated OCR on detected callouts/sidebars
+        if (embeddedRegions.length > 0 && createSubImage) {
+          try {
+            await worker.setParameters({ tessedit_pageseg_mode: PSM.AUTO });
+            for (const r of embeddedRegions) {
+              if (this.activeJob?.id !== jobId) break;
+              const subImage = createSubImage(r);
+              const regResult = await worker.recognize(subImage, {}, { blocks: true });
+              if (this.activeJob?.id !== jobId) break;
+
+              const regWords = extractWordsFromData(regResult.data);
+              if (regWords.length > 0) {
+                // Offset bounding boxes to full page coordinate space
+                for (const rw of regWords) {
+                  rw.bbox.x0 += r.x;
+                  rw.bbox.x1 += r.x;
+                  rw.bbox.y0 += r.y;
+                  rw.bbox.y1 += r.y;
+                }
+
+                // Remove coarse/overlapping words inside or significantly intersecting this region
+                words = words.filter((w) => {
+                  const cx = (w.bbox.x0 + w.bbox.x1) / 2;
+                  const cy = (w.bbox.y0 + w.bbox.y1) / 2;
+                  const wW = w.bbox.x1 - w.bbox.x0;
+                  const wH = w.bbox.y1 - w.bbox.y0;
+                  const wArea = Math.max(1, wW * wH);
+                  const ox = Math.max(0, Math.min(w.bbox.x1, r.x + r.width) - Math.max(w.bbox.x0, r.x));
+                  const oy = Math.max(0, Math.min(w.bbox.y1, r.y + r.height) - Math.max(w.bbox.y0, r.y));
+                  const overlapRatio = (ox * oy) / wArea;
+                  const inside = (cx >= r.x && cx <= r.x + r.width && cy >= r.y && cy <= r.y + r.height) || overlapRatio > 0.35;
+                  return !inside;
+                });
+
+                // Add high-precision region words
+                words.push(...regWords);
+              }
+            }
+          } finally {
+            // Restore SPARSE_TEXT mode for subsequent page recognitions
+            await worker.setParameters({ tessedit_pageseg_mode: PSM.SPARSE_TEXT }).catch(() => {});
+          }
+        }
+
         // Fallback dimension calculation from bounding boxes
         if (imageWidth === 0 || imageHeight === 0) {
           let maxX = 0;
@@ -329,6 +573,18 @@ export class OCRService {
           }
           imageWidth = imageWidth || maxX;
           imageHeight = imageHeight || maxY;
+        }
+
+        // Defensive bounding box clamping to image boundaries
+        for (const word of words) {
+          if (imageWidth > 0) {
+            word.bbox.x0 = Math.max(0, Math.min(word.bbox.x0, imageWidth));
+            word.bbox.x1 = Math.max(0, Math.min(word.bbox.x1, imageWidth));
+          }
+          if (imageHeight > 0) {
+            word.bbox.y0 = Math.max(0, Math.min(word.bbox.y0, imageHeight));
+            word.bbox.y1 = Math.max(0, Math.min(word.bbox.y1, imageHeight));
+          }
         }
 
         const pageResult: OCRPageResult = {
@@ -392,6 +648,12 @@ export class OCRService {
         workerToTerminate.terminate().catch((err) => {
           console.warn('Error during OCR worker cancellation termination:', err);
         });
+      } else if (this.initPromise) {
+        // Cold-start guard: worker is still initializing in the background.
+        // Once resolved, ensure it terminates cleanly without leaking resources.
+        this.initPromise.then((w) => {
+          w.terminate().catch(() => {});
+        }).catch(() => {});
       }
 
       job.abortReject(new OCRCancelledError());

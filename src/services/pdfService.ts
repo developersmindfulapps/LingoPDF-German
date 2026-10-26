@@ -191,6 +191,36 @@ export class PDFService {
   }
 
   /**
+   * Renders a PDF page to an offscreen canvas at high resolution optimal for OCR (300 DPI equivalent).
+   * Ensures that character recognition, diacritics (umlauts), and text segmentation
+   * are accurate regardless of the user's current viewport zoom level or screen DPI.
+   */
+  public async renderPageForOCR(page: PDFPageProxy, minDimension = 1800): Promise<HTMLCanvasElement> {
+    const unscaledViewport = page.getViewport({ scale: 1.0 });
+    const maxDim = Math.max(unscaledViewport.width, unscaledViewport.height);
+    // Use at least 2.0x scale or enough scale to reach minDimension (e.g. ~1800-2400px, 300 DPI)
+    const ocrScale = Math.max(2.0, minDimension / maxDim);
+    const viewport = page.getViewport({ scale: ocrScale });
+
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.floor(viewport.width);
+    canvas.height = Math.floor(viewport.height);
+
+    const context = canvas.getContext('2d', { alpha: false });
+    if (!context) {
+      throw new Error('Could not get 2D canvas context for OCR rendering.');
+    }
+
+    const renderTask = page.render({
+      canvasContext: context,
+      viewport,
+    });
+
+    await renderTask.promise;
+    return canvas;
+  }
+
+  /**
    * Extracts text content from a page.
    */
   public async getTextContent(page: PDFPageProxy): Promise<TextContent> {

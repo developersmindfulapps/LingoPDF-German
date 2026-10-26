@@ -4,10 +4,12 @@ node_modules/
 
 # Production & Build Outputs
 dist/
+dist-pilot/
 build/
 out/
 .vite/
 *.tsbuildinfo
+dist-unpacked/
 
 # Logs & Debugging
 *.log
@@ -55,3 +57,11 @@ coverage/
 *.pdf
 kursbuch.pdf
 test-assets/*.pdf
+.chrome-*-profile/
+test-assets/*.bmp
+test-assets/*.json
+.chrome-test-suite-profile/
+
+
+/pdf-language-companion-v*.zip
+.cache/

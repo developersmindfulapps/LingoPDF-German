@@ -1,0 +1,6113 @@
+[
+  {
+    "headword": "Haus",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Häuser",
+    "cefr": "A1",
+    "translations": [
+      "house",
+      "building",
+      "home"
+    ],
+    "examples": [
+      {
+        "de": "Wir wohnen in einem kleinen Haus.",
+        "en": "We live in a small house."
+      }
+    ],
+    "inflections": [
+      "hauses",
+      "hause",
+      "häuser",
+      "häusern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core A1 beginner noun; neuter with umlaut plural."
+    }
+  },
+  {
+    "headword": "Buch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Bücher",
+    "cefr": "A1",
+    "translations": [
+      "book"
+    ],
+    "examples": [
+      {
+        "de": "Ich lese ein deutsches Buch.",
+        "en": "I am reading a German book."
+      }
+    ],
+    "inflections": [
+      "buches",
+      "buchs",
+      "buche",
+      "bücher",
+      "büchern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core A1 noun; verified neuter gender and umlaut plural."
+    }
+  },
+  {
+    "headword": "Schule",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Schulen",
+    "cefr": "A1",
+    "translations": [
+      "school"
+    ],
+    "examples": [
+      {
+        "de": "Die Kinder gehen gern zur Schule.",
+        "en": "The children like going to school."
+      }
+    ],
+    "inflections": [
+      "schulen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core A1 feminine noun with regular -(e)n plural."
+    }
+  },
+  {
+    "headword": "Kaffee",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kaffees",
+    "cefr": "A1",
+    "translations": [
+      "coffee"
+    ],
+    "examples": [
+      {
+        "de": "Möchten Sie eine Tasse Kaffee?",
+        "en": "Would you like a cup of coffee?"
+      }
+    ],
+    "inflections": [
+      "kaffees"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core A1 masculine noun with -s plural."
+    }
+  },
+  {
+    "headword": "Mädchen",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Mädchen",
+    "cefr": "A1",
+    "translations": [
+      "girl"
+    ],
+    "examples": [
+      {
+        "de": "Das Mädchen lernt Deutsch.",
+        "en": "The girl is learning German."
+      }
+    ],
+    "inflections": [
+      "mädchens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Neuter diminutive noun with zero-change plural."
+    }
+  },
+  {
+    "headword": "Straße",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Straßen",
+    "cefr": "A1",
+    "translations": [
+      "street",
+      "road"
+    ],
+    "examples": [
+      {
+        "de": "In welcher Straße wohnst du?",
+        "en": "Which street do you live on?"
+      }
+    ],
+    "inflections": [
+      "straßen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core feminine noun containing eszett (ß)."
+    }
+  },
+  {
+    "headword": "Stadt",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Städte",
+    "cefr": "A1",
+    "translations": [
+      "city",
+      "town"
+    ],
+    "examples": [
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "en": "Berlin is a big city."
+      }
+    ],
+    "inflections": [
+      "städte",
+      "städten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Tag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Tage",
+    "cefr": "A1",
+    "translations": [
+      "day"
+    ],
+    "examples": [
+      {
+        "de": "Guten Tag, wie geht es Ihnen?",
+        "en": "Good day, how are you?"
+      }
+    ],
+    "inflections": [
+      "tages",
+      "tags",
+      "tage",
+      "tagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Mann",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Männer",
+    "cefr": "A1",
+    "translations": [
+      "man",
+      "husband"
+    ],
+    "examples": [
+      {
+        "de": "Der Mann wartet an der Haltestelle.",
+        "en": "The man is waiting at the bus stop."
+      }
+    ],
+    "inflections": [
+      "mannes",
+      "manns",
+      "männer",
+      "männern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Frau",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Frauen",
+    "cefr": "A1",
+    "translations": [
+      "woman",
+      "wife",
+      "Mrs."
+    ],
+    "examples": [
+      {
+        "de": "Frau Müller kommt heute später.",
+        "en": "Mrs. Müller is coming later today."
+      }
+    ],
+    "inflections": [
+      "frauen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Kind",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Kinder",
+    "cefr": "A1",
+    "translations": [
+      "child",
+      "kid"
+    ],
+    "examples": [
+      {
+        "de": "Das Kind spielt im Garten.",
+        "en": "The child is playing in the garden."
+      }
+    ],
+    "inflections": [
+      "kindes",
+      "kinds",
+      "kinde",
+      "kinder",
+      "kindern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Freund",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Freunde",
+    "cefr": "A1",
+    "translations": [
+      "friend (male)",
+      "boyfriend"
+    ],
+    "examples": [
+      {
+        "de": "Mein Freund wohnt in München.",
+        "en": "My friend lives in Munich."
+      }
+    ],
+    "inflections": [
+      "freundes",
+      "freunds",
+      "freunde",
+      "freunden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Freundin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Freundinnen",
+    "cefr": "A1",
+    "translations": [
+      "friend (female)",
+      "girlfriend"
+    ],
+    "examples": [
+      {
+        "de": "Sie trifft ihre Freundin im Café.",
+        "en": "She meets her friend in the café."
+      }
+    ],
+    "inflections": [
+      "freundinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Wasser",
+    "pos": "noun",
+    "gender": "n",
+    "cefr": "A1",
+    "translations": [
+      "water"
+    ],
+    "examples": [
+      {
+        "de": "Ein Glas Wasser, bitte.",
+        "en": "A glass of water, please."
+      }
+    ],
+    "inflections": [
+      "wassers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Mass noun (Singularetantum); non-count in learner German."
+    }
+  },
+  {
+    "headword": "Brot",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Brote",
+    "cefr": "A1",
+    "translations": [
+      "bread",
+      "loaf of bread"
+    ],
+    "examples": [
+      {
+        "de": "Ich kaufe frisches Brot.",
+        "en": "I buy fresh bread."
+      }
+    ],
+    "inflections": [
+      "brotes",
+      "brots",
+      "brote",
+      "broten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Tisch",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Tische",
+    "cefr": "A1",
+    "translations": [
+      "table",
+      "desk"
+    ],
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "en": "The book is lying on the table."
+      }
+    ],
+    "inflections": [
+      "tisches",
+      "tischs",
+      "tische",
+      "tischen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Stuhl",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Stühle",
+    "cefr": "A1",
+    "translations": [
+      "chair"
+    ],
+    "examples": [
+      {
+        "de": "Ist dieser Stuhl frei?",
+        "en": "Is this chair free?"
+      }
+    ],
+    "inflections": [
+      "stuhles",
+      "stuhls",
+      "stühle",
+      "stühlen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Zimmer",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Zimmer",
+    "cefr": "A1",
+    "translations": [
+      "room"
+    ],
+    "examples": [
+      {
+        "de": "Das Zimmer ist hell und ruhig.",
+        "en": "The room is bright and quiet."
+      }
+    ],
+    "inflections": [
+      "zimmers",
+      "zimmern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Name",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Namen",
+    "cefr": "A1",
+    "translations": [
+      "name"
+    ],
+    "examples": [
+      {
+        "de": "Mein Name ist Anna.",
+        "en": "My name is Anna."
+      }
+    ],
+    "inflections": [
+      "namens",
+      "namen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Wort",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Wörter",
+    "cefr": "A1",
+    "translations": [
+      "word"
+    ],
+    "examples": [
+      {
+        "de": "Ich lerne jeden Tag neue Wörter.",
+        "en": "I learn new words every day."
+      }
+    ],
+    "inflections": [
+      "wortes",
+      "worts",
+      "wörter",
+      "wörtern",
+      "worte"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Sprache",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Sprachen",
+    "cefr": "A1",
+    "translations": [
+      "language",
+      "speech"
+    ],
+    "examples": [
+      {
+        "de": "Deutsch ist eine interessante Sprache.",
+        "en": "German is an interesting language."
+      }
+    ],
+    "inflections": [
+      "sprachen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Apfel",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Äpfel",
+    "cefr": "A1",
+    "translations": [
+      "apple"
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gerne einen Apfel.",
+        "en": "I like eating an apple."
+      }
+    ],
+    "inflections": [
+      "apfels",
+      "äpfel",
+      "äpfeln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Arzt",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Ärzte",
+    "cefr": "A1",
+    "translations": [
+      "doctor (male)",
+      "physician"
+    ],
+    "examples": [
+      {
+        "de": "Der Arzt untersucht den Patienten.",
+        "en": "The doctor examines the patient."
+      }
+    ],
+    "inflections": [
+      "arztes",
+      "ärzte",
+      "ärzten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Ärztin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ärztinnen",
+    "cefr": "A1",
+    "translations": [
+      "doctor (female)",
+      "physician"
+    ],
+    "examples": [
+      {
+        "de": "Die Ärztin hilft den Kranken.",
+        "en": "The doctor helps the sick."
+      }
+    ],
+    "inflections": [
+      "ärztinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Bahnhof",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Bahnhöfe",
+    "cefr": "A1",
+    "translations": [
+      "train station",
+      "station"
+    ],
+    "examples": [
+      {
+        "de": "Der Bahnhof liegt im Stadtzentrum.",
+        "en": "The train station is in the city center."
+      }
+    ],
+    "inflections": [
+      "bahnhofes",
+      "bahnhofs",
+      "bahnhöfe",
+      "bahnhöfen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Geschäft",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Geschäfte",
+    "cefr": "A1",
+    "translations": [
+      "shop",
+      "store",
+      "business"
+    ],
+    "examples": [
+      {
+        "de": "Das Geschäft öffnet um neun Uhr.",
+        "en": "The shop opens at nine o'clock."
+      }
+    ],
+    "inflections": [
+      "geschäftes",
+      "geschäfts",
+      "geschäfte",
+      "geschäften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Film",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Filme",
+    "cefr": "A1",
+    "translations": [
+      "film",
+      "movie"
+    ],
+    "examples": [
+      {
+        "de": "Wir sehen einen interessanten Film.",
+        "en": "We are watching an interesting movie."
+      }
+    ],
+    "inflections": [
+      "filmes",
+      "films",
+      "filme",
+      "filmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Core A1 masculine noun."
+    }
+  },
+  {
+    "headword": "Musik",
+    "pos": "noun",
+    "gender": "f",
+    "cefr": "A1",
+    "translations": [
+      "music"
+    ],
+    "examples": [
+      {
+        "de": "Ich höre gern klassische Musik.",
+        "en": "I like listening to classical music."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Mass noun (Singularetantum); non-count in learner German."
+    }
+  },
+  {
+    "headword": "Auto",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Autos",
+    "cefr": "A1",
+    "translations": [
+      "car",
+      "automobile"
+    ],
+    "examples": [
+      {
+        "de": "Das Auto steht vor dem Haus.",
+        "en": "The car is in front of the house."
+      }
+    ],
+    "inflections": [
+      "autos"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Zug",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Züge",
+    "cefr": "A1",
+    "translations": [
+      "train"
+    ],
+    "examples": [
+      {
+        "de": "Der Zug fährt um zehn Uhr ab.",
+        "en": "The train departs at ten o'clock."
+      }
+    ],
+    "inflections": [
+      "zuges",
+      "zugs",
+      "züge",
+      "zügen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Bus",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Busse",
+    "cefr": "A1",
+    "translations": [
+      "bus"
+    ],
+    "examples": [
+      {
+        "de": "Wir nehmen den Bus zur Schule.",
+        "en": "We take the bus to school."
+      }
+    ],
+    "inflections": [
+      "busses",
+      "busse",
+      "bussen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Uhr",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Uhren",
+    "cefr": "A1",
+    "translations": [
+      "clock",
+      "watch",
+      "o'clock"
+    ],
+    "examples": [
+      {
+        "de": "Es ist vier Uhr.",
+        "en": "It is four o'clock."
+      }
+    ],
+    "inflections": [
+      "uhren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Zeit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Zeiten",
+    "cefr": "A1",
+    "translations": [
+      "time"
+    ],
+    "examples": [
+      {
+        "de": "Hast du heute Zeit?",
+        "en": "Do you have time today?"
+      }
+    ],
+    "inflections": [
+      "zeiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Jahr",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Jahre",
+    "cefr": "A1",
+    "translations": [
+      "year"
+    ],
+    "examples": [
+      {
+        "de": "Er wohnt seit einem Jahr in Deutschland.",
+        "en": "He has been living in Germany for a year."
+      }
+    ],
+    "inflections": [
+      "jahres",
+      "jahrs",
+      "jahre",
+      "jahren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Woche",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Wochen",
+    "cefr": "A1",
+    "translations": [
+      "week"
+    ],
+    "examples": [
+      {
+        "de": "Nächste Woche fahre ich nach Hamburg.",
+        "en": "Next week I am traveling to Hamburg."
+      }
+    ],
+    "inflections": [
+      "wochen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Monat",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Monate",
+    "cefr": "A1",
+    "translations": [
+      "month"
+    ],
+    "examples": [
+      {
+        "de": "Ein Monat hat vier Wochen.",
+        "en": "A month has four weeks."
+      }
+    ],
+    "inflections": [
+      "monates",
+      "monats",
+      "monate",
+      "monaten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Abend",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Abende",
+    "cefr": "A1",
+    "translations": [
+      "evening"
+    ],
+    "examples": [
+      {
+        "de": "Guten Abend allerseits!",
+        "en": "Good evening everyone!"
+      }
+    ],
+    "inflections": [
+      "abendes",
+      "abends",
+      "abende",
+      "abenden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Morgen",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Morgen",
+    "cefr": "A1",
+    "translations": [
+      "morning"
+    ],
+    "examples": [
+      {
+        "de": "Guten Morgen, Frau Schulz!",
+        "en": "Good morning, Mrs. Schulz!"
+      }
+    ],
+    "inflections": [
+      "morgens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Capitalized noun; distinct from adverb morgen (tomorrow)."
+    }
+  },
+  {
+    "headword": "Nacht",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Nächte",
+    "cefr": "A1",
+    "translations": [
+      "night"
+    ],
+    "examples": [
+      {
+        "de": "Gute Nacht und schlaf gut!",
+        "en": "Good night and sleep well!"
+      }
+    ],
+    "inflections": [
+      "nächte",
+      "nächten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Arbeit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Arbeiten",
+    "cefr": "A1",
+    "translations": [
+      "work",
+      "job",
+      "labor"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe viel Arbeit im Büro.",
+        "en": "I have a lot of work in the office."
+      }
+    ],
+    "inflections": [
+      "arbeiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Lehrer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Lehrer",
+    "cefr": "A1",
+    "translations": [
+      "teacher (male)",
+      "instructor"
+    ],
+    "examples": [
+      {
+        "de": "Der Lehrer erklärt die Grammatik.",
+        "en": "The teacher explains the grammar."
+      }
+    ],
+    "inflections": [
+      "lehrers",
+      "lehrern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Lehrerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Lehrerinnen",
+    "cefr": "A1",
+    "translations": [
+      "teacher (female)",
+      "instructor"
+    ],
+    "examples": [
+      {
+        "de": "Unsere Lehrerin ist sehr freundlich.",
+        "en": "Our teacher is very friendly."
+      }
+    ],
+    "inflections": [
+      "lehrerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Schüler",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Schüler",
+    "cefr": "A1",
+    "translations": [
+      "pupil (male)",
+      "student",
+      "schoolboy"
+    ],
+    "examples": [
+      {
+        "de": "Der Schüler liest einen Text vor.",
+        "en": "The pupil reads a text aloud."
+      }
+    ],
+    "inflections": [
+      "schülers",
+      "schülern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Schülerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Schülerinnen",
+    "cefr": "A1",
+    "translations": [
+      "pupil (female)",
+      "student",
+      "schoolgirl"
+    ],
+    "examples": [
+      {
+        "de": "Die Schülerin schreibt ihre Hausaufgaben.",
+        "en": "The pupil writes her homework."
+      }
+    ],
+    "inflections": [
+      "schülerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Familie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Familien",
+    "cefr": "A1",
+    "translations": [
+      "family"
+    ],
+    "examples": [
+      {
+        "de": "Meine Familie wohnt in Köln.",
+        "en": "My family lives in Cologne."
+      }
+    ],
+    "inflections": [
+      "familien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Mutter",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Mütter",
+    "cefr": "A1",
+    "translations": [
+      "mother"
+    ],
+    "examples": [
+      {
+        "de": "Meine Mutter kocht das Abendessen.",
+        "en": "My mother is cooking dinner."
+      }
+    ],
+    "inflections": [
+      "mütter",
+      "müttern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Vater",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Väter",
+    "cefr": "A1",
+    "translations": [
+      "father"
+    ],
+    "examples": [
+      {
+        "de": "Sein Vater arbeitet bei einer Bank.",
+        "en": "His father works at a bank."
+      }
+    ],
+    "inflections": [
+      "vaters",
+      "väter",
+      "vätern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Bruder",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Brüder",
+    "cefr": "A1",
+    "translations": [
+      "brother"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen älteren Bruder.",
+        "en": "I have an older brother."
+      }
+    ],
+    "inflections": [
+      "bruders",
+      "brüder",
+      "brüdern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Schwester",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Schwestern",
+    "cefr": "A1",
+    "translations": [
+      "sister"
+    ],
+    "examples": [
+      {
+        "de": "Meine Schwester studiert Medizin.",
+        "en": "My sister is studying medicine."
+      }
+    ],
+    "inflections": [
+      "schwestern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Frage",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Fragen",
+    "cefr": "A1",
+    "translations": [
+      "question"
+    ],
+    "examples": [
+      {
+        "de": "Darf ich eine Frage stellen?",
+        "en": "May I ask a question?"
+      }
+    ],
+    "inflections": [
+      "fragen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Antwort",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Antworten",
+    "cefr": "A1",
+    "translations": [
+      "answer",
+      "reply"
+    ],
+    "examples": [
+      {
+        "de": "Die Antwort ist ganz einfach.",
+        "en": "The answer is very simple."
+      }
+    ],
+    "inflections": [
+      "antworten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Reise",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Reisen",
+    "cefr": "A1",
+    "translations": [
+      "journey",
+      "trip",
+      "travel"
+    ],
+    "examples": [
+      {
+        "de": "Gute Reise und viel Spaß!",
+        "en": "Have a good trip and lots of fun!"
+      }
+    ],
+    "inflections": [
+      "reisen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Übung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Übungen",
+    "cefr": "A1",
+    "translations": [
+      "exercise",
+      "practice"
+    ],
+    "examples": [
+      {
+        "de": "Wir machen jetzt Übung Nummer drei.",
+        "en": "We are now doing exercise number three."
+      }
+    ],
+    "inflections": [
+      "übungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Öl",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Öle",
+    "cefr": "A2",
+    "translations": [
+      "oil"
+    ],
+    "examples": [
+      {
+        "de": "Wir brauchen Olivenöl zum Kochen.",
+        "en": "We need olive oil for cooking."
+      }
+    ],
+    "inflections": [
+      "öles",
+      "öls",
+      "öle",
+      "ölen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Bank",
+    "senses": [
+      {
+        "pos": "noun",
+        "gender": "f",
+        "plural": "Banken",
+        "cefr": "A1",
+        "translations": [
+          "bank (financial institution)"
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe schnell zur Bank, um Geld abzuheben.",
+            "en": "I am going quickly to the bank to withdraw money."
+          }
+        ]
+      },
+      {
+        "pos": "noun",
+        "gender": "f",
+        "plural": "Bänke",
+        "cefr": "A2",
+        "translations": [
+          "bench",
+          "seat"
+        ],
+        "examples": [
+          {
+            "de": "Wir sitzen auf einer Bank im Park.",
+            "en": "We are sitting on a bench in the park."
+          }
+        ]
+      }
+    ],
+    "inflections": [
+      "banken",
+      "bänke",
+      "bänken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Polysemous noun split into distinct senses with respective plurals: Banken (financial) vs Bänke (bench/seat)."
+    }
+  },
+  {
+    "headword": "Herr",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Herren",
+    "cefr": "A1",
+    "translations": [
+      "Mr.",
+      "gentleman",
+      "sir",
+      "lord"
+    ],
+    "examples": [
+      {
+        "de": "Guten Tag, Herr Weber!",
+        "en": "Good day, Mr. Weber!"
+      }
+    ],
+    "inflections": [
+      "Herren",
+      "Herrn"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Person",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Personen",
+    "cefr": "A1",
+    "translations": [
+      "person"
+    ],
+    "examples": [
+      {
+        "de": "Zwei Personen haben sich angemeldet.",
+        "en": "Two people have registered."
+      }
+    ],
+    "inflections": [
+      "Personen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Zahl",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Zahlen",
+    "cefr": "A1",
+    "translations": [
+      "number",
+      "digit",
+      "figure"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie die Zahlen und sprechen Sie nach.",
+        "en": "Listen to the numbers and repeat."
+      }
+    ],
+    "inflections": [
+      "Zahlen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Land",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Länder",
+    "cefr": "A1",
+    "translations": [
+      "country",
+      "land",
+      "nation",
+      "countryside"
+    ],
+    "examples": [
+      {
+        "de": "Aus welchem Land kommen Sie?",
+        "en": "Which country do you come from?"
+      }
+    ],
+    "inflections": [
+      "Länder",
+      "Ländern",
+      "Landes",
+      "Lande"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Partner",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Partner",
+    "cefr": "A1",
+    "translations": [
+      "partner (male or general)",
+      "companion"
+    ],
+    "examples": [
+      {
+        "de": "Sprechen Sie mit Ihrem Partner.",
+        "en": "Talk with your partner."
+      }
+    ],
+    "inflections": [
+      "Partners",
+      "Partnern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Partnerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Partnerinnen",
+    "cefr": "A1",
+    "translations": [
+      "female partner",
+      "female companion"
+    ],
+    "examples": [
+      {
+        "de": "Fragen Sie Ihre Partnerin.",
+        "en": "Ask your partner."
+      }
+    ],
+    "inflections": [
+      "Partnerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Kollege",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kollegen",
+    "cefr": "A1",
+    "translations": [
+      "colleague (male or general)",
+      "co-worker"
+    ],
+    "examples": [
+      {
+        "de": "Das ist mein Kollege Herr Hansen.",
+        "en": "That is my colleague Mr. Hansen."
+      }
+    ],
+    "inflections": [
+      "Kollegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Kollegin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kolleginnen",
+    "cefr": "A1",
+    "translations": [
+      "female colleague",
+      "female co-worker"
+    ],
+    "examples": [
+      {
+        "de": "Das ist meine Kollegin Natalia.",
+        "en": "That is my colleague Natalia."
+      }
+    ],
+    "inflections": [
+      "Kolleginnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Dialog",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dialoge",
+    "cefr": "A1",
+    "translations": [
+      "dialogue",
+      "conversation"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie den Dialog.",
+        "en": "Listen to the dialogue."
+      }
+    ],
+    "inflections": [
+      "Dialoge",
+      "Dialogen",
+      "Dialogs",
+      "Dialoges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Tabelle",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Tabellen",
+    "cefr": "A1",
+    "translations": [
+      "table",
+      "chart",
+      "spreadsheet"
+    ],
+    "examples": [
+      {
+        "de": "Ergänzen Sie die Tabelle.",
+        "en": "Complete the table."
+      }
+    ],
+    "inflections": [
+      "Tabellen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Buchstabe",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Buchstaben",
+    "cefr": "A1",
+    "translations": [
+      "letter (of the alphabet)"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie die Buchstaben.",
+        "en": "Listen to the letters."
+      }
+    ],
+    "inflections": [
+      "Buchstaben",
+      "Buchstabens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Situation",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Situationen",
+    "cefr": "A1",
+    "translations": [
+      "situation"
+    ],
+    "examples": [
+      {
+        "de": "Welche Situation passt zu welchem Bild?",
+        "en": "Which situation matches which picture?"
+      }
+    ],
+    "inflections": [
+      "Situationen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Grammatik",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Grammatiken",
+    "cefr": "A1",
+    "translations": [
+      "grammar"
+    ],
+    "examples": [
+      {
+        "de": "Grammatik ist wichtig für das Lernen.",
+        "en": "Grammar is important for learning."
+      }
+    ],
+    "inflections": [
+      "Grammatiken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Wortschatz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "vocabulary"
+    ],
+    "examples": [
+      {
+        "de": "Üben Sie den Wortschatz aus Kapitel 1.",
+        "en": "Practice the vocabulary from chapter 1."
+      }
+    ],
+    "inflections": [
+      "Wortschatzes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Lernziel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Lernziele",
+    "cefr": "A1",
+    "translations": [
+      "learning objective",
+      "learning goal"
+    ],
+    "examples": [
+      {
+        "de": "Die Lernziele für diese Einheit sind klar.",
+        "en": "The learning goals for this unit are clear."
+      }
+    ],
+    "inflections": [
+      "Lernziele",
+      "Lernzielen",
+      "Lernziels"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Verb",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Verben",
+    "cefr": "A1",
+    "translations": [
+      "verb"
+    ],
+    "examples": [
+      {
+        "de": "Konjugieren Sie das Verb.",
+        "en": "Conjugate the verb."
+      }
+    ],
+    "inflections": [
+      "Verben",
+      "Verbs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Satz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Sätze",
+    "cefr": "A1",
+    "translations": [
+      "sentence",
+      "clause"
+    ],
+    "examples": [
+      {
+        "de": "Schreiben Sie einen vollständigen Satz.",
+        "en": "Write a complete sentence."
+      }
+    ],
+    "inflections": [
+      "Sätze",
+      "Sätzen",
+      "Satzes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Frühstück",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "breakfast"
+    ],
+    "examples": [
+      {
+        "de": "Was isst du zum Frühstück?",
+        "en": "What do you eat for breakfast?"
+      }
+    ],
+    "inflections": [
+      "Frühstücks"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Rucksack",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Rucksäcke",
+    "cefr": "A1",
+    "translations": [
+      "backpack",
+      "rucksack"
+    ],
+    "examples": [
+      {
+        "de": "Mein Rucksack ist sehr schwer.",
+        "en": "My backpack is very heavy."
+      }
+    ],
+    "inflections": [
+      "Rucksäcke",
+      "Rucksäcken",
+      "Rucksacks"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Autobahn",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Autobahnen",
+    "cefr": "A1",
+    "translations": [
+      "highway",
+      "motorway",
+      "autobahn"
+    ],
+    "examples": [
+      {
+        "de": "Wir fahren auf der Autobahn nach München.",
+        "en": "We are driving on the highway to Munich."
+      }
+    ],
+    "inflections": [
+      "Autobahnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Bild",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Bilder",
+    "cefr": "A1",
+    "translations": [
+      "picture",
+      "image",
+      "photo"
+    ],
+    "examples": [
+      {
+        "de": "Sehen Sie sich die Bilder an.",
+        "en": "Look at the pictures."
+      }
+    ],
+    "inflections": [
+      "Bilder",
+      "Bildern",
+      "Bildes",
+      "Bilde"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Text",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Texte",
+    "cefr": "A1",
+    "translations": [
+      "text"
+    ],
+    "examples": [
+      {
+        "de": "Lesen Sie den Text auf Seite 12.",
+        "en": "Read the text on page 12."
+      }
+    ],
+    "inflections": [
+      "Texte",
+      "Texten",
+      "Textes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Kurs",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kurse",
+    "cefr": "A1",
+    "translations": [
+      "course",
+      "class"
+    ],
+    "examples": [
+      {
+        "de": "Der Kurs beginnt um neun Uhr.",
+        "en": "The course begins at nine o'clock."
+      }
+    ],
+    "inflections": [
+      "Kurse",
+      "Kursen",
+      "Kurses"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Beispiel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Beispiele",
+    "cefr": "A1",
+    "translations": [
+      "example"
+    ],
+    "examples": [
+      {
+        "de": "Können Sie ein Beispiel nennen?",
+        "en": "Can you give an example?"
+      }
+    ],
+    "inflections": [
+      "Beispiele",
+      "Beispielen",
+      "Beispiels"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Problem",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Probleme",
+    "cefr": "A1",
+    "translations": [
+      "problem",
+      "issue"
+    ],
+    "examples": [
+      {
+        "de": "Kein Problem!",
+        "en": "No problem!"
+      }
+    ],
+    "inflections": [
+      "Probleme",
+      "Problemen",
+      "Problems"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Geld",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "money"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe nicht genug Geld dabei.",
+        "en": "I don't have enough money with me."
+      }
+    ],
+    "inflections": [
+      "Geldes",
+      "Gelde"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Termin",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Termine",
+    "cefr": "A1",
+    "translations": [
+      "appointment",
+      "date",
+      "scheduled time"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen Termin beim Arzt.",
+        "en": "I have an appointment at the doctor's."
+      }
+    ],
+    "inflections": [
+      "Termine",
+      "Terminen",
+      "Termins"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Brief",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Briefe",
+    "cefr": "A1",
+    "translations": [
+      "letter",
+      "mail"
+    ],
+    "examples": [
+      {
+        "de": "Er schreibt einen Brief an seine Eltern.",
+        "en": "He is writing a letter to his parents."
+      }
+    ],
+    "inflections": [
+      "Briefe",
+      "Briefen",
+      "Briefs",
+      "Briefes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Auskunft",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Auskünfte",
+    "cefr": "A1",
+    "translations": [
+      "information",
+      "inquiry desk"
+    ],
+    "examples": [
+      {
+        "de": "Fragen Sie bei der Auskunft nach.",
+        "en": "Ask at the information desk."
+      }
+    ],
+    "inflections": [
+      "Auskünfte",
+      "Auskünften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Preis",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Preise",
+    "cefr": "A1",
+    "translations": [
+      "price",
+      "prize",
+      "award"
+    ],
+    "examples": [
+      {
+        "de": "Der Preis ist sehr günstig.",
+        "en": "The price is very reasonable."
+      }
+    ],
+    "inflections": [
+      "Preise",
+      "Preisen",
+      "Preises"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Essen",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "food",
+      "meal"
+    ],
+    "examples": [
+      {
+        "de": "Das Essen ist fertig.",
+        "en": "The food is ready."
+      }
+    ],
+    "inflections": [
+      "Essens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Getränk",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Getränke",
+    "cefr": "A1",
+    "translations": [
+      "drink",
+      "beverage"
+    ],
+    "examples": [
+      {
+        "de": "Möchten Sie ein kaltes Getränk?",
+        "en": "Would you like a cold beverage?"
+      }
+    ],
+    "inflections": [
+      "Getränke",
+      "Getränken",
+      "Getränks",
+      "Getränkes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Gruppe",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Gruppen",
+    "cefr": "A1",
+    "translations": [
+      "group"
+    ],
+    "examples": [
+      {
+        "de": "Arbeiten Sie in einer kleinen Gruppe.",
+        "en": "Work in a small group."
+      }
+    ],
+    "inflections": [
+      "Gruppen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Aufgabe",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Aufgaben",
+    "cefr": "A1",
+    "translations": [
+      "task",
+      "exercise",
+      "assignment"
+    ],
+    "examples": [
+      {
+        "de": "Machen Sie Aufgabe 3 auf Seite 15.",
+        "en": "Do exercise 3 on page 15."
+      }
+    ],
+    "inflections": [
+      "Aufgaben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Foto",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Fotos",
+    "cefr": "A1",
+    "translations": [
+      "photo",
+      "photograph"
+    ],
+    "examples": [
+      {
+        "de": "Zeigen Sie das Foto Ihrer Familie.",
+        "en": "Show the photo of your family."
+      }
+    ],
+    "inflections": [
+      "Fotos"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Hotel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Hotels",
+    "cefr": "A1",
+    "translations": [
+      "hotel"
+    ],
+    "examples": [
+      {
+        "de": "Das Hotel liegt im Stadtzentrum.",
+        "en": "The hotel is located in the city center."
+      }
+    ],
+    "inflections": [
+      "Hotels"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Englisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "English (language)"
+    ],
+    "examples": [
+      {
+        "de": "Ich spreche Deutsch und Englisch.",
+        "en": "I speak German and English."
+      }
+    ],
+    "inflections": [
+      "englisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Spanisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Spanish (language)"
+    ],
+    "examples": [
+      {
+        "de": "Sie lernt Spanisch an der Abendschule.",
+        "en": "She is learning Spanish at evening school."
+      }
+    ],
+    "inflections": [
+      "spanisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Französisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "French (language)"
+    ],
+    "examples": [
+      {
+        "de": "Er spricht fließend Französisch.",
+        "en": "He speaks French fluently."
+      }
+    ],
+    "inflections": [
+      "französisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Italienisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Italian (language)"
+    ],
+    "examples": [
+      {
+        "de": "Verstehen Sie Italienisch?",
+        "en": "Do you understand Italian?"
+      }
+    ],
+    "inflections": [
+      "italienisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Russisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Russian (language)"
+    ],
+    "examples": [
+      {
+        "de": "Meine Mutter spricht Russisch.",
+        "en": "My mother speaks Russian."
+      }
+    ],
+    "inflections": [
+      "russisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Arabisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Arabic (language)"
+    ],
+    "examples": [
+      {
+        "de": "Arabisch hat ein eigenes Alphabet.",
+        "en": "Arabic has its own alphabet."
+      }
+    ],
+    "inflections": [
+      "arabisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Chinesisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Chinese (language)"
+    ],
+    "examples": [
+      {
+        "de": "Er lernt Chinesisch an der Universität.",
+        "en": "He is learning Chinese at university."
+      }
+    ],
+    "inflections": [
+      "chinesisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Polnisch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Polish (language)"
+    ],
+    "examples": [
+      {
+        "de": "Er spricht Polnisch und Deutsch.",
+        "en": "He speaks Polish and German."
+      }
+    ],
+    "inflections": [
+      "polnisch"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Deutschland",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Germany"
+    ],
+    "examples": [
+      {
+        "de": "Berlin ist die Hauptstadt von Deutschland.",
+        "en": "Berlin is the capital of Germany."
+      }
+    ],
+    "inflections": [
+      "Deutschlands"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Österreich",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Austria"
+    ],
+    "examples": [
+      {
+        "de": "Wien liegt in Österreich.",
+        "en": "Vienna is located in Austria."
+      }
+    ],
+    "inflections": [
+      "Österreichs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Schweiz",
+    "pos": "noun",
+    "gender": "f",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "Switzerland"
+    ],
+    "examples": [
+      {
+        "de": "Bern liegt in der Schweiz.",
+        "en": "Bern is located in Switzerland."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Montag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Montage",
+    "cefr": "A1",
+    "translations": [
+      "Monday"
+    ],
+    "examples": [
+      {
+        "de": "Am Montag arbeite ich nicht.",
+        "en": "On Monday I do not work."
+      }
+    ],
+    "inflections": [
+      "montags",
+      "montage",
+      "montagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Dienstag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dienstage",
+    "cefr": "A1",
+    "translations": [
+      "Tuesday"
+    ],
+    "examples": [
+      {
+        "de": "Dienstag ist ein Arbeitstag.",
+        "en": "Tuesday is a workday."
+      }
+    ],
+    "inflections": [
+      "dienstags",
+      "dienstage",
+      "dienstagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Mittwoch",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Mittwoche",
+    "cefr": "A1",
+    "translations": [
+      "Wednesday"
+    ],
+    "examples": [
+      {
+        "de": "Am Mittwoch haben wir Deutschkurs.",
+        "en": "On Wednesday we have German class."
+      }
+    ],
+    "inflections": [
+      "mittwochs",
+      "mittwoche",
+      "mittwochen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Donnerstag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Donnerstage",
+    "cefr": "A1",
+    "translations": [
+      "Thursday"
+    ],
+    "examples": [
+      {
+        "de": "Was machst du am Donnerstag?",
+        "en": "What are you doing on Thursday?"
+      }
+    ],
+    "inflections": [
+      "donnerstags",
+      "donnerstage",
+      "donnerstagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Freitag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Freitage",
+    "cefr": "A1",
+    "translations": [
+      "Friday"
+    ],
+    "examples": [
+      {
+        "de": "Freitag ist mein Lieblingstag.",
+        "en": "Friday is my favorite day."
+      }
+    ],
+    "inflections": [
+      "freitags",
+      "freitage",
+      "freitagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Samstag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Samstage",
+    "cefr": "A1",
+    "translations": [
+      "Saturday"
+    ],
+    "examples": [
+      {
+        "de": "Am Samstag gehe ich ins Kino.",
+        "en": "On Saturday I go to the cinema."
+      }
+    ],
+    "inflections": [
+      "samstags",
+      "samstage",
+      "samstagen",
+      "sonnabend",
+      "sonnabends"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine. Also maps regional Sonnabend."
+    }
+  },
+  {
+    "headword": "Sonntag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Sonntage",
+    "cefr": "A1",
+    "translations": [
+      "Sunday"
+    ],
+    "examples": [
+      {
+        "de": "Sonntag ist das Büro geschlossen.",
+        "en": "On Sunday the office is closed."
+      }
+    ],
+    "inflections": [
+      "sonntags",
+      "sonntage",
+      "sonntagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Day of the week; masculine."
+    }
+  },
+  {
+    "headword": "Wochentag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Wochentage",
+    "cefr": "A1",
+    "translations": [
+      "weekday",
+      "day of the week"
+    ],
+    "examples": [
+      {
+        "de": "Welcher Wochentag ist heute?",
+        "en": "Which day of the week is today?"
+      }
+    ],
+    "inflections": [
+      "wochentags",
+      "wochentage",
+      "wochentagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: Woche + Tag; masculine."
+    }
+  },
+  {
+    "headword": "Wochenende",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Wochenenden",
+    "cefr": "A1",
+    "translations": [
+      "weekend"
+    ],
+    "examples": [
+      {
+        "de": "Schönes Wochenende!",
+        "en": "Have a nice weekend!"
+      }
+    ],
+    "inflections": [
+      "wochenendes",
+      "wochenende",
+      "wochenenden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: Woche + Ende; neuter."
+    }
+  },
+  {
+    "headword": "Kalender",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kalender",
+    "cefr": "A1",
+    "translations": [
+      "calendar"
+    ],
+    "examples": [
+      {
+        "de": "Ich notiere den Termin im Kalender.",
+        "en": "I write down the appointment in the calendar."
+      }
+    ],
+    "inflections": [
+      "kalenders",
+      "kalendern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine noun."
+    }
+  },
+  {
+    "headword": "Jahreszeit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Jahreszeiten",
+    "cefr": "A1",
+    "translations": [
+      "season",
+      "time of year"
+    ],
+    "examples": [
+      {
+        "de": "Der Sommer ist eine schöne Jahreszeit.",
+        "en": "Summer is a beautiful season."
+      }
+    ],
+    "inflections": [
+      "jahreszeit",
+      "jahreszeiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine compound noun with -en plural."
+    }
+  },
+  {
+    "headword": "Frühling",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Frühlinge",
+    "cefr": "A1",
+    "translations": [
+      "spring",
+      "springtime"
+    ],
+    "examples": [
+      {
+        "de": "Im Frühling wird es wärmer.",
+        "en": "In spring it gets warmer."
+      }
+    ],
+    "inflections": [
+      "frühlings",
+      "frühlinge",
+      "frühlingen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Season noun; masculine."
+    }
+  },
+  {
+    "headword": "Sommer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Sommer",
+    "cefr": "A1",
+    "translations": [
+      "summer"
+    ],
+    "examples": [
+      {
+        "de": "Im Sommer reisen viele Menschen.",
+        "en": "In summer many people travel."
+      }
+    ],
+    "inflections": [
+      "sommers",
+      "sommern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Season noun; masculine."
+    }
+  },
+  {
+    "headword": "Herbst",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Herbste",
+    "cefr": "A1",
+    "translations": [
+      "autumn",
+      "fall"
+    ],
+    "examples": [
+      {
+        "de": "Im Herbst fallen die Blätter.",
+        "en": "In autumn the leaves fall."
+      }
+    ],
+    "inflections": [
+      "herbstes",
+      "herbsts",
+      "herbste",
+      "herbsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Season noun; masculine."
+    }
+  },
+  {
+    "headword": "Winter",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Winter",
+    "cefr": "A1",
+    "translations": [
+      "winter"
+    ],
+    "examples": [
+      {
+        "de": "Im Winter schneit es oft.",
+        "en": "In winter it often snows."
+      }
+    ],
+    "inflections": [
+      "winters",
+      "wintern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Season noun; masculine."
+    }
+  },
+  {
+    "headword": "Januar",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Januare",
+    "cefr": "A1",
+    "translations": [
+      "January"
+    ],
+    "examples": [
+      {
+        "de": "Der Januar ist der erste Monat.",
+        "en": "January is the first month."
+      }
+    ],
+    "inflections": [
+      "januars",
+      "januare",
+      "jänner",
+      "jänners"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine; maps Austrian Jänner."
+    }
+  },
+  {
+    "headword": "Februar",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Februare",
+    "cefr": "A1",
+    "translations": [
+      "February"
+    ],
+    "examples": [
+      {
+        "de": "Der Februar hat 28 Tage.",
+        "en": "February has 28 days."
+      }
+    ],
+    "inflections": [
+      "februars",
+      "februare"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "März",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Märze",
+    "cefr": "A1",
+    "translations": [
+      "March"
+    ],
+    "examples": [
+      {
+        "de": "Im März beginnt der Frühling.",
+        "en": "In March spring begins."
+      }
+    ],
+    "inflections": [
+      "märzes",
+      "märze"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "April",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Aprile",
+    "cefr": "A1",
+    "translations": [
+      "April"
+    ],
+    "examples": [
+      {
+        "de": "Der April macht, was er will.",
+        "en": "April does what it wants."
+      }
+    ],
+    "inflections": [
+      "aprils",
+      "aprile"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Mai",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Maie",
+    "cefr": "A1",
+    "translations": [
+      "May"
+    ],
+    "examples": [
+      {
+        "de": "Im Mai blühen viele Blumen.",
+        "en": "In May many flowers bloom."
+      }
+    ],
+    "inflections": [
+      "maies",
+      "mais",
+      "maie",
+      "maien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Juni",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Junis",
+    "cefr": "A1",
+    "translations": [
+      "June"
+    ],
+    "examples": [
+      {
+        "de": "Im Juni beginnen die Sommerferien.",
+        "en": "In June summer vacation begins."
+      }
+    ],
+    "inflections": [
+      "junis"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Juli",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Julis",
+    "cefr": "A1",
+    "translations": [
+      "July"
+    ],
+    "examples": [
+      {
+        "de": "Der Juli ist oft sehr warm.",
+        "en": "July is often very warm."
+      }
+    ],
+    "inflections": [
+      "julis"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "August",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Auguste",
+    "cefr": "A1",
+    "translations": [
+      "August"
+    ],
+    "examples": [
+      {
+        "de": "Wir haben im August Urlaub.",
+        "en": "We have vacation in August."
+      }
+    ],
+    "inflections": [
+      "augusts",
+      "auguste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "September",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "September",
+    "cefr": "A1",
+    "translations": [
+      "September"
+    ],
+    "examples": [
+      {
+        "de": "Im September fängt die Schule an.",
+        "en": "In September school starts."
+      }
+    ],
+    "inflections": [
+      "septembers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Oktober",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Oktober",
+    "cefr": "A1",
+    "translations": [
+      "October"
+    ],
+    "examples": [
+      {
+        "de": "Das Oktoberfest ist im Oktober.",
+        "en": "Oktoberfest is in October."
+      }
+    ],
+    "inflections": [
+      "oktobers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "November",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "November",
+    "cefr": "A1",
+    "translations": [
+      "November"
+    ],
+    "examples": [
+      {
+        "de": "Im November ist es oft neblig.",
+        "en": "In November it is often foggy."
+      }
+    ],
+    "inflections": [
+      "novembers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Dezember",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dezember",
+    "cefr": "A1",
+    "translations": [
+      "December"
+    ],
+    "examples": [
+      {
+        "de": "Im Dezember feiern wir Weihnachten.",
+        "en": "In December we celebrate Christmas."
+      }
+    ],
+    "inflections": [
+      "dezembers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Month noun; masculine."
+    }
+  },
+  {
+    "headword": "Stunde",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Stunden",
+    "cefr": "A1",
+    "translations": [
+      "hour",
+      "lesson"
+    ],
+    "examples": [
+      {
+        "de": "Der Kurs dauert zwei Stunden.",
+        "en": "The course lasts two hours."
+      }
+    ],
+    "inflections": [
+      "stunde",
+      "stunden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -n plural."
+    }
+  },
+  {
+    "headword": "Hobby",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Hobbys",
+    "cefr": "A1",
+    "translations": [
+      "hobby"
+    ],
+    "examples": [
+      {
+        "de": "Mein Hobby ist Fotografieren.",
+        "en": "My hobby is photography."
+      }
+    ],
+    "inflections": [
+      "hobbys"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter loanword with -s plural."
+    }
+  },
+  {
+    "headword": "Freizeit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "free time",
+      "leisure time"
+    ],
+    "examples": [
+      {
+        "de": "Was machst du in deiner Freizeit?",
+        "en": "What do you do in your free time?"
+      }
+    ],
+    "inflections": [
+      "freizeit"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine mass noun."
+    }
+  },
+  {
+    "headword": "Kino",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Kinos",
+    "cefr": "A1",
+    "translations": [
+      "cinema",
+      "movie theater"
+    ],
+    "examples": [
+      {
+        "de": "Gehen wir heute ins Kino?",
+        "en": "Shall we go to the cinema today?"
+      }
+    ],
+    "inflections": [
+      "kinos"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun with -s plural."
+    }
+  },
+  {
+    "headword": "Theater",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Theater",
+    "cefr": "A1",
+    "translations": [
+      "theater"
+    ],
+    "examples": [
+      {
+        "de": "Wir gehen gern ins Theater.",
+        "en": "We like going to the theater."
+      }
+    ],
+    "inflections": [
+      "theaters",
+      "theatern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun."
+    }
+  },
+  {
+    "headword": "Restaurant",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Restaurants",
+    "cefr": "A1",
+    "translations": [
+      "restaurant"
+    ],
+    "examples": [
+      {
+        "de": "Das Restaurant ist sehr gut.",
+        "en": "The restaurant is very good."
+      }
+    ],
+    "inflections": [
+      "restaurants"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter loanword with -s plural."
+    }
+  },
+  {
+    "headword": "Schwimmbad",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Schwimmbäder",
+    "cefr": "A1",
+    "translations": [
+      "swimming pool",
+      "public pool"
+    ],
+    "examples": [
+      {
+        "de": "Die Kinder sind im Schwimmbad.",
+        "en": "The children are at the swimming pool."
+      }
+    ],
+    "inflections": [
+      "schwimmbads",
+      "schwimmbades",
+      "schwimmbäder",
+      "schwimmbädern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: schwimmen + Bad; neuter with umlaut plural."
+    }
+  },
+  {
+    "headword": "Museum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Museen",
+    "cefr": "A1",
+    "translations": [
+      "museum"
+    ],
+    "examples": [
+      {
+        "de": "Das Museum ist montags geschlossen.",
+        "en": "The museum is closed on Mondays."
+      }
+    ],
+    "inflections": [
+      "museums",
+      "museen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun with Museen plural."
+    }
+  },
+  {
+    "headword": "Fußball",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Fußbälle",
+    "cefr": "A1",
+    "translations": [
+      "soccer",
+      "football",
+      "soccer ball"
+    ],
+    "examples": [
+      {
+        "de": "Er spielt gern Fußball.",
+        "en": "He likes playing soccer."
+      }
+    ],
+    "inflections": [
+      "fußballs",
+      "fußbälle",
+      "fußbällen",
+      "fussball",
+      "fussbälle"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine compound; maps Swiss fussball spelling."
+    }
+  },
+  {
+    "headword": "Spiel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Spiele",
+    "cefr": "A1",
+    "translations": [
+      "game",
+      "match"
+    ],
+    "examples": [
+      {
+        "de": "Das Spiel beginnt um acht Uhr.",
+        "en": "The game begins at eight o'clock."
+      }
+    ],
+    "inflections": [
+      "spiels",
+      "spieles",
+      "spiele",
+      "spielen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun."
+    }
+  },
+  {
+    "headword": "Fotoalbum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Fotoalben",
+    "cefr": "A1",
+    "translations": [
+      "photo album"
+    ],
+    "examples": [
+      {
+        "de": "Das ist mein altes Fotoalbum.",
+        "en": "That is my old photo album."
+      }
+    ],
+    "inflections": [
+      "fotoalbums",
+      "fotoalben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound noun; neuter."
+    }
+  },
+  {
+    "headword": "Plakat",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Plakate",
+    "cefr": "A1",
+    "translations": [
+      "poster",
+      "placard"
+    ],
+    "examples": [
+      {
+        "de": "Wir machen ein Plakat über unsere Hobbys.",
+        "en": "We are making a poster about our hobbies."
+      }
+    ],
+    "inflections": [
+      "plakats",
+      "plakate",
+      "plakaten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun."
+    }
+  },
+  {
+    "headword": "Kursraum",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kursräume",
+    "cefr": "A1",
+    "translations": [
+      "classroom"
+    ],
+    "examples": [
+      {
+        "de": "Der Kursraum ist im zweiten Stock.",
+        "en": "The classroom is on the second floor."
+      }
+    ],
+    "inflections": [
+      "kursraums",
+      "kursräume",
+      "kursräumen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound noun: Kurs + Raum; masculine."
+    }
+  },
+  {
+    "headword": "Beruf",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Berufe",
+    "cefr": "A1",
+    "translations": [
+      "profession",
+      "job",
+      "occupation"
+    ],
+    "examples": [
+      {
+        "de": "Was sind Sie von Beruf?",
+        "en": "What is your profession?"
+      }
+    ],
+    "inflections": [
+      "berufs",
+      "berufes",
+      "berufe",
+      "berufen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine noun with -e plural."
+    }
+  },
+  {
+    "headword": "Arbeitsplatz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Arbeitsplätze",
+    "cefr": "A1",
+    "translations": [
+      "workplace",
+      "job"
+    ],
+    "examples": [
+      {
+        "de": "Mein Arbeitsplatz ist modern.",
+        "en": "My workplace is modern."
+      }
+    ],
+    "inflections": [
+      "arbeitsplatzes",
+      "arbeitsplätze",
+      "arbeitsplätzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: Arbeit + Platz; masculine."
+    }
+  },
+  {
+    "headword": "Arbeitszeit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Arbeitszeiten",
+    "cefr": "A1",
+    "translations": [
+      "working hours",
+      "work time"
+    ],
+    "examples": [
+      {
+        "de": "Meine Arbeitszeit ist flexibel.",
+        "en": "My working hours are flexible."
+      }
+    ],
+    "inflections": [
+      "arbeitszeit",
+      "arbeitszeiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: Arbeit + Zeit; feminine."
+    }
+  },
+  {
+    "headword": "Firma",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Firmen",
+    "cefr": "A1",
+    "translations": [
+      "company",
+      "firm"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet bei einer großen Firma.",
+        "en": "She works at a large company."
+      }
+    ],
+    "inflections": [
+      "firma",
+      "firmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Büro",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Büros",
+    "cefr": "A1",
+    "translations": [
+      "office"
+    ],
+    "examples": [
+      {
+        "de": "Ich bin im Büro.",
+        "en": "I am in the office."
+      }
+    ],
+    "inflections": [
+      "büros"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun with -s plural."
+    }
+  },
+  {
+    "headword": "Klinik",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kliniken",
+    "cefr": "A1",
+    "translations": [
+      "clinic",
+      "hospital"
+    ],
+    "examples": [
+      {
+        "de": "Er arbeitet als Arzt in einer Klinik.",
+        "en": "He works as a doctor in a clinic."
+      }
+    ],
+    "inflections": [
+      "klinik",
+      "kliniken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Patient",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Patienten",
+    "cefr": "A1",
+    "translations": [
+      "patient (male)"
+    ],
+    "examples": [
+      {
+        "de": "Der Arzt untersucht den Patienten.",
+        "en": "The doctor examines the patient."
+      }
+    ],
+    "inflections": [
+      "patienten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun (N-Deklination)."
+    }
+  },
+  {
+    "headword": "Patientin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Patientinnen",
+    "cefr": "A1",
+    "translations": [
+      "patient (female)"
+    ],
+    "examples": [
+      {
+        "de": "Die Patientin wartet im Zimmer.",
+        "en": "The patient is waiting in the room."
+      }
+    ],
+    "inflections": [
+      "patientin",
+      "patientinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine agent noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Techniker",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Techniker",
+    "cefr": "A1",
+    "translations": [
+      "technician (male)"
+    ],
+    "examples": [
+      {
+        "de": "Er ist Techniker bei VW.",
+        "en": "He is a technician at VW."
+      }
+    ],
+    "inflections": [
+      "technikers",
+      "technikern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine agent noun."
+    }
+  },
+  {
+    "headword": "Technikerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Technikerinnen",
+    "cefr": "A1",
+    "translations": [
+      "technician (female)"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet als Technikerin.",
+        "en": "She works as a technician."
+      }
+    ],
+    "inflections": [
+      "technikerin",
+      "technikerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine agent noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Ingenieur",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Ingenieure",
+    "cefr": "A1",
+    "translations": [
+      "engineer (male)"
+    ],
+    "examples": [
+      {
+        "de": "Mein Vater ist Ingenieur.",
+        "en": "My father is an engineer."
+      }
+    ],
+    "inflections": [
+      "ingenieurs",
+      "ingenieure",
+      "ingenieuren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine profession noun."
+    }
+  },
+  {
+    "headword": "Ingenieurin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ingenieurinnen",
+    "cefr": "A1",
+    "translations": [
+      "engineer (female)"
+    ],
+    "examples": [
+      {
+        "de": "Sie studiert und wird Ingenieurin.",
+        "en": "She studies and is becoming an engineer."
+      }
+    ],
+    "inflections": [
+      "ingenieurin",
+      "ingenieurinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine profession noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Taxifahrer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Taxifahrer",
+    "cefr": "A1",
+    "translations": [
+      "taxi driver (male)",
+      "cab driver"
+    ],
+    "examples": [
+      {
+        "de": "Der Taxifahrer kennt die Stadt gut.",
+        "en": "The taxi driver knows the city well."
+      }
+    ],
+    "inflections": [
+      "taxifahrers",
+      "taxifahrern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine compound profession noun."
+    }
+  },
+  {
+    "headword": "Taxifahrerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Taxifahrerinnen",
+    "cefr": "A1",
+    "translations": [
+      "taxi driver (female)",
+      "cab driver"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet nachts als Taxifahrerin.",
+        "en": "She works at night as a taxi driver."
+      }
+    ],
+    "inflections": [
+      "taxifahrerin",
+      "taxifahrerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine compound profession noun."
+    }
+  },
+  {
+    "headword": "Student",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Studenten",
+    "cefr": "A1",
+    "translations": [
+      "university student (male)",
+      "college student"
+    ],
+    "examples": [
+      {
+        "de": "Er ist Student an der Universität.",
+        "en": "He is a student at the university."
+      }
+    ],
+    "inflections": [
+      "studenten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun (N-Deklination)."
+    }
+  },
+  {
+    "headword": "Studentin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Studentinnen",
+    "cefr": "A1",
+    "translations": [
+      "university student (female)",
+      "college student"
+    ],
+    "examples": [
+      {
+        "de": "Anna ist Studentin in Berlin.",
+        "en": "Anna is a university student in Berlin."
+      }
+    ],
+    "inflections": [
+      "studentin",
+      "studentinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine student noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Professor",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Professoren",
+    "cefr": "A1",
+    "translations": [
+      "professor (male)"
+    ],
+    "examples": [
+      {
+        "de": "Der Professor hält eine Vorlesung.",
+        "en": "The professor gives a lecture."
+      }
+    ],
+    "inflections": [
+      "professors",
+      "professoren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine academic noun with -en plural."
+    }
+  },
+  {
+    "headword": "Professorin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Professorinnen",
+    "cefr": "A1",
+    "translations": [
+      "professor (female)"
+    ],
+    "examples": [
+      {
+        "de": "Sie ist Professorin für Geschichte.",
+        "en": "She is a professor of history."
+      }
+    ],
+    "inflections": [
+      "professorin",
+      "professorinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine academic noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Journalist",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Journalisten",
+    "cefr": "A1",
+    "translations": [
+      "journalist (male)",
+      "reporter"
+    ],
+    "examples": [
+      {
+        "de": "Er arbeitet als Journalist bei der Zeitung.",
+        "en": "He works as a journalist at the newspaper."
+      }
+    ],
+    "inflections": [
+      "journalisten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun (N-Deklination)."
+    }
+  },
+  {
+    "headword": "Journalistin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Journalistinnen",
+    "cefr": "A1",
+    "translations": [
+      "journalist (female)",
+      "reporter"
+    ],
+    "examples": [
+      {
+        "de": "Sie schreibt als Journalistin Artikel.",
+        "en": "She writes articles as a journalist."
+      }
+    ],
+    "inflections": [
+      "journalistin",
+      "journalistinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine journalist noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Fotograf",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Fotografen",
+    "cefr": "A1",
+    "translations": [
+      "photographer (male)"
+    ],
+    "examples": [
+      {
+        "de": "Der Fotograf macht tolle Bilder.",
+        "en": "The photographer takes great pictures."
+      }
+    ],
+    "inflections": [
+      "fotografen",
+      "photograph",
+      "photographen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun."
+    }
+  },
+  {
+    "headword": "Fotografin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Fotografinnen",
+    "cefr": "A1",
+    "translations": [
+      "photographer (female)"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet als Fotografin.",
+        "en": "She works as a photographer."
+      }
+    ],
+    "inflections": [
+      "fotografin",
+      "fotografinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine photographer noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Architekt",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Architekten",
+    "cefr": "A1",
+    "translations": [
+      "architect (male)"
+    ],
+    "examples": [
+      {
+        "de": "Der Architekt plant neue Häuser.",
+        "en": "The architect plans new houses."
+      }
+    ],
+    "inflections": [
+      "architekten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun (N-Deklination)."
+    }
+  },
+  {
+    "headword": "Architektin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Architektinnen",
+    "cefr": "A1",
+    "translations": [
+      "architect (female)"
+    ],
+    "examples": [
+      {
+        "de": "Sie ist Architektin in München.",
+        "en": "She is an architect in Munich."
+      }
+    ],
+    "inflections": [
+      "architektin",
+      "architektinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine architect noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Kellner",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kellner",
+    "cefr": "A1",
+    "translations": [
+      "waiter (male)",
+      "server"
+    ],
+    "examples": [
+      {
+        "de": "Der Kellner bringt die Speisekarte.",
+        "en": "The waiter brings the menu."
+      }
+    ],
+    "inflections": [
+      "kellners",
+      "kellnern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine agent noun."
+    }
+  },
+  {
+    "headword": "Kellnerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kellnerinnen",
+    "cefr": "A1",
+    "translations": [
+      "waitress (female)",
+      "server"
+    ],
+    "examples": [
+      {
+        "de": "Die Kellnerin bringt die Rechnung.",
+        "en": "The waitress brings the bill."
+      }
+    ],
+    "inflections": [
+      "kellnerin",
+      "kellnerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine agent noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Verkäufer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Verkäufer",
+    "cefr": "A1",
+    "translations": [
+      "salesperson (male)",
+      "shop assistant",
+      "clerk"
+    ],
+    "examples": [
+      {
+        "de": "Der Verkäufer berät den Kunden.",
+        "en": "The salesman advises the customer."
+      }
+    ],
+    "inflections": [
+      "verkäufers",
+      "verkäufern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine agent noun."
+    }
+  },
+  {
+    "headword": "Verkäuferin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Verkäuferinnen",
+    "cefr": "A1",
+    "translations": [
+      "salesperson (female)",
+      "shop assistant",
+      "clerk"
+    ],
+    "examples": [
+      {
+        "de": "Die Verkäuferin arbeitet im Supermarkt.",
+        "en": "The shop assistant works in the supermarket."
+      }
+    ],
+    "inflections": [
+      "verkäuferin",
+      "verkäuferinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine agent noun with -nen plural."
+    }
+  },
+  {
+    "headword": "Mensch",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Menschen",
+    "cefr": "A1",
+    "translations": [
+      "human",
+      "person",
+      "human being"
+    ],
+    "examples": [
+      {
+        "de": "Hier wohnen viele Menschen.",
+        "en": "Many people live here."
+      }
+    ],
+    "inflections": [
+      "menschen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Weak masculine noun; plural Menschen = people."
+    }
+  },
+  {
+    "headword": "Leute",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Leute",
+    "cefr": "A1",
+    "translations": [
+      "people",
+      "folks"
+    ],
+    "examples": [
+      {
+        "de": "Viele Leute lernen Deutsch.",
+        "en": "Many people are learning German."
+      }
+    ],
+    "inflections": [
+      "leute",
+      "leuten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Plural-only collective noun."
+    }
+  },
+  {
+    "headword": "Internet",
+    "pos": "noun",
+    "gender": "n",
+    "plural": null,
+    "cefr": "A1",
+    "translations": [
+      "internet"
+    ],
+    "examples": [
+      {
+        "de": "Ich surfe gern im Internet.",
+        "en": "I like surfing the internet."
+      }
+    ],
+    "inflections": [
+      "internets",
+      "internet"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter mass noun."
+    }
+  },
+  {
+    "headword": "Profil",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Profile",
+    "cefr": "A1",
+    "translations": [
+      "profile"
+    ],
+    "examples": [
+      {
+        "de": "Er erstellt ein Profil im Internet.",
+        "en": "He creates a profile on the internet."
+      }
+    ],
+    "inflections": [
+      "profils",
+      "profile",
+      "profilen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun with -e plural."
+    }
+  },
+  {
+    "headword": "Information",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Informationen",
+    "cefr": "A1",
+    "translations": [
+      "information"
+    ],
+    "examples": [
+      {
+        "de": "Hier finden Sie wichtige Informationen.",
+        "en": "Here you will find important information."
+      }
+    ],
+    "inflections": [
+      "information",
+      "informationen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Angabe",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Angaben",
+    "cefr": "A1",
+    "translations": [
+      "detail",
+      "statement",
+      "specification"
+    ],
+    "examples": [
+      {
+        "de": "Bitte machen Sie persönliche Angaben.",
+        "en": "Please provide personal details."
+      }
+    ],
+    "inflections": [
+      "angabe",
+      "angaben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -n plural."
+    }
+  },
+  {
+    "headword": "Adresse",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Adressen",
+    "cefr": "A1",
+    "translations": [
+      "address"
+    ],
+    "examples": [
+      {
+        "de": "Wie ist Ihre Adresse?",
+        "en": "What is your address?"
+      }
+    ],
+    "inflections": [
+      "adresse",
+      "adressen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -n plural."
+    }
+  },
+  {
+    "headword": "Geburtsort",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Geburtsorte",
+    "cefr": "A1",
+    "translations": [
+      "place of birth",
+      "birthplace"
+    ],
+    "examples": [
+      {
+        "de": "Mein Geburtsort ist Wien.",
+        "en": "My place of birth is Vienna."
+      }
+    ],
+    "inflections": [
+      "geburtsorts",
+      "geburtsorte",
+      "geburtsorten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound: Geburt + Ort; masculine."
+    }
+  },
+  {
+    "headword": "Formular",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Formulare",
+    "cefr": "A1",
+    "translations": [
+      "form",
+      "application form"
+    ],
+    "examples": [
+      {
+        "de": "Bitte füllen Sie das Formular aus.",
+        "en": "Please fill out the form."
+      }
+    ],
+    "inflections": [
+      "formulars",
+      "formulare",
+      "formularen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Neuter noun with -e plural."
+    }
+  },
+  {
+    "headword": "Nachricht",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Nachrichten",
+    "cefr": "A1",
+    "translations": [
+      "message",
+      "news"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe eine Nachricht bekommen.",
+        "en": "I received a message."
+      }
+    ],
+    "inflections": [
+      "nachricht",
+      "nachrichten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Notiz",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Notizen",
+    "cefr": "A1",
+    "translations": [
+      "note",
+      "memo"
+    ],
+    "examples": [
+      {
+        "de": "Ich mache mir eine Notiz.",
+        "en": "I am making a note."
+      }
+    ],
+    "inflections": [
+      "notiz",
+      "notizen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Platz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Plätze",
+    "cefr": "A1",
+    "translations": [
+      "square",
+      "plaza",
+      "seat",
+      "place",
+      "space"
+    ],
+    "examples": [
+      {
+        "de": "Ist dieser Platz noch frei?",
+        "en": "Is this seat still free?"
+      }
+    ],
+    "inflections": [
+      "platzes",
+      "plätze",
+      "plätzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine noun with umlaut plural."
+    }
+  },
+  {
+    "headword": "Kilometer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kilometer",
+    "cefr": "A1",
+    "translations": [
+      "kilometer"
+    ],
+    "examples": [
+      {
+        "de": "Ich fahre fünf Kilometer mit dem Fahrrad.",
+        "en": "I ride five kilometers by bicycle."
+      }
+    ],
+    "inflections": [
+      "kilometers",
+      "kilometern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine unit noun."
+    }
+  },
+  {
+    "headword": "Verabredung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Verabredungen",
+    "cefr": "A1",
+    "translations": [
+      "appointment",
+      "date",
+      "meeting"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe heute eine Verabredung mit Maria.",
+        "en": "I have an appointment with Maria today."
+      }
+    ],
+    "inflections": [
+      "verabredung",
+      "verabredungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Plural",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Plurale",
+    "cefr": "A1",
+    "translations": [
+      "plural"
+    ],
+    "examples": [
+      {
+        "de": "Wie heißt der Plural von Buch?",
+        "en": "What is the plural of book?"
+      }
+    ],
+    "inflections": [
+      "plurals",
+      "plurale",
+      "pluralen",
+      "pluralformen",
+      "pluralform"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Grammatical term; masculine."
+    }
+  },
+  {
+    "headword": "Artikel",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Artikel",
+    "cefr": "A1",
+    "translations": [
+      "article (grammar)",
+      "article (text)"
+    ],
+    "examples": [
+      {
+        "de": "Der, die und das sind bestimmte Artikel.",
+        "en": "Der, die, and das are definite articles."
+      }
+    ],
+    "inflections": [
+      "artikels",
+      "artikeln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Grammatical term; masculine."
+    }
+  },
+  {
+    "headword": "Substantiv",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Substantive",
+    "cefr": "A1",
+    "translations": [
+      "noun",
+      "substantive"
+    ],
+    "examples": [
+      {
+        "de": "Substantive schreibt man im Deutschen groß.",
+        "en": "Nouns are capitalized in German."
+      }
+    ],
+    "inflections": [
+      "substantivs",
+      "substantive",
+      "substantiven"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Grammatical term; neuter."
+    }
+  },
+  {
+    "headword": "Aussage",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Aussagen",
+    "cefr": "A1",
+    "translations": [
+      "statement",
+      "assertion"
+    ],
+    "examples": [
+      {
+        "de": "Ist diese Aussage richtig oder falsch?",
+        "en": "Is this statement true or false?"
+      }
+    ],
+    "inflections": [
+      "aussage",
+      "aussagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -n plural."
+    }
+  },
+  {
+    "headword": "Melodie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Melodien",
+    "cefr": "A1",
+    "translations": [
+      "melody",
+      "tune"
+    ],
+    "examples": [
+      {
+        "de": "Die Melodie ist sehr schön.",
+        "en": "The melody is very beautiful."
+      }
+    ],
+    "inflections": [
+      "melodie",
+      "melodien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Satzmelodie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Satzmelodien",
+    "cefr": "A1",
+    "translations": [
+      "sentence intonation",
+      "sentence melody"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie die Satzmelodie bei Fragen.",
+        "en": "Listen to the sentence intonation in questions."
+      }
+    ],
+    "inflections": [
+      "satzmelodie",
+      "satzmelodien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Compound noun; feminine."
+    }
+  },
+  {
+    "headword": "Entschuldigung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Entschuldigungen",
+    "cefr": "A1",
+    "translations": [
+      "excuse",
+      "apology",
+      "excuse me"
+    ],
+    "examples": [
+      {
+        "de": "Entschuldigung, wo ist der Bahnhof?",
+        "en": "Excuse me, where is the train station?"
+      }
+    ],
+    "inflections": [
+      "entschuldigung",
+      "entschuldigungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Feminine noun, frequently used as an apology formula."
+    }
+  },
+  {
+    "headword": "Anzug",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Anzüge",
+    "cefr": "A1",
+    "translations": [
+      "suit (clothing)"
+    ],
+    "examples": [
+      {
+        "de": "Er trägt einen schwarzen Anzug.",
+        "en": "He wears a black suit."
+      }
+    ],
+    "inflections": [
+      "anzugs",
+      "anzuges",
+      "anzüge",
+      "anzügen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Masculine noun with umlaut plural."
+    }
+  },
+  {
+    "headword": "Würstchen",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Würstchen",
+    "cefr": "A1",
+    "translations": [
+      "small sausage",
+      "wiener"
+    ],
+    "examples": [
+      {
+        "de": "Möchtest du ein Würstchen mit Senf?",
+        "en": "Would you like a small sausage with mustard?"
+      }
+    ],
+    "inflections": [
+      "würstchens",
+      "würstel",
+      "würsteln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-17",
+      "notes": "Diminutive neuter noun; maps Austrian Würstel."
+    }
+  },
+  {
+    "headword": "Abfahrt",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Abfahrten",
+    "cefr": "A1",
+    "translations": [
+      "departure"
+    ],
+    "examples": [
+      {
+        "de": "Die Abfahrt des Zuges ist um 10:15 Uhr.",
+        "en": "The departure of the train is at 10:15 a.m."
+      }
+    ],
+    "inflections": [
+      "Abfahrten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Feminine noun for departure; resolves homograph with abfahrt (verb)."
+    }
+  },
+  {
+    "headword": "Schloss",
+    "senses": [
+      {
+        "pos": "noun",
+        "gender": "n",
+        "plural": "Schlösser",
+        "cefr": "A2",
+        "translations": [
+          "castle",
+          "palace"
+        ],
+        "examples": [
+          {
+            "de": "Wir haben das alte Schloss besichtigt.",
+            "en": "We visited the old castle."
+          }
+        ]
+      },
+      {
+        "pos": "noun",
+        "gender": "n",
+        "plural": "Schlösser",
+        "cefr": "A2",
+        "translations": [
+          "lock"
+        ],
+        "examples": [
+          {
+            "de": "Das Schloss an der Tür ist kaputt.",
+            "en": "The lock on the door is broken."
+          }
+        ]
+      }
+    ],
+    "inflections": [
+      "Schlosses",
+      "Schlösser",
+      "Schlössern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Neuter noun with two core meanings: castle/palace and mechanical lock; resolves homograph with schloss (verb)."
+    }
+  },
+  {
+    "headword": "Einstieg",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Einstiege",
+    "cefr": "A2",
+    "translations": [
+      "entry",
+      "boarding",
+      "access",
+      "starting point"
+    ],
+    "examples": [
+      {
+        "de": "Der Einstieg in den Zug ist hier.",
+        "en": "Boarding for the train is here."
+      }
+    ],
+    "inflections": [
+      "Einstiegs",
+      "Einstiege",
+      "Einstiegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Masculine noun for boarding, entrance, entry point; resolves homograph with einstieg (verb)."
+    }
+  },
+  {
+    "headword": "Ausstieg",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Ausstiege",
+    "cefr": "A2",
+    "translations": [
+      "exit",
+      "alighting",
+      "way out",
+      "phase-out"
+    ],
+    "examples": [
+      {
+        "de": "Der Ausstieg ist in Fahrtrichtung rechts.",
+        "en": "The exit is on the right in the direction of travel."
+      }
+    ],
+    "inflections": [
+      "Ausstiegs",
+      "Ausstiege",
+      "Ausstiegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-19",
+      "notes": "Masculine noun for exit, alighting; resolves homograph with ausstieg (verb)."
+    }
+  },
+  {
+    "headword": "Berg",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Berge",
+    "cefr": "A1",
+    "translations": [
+      "mountain",
+      "mount",
+      "hill"
+    ],
+    "examples": [
+      {
+        "de": "Am Sonntagnachmittag wollen wir in die Berge fahren.",
+        "en": "On Sunday afternoon we want to go to the mountains."
+      }
+    ],
+    "inflections": [
+      "Berges",
+      "Bergs",
+      "Berge",
+      "Bergen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-21",
+      "notes": "Core A1 German masculine noun; plural in -e, dative plural in -en. In 'in die Berge fahren', Berge is accusative plural."
+    }
+  },
+  {
+    "headword": "Modalverb",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Modalverben",
+    "cefr": "A1",
+    "translations": [
+      "modal verb"
+    ],
+    "examples": [
+      {
+        "de": "Markieren Sie die Modalverben können, müssen, wollen.",
+        "en": "Mark the modal verbs can, must, want to."
+      }
+    ],
+    "inflections": [
+      "Modalverbs",
+      "Modalverben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-21",
+      "notes": "Essential A1 grammar terminology for German language textbooks (können, müssen, wollen, etc.)."
+    }
+  },
+  {
+    "headword": "Redemittel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Redemittel",
+    "cefr": "A1",
+    "translations": [
+      "useful phrases",
+      "speech resources",
+      "conversational expressions",
+      "idiomatic phrases"
+    ],
+    "examples": [
+      {
+        "de": "Hier sind wichtige Redemittel für das Telefongespräch.",
+        "en": "Here are important useful phrases for the phone call."
+      }
+    ],
+    "inflections": [
+      "redemittel",
+      "redemitteln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Textbook heading noun; neuter with zero plural ending."
+    }
+  },
+  {
+    "headword": "Aussagesatz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Aussagesätze",
+    "cefr": "A1",
+    "translations": [
+      "declarative sentence",
+      "statement",
+      "affirmative sentence"
+    ],
+    "examples": [
+      {
+        "de": "Im Aussagesatz steht das Verb an zweiter Position.",
+        "en": "In a declarative sentence, the verb is in the second position."
+      }
+    ],
+    "inflections": [
+      "aussagesatz",
+      "aussagesatzes",
+      "aussagesatze",
+      "aussagesätze",
+      "aussagesätzen",
+      "aussagsatz"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammar term for declarative sentence; includes OCR/colloquial e-elision variant aussagsatz."
+    }
+  },
+  {
+    "headword": "Neutrum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Neutra",
+    "cefr": "A1",
+    "translations": [
+      "neuter gender",
+      "neuter noun",
+      "neuter"
+    ],
+    "examples": [
+      {
+        "de": "Das Wort Buch ist im Deutschen ein Neutrum.",
+        "en": "The word book is neuter in German."
+      }
+    ],
+    "inflections": [
+      "neutrum",
+      "neutrums",
+      "neutra",
+      "neutren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammatical term for neuter gender; lowercased in textbook grammar tables."
+    }
+  },
+  {
+    "headword": "Maskulinum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Maskulina",
+    "cefr": "A1",
+    "translations": [
+      "masculine gender",
+      "masculine noun",
+      "masculine"
+    ],
+    "examples": [
+      {
+        "de": "Der Mann ist ein Maskulinum.",
+        "en": "The man is masculine."
+      }
+    ],
+    "inflections": [
+      "maskulinum",
+      "maskulinums",
+      "maskulina"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammatical term for masculine gender."
+    }
+  },
+  {
+    "headword": "Femininum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Feminina",
+    "cefr": "A1",
+    "translations": [
+      "feminine gender",
+      "feminine noun",
+      "feminine"
+    ],
+    "examples": [
+      {
+        "de": "Die Frau ist ein Femininum.",
+        "en": "The woman is feminine."
+      }
+    ],
+    "inflections": [
+      "femininum",
+      "femininums",
+      "feminina"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammatical term for feminine gender."
+    }
+  },
+  {
+    "headword": "Endung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Endungen",
+    "cefr": "A1",
+    "translations": [
+      "ending",
+      "suffix",
+      "termination"
+    ],
+    "examples": [
+      {
+        "de": "Achten Sie auf die Endungen der Verben.",
+        "en": "Pay attention to the endings of the verbs."
+      }
+    ],
+    "inflections": [
+      "endung",
+      "endungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical noun with regular -en plural."
+    }
+  },
+  {
+    "headword": "Personalpronomen",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Personalpronomen",
+    "cefr": "A1",
+    "translations": [
+      "personal pronoun"
+    ],
+    "examples": [
+      {
+        "de": "Ich, du, er und sie sind Personalpronomen.",
+        "en": "I, you, he, and she are personal pronouns."
+      }
+    ],
+    "inflections": [
+      "personalpronomen",
+      "personalpronomens",
+      "personalpronomina"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammatical compound noun; neuter with zero plural ending or Latin plural."
+    }
+  },
+  {
+    "headword": "Statistik",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Statistiken",
+    "cefr": "A1",
+    "translations": [
+      "statistics",
+      "statistic",
+      "chart"
+    ],
+    "examples": [
+      {
+        "de": "Die Statistik zeigt interessante Zahlen.",
+        "en": "The statistics show interesting numbers."
+      }
+    ],
+    "inflections": [
+      "statistik",
+      "statistiken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Feminine noun with -en plural."
+    }
+  },
+  {
+    "headword": "Kursstatistik",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kursstatistiken",
+    "cefr": "A1",
+    "translations": [
+      "course statistics",
+      "class survey",
+      "class statistics"
+    ],
+    "examples": [
+      {
+        "de": "Machen Sie eine Kursstatistik über die Hobbys im Kurs.",
+        "en": "Make a class survey about hobbies in the course."
+      }
+    ],
+    "inflections": [
+      "kursstatistik",
+      "kursstatistiken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Textbook exercise compound noun: Kurs + Statistik."
+    }
+  },
+  {
+    "headword": "Plural-Endung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Plural-Endungen",
+    "cefr": "A1",
+    "translations": [
+      "plural ending",
+      "plural suffix"
+    ],
+    "examples": [
+      {
+        "de": "Welche Plural-Endungen kennen Sie?",
+        "en": "Which plural endings do you know?"
+      }
+    ],
+    "inflections": [
+      "plural-endung",
+      "plural-endungen",
+      "pluralendung",
+      "pluralendungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Grammar compound noun; hyphenated in textbooks."
+    }
+  },
+  {
+    "headword": "Kontrollieren",
+    "pos": "noun",
+    "gender": "n",
+    "cefr": "A1",
+    "translations": [
+      "checking",
+      "verifying",
+      "inspection"
+    ],
+    "examples": [
+      {
+        "de": "Das Kontrollieren der Aufgaben hilft beim Lernen.",
+        "en": "Checking the exercises helps with learning."
+      }
+    ],
+    "inflections": [
+      "kontrollieren",
+      "kontrollierens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Nominalized infinitive of kontrollieren."
+    }
+  },
+  {
+    "headword": "Müllerstraße",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Müllerstraßen",
+    "cefr": "A1",
+    "translations": [
+      "Müller Street (street name)",
+      "Mueller Street"
+    ],
+    "examples": [
+      {
+        "de": "Wir wohnen in der Müllerstraße 14.",
+        "en": "We live at 14 Müller Street."
+      }
+    ],
+    "inflections": [
+      "müllerstraße",
+      "müllerstrassen",
+      "müllerstrasse",
+      "muellerstrasse"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Representative textbook street name compound: Müller + Straße."
+    }
+  },
+  {
+    "headword": "Akkusativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Akkusative",
+    "cefr": "A1",
+    "translations": [
+      "accusative case",
+      "accusative"
+    ],
+    "examples": [
+      {
+        "de": "Das Verb haben verlangt den Akkusativ.",
+        "en": "The verb haben requires the accusative."
+      }
+    ],
+    "inflections": [
+      "akkusativ",
+      "akkusativs",
+      "akkusative",
+      "akkusativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical case noun; masculine with -e plural."
+    }
+  },
+  {
+    "headword": "Nominativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Nominative",
+    "cefr": "A1",
+    "translations": [
+      "nominative case",
+      "nominative"
+    ],
+    "examples": [
+      {
+        "de": "Das Subjekt steht im Nominativ.",
+        "en": "The subject is in the nominative."
+      }
+    ],
+    "inflections": [
+      "nominativ",
+      "nominativs",
+      "nominative",
+      "nominativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical case noun; masculine with -e plural."
+    }
+  },
+  {
+    "headword": "Dativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Dative",
+    "cefr": "A1",
+    "translations": [
+      "dative case",
+      "dative"
+    ],
+    "examples": [
+      {
+        "de": "Nach der Präposition mit steht der Dativ.",
+        "en": "After the preposition mit, the dative is used."
+      }
+    ],
+    "inflections": [
+      "dativ",
+      "dativs",
+      "dative",
+      "dativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical case noun; masculine with -e plural."
+    }
+  },
+  {
+    "headword": "Genitiv",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Genitive",
+    "cefr": "A1",
+    "translations": [
+      "genitive case",
+      "genitive"
+    ],
+    "examples": [
+      {
+        "de": "Der Genitiv drückt Besitz oder Zugehörigkeit aus.",
+        "en": "The genitive expresses possession or belonging."
+      }
+    ],
+    "inflections": [
+      "genitiv",
+      "genitivs",
+      "genitive",
+      "genitiven"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Core grammatical case noun; masculine with -e plural."
+    }
+  },
+  {
+    "headword": "Weihnachtsmarkt",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Weihnachtsmärkte",
+    "cefr": "A1",
+    "translations": [
+      "Christmas market"
+    ],
+    "examples": [
+      {
+        "de": "Im Dezember besuchen viele Menschen den Weihnachtsmarkt.",
+        "en": "In December many people visit the Christmas market."
+      }
+    ],
+    "inflections": [
+      "weihnachtsmarkt",
+      "weihnachtsmarkts",
+      "weihnachtsmarktes",
+      "weihnachtsmärkte",
+      "weihnachtsmärkten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Cultural textbook noun; compound of Weihnachten + Markt."
+    }
+  },
+  {
+    "headword": "Wattenmeer",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Wattenmeere",
+    "cefr": "A1",
+    "translations": [
+      "Wadden Sea",
+      "mudflat shallows",
+      "coastal wetland"
+    ],
+    "examples": [
+      {
+        "de": "Das Wattenmeer liegt an der Nordsee.",
+        "en": "The Wadden Sea is located on the North Sea."
+      }
+    ],
+    "inflections": [
+      "wattenmeer",
+      "wattenmeers",
+      "wattenmeere",
+      "wattenmeeren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Geographical textbook noun; compound of Watt + Meer."
+    }
+  },
+  {
+    "headword": "Oktoberfest",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Oktoberfeste",
+    "cefr": "A1",
+    "translations": [
+      "Oktoberfest",
+      "beer festival"
+    ],
+    "examples": [
+      {
+        "de": "Das Oktoberfest in München zieht Millionen Besucher an.",
+        "en": "The Oktoberfest in Munich attracts millions of visitors."
+      }
+    ],
+    "inflections": [
+      "oktoberfest",
+      "oktoberfests",
+      "oktoberfeste",
+      "oktoberfesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Cultural textbook noun; compound of Oktober + Fest."
+    }
+  },
+  {
+    "headword": "Nordsee",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Nordseen",
+    "cefr": "A1",
+    "translations": [
+      "North Sea"
+    ],
+    "examples": [
+      {
+        "de": "Die Nordsee ist ein Randmeer des Atlantischen Ozeans.",
+        "en": "The North Sea is a marginal sea of the Atlantic Ocean."
+      }
+    ],
+    "inflections": [
+      "nordsee"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Geographical proper noun; compound of Nord + See."
+    }
+  },
+  {
+    "headword": "Ebbe",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ebben",
+    "cefr": "A1",
+    "translations": [
+      "low tide",
+      "ebb"
+    ],
+    "examples": [
+      {
+        "de": "Bei Ebbe zieht sich das Meer zurück.",
+        "en": "At low tide the sea recedes."
+      }
+    ],
+    "inflections": [
+      "ebbe",
+      "ebben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-22",
+      "notes": "Natural science / geography noun; feminine with -n plural."
+    }
+  }
+]

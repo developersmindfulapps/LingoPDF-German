@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react';
 import type { PDFDocumentProxy, PDFDocumentInfo, ZoomState, PDFLoadError } from './types/pdf';
 import { pdfService } from './services/pdfService';
 import { useDictionaryTooltip } from './hooks/useDictionaryTooltip';
+import { compositeDictionaryProvider } from './services/dictionary/index';
 import { useOCR } from './hooks/useOCR';
 import { DictionaryTooltip } from './components/DictionaryTooltip/DictionaryTooltip';
 import { Navbar } from './components/Navbar';
@@ -40,7 +41,7 @@ export const App: React.FC = () => {
     error: dictionaryError,
     handleWordSelected,
     closeTooltip,
-  } = useDictionaryTooltip();
+  } = useDictionaryTooltip(compositeDictionaryProvider);
 
   const handleFileSelect = useCallback(async (file: File) => {
     setIsLoadingDoc(true);

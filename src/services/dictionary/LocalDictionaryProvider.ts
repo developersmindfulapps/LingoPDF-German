@@ -1,5 +1,5 @@
 import type {
-  DictionaryProvider,
+  InitializableDictionaryProvider,
   DictionaryResult,
   HeadwordEntry,
   LexicalSense,
@@ -21,12 +21,12 @@ const INFLECTION_SUFFIXES = [
   'en', 'em', 'er', 'es', 'e', 'st', 't'
 ];
 
-export class LocalDictionaryProvider implements DictionaryProvider {
-  public readonly id = 'local-de-en';
-  public readonly name = 'Local German-English Dictionary';
+export class LocalDictionaryProvider implements InitializableDictionaryProvider {
+  public readonly id: string;
+  public readonly name: string;
 
   private entries: Record<string, HeadwordEntry>;
-  private inflections: Record<string, string>;
+  private inflections: Record<string, string | string[]>;
   private initPromise: Promise<void> | null = null;
   private isReady = false;
   private initError: Error | null = null;
@@ -34,9 +34,13 @@ export class LocalDictionaryProvider implements DictionaryProvider {
 
   constructor(
     customEntries?: Record<string, HeadwordEntry>,
-    customInflections?: Record<string, string>,
-    loader: () => Promise<LoadedDictionaryData> = loadDictionaryAssets
+    customInflections?: Record<string, string | string[]>,
+    loader: () => Promise<LoadedDictionaryData> = loadDictionaryAssets,
+    id = 'local-de-en',
+    name = 'Local German-English Dictionary'
   ) {
+    this.id = id;
+    this.name = name;
     this.loader = loader;
     if (customEntries && customInflections) {
       this.entries = customEntries;
@@ -125,11 +129,128 @@ export class LocalDictionaryProvider implements DictionaryProvider {
   }
 
   /**
+   * Resolves a raw inflection value (which can be a single lemma string or an array of candidate lemmas)
+   * against this.entries, normalizing and deduplicating candidate lemmas deterministically.
+   * If multiple candidate lemmas exist in entries, preserves legitimate ambiguity by returning
+   * a combined result with all candidate senses.
+   */
+  private resolveCandidateLemmas(
+    query: string,
+    rawLemma: string | string[]
+  ): DictionaryResult | null {
+    const candidateList = Array.isArray(rawLemma) ? rawLemma : [rawLemma];
+    const uniqueCandidates = Array.from(
+      new Set(
+        candidateList
+          .map((c) => (typeof c === 'string' ? c.trim() : ''))
+          .filter(Boolean)
+      )
+    );
+
+    const matches: Array<{ lemma: string; entry: HeadwordEntry }> = [];
+    for (const cand of uniqueCandidates) {
+      if (Object.prototype.hasOwnProperty.call(this.entries, cand)) {
+        matches.push({ lemma: cand, entry: this.entries[cand] });
+      } else {
+        const lowerCand = cand.toLowerCase();
+        const titleCand = lowerCand[0].toUpperCase() + lowerCand.slice(1);
+        if (Object.prototype.hasOwnProperty.call(this.entries, lowerCand)) {
+          matches.push({ lemma: lowerCand, entry: this.entries[lowerCand] });
+        } else if (Object.prototype.hasOwnProperty.call(this.entries, titleCand)) {
+          matches.push({ lemma: titleCand, entry: this.entries[titleCand] });
+        }
+      }
+    }
+
+    if (matches.length === 0) {
+      return null;
+    }
+
+    if (matches.length === 1) {
+      return this.formatResult(query, matches[0].entry, matches[0].lemma);
+    }
+
+    // Prioritize candidates based on linguistic evidence:
+    // If the surface query is capitalized (German noun capitalization), prioritize noun headwords
+    // whose plural or lemma matches the surface form.
+    const isCapitalized = query.length > 0 && query[0] === query[0].toUpperCase() && query !== query.toLowerCase();
+    if (isCapitalized) {
+      matches.sort((a, b) => {
+        const aIsNoun = (a.entry.senses || []).some((s) => s.pos === 'noun');
+        const bIsNoun = (b.entry.senses || []).some((s) => s.pos === 'noun');
+        if (aIsNoun && !bIsNoun) return -1;
+        if (!aIsNoun && bIsNoun) return 1;
+
+        // Check if plural explicitly matches query
+        const aPluralMatch = (a.entry.senses || []).some((s) => s.plural && s.plural.toLowerCase() === query.toLowerCase());
+        const bPluralMatch = (b.entry.senses || []).some((s) => s.plural && s.plural.toLowerCase() === query.toLowerCase());
+        if (aPluralMatch && !bPluralMatch) return -1;
+        if (!aPluralMatch && bPluralMatch) return 1;
+
+        return 0;
+      });
+    }
+
+    // Multiple valid candidate lemmas exist: preserve legitimate ambiguity
+    return this.formatMultiCandidateResult(query, matches);
+  }
+
+  /**
+   * Formats multiple matching candidate HeadwordEntries into a combined DictionaryResult,
+   * deterministically preserving all candidate lemmas, senses, and translations.
+   */
+  private formatMultiCandidateResult(
+    query: string,
+    matches: Array<{ lemma: string; entry: HeadwordEntry }>
+  ): DictionaryResult {
+    const allSenses: LexicalSense[] = [];
+    const allTranslations: string[] = [];
+    const posSet = new Set<string>();
+    const lemmaSet = new Set<string>();
+    let gender: 'm' | 'f' | 'n' | undefined;
+    let plural: string | undefined;
+
+    for (const { lemma, entry } of matches) {
+      if (lemma && (matches.length > 1 || lemma.toLowerCase() !== query.toLowerCase())) {
+        lemmaSet.add(lemma);
+      }
+      const senses = entry.senses || [];
+      for (const sense of senses) {
+        allSenses.push(sense);
+        if (sense.pos) posSet.add(sense.pos);
+        if (sense.gender && !gender) gender = sense.gender;
+        if (sense.plural && !plural) plural = sense.plural;
+        for (const t of sense.translations) {
+          if (!allTranslations.includes(t)) {
+            allTranslations.push(t);
+          }
+        }
+      }
+    }
+
+    const combinedLemma = lemmaSet.size > 0 ? Array.from(lemmaSet).join(' / ') : undefined;
+
+    return {
+      query,
+      lemma: combinedLemma,
+      sourceLang: 'de',
+      targetLang: 'en',
+      translations: allTranslations,
+      partOfSpeech: Array.from(posSet).join('/'),
+      gender,
+      plural,
+      senses: allSenses,
+      isDerived: false,
+      source: 'dictionary',
+    };
+  }
+
+  /**
    * Looks up a German word and resolves to its English translations.
    * Multi-stage lookup pipeline:
    * 1. Exact case-sensitive match (preserves homographs: Sie vs sie, Morgen vs morgen)
    * 2. Case-disambiguated fallback (e.g. sentence-initial Gehen -> gehen, lowercase buch -> Buch)
-   * 3. Precompiled inflection index lookup (e.g. häuser -> Haus, ging -> gehen)
+   * 3. Precompiled inflection index lookup (e.g. häuser -> Haus, sprachen -> Sprache / sprechen)
    * 4. Morphological suffix stripping fallback (e.g. schnelles -> schnell)
    * 5. Returns null if unknown
    */
@@ -167,16 +288,20 @@ export class LocalDictionaryProvider implements DictionaryProvider {
       return this.formatResult(query, this.entries[lowerQuery], lowerQuery);
     }
     // Try titlecase entry (lowercase or mixed-case nouns like buch/SchUlE -> Buch/Schule)
-    if (query !== titleQuery && Object.prototype.hasOwnProperty.call(this.entries, titleQuery)) {
+    // Defer to Stage 3 if the lowercase query is an ambiguous inflection pointing to multiple lemmas (e.g. abfahrt -> [Abfahrt, abfahren], schloss -> [Schloss, schließen])
+    if (
+      query !== titleQuery &&
+      Object.prototype.hasOwnProperty.call(this.entries, titleQuery) &&
+      !Array.isArray(this.inflections[lowerQuery])
+    ) {
       return this.formatResult(query, this.entries[titleQuery], titleQuery);
     }
 
     // 3. Stage 3 — Precompiled inflection index
     const mappedLemma = this.inflections[lowerQuery];
     if (mappedLemma) {
-      if (Object.prototype.hasOwnProperty.call(this.entries, mappedLemma)) {
-        return this.formatResult(query, this.entries[mappedLemma], mappedLemma);
-      }
+      const result = this.resolveCandidateLemmas(query, mappedLemma);
+      if (result) return result;
     }
 
     // 4. Stage 4 — Morphological suffix stripping fallback (adjectives / participles)
@@ -198,8 +323,9 @@ export class LocalDictionaryProvider implements DictionaryProvider {
 
           // Stem in inflections index
           const stemLemma = this.inflections[stem];
-          if (stemLemma && Object.prototype.hasOwnProperty.call(this.entries, stemLemma)) {
-            return this.formatResult(query, this.entries[stemLemma], stemLemma);
+          if (stemLemma) {
+            const result = this.resolveCandidateLemmas(query, stemLemma);
+            if (result) return result;
           }
         }
       }
@@ -237,6 +363,87 @@ export class LocalDictionaryProvider implements DictionaryProvider {
             },
           ],
         };
+      }
+    }
+
+    // Productive German street name decomposition fallback: [Name] + straße / strasse
+    // e.g., Müllerstraße, Rheinstraße -> [Proper Name] + Straße -> "... Street (street name)"
+    const streetSuffix = lowerQuery.endsWith('straße') ? 'straße' : lowerQuery.endsWith('strasse') ? 'strasse' : null;
+    if (streetSuffix && lowerQuery.length > streetSuffix.length + 2) {
+      const stemLower = lowerQuery.slice(0, -streetSuffix.length);
+      const capStem = stemLower[0].toUpperCase() + stemLower.slice(1);
+      const translation = `${capStem} Street (street name)`;
+      return {
+        query,
+        lemma: `${capStem} + Straße`,
+        sourceLang: 'de',
+        targetLang: 'en',
+        translations: [translation],
+        partOfSpeech: 'noun',
+        gender: 'f',
+        plural: `${capStem}straßen`,
+        isDerived: true,
+        source: 'compositional',
+        senses: [
+          {
+            pos: 'noun',
+            gender: 'f',
+            plural: `${capStem}straßen`,
+            translations: [translation],
+          },
+        ],
+      };
+    }
+
+    // 6. Stage 6 — Conservative German OCR error recovery
+    // Recovers high-probability single-character or bigram OCR confusions
+    // (e.g. "Modatverben" -> "Modalverben", "mässen" -> "müssen")
+    // ONLY triggered when the query is completely unknown across stages 1-5.
+    // Does NOT apply global fuzzy matching or unrestricted edit distance.
+    if (lowerQuery.length >= 4) {
+      const OCR_CONFUSIONS: Array<[string, string]> = [
+        ['t', 'l'], ['l', 't'],
+        ['ä', 'ü'], ['ü', 'ä'],
+        ['ö', 'o'], ['o', 'ö'],
+        ['rn', 'm'], ['m', 'rn'],
+        ['cl', 'd'], ['d', 'cl'],
+        ['vv', 'w'], ['w', 'vv'],
+        ['ß', 'ss'], ['ss', 'ß'],
+      ];
+
+      for (const [from, to] of OCR_CONFUSIONS) {
+        let pos = 0;
+        while ((pos = lowerQuery.indexOf(from, pos)) !== -1) {
+          const correctedLower = lowerQuery.slice(0, pos) + to + lowerQuery.slice(pos + from.length);
+          let correctedQuery = correctedLower;
+          if (query[0] === query[0].toUpperCase()) {
+            correctedQuery = correctedLower[0].toUpperCase() + correctedLower.slice(1);
+          }
+
+          let candidateMatch: DictionaryResult | null = null;
+          if (Object.prototype.hasOwnProperty.call(this.entries, correctedQuery)) {
+            candidateMatch = this.formatResult(query, this.entries[correctedQuery], correctedQuery);
+          } else if (Object.prototype.hasOwnProperty.call(this.entries, correctedLower)) {
+            candidateMatch = this.formatResult(query, this.entries[correctedLower], correctedLower);
+          } else {
+            const titleCand = correctedLower[0].toUpperCase() + correctedLower.slice(1);
+            if (Object.prototype.hasOwnProperty.call(this.entries, titleCand)) {
+              candidateMatch = this.formatResult(query, this.entries[titleCand], titleCand);
+            } else if (this.inflections[correctedLower]) {
+              candidateMatch = this.resolveCandidateLemmas(query, this.inflections[correctedLower]);
+            }
+          }
+
+          if (candidateMatch) {
+            return {
+              ...candidateMatch,
+              isDerived: true,
+              source: 'ocr-correction',
+            };
+          }
+
+          pos += from.length;
+        }
       }
     }
 

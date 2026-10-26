@@ -1,0 +1,776 @@
+{
+  "benchmarkId": "literature-kafka-verwandlung",
+  "genre": "literature",
+  "title": "Die Verwandlung (Erstes Kapitel, Auszug)",
+  "source": {
+    "publisher": "Kurt Wolff Verlag, Leipzig (1915); Gutenberg-DE",
+    "publication": "Die Verwandlung",
+    "urlOrEdition": "https://www.projekt-gutenberg.org/kafka/verwandl/verwa001.html",
+    "author": "Franz Kafka (1883–1924)",
+    "publishedYear": 1915
+  },
+  "license": {
+    "type": "Public Domain worldwide",
+    "legalBasis": "§ 64 UrhG (70 Jahre post mortem auctoris; Author died 1924)",
+    "termsUrl": "https://www.gesetze-im-internet.de/urhg/__64.html",
+    "canRedistribute": true
+  },
+  "tokenMetrics": {
+    "rawTokenCount": 125,
+    "evaluatedDenominator": 123,
+    "excludedCount": 2
+  },
+  "rawText": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt. Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte. Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen. Was ist mit mir geschehen?, dachte er. Es war kein Traum. Sein Zimmer, ein richtiges, nur etwas zu kleines Menschenzimmer, lag ruhig zwischen den vier wohlbekannten Wänden. Über dem Tisch hing ein Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+  "tokens": [
+    {
+      "raw": "Als",
+      "cleaned": "Als",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gregor",
+      "cleaned": "Gregor",
+      "isExcluded": true,
+      "exclusionReason": "proper_name"
+    },
+    {
+      "raw": "Samsa",
+      "cleaned": "Samsa",
+      "isExcluded": true,
+      "exclusionReason": "proper_name"
+    },
+    {
+      "raw": "eines",
+      "cleaned": "eines",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Morgens",
+      "cleaned": "Morgens",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "aus",
+      "cleaned": "aus",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "unruhigen",
+      "cleaned": "unruhigen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Träumen",
+      "cleaned": "Träumen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "erwachte,",
+      "cleaned": "erwachte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "fand",
+      "cleaned": "fand",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "er",
+      "cleaned": "er",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sich",
+      "cleaned": "sich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "in",
+      "cleaned": "in",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "seinem",
+      "cleaned": "seinem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bett",
+      "cleaned": "Bett",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einem",
+      "cleaned": "einem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ungeheuren",
+      "cleaned": "ungeheuren",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ungeziefer",
+      "cleaned": "Ungeziefer",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "verwandelt.",
+      "cleaned": "verwandelt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Er",
+      "cleaned": "Er",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "lag",
+      "cleaned": "lag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "auf",
+      "cleaned": "auf",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "seinem",
+      "cleaned": "seinem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "panzerartig",
+      "cleaned": "panzerartig",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "harten",
+      "cleaned": "harten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Rücken",
+      "cleaned": "Rücken",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sah,",
+      "cleaned": "sah",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wenn",
+      "cleaned": "wenn",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "er",
+      "cleaned": "er",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Kopf",
+      "cleaned": "Kopf",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wenig",
+      "cleaned": "wenig",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hob,",
+      "cleaned": "hob",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "seinen",
+      "cleaned": "seinen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gewölbten,",
+      "cleaned": "gewölbten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "braunen,",
+      "cleaned": "braunen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bogenförmigen",
+      "cleaned": "bogenförmigen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Versteifungen",
+      "cleaned": "Versteifungen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "geteilten",
+      "cleaned": "geteilten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bauch,",
+      "cleaned": "Bauch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "auf",
+      "cleaned": "auf",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dessen",
+      "cleaned": "dessen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Höhe",
+      "cleaned": "Höhe",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sich",
+      "cleaned": "sich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bettdecke,",
+      "cleaned": "Bettdecke",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zum",
+      "cleaned": "zum",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gänzlichen",
+      "cleaned": "gänzlichen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Niedergleiten",
+      "cleaned": "Niedergleiten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bereit,",
+      "cleaned": "bereit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kaum",
+      "cleaned": "kaum",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "noch",
+      "cleaned": "noch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "erhalten",
+      "cleaned": "erhalten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "konnte.",
+      "cleaned": "konnte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Seine",
+      "cleaned": "Seine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vielen,",
+      "cleaned": "vielen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "im",
+      "cleaned": "im",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Vergleich",
+      "cleaned": "Vergleich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "seinem",
+      "cleaned": "seinem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sonstigen",
+      "cleaned": "sonstigen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Umfang",
+      "cleaned": "Umfang",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kläglich",
+      "cleaned": "kläglich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dünnen",
+      "cleaned": "dünnen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Beine",
+      "cleaned": "Beine",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "flimmerten",
+      "cleaned": "flimmerten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ihm",
+      "cleaned": "ihm",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hilflos",
+      "cleaned": "hilflos",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vor",
+      "cleaned": "vor",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Augen.",
+      "cleaned": "Augen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Was",
+      "cleaned": "Was",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ist",
+      "cleaned": "ist",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mit",
+      "cleaned": "mit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mir",
+      "cleaned": "mir",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "geschehen?,",
+      "cleaned": "geschehen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dachte",
+      "cleaned": "dachte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "er.",
+      "cleaned": "er",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Es",
+      "cleaned": "Es",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "war",
+      "cleaned": "war",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kein",
+      "cleaned": "kein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Traum.",
+      "cleaned": "Traum",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Sein",
+      "cleaned": "Sein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Zimmer,",
+      "cleaned": "Zimmer",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "richtiges,",
+      "cleaned": "richtiges",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "nur",
+      "cleaned": "nur",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "etwas",
+      "cleaned": "etwas",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kleines",
+      "cleaned": "kleines",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Menschenzimmer,",
+      "cleaned": "Menschenzimmer",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "lag",
+      "cleaned": "lag",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ruhig",
+      "cleaned": "ruhig",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zwischen",
+      "cleaned": "zwischen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vier",
+      "cleaned": "vier",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wohlbekannten",
+      "cleaned": "wohlbekannten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wänden.",
+      "cleaned": "Wänden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Über",
+      "cleaned": "Über",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "dem",
+      "cleaned": "dem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Tisch",
+      "cleaned": "Tisch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hing",
+      "cleaned": "hing",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bild,",
+      "cleaned": "Bild",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "er",
+      "cleaned": "er",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vor",
+      "cleaned": "vor",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kurzem",
+      "cleaned": "kurzem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "aus",
+      "cleaned": "aus",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einer",
+      "cleaned": "einer",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "illustrierten",
+      "cleaned": "illustrierten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Zeitschrift",
+      "cleaned": "Zeitschrift",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ausgeschnitten",
+      "cleaned": "ausgeschnitten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "in",
+      "cleaned": "in",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "einem",
+      "cleaned": "einem",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hübschen,",
+      "cleaned": "hübschen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "vergoldeten",
+      "cleaned": "vergoldeten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Rahmen",
+      "cleaned": "Rahmen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "untergebracht",
+      "cleaned": "untergebracht",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "hatte.",
+      "cleaned": "hatte",
+      "isExcluded": false,
+      "exclusionReason": null
+    }
+  ]
+}

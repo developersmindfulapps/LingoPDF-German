@@ -30,6 +30,7 @@ async function verifyPhase10OCR() {
   // -------------------------------------------------------------------------
   console.log('\n[Check 2] Bundled Tesseract Assets (public/ & dist/):');
   const requiredPublicFiles = [
+    'public/tesseract/worker-entry.js',
     'public/tesseract/worker.min.js',
     'public/tesseract/tesseract-core-relaxedsimd-lstm.wasm.js',
     'public/tesseract/tesseract-core-relaxedsimd-lstm.wasm',
@@ -55,11 +56,13 @@ async function verifyPhase10OCR() {
   // Check dist packaging if dist exists
   if (fs.existsSync(distDir)) {
     console.log('Checking dist/ bundle synchronization:');
+    const distWorkerEntry = path.join(distDir, 'tesseract', 'worker-entry.js');
     const distWorker = path.join(distDir, 'tesseract', 'worker.min.js');
     const distLang = path.join(distDir, 'tessdata', 'deu.traineddata.gz');
-    if (!fs.existsSync(distWorker) || !fs.existsSync(distLang)) {
+    if (!fs.existsSync(distWorkerEntry) || !fs.existsSync(distWorker) || !fs.existsSync(distLang)) {
       throw new Error('Built dist/ directory is missing packaged Tesseract or traineddata assets.');
     }
+    console.log('  ✓ dist/tesseract/worker-entry.js verified');
     console.log('  ✓ dist/tesseract/worker.min.js verified');
     console.log('  ✓ dist/tessdata/deu.traineddata.gz verified');
   }

@@ -92,7 +92,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
                 About PDF Language Companion
               </h2>
               <span id="about-modal-description" className="text-xs text-slate-500 font-medium">
-                Version 0.1.0 &bull; Pre-Release Audit
+                Version 0.1.0 &bull; Early Release
               </span>
             </div>
           </div>
@@ -123,39 +123,50 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
           </div>
 
           {/* Dictionary Data & Attribution */}
-          <div className="space-y-1.5">
+          <div className="space-y-2">
             <div className="flex items-center gap-1.5 font-semibold text-slate-800 text-xs">
               <Info className="w-4 h-4 text-indigo-600" />
-              <span>German&ndash;English Dictionary Data</span>
+              <span>Dual-Provider Dictionary Architecture</span>
             </div>
             <p>
-              The bundled German&ndash;English lexical dataset is derived from lexical entries contributed
-              by the English Wiktionary community, extracted via the Kaikki.org / Wiktextract project
-              developed by Tatu Ylonen.
+              PDF Language Companion combines two offline dictionary tiers to balance learner-focused clarity with comprehensive lexical coverage:
             </p>
-            <div className="flex flex-wrap gap-x-4 gap-y-1 pt-1 text-[11px] font-medium text-indigo-600">
-              <a
-                href="https://en.wiktionary.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                <span>English Wiktionary</span>
-                <ExternalLink className="w-3 h-3 text-slate-400" />
-              </a>
-              <a
-                href="https://kaikki.org/dictionary/German/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                <span>Kaikki.org German Extract</span>
-                <ExternalLink className="w-3 h-3 text-slate-400" />
-              </a>
+            <div className="space-y-2 pl-2.5 border-l-2 border-indigo-200 text-[11px]">
+              <div>
+                <strong className="text-slate-700">1. Authored Learner Dictionary (Primary):</strong>
+                <p className="text-slate-600">
+                  An independently authored German&ndash;English dictionary tailored for language learners. Features curated definitions, CEFR proficiency levels (A1&ndash;B1), curated inflection forms, and contextual part-of-speech tags.
+                </p>
+              </div>
+              <div>
+                <strong className="text-slate-700">2. Reference Lexicon (Fallback):</strong>
+                <p className="text-slate-600">
+                  Comprehensive fallback vocabulary extracted from English Wiktionary via Kaikki.org / Wiktextract (developed by Tatu Ylonen), licensed under CC-BY-SA 4.0 / GFDL.
+                </p>
+                <div className="flex flex-wrap gap-x-4 gap-y-1 pt-1 font-medium text-indigo-600">
+                  <a
+                    href="https://en.wiktionary.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 hover:underline"
+                  >
+                    <span>English Wiktionary</span>
+                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                  </a>
+                  <a
+                    href="https://kaikki.org/dictionary/German/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 hover:underline"
+                  >
+                    <span>Kaikki.org German Extract</span>
+                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                  </a>
+                </div>
+              </div>
             </div>
             <p className="text-[11px] text-slate-500 pt-0.5">
-              Detailed source metadata, snapshot timestamps, transformation records, and data licensing
-              terms are documented in the packaged <code className="px-1 py-0.5 bg-slate-100 rounded text-slate-700">LICENSE_DICTIONARY.txt</code> file.
+              Source metadata, transformation records, and full licensing terms are packaged in <code className="px-1 py-0.5 bg-slate-100 rounded text-slate-700">LICENSE_DICTIONARY.txt</code>.
             </p>
           </div>
 
@@ -181,12 +192,11 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
             </p>
           </div>
 
-          {/* Licensing Status Placeholder */}
+          {/* Licensing Status */}
           <div className="border-t border-slate-100 pt-3 text-[11px] text-slate-500 space-y-1">
             <span className="font-semibold text-slate-700 text-xs block">Licensing Notice</span>
             <p>
-              This application is in pre-release audit. Complete licensing terms and notices are packaged
-              with the distribution and remain subject to final pre-release review.
+              All software and bundled assets operate completely offline. Open-source library licenses and open-data attribution notices are bundled with this extension in <code className="px-1 py-0.5 bg-slate-100 rounded text-slate-700">THIRD_PARTY_LICENSES.txt</code> and <code className="px-1 py-0.5 bg-slate-100 rounded text-slate-700">LICENSE_DICTIONARY.txt</code>.
             </p>
           </div>
         </div>

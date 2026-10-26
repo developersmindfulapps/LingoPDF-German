@@ -1,0 +1,729 @@
+[
+  {
+    "headword": "Telefonnummer",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Telefonnummern",
+    "cefr": "A1",
+    "translations": [
+      "telephone number",
+      "phone number"
+    ],
+    "examples": [
+      {
+        "de": "Wie ist Ihre Telefonnummer?",
+        "en": "What is your telephone number?"
+      }
+    ],
+    "inflections": [
+      "telefonnummern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Telefon + Nummer; feminine from base noun Nummer."
+    }
+  },
+  {
+    "headword": "Lieblingsfilm",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Lieblingsfilme",
+    "cefr": "A1",
+    "translations": [
+      "favorite film",
+      "favorite movie"
+    ],
+    "examples": [
+      {
+        "de": "Was ist dein Lieblingsfilm?",
+        "en": "What is your favorite movie?"
+      }
+    ],
+    "inflections": [
+      "lieblingsfilme",
+      "lieblingsfilms",
+      "lieblingsfilmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Liebling + s + Film; masculine from base noun Film."
+    }
+  },
+  {
+    "headword": "Lieblingsmusik",
+    "pos": "noun",
+    "gender": "f",
+    "cefr": "A1",
+    "translations": [
+      "favorite music"
+    ],
+    "examples": [
+      {
+        "de": "Rock ist meine Lieblingsmusik.",
+        "en": "Rock is my favorite music."
+      }
+    ],
+    "inflections": [
+      "lieblingsmusik"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Liebling + s + Musik; mass noun (Singularetantum) from base noun Musik."
+    }
+  },
+  {
+    "headword": "Lieblingsbuch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Lieblingsbücher",
+    "cefr": "A1",
+    "translations": [
+      "favorite book"
+    ],
+    "examples": [
+      {
+        "de": "Haben Sie ein Lieblingsbuch?",
+        "en": "Do you have a favorite book?"
+      }
+    ],
+    "inflections": [
+      "lieblingsbücher",
+      "lieblingsbüchern",
+      "lieblingsbuches",
+      "lieblingsbuchs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Liebling + s + Buch; neuter from base noun Buch."
+    }
+  },
+  {
+    "headword": "Vorname",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Vornamen",
+    "cefr": "A1",
+    "translations": [
+      "given name",
+      "first name"
+    ],
+    "examples": [
+      {
+        "de": "Bitte tragen Sie hier Ihren Vornamen ein.",
+        "en": "Please enter your first name here."
+      }
+    ],
+    "inflections": [
+      "vornamen",
+      "vornamens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: vor + Name; masculine from base noun Name."
+    }
+  },
+  {
+    "headword": "Nachname",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Nachnamen",
+    "cefr": "A1",
+    "translations": [
+      "last name",
+      "surname",
+      "family name"
+    ],
+    "examples": [
+      {
+        "de": "Mein Nachname ist Schneider.",
+        "en": "My last name is Schneider."
+      }
+    ],
+    "inflections": [
+      "nachnamen",
+      "nachnamens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: nach + Name; masculine from base noun Name."
+    }
+  },
+  {
+    "headword": "Geburtsdatum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Geburtsdaten",
+    "cefr": "A1",
+    "translations": [
+      "date of birth",
+      "birth date"
+    ],
+    "examples": [
+      {
+        "de": "Ihr Geburtsdatum bitte.",
+        "en": "Your date of birth, please."
+      }
+    ],
+    "inflections": [
+      "geburtsdaten",
+      "geburtsdatums"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Geburt + s + Datum; neuter with irregular plural -daten."
+    }
+  },
+  {
+    "headword": "Wohnort",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Wohnorte",
+    "cefr": "A1",
+    "translations": [
+      "place of residence",
+      "hometown"
+    ],
+    "examples": [
+      {
+        "de": "Geben Sie Ihren Wohnort an.",
+        "en": "State your place of residence."
+      }
+    ],
+    "inflections": [
+      "wohnorte",
+      "wohnorten",
+      "wohnorts",
+      "wohnortes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16",
+      "notes": "Compound noun: wohnen + Ort; masculine from base noun Ort."
+    }
+  },
+  {
+    "headword": "Hauptstadt",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Hauptstädte",
+    "cefr": "A1",
+    "translations": [
+      "capital city",
+      "capital"
+    ],
+    "examples": [
+      {
+        "de": "Berlin ist die Hauptstadt von Deutschland.",
+        "en": "Berlin is the capital of Germany."
+      }
+    ],
+    "inflections": [
+      "hauptstädte",
+      "hauptstädten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Haupt + Stadt; feminine from base noun Stadt."
+    }
+  },
+  {
+    "headword": "Bahnhofstraße",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bahnhofstraßen",
+    "cefr": "A1",
+    "translations": [
+      "Station Street",
+      "station road"
+    ],
+    "examples": [
+      {
+        "de": "Die Apotheke liegt in der Bahnhofstraße.",
+        "en": "The pharmacy is on Station Street."
+      }
+    ],
+    "inflections": [
+      "bahnhofstraßen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Bahnhof + Straße."
+    }
+  },
+  {
+    "headword": "Interesse",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Interessen",
+    "cefr": "A1",
+    "translations": [
+      "interest"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe großes Interesse an Fremdsprachen.",
+        "en": "I have great interest in foreign languages."
+      }
+    ],
+    "inflections": [
+      "interessen",
+      "interesses"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Telefon",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Telefone",
+    "cefr": "A1",
+    "translations": [
+      "telephone",
+      "phone"
+    ],
+    "examples": [
+      {
+        "de": "Das Telefon klingelt im Flur.",
+        "en": "The telephone is ringing in the corridor."
+      }
+    ],
+    "inflections": [
+      "telefone",
+      "telefonen",
+      "telefons"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Nummer",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Nummern",
+    "cefr": "A1",
+    "translations": [
+      "number"
+    ],
+    "examples": [
+      {
+        "de": "Haben Sie seine Nummer?",
+        "en": "Do you have his number?"
+      }
+    ],
+    "inflections": [
+      "nummern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Liebling",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Lieblinge",
+    "cefr": "A1",
+    "translations": [
+      "darling",
+      "favorite",
+      "sweetheart"
+    ],
+    "examples": [
+      {
+        "de": "Hallo Liebling, wie war dein Tag?",
+        "en": "Hello darling, how was your day?"
+      }
+    ],
+    "inflections": [
+      "lieblinge",
+      "lieblingen",
+      "lieblings"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Sprachschule",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Sprachschulen",
+    "cefr": "A1",
+    "translations": [
+      "language school"
+    ],
+    "examples": [
+      {
+        "de": "Sie lernt Deutsch an einer Sprachschule.",
+        "en": "She learns German at a language school."
+      }
+    ],
+    "inflections": [
+      "sprachschulen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "reviewed",
+      "created": "2026-10-16",
+      "notes": "Compound noun: Sprache + Schule."
+    }
+  },
+  {
+    "headword": "E-Mail-Adresse",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "E-Mail-Adressen",
+    "cefr": "A1",
+    "components": [
+      "E-Mail",
+      "Adresse"
+    ],
+    "translations": [
+      "email address"
+    ],
+    "examples": [
+      {
+        "de": "Wie ist deine E-Mail-Adresse?",
+        "en": "What is your email address?"
+      }
+    ],
+    "inflections": [
+      "E-Mail-Adressen",
+      "Email-Adresse",
+      "Email-Adressen",
+      "Mail-Adresse",
+      "Mail-Adressen",
+      "MAIL-ADRESSE"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Handynummer",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Handynummern",
+    "cefr": "A1",
+    "components": [
+      "Handy",
+      "Nummer"
+    ],
+    "translations": [
+      "mobile phone number",
+      "cell phone number"
+    ],
+    "examples": [
+      {
+        "de": "Gibst du mir deine Handynummer?",
+        "en": "Will you give me your mobile number?"
+      }
+    ],
+    "inflections": [
+      "Handynummern",
+      "Handy-Nummer",
+      "Handy-Nummern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Telefongespräch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Telefongespräche",
+    "cefr": "A1",
+    "components": [
+      "Telefon",
+      "Gespräch"
+    ],
+    "translations": [
+      "telephone conversation",
+      "phone call"
+    ],
+    "examples": [
+      {
+        "de": "Hören Sie das Telefongespräch.",
+        "en": "Listen to the phone call."
+      }
+    ],
+    "inflections": [
+      "Telefongespräche",
+      "Telefongesprächen",
+      "Telefongesprächs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Reiseführerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Reiseführerinnen",
+    "cefr": "A1",
+    "components": [
+      "Reise",
+      "Führerin"
+    ],
+    "translations": [
+      "female tour guide"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet als Reiseführerin in München.",
+        "en": "She works as a tour guide in Munich."
+      }
+    ],
+    "inflections": [
+      "Reiseführerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Reiseführer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Reiseführer",
+    "cefr": "A1",
+    "components": [
+      "Reise",
+      "Führer"
+    ],
+    "translations": [
+      "tour guide (male/general)",
+      "guidebook"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen nützlichen Reiseführer gekauft.",
+        "en": "I bought a useful guidebook."
+      }
+    ],
+    "inflections": [
+      "Reiseführern",
+      "Reiseführers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Wörterbuch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Wörterbücher",
+    "cefr": "A1",
+    "components": [
+      "Wort",
+      "Buch"
+    ],
+    "translations": [
+      "dictionary"
+    ],
+    "examples": [
+      {
+        "de": "Schlagen Sie das Wort im Wörterbuch nach.",
+        "en": "Look up the word in the dictionary."
+      }
+    ],
+    "inflections": [
+      "Wörterbücher",
+      "Wörterbüchern",
+      "Wörterbuchs",
+      "Wörterbuches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Sprachkurs",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Sprachkurse",
+    "cefr": "A1",
+    "components": [
+      "Sprache",
+      "Kurs"
+    ],
+    "translations": [
+      "language course"
+    ],
+    "examples": [
+      {
+        "de": "Wir besuchen zusammen einen Sprachkurs.",
+        "en": "We attend a language course together."
+      }
+    ],
+    "inflections": [
+      "Sprachkurse",
+      "Sprachkursen",
+      "Sprachkurses"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Hausaufgabe",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Hausaufgaben",
+    "cefr": "A1",
+    "components": [
+      "Haus",
+      "Aufgabe"
+    ],
+    "translations": [
+      "homework",
+      "home assignment"
+    ],
+    "examples": [
+      {
+        "de": "Vergessen Sie nicht die Hausaufgabe!",
+        "en": "Don't forget the homework!"
+      }
+    ],
+    "inflections": [
+      "Hausaufgaben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Fahrkarte",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Fahrkarten",
+    "cefr": "A1",
+    "components": [
+      "Fahrt",
+      "Karte"
+    ],
+    "translations": [
+      "ticket (transit)",
+      "travel ticket"
+    ],
+    "examples": [
+      {
+        "de": "Eine Fahrkarte nach Hamburg, bitte.",
+        "en": "A ticket to Hamburg, please."
+      }
+    ],
+    "inflections": [
+      "Fahrkarten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  },
+  {
+    "headword": "Kursteilnehmer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Kursteilnehmer",
+    "cefr": "A1",
+    "components": [
+      "Kurs",
+      "Teilnehmer"
+    ],
+    "translations": [
+      "course participant (male or general)"
+    ],
+    "examples": [
+      {
+        "de": "Die Kursteilnehmer kommen aus vielen Ländern.",
+        "en": "The course participants come from many countries."
+      }
+    ],
+    "inflections": [
+      "Kursteilnehmern",
+      "Kursteilnehmers",
+      "Kursteilnehmerin",
+      "Kursteilnehmerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-16"
+    }
+  }
+]

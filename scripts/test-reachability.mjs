@@ -1,0 +1,198 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import http from 'node:http';
+import { spawn } from 'node:child_process';
+
+const rootDir = process.cwd();
+const distDir = path.join(rootDir, 'dist');
+const chromePath = 'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe';
+const profileDir = path.resolve('.chrome-diagnose-profile');
+const testPort = 8794;
+const cdpPort = 9229;
+
+const mimeTypes = {
+  '.html': 'text/html', '.js': 'application/javascript', '.mjs': 'application/javascript',
+  '.css': 'text/css', '.json': 'application/json', '.png': 'image/png',
+  '.wasm': 'application/wasm', '.gz': 'application/gzip', '.bcmap': 'application/octet-stream',
+  '.pfb': 'application/x-font-pfb', '.ttf': 'font/ttf'
+};
+
+const server = http.createServer((req, res) => {
+  let reqPath = req.url.split('?')[0];
+  if (reqPath === '/') reqPath = '/viewer.html';
+  const filePath = path.join(distDir, reqPath.replace(/^\//, ''));
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+    const ext = path.extname(filePath);
+    res.writeHead(200, {
+      'Content-Type': mimeTypes[ext] || 'application/octet-stream',
+      'Access-Control-Allow-Origin': '*'
+    });
+    fs.createReadStream(filePath).pipe(res);
+  } else {
+    res.writeHead(404);
+    res.end('Not found');
+  }
+});
+
+await new Promise(r => server.listen(testPort, r));
+
+const chromeProc = spawn(chromePath, [
+  '--headless=new',
+  `--remote-debugging-port=${cdpPort}`,
+  `--user-data-dir=${profileDir}`,
+  '--no-first-run',
+  '--window-size=1280,1024',
+  `http://127.0.0.1:${testPort}/viewer.html`
+]);
+
+await new Promise(r => setTimeout(r, 2000));
+
+try {
+  const versionRes = await fetch(`http://127.0.0.1:${cdpPort}/json/version`);
+  const versionData = await versionRes.json();
+  const ws = new WebSocket(versionData.webSocketDebuggerUrl);
+  await new Promise((res, rej) => { ws.onopen = res; ws.onerror = rej; });
+
+  const send = (method, params = {}, sessionId) => {
+    return new Promise((resolve) => {
+      const id = Math.floor(Math.random() * 100000);
+      const onMsg = (event) => {
+        const msg = JSON.parse(event.data);
+        if (msg.id === id) {
+          ws.removeEventListener('message', onMsg);
+          resolve(msg.result);
+        }
+      };
+      ws.addEventListener('message', onMsg);
+      const payload = { id, method, params };
+      if (sessionId) payload.sessionId = sessionId;
+      ws.send(JSON.stringify(payload));
+    });
+  };
+
+  const targets = await send('Target.getTargets');
+  const pageTarget = targets.targetInfos.find(t => t.url.includes('viewer.html'));
+  const attachRes = await send('Target.attachToTarget', { targetId: pageTarget.targetId, flatten: true });
+  const sessionId = attachRes.sessionId;
+
+  await send('Runtime.enable', {}, sessionId);
+  await send('DOM.enable', {}, sessionId);
+  await new Promise(r => setTimeout(r, 1000));
+
+  const docNode = await send('DOM.getDocument', {}, sessionId);
+  const inputNode = await send('DOM.querySelector', {
+    nodeId: docNode.root.nodeId,
+    selector: 'input[type="file"]'
+  }, sessionId);
+
+  await send('DOM.setFileInputFiles', {
+    files: [path.resolve('kursbuch.pdf')],
+    nodeId: inputNode.nodeId
+  }, sessionId);
+
+  await new Promise(r => setTimeout(r, 4000));
+
+  for (const pageToTest of [57, 105]) {
+    console.log(`\n=================== TESTING PAGE ${pageToTest} ===================`);
+    await send('Runtime.evaluate', {
+      expression: `(() => {
+        const form = document.querySelector('form');
+        const input = form ? form.querySelector('input') : null;
+        if (!input) return false;
+        const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
+        setter.call(input, '${pageToTest}');
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.dispatchEvent(new Event('change', { bubbles: true }));
+        form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+        return true;
+      })()`
+    }, sessionId);
+
+    await new Promise(r => setTimeout(r, 2000));
+
+    // Run OCR
+    await send('Runtime.evaluate', {
+      expression: `(() => {
+        const btn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Run OCR'));
+        if (btn) btn.click();
+      })()`
+    }, sessionId);
+
+    console.log('Waiting for OCR...');
+    for (let i = 0; i < 60; i++) {
+      await new Promise(r => setTimeout(r, 1000));
+      const status = await send('Runtime.evaluate', {
+        expression: `(() => {
+          const layer = document.querySelector('.ocrTextLayer');
+          const count = layer ? layer.querySelectorAll('span').length : 0;
+          return { hasLayer: !!layer, count };
+        })()`,
+        returnByValue: true
+      }, sessionId);
+
+      if (status.result.value.hasLayer && status.result.value.count > 10) {
+        console.log(`OCR complete with ${status.result.value.count} spans`);
+        break;
+      }
+    }
+
+    // Hit test all spans
+    const testResults = await send('Runtime.evaluate', {
+      expression: `(() => {
+        const spans = Array.from(document.querySelectorAll('.ocrTextLayer span'));
+        const unreachable = [];
+        const overlaps = [];
+
+        for (let i = 0; i < spans.length; i++) {
+          const s = spans[i];
+          const rect = s.getBoundingClientRect();
+          const cx = rect.left + rect.width / 2;
+          const cy = rect.top + rect.height / 2;
+          const el = document.elementFromPoint(cx, cy);
+          const ok = el === s || s.contains(el);
+          if (!ok) {
+            unreachable.push({
+              text: s.innerText,
+              rect: { left: rect.left, top: rect.top, width: rect.width, height: rect.height },
+              elAtPoint: el ? el.tagName + '.' + el.className + ' (' + (el.innerText || '').slice(0, 30) + ')' : 'null'
+            });
+          }
+        }
+
+        // Check for any spans overlapping each other
+        for (let i = 0; i < spans.length; i++) {
+          const r1 = spans[i].getBoundingClientRect();
+          for (let j = i + 1; j < spans.length; j++) {
+            const r2 = spans[j].getBoundingClientRect();
+            const overlapX = Math.max(0, Math.min(r1.right, r2.right) - Math.max(r1.left, r2.left));
+            const overlapY = Math.max(0, Math.min(r1.bottom, r2.bottom) - Math.max(r1.top, r2.top));
+            if (overlapX > 5 && overlapY > 5) {
+              overlaps.push({
+                span1: { text: spans[i].innerText, rect: r1 },
+                span2: { text: spans[j].innerText, rect: r2 },
+                area: overlapX * overlapY
+              });
+            }
+          }
+        }
+
+        return {
+          totalSpans: spans.length,
+          unreachableCount: unreachable.length,
+          unreachable,
+          overlapsCount: overlaps.length,
+          overlaps: overlaps.slice(0, 10)
+        };
+      })()`,
+      returnByValue: true
+    }, sessionId);
+
+    console.log(`Results for page ${pageToTest}:`, testResults.result.value);
+  }
+
+  ws.close();
+} finally {
+  chromeProc.kill();
+  server.close();
+  process.exit(0);
+}

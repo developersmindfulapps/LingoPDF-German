@@ -1,0 +1,560 @@
+{
+  "benchmarkId": "news-bundesregierung-press",
+  "genre": "news",
+  "title": "Bundesregierung Presseerklärung zur Wirtschaft und Nachhaltigkeit",
+  "source": {
+    "publisher": "Presse- und Informationsamt der Bundesregierung",
+    "publication": "Amtliche Bekanntmachung",
+    "urlOrEdition": "https://www.bundesregierung.de/breg-de/aktuelles",
+    "author": "Bundesregierung Deutschland",
+    "publishedYear": 2024
+  },
+  "license": {
+    "type": "Public Domain / Amtliche Werke",
+    "legalBasis": "§ 5 Abs. 1 UrhG (German Copyright Act)",
+    "termsUrl": "https://www.gesetze-im-internet.de/urhg/__5.html",
+    "canRedistribute": true
+  },
+  "tokenMetrics": {
+    "rawTokenCount": 89,
+    "evaluatedDenominator": 86,
+    "excludedCount": 3
+  },
+  "rawText": "Die Bundesregierung setzt sich für bezahlbare Energie und den Schutz des Klimas ein. Um die Bürgerinnen und Bürger in den Städten und Gemeinden zu entlasten, wurden neue Gesetze und Maßnahmen beschlossen. Bundeskanzler und Ministerinnen betonten in Berlin, dass die Zukunft der Wirtschaft von verlässlicher Arbeit und nachhaltiger Innovation abhängt. Die Unterstützung für Familien, Schulen und Betriebe wird auch im kommenden Jahr fortgesetzt. Moderne Technologien und sichere Arbeitsplätze bilden das Fundament für gesellschaftlichen Zusammenhalt. Gemeinsam mit den Ländern werden weitere Schritte geplant, um bürokratische Hürden abzubauen und Investitionen zu erleichtern.",
+  "tokens": [
+    {
+      "raw": "Die",
+      "cleaned": "Die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bundesregierung",
+      "cleaned": "Bundesregierung",
+      "isExcluded": true,
+      "exclusionReason": "proper_name"
+    },
+    {
+      "raw": "setzt",
+      "cleaned": "setzt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sich",
+      "cleaned": "sich",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "für",
+      "cleaned": "für",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bezahlbare",
+      "cleaned": "bezahlbare",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Energie",
+      "cleaned": "Energie",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Schutz",
+      "cleaned": "Schutz",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "des",
+      "cleaned": "des",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Klimas",
+      "cleaned": "Klimas",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "ein.",
+      "cleaned": "ein",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Um",
+      "cleaned": "Um",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bürgerinnen",
+      "cleaned": "Bürgerinnen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bürger",
+      "cleaned": "Bürger",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "in",
+      "cleaned": "in",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Städten",
+      "cleaned": "Städten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gemeinden",
+      "cleaned": "Gemeinden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "entlasten,",
+      "cleaned": "entlasten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wurden",
+      "cleaned": "wurden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "neue",
+      "cleaned": "neue",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gesetze",
+      "cleaned": "Gesetze",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Maßnahmen",
+      "cleaned": "Maßnahmen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "beschlossen.",
+      "cleaned": "beschlossen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Bundeskanzler",
+      "cleaned": "Bundeskanzler",
+      "isExcluded": true,
+      "exclusionReason": "proper_name"
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ministerinnen",
+      "cleaned": "Ministerinnen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "betonten",
+      "cleaned": "betonten",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "in",
+      "cleaned": "in",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Berlin,",
+      "cleaned": "Berlin",
+      "isExcluded": true,
+      "exclusionReason": "proper_name"
+    },
+    {
+      "raw": "dass",
+      "cleaned": "dass",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "die",
+      "cleaned": "die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Zukunft",
+      "cleaned": "Zukunft",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "der",
+      "cleaned": "der",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Wirtschaft",
+      "cleaned": "Wirtschaft",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "von",
+      "cleaned": "von",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "verlässlicher",
+      "cleaned": "verlässlicher",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Arbeit",
+      "cleaned": "Arbeit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "nachhaltiger",
+      "cleaned": "nachhaltiger",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Innovation",
+      "cleaned": "Innovation",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "abhängt.",
+      "cleaned": "abhängt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Die",
+      "cleaned": "Die",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Unterstützung",
+      "cleaned": "Unterstützung",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "für",
+      "cleaned": "für",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Familien,",
+      "cleaned": "Familien",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Schulen",
+      "cleaned": "Schulen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Betriebe",
+      "cleaned": "Betriebe",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "wird",
+      "cleaned": "wird",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "auch",
+      "cleaned": "auch",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "im",
+      "cleaned": "im",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "kommenden",
+      "cleaned": "kommenden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Jahr",
+      "cleaned": "Jahr",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "fortgesetzt.",
+      "cleaned": "fortgesetzt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Moderne",
+      "cleaned": "Moderne",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Technologien",
+      "cleaned": "Technologien",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "sichere",
+      "cleaned": "sichere",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Arbeitsplätze",
+      "cleaned": "Arbeitsplätze",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bilden",
+      "cleaned": "bilden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "das",
+      "cleaned": "das",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Fundament",
+      "cleaned": "Fundament",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "für",
+      "cleaned": "für",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "gesellschaftlichen",
+      "cleaned": "gesellschaftlichen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Zusammenhalt.",
+      "cleaned": "Zusammenhalt",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Gemeinsam",
+      "cleaned": "Gemeinsam",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "mit",
+      "cleaned": "mit",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "den",
+      "cleaned": "den",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Ländern",
+      "cleaned": "Ländern",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "werden",
+      "cleaned": "werden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "weitere",
+      "cleaned": "weitere",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Schritte",
+      "cleaned": "Schritte",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "geplant,",
+      "cleaned": "geplant",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "um",
+      "cleaned": "um",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "bürokratische",
+      "cleaned": "bürokratische",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Hürden",
+      "cleaned": "Hürden",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "abzubauen",
+      "cleaned": "abzubauen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "und",
+      "cleaned": "und",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "Investitionen",
+      "cleaned": "Investitionen",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "zu",
+      "cleaned": "zu",
+      "isExcluded": false,
+      "exclusionReason": null
+    },
+    {
+      "raw": "erleichtern.",
+      "cleaned": "erleichtern",
+      "isExcluded": false,
+      "exclusionReason": null
+    }
+  ]
+}

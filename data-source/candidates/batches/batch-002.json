@@ -1,0 +1,5192 @@
+{
+  "batchId": "batch-002",
+  "batchIndex": 2,
+  "totalBatches": 2,
+  "startRank": 251,
+  "endRank": 407,
+  "candidateCount": 157,
+  "generatedAt": "2026-10-19T10:43:15.541Z",
+  "candidates": [
+    {
+      "candidateLemma": "Jacke",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 251
+    },
+    {
+      "candidateLemma": "Hut",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 252
+    },
+    {
+      "candidateLemma": "Brille",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 253
+    },
+    {
+      "candidateLemma": "unbedingt",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 66.86,
+      "scoreComponents": {
+        "frequencyScore": 83.89,
+        "grammaticalScore": 55,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.3,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "necessity_adverb",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 254
+    },
+    {
+      "candidateLemma": "worin",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 66.83,
+      "scoreComponents": {
+        "frequencyScore": 66.67,
+        "grammaticalScore": 90,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 7,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "pronominal_adverb",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.530Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 255
+    },
+    {
+      "candidateLemma": "Anfang",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.82,
+      "scoreComponents": {
+        "frequencyScore": 83.06,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.15,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "boundary_noun",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 256
+    },
+    {
+      "candidateLemma": "möglich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.78,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "modal_adjective",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 257
+    },
+    {
+      "candidateLemma": "Lösung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.75,
+      "scoreComponents": {
+        "frequencyScore": 80,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "abstract_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 258
+    },
+    {
+      "candidateLemma": "beantragen",
+      "canonicalPos": "verb",
+      "gender": null,
+      "compositeScore": 66.75,
+      "scoreComponents": {
+        "frequencyScore": 70,
+        "grammaticalScore": 60,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_verb",
+      "functionalRole": "civic_verb",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_verb",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 259
+    },
+    {
+      "candidateLemma": "Mund",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.72,
+      "scoreComponents": {
+        "frequencyScore": 82.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 260
+    },
+    {
+      "candidateLemma": "Streit",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.72,
+      "scoreComponents": {
+        "frequencyScore": 82.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "social_noun",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 261
+    },
+    {
+      "candidateLemma": "traurig",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.69,
+      "scoreComponents": {
+        "frequencyScore": 75.56,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "emotion_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 262
+    },
+    {
+      "candidateLemma": "Butter",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 263
+    },
+    {
+      "candidateLemma": "Salat",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 264
+    },
+    {
+      "candidateLemma": "Teller",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "tableware_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 265
+    },
+    {
+      "candidateLemma": "Hemd",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 66.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 266
+    },
+    {
+      "candidateLemma": "Mantel",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 267
+    },
+    {
+      "candidateLemma": "gefährlich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.64,
+      "scoreComponents": {
+        "frequencyScore": 76.11,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "evaluative_adjective",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 268
+    },
+    {
+      "candidateLemma": "meistens",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 66.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 55,
+        "cefrScore": 100,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "frequency_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 269
+    },
+    {
+      "candidateLemma": "verzichten",
+      "canonicalPos": "verb",
+      "gender": null,
+      "compositeScore": 66.58,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 60,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_verb",
+      "functionalRole": "action_verb",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_verb",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 270
+    },
+    {
+      "candidateLemma": "vertrauen",
+      "canonicalPos": "verb",
+      "gender": null,
+      "compositeScore": 66.56,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 60,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_verb",
+      "functionalRole": "emotion_verb",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_verb",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 271
+    },
+    {
+      "candidateLemma": "Arm",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.53,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 272
+    },
+    {
+      "candidateLemma": "Bein",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 66.53,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 273
+    },
+    {
+      "candidateLemma": "Schmerz",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.53,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "health_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 274
+    },
+    {
+      "candidateLemma": "Reis",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 275
+    },
+    {
+      "candidateLemma": "Kartoffel",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 276
+    },
+    {
+      "candidateLemma": "Rock",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 277
+    },
+    {
+      "candidateLemma": "vorsichtig",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.44,
+      "scoreComponents": {
+        "frequencyScore": 75.56,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "behavior_adjective",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 278
+    },
+    {
+      "candidateLemma": "furchtbar",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.44,
+      "scoreComponents": {
+        "frequencyScore": 75.56,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "evaluative_adjective",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 279
+    },
+    {
+      "candidateLemma": "fest",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.39,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "state_adjective",
+      "domain": "physical_world",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 280
+    },
+    {
+      "candidateLemma": "aufgrund",
+      "canonicalPos": "prep",
+      "gender": null,
+      "compositeScore": 66.36,
+      "scoreComponents": {
+        "frequencyScore": 68.89,
+        "grammaticalScore": 85,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 3.9,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "genitive_preposition",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 281
+    },
+    {
+      "candidateLemma": "Zukunft",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.33,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "temporal_noun",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 282
+    },
+    {
+      "candidateLemma": "hell",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.31,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "sensory_adjective",
+      "domain": "physical_world",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 283
+    },
+    {
+      "candidateLemma": "leise",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.31,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "sensory_adjective",
+      "domain": "physical_world",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 284
+    },
+    {
+      "candidateLemma": "Gemüse",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 66.28,
+      "scoreComponents": {
+        "frequencyScore": 72.22,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 285
+    },
+    {
+      "candidateLemma": "Ausflug",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.28,
+      "scoreComponents": {
+        "frequencyScore": 72.22,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "leisure_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 286
+    },
+    {
+      "candidateLemma": "Geschenk",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 66.25,
+      "scoreComponents": {
+        "frequencyScore": 75,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "social_noun",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 287
+    },
+    {
+      "candidateLemma": "verschieden",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.19,
+      "scoreComponents": {
+        "frequencyScore": 80.56,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "diversity_adjective",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 288
+    },
+    {
+      "candidateLemma": "jener",
+      "canonicalPos": "det",
+      "gender": null,
+      "compositeScore": 66.17,
+      "scoreComponents": {
+        "frequencyScore": 68.33,
+        "grammaticalScore": 85,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 3.8,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "demonstrative_determiner",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 289
+    },
+    {
+      "candidateLemma": "anstatt",
+      "canonicalPos": "prep",
+      "gender": null,
+      "compositeScore": 66.14,
+      "scoreComponents": {
+        "frequencyScore": 61.11,
+        "grammaticalScore": 85,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 7,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "genitive_preposition",
+      "domain": "grammar",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 290
+    },
+    {
+      "candidateLemma": "Brücke",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.14,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 291
+    },
+    {
+      "candidateLemma": "leer",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 66.11,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "state_adjective",
+      "domain": "physical_world",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 292
+    },
+    {
+      "candidateLemma": "Obst",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 66.08,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 293
+    },
+    {
+      "candidateLemma": "Himmel",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 66.01,
+      "scoreComponents": {
+        "frequencyScore": 83.61,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.25,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 294
+    },
+    {
+      "candidateLemma": "Meinung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 66.01,
+      "scoreComponents": {
+        "frequencyScore": 83.61,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.25,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "cognition_noun",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 295
+    },
+    {
+      "candidateLemma": "Krankheit",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.94,
+      "scoreComponents": {
+        "frequencyScore": 80.56,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "health_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 296
+    },
+    {
+      "candidateLemma": "Chef",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.92,
+      "scoreComponents": {
+        "frequencyScore": 83.33,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.2,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "work_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 297
+    },
+    {
+      "candidateLemma": "Flugzeug",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 65.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 298
+    },
+    {
+      "candidateLemma": "Ticket",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 65.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 299
+    },
+    {
+      "candidateLemma": "derjenige",
+      "canonicalPos": "det",
+      "gender": null,
+      "compositeScore": 65.78,
+      "scoreComponents": {
+        "frequencyScore": 67.22,
+        "grammaticalScore": 85,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 3.9,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "demonstrative_determiner",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 300
+    },
+    {
+      "candidateLemma": "Job",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.74,
+      "scoreComponents": {
+        "frequencyScore": 76.39,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5.25,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "work_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 301
+    },
+    {
+      "candidateLemma": "Ort",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.72,
+      "scoreComponents": {
+        "frequencyScore": 82.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "spatial_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 302
+    },
+    {
+      "candidateLemma": "Ergebnis",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 65.72,
+      "scoreComponents": {
+        "frequencyScore": 82.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 3,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "intellectual_noun",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 303
+    },
+    {
+      "candidateLemma": "modern",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 65.61,
+      "scoreComponents": {
+        "frequencyScore": 78.89,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "stylistic_adjective",
+      "domain": "cultural",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 304
+    },
+    {
+      "candidateLemma": "hoffentlich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 65.56,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 55,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "modal_adverb",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 305
+    },
+    {
+      "candidateLemma": "Boden",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.53,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "architectural_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 306
+    },
+    {
+      "candidateLemma": "Spiegel",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.53,
+      "scoreComponents": {
+        "frequencyScore": 82.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "household_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 307
+    },
+    {
+      "candidateLemma": "Spaziergang",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.5,
+      "scoreComponents": {
+        "frequencyScore": 70,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "leisure_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 308
+    },
+    {
+      "candidateLemma": "Fahrrad",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 65.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 309
+    },
+    {
+      "candidateLemma": "Feier",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "social_noun",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 310
+    },
+    {
+      "candidateLemma": "Wand",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.33,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "architectural_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 311
+    },
+    {
+      "candidateLemma": "Wind",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.33,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 312
+    },
+    {
+      "candidateLemma": "Freude",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.33,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "emotion_noun",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 313
+    },
+    {
+      "candidateLemma": "Unterschied",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.33,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "intellectual_noun",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 314
+    },
+    {
+      "candidateLemma": "Katze",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.25,
+      "scoreComponents": {
+        "frequencyScore": 75,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "biology_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 315
+    },
+    {
+      "candidateLemma": "schmutzig",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 65.19,
+      "scoreComponents": {
+        "frequencyScore": 65.56,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "evaluative_adjective",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 316
+    },
+    {
+      "candidateLemma": "beschäftigen",
+      "canonicalPos": "verb",
+      "gender": null,
+      "compositeScore": 65.17,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 60,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_verb",
+      "functionalRole": "action_verb",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_verb",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 317
+    },
+    {
+      "candidateLemma": "vermuten",
+      "canonicalPos": "verb",
+      "gender": null,
+      "compositeScore": 65.17,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 60,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_verb",
+      "functionalRole": "cognition_verb",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_verb",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 318
+    },
+    {
+      "candidateLemma": "Dach",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 65.14,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "architectural_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 319
+    },
+    {
+      "candidateLemma": "Kunde",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.14,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "economic_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 320
+    },
+    {
+      "candidateLemma": "Sicherheit",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 65.14,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "abstract_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 321
+    },
+    {
+      "candidateLemma": "mittlerweile",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 65.08,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 70,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "temporal_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 322
+    },
+    {
+      "candidateLemma": "Müll",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 65.06,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "waste_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 323
+    },
+    {
+      "candidateLemma": "Pass",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "identity_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 324
+    },
+    {
+      "candidateLemma": "Blume",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "biology_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 325
+    },
+    {
+      "candidateLemma": "Lampe",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.86,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "household_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 326
+    },
+    {
+      "candidateLemma": "pünktlich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 64.81,
+      "scoreComponents": {
+        "frequencyScore": 64.44,
+        "grammaticalScore": 45,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "behavior_adjective",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 327
+    },
+    {
+      "candidateLemma": "hinters",
+      "canonicalPos": "prep+art",
+      "gender": null,
+      "compositeScore": 64.69,
+      "scoreComponents": {
+        "frequencyScore": 50.56,
+        "grammaticalScore": 85,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 3,
+        "leipzigClass": 9,
+        "subtlexZipf": 3.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "preposition_article_contraction",
+      "domain": "grammar",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 328
+    },
+    {
+      "candidateLemma": "Koffer",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "travel_noun",
+      "domain": "travel",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 329
+    },
+    {
+      "candidateLemma": "Schnee",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64.67,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 330
+    },
+    {
+      "candidateLemma": "Kosten",
+      "canonicalPos": "noun",
+      "gender": "pl",
+      "compositeScore": 64.56,
+      "scoreComponents": {
+        "frequencyScore": 79.44,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "economic_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 331
+    },
+    {
+      "candidateLemma": "Schrank",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "furniture_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 332
+    },
+    {
+      "candidateLemma": "stolz",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 64.44,
+      "scoreComponents": {
+        "frequencyScore": 75.56,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "emotion_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 333
+    },
+    {
+      "candidateLemma": "tatsächlich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 64.42,
+      "scoreComponents": {
+        "frequencyScore": 83.33,
+        "grammaticalScore": 55,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 5.2,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "reality_adverb",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 334
+    },
+    {
+      "candidateLemma": "Lärm",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64.42,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "sensory_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 335
+    },
+    {
+      "candidateLemma": "normalerweise",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 64.36,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 55,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "frequency_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 336
+    },
+    {
+      "candidateLemma": "Pech",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 64.33,
+      "scoreComponents": {
+        "frequencyScore": 66.67,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "abstract_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 337
+    },
+    {
+      "candidateLemma": "Apotheke",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.31,
+      "scoreComponents": {
+        "frequencyScore": 69.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "facility_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 338
+    },
+    {
+      "candidateLemma": "Ampel",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.31,
+      "scoreComponents": {
+        "frequencyScore": 69.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 339
+    },
+    {
+      "candidateLemma": "Gleis",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 64.31,
+      "scoreComponents": {
+        "frequencyScore": 69.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 340
+    },
+    {
+      "candidateLemma": "Dose",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.22,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "container_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 341
+    },
+    {
+      "candidateLemma": "Haltestelle",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 64.11,
+      "scoreComponents": {
+        "frequencyScore": 68.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.2,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "transit_noun",
+      "domain": "transit",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 342
+    },
+    {
+      "candidateLemma": "zufrieden",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 64.06,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "emotion_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 343
+    },
+    {
+      "candidateLemma": "Finger",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 64,
+      "scoreComponents": {
+        "frequencyScore": 75,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 344
+    },
+    {
+      "candidateLemma": "nirgends",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.83,
+      "scoreComponents": {
+        "frequencyScore": 61.67,
+        "grammaticalScore": 70,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 7,
+        "subtlexZipf": 4.2,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "spatial_adverb",
+      "domain": "spatial",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 345
+    },
+    {
+      "candidateLemma": "Ohr",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 63.81,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 346
+    },
+    {
+      "candidateLemma": "Hals",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.81,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 347
+    },
+    {
+      "candidateLemma": "ähnlich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.75,
+      "scoreComponents": {
+        "frequencyScore": 80,
+        "grammaticalScore": 45,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "comparison_adjective",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 348
+    },
+    {
+      "candidateLemma": "folglich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.72,
+      "scoreComponents": {
+        "frequencyScore": 57.78,
+        "grammaticalScore": 90,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 8,
+        "subtlexZipf": 3.8,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "conjunctional_adverb",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.530Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 349
+    },
+    {
+      "candidateLemma": "Vergangenheit",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.69,
+      "scoreComponents": {
+        "frequencyScore": 80.56,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "temporal_noun",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 350
+    },
+    {
+      "candidateLemma": "vermutlich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.64,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 55,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "probability_adverb",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 351
+    },
+    {
+      "candidateLemma": "Nase",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 352
+    },
+    {
+      "candidateLemma": "Rücken",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 353
+    },
+    {
+      "candidateLemma": "Schulter",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 354
+    },
+    {
+      "candidateLemma": "Überraschung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "social_noun",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 355
+    },
+    {
+      "candidateLemma": "Mut",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.58,
+      "scoreComponents": {
+        "frequencyScore": 76.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 4,
+        "subtlexZipf": 5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "emotion_noun",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 356
+    },
+    {
+      "candidateLemma": "Pfeffer",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.56,
+      "scoreComponents": {
+        "frequencyScore": 64.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "food_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 357
+    },
+    {
+      "candidateLemma": "Löffel",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.56,
+      "scoreComponents": {
+        "frequencyScore": 64.44,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "cutlery_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 358
+    },
+    {
+      "candidateLemma": "schwach",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "descriptive_adjective",
+      "domain": "physical_world",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 359
+    },
+    {
+      "candidateLemma": "begeistert",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.47,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "emotion_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 360
+    },
+    {
+      "candidateLemma": "übermorgen",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.44,
+      "scoreComponents": {
+        "frequencyScore": 60.56,
+        "grammaticalScore": 70,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 8,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "temporal_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 361
+    },
+    {
+      "candidateLemma": "Bauch",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.42,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 362
+    },
+    {
+      "candidateLemma": "Knie",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 63.42,
+      "scoreComponents": {
+        "frequencyScore": 73.33,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "body_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 363
+    },
+    {
+      "candidateLemma": "Regierung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.39,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 3,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "civic_noun",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 364
+    },
+    {
+      "candidateLemma": "aktuell",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.36,
+      "scoreComponents": {
+        "frequencyScore": 78.89,
+        "grammaticalScore": 45,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "temporal_adjective",
+      "domain": "media",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 365
+    },
+    {
+      "candidateLemma": "Gabel",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.36,
+      "scoreComponents": {
+        "frequencyScore": 63.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "cutlery_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 366
+    },
+    {
+      "candidateLemma": "Mütze",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.36,
+      "scoreComponents": {
+        "frequencyScore": 63.89,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "clothing_noun",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 367
+    },
+    {
+      "candidateLemma": "politisch",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.28,
+      "scoreComponents": {
+        "frequencyScore": 77.22,
+        "grammaticalScore": 45,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "institutional_adjective",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 368
+    },
+    {
+      "candidateLemma": "Nachbar",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 63.22,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "social_noun",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 369
+    },
+    {
+      "candidateLemma": "quasi",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.08,
+      "scoreComponents": {
+        "frequencyScore": 61.67,
+        "grammaticalScore": 80,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 95
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 7,
+        "subtlexZipf": 4.2,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "discourse_particle",
+      "domain": "grammar",
+      "register": "spoken",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.530Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 370
+    },
+    {
+      "candidateLemma": "sozial",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.08,
+      "scoreComponents": {
+        "frequencyScore": 76.67,
+        "grammaticalScore": 45,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "institutional_adjective",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 371
+    },
+    {
+      "candidateLemma": "typisch",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 63.08,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "characterizing_adjective",
+      "domain": "cultural",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 372
+    },
+    {
+      "candidateLemma": "Hoffnung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.08,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "emotion_noun",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 373
+    },
+    {
+      "candidateLemma": "Pflicht",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 63.08,
+      "scoreComponents": {
+        "frequencyScore": 81.67,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "legal_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 374
+    },
+    {
+      "candidateLemma": "vorgestern",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 63.06,
+      "scoreComponents": {
+        "frequencyScore": 59.44,
+        "grammaticalScore": 70,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 8,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "temporal_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 375
+    },
+    {
+      "candidateLemma": "öffentlich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 62.97,
+      "scoreComponents": {
+        "frequencyScore": 77.78,
+        "grammaticalScore": 45,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.2,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "civic_adjective",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 376
+    },
+    {
+      "candidateLemma": "Gericht",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 62.89,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "civic_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 377
+    },
+    {
+      "candidateLemma": "Erinnerung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 62.89,
+      "scoreComponents": {
+        "frequencyScore": 81.11,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "cognition_noun",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 378
+    },
+    {
+      "candidateLemma": "Medikament",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 62.83,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "medical_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 379
+    },
+    {
+      "candidateLemma": "immerhin",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 62.72,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 55,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "concessive_adverb",
+      "domain": "grammar",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 380
+    },
+    {
+      "candidateLemma": "Gesetz",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 62.69,
+      "scoreComponents": {
+        "frequencyScore": 80.56,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "legal_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 381
+    },
+    {
+      "candidateLemma": "Freiheit",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 62.69,
+      "scoreComponents": {
+        "frequencyScore": 80.56,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.7,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "abstract_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 382
+    },
+    {
+      "candidateLemma": "Mond",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 62.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 383
+    },
+    {
+      "candidateLemma": "Stern",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 62.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 384
+    },
+    {
+      "candidateLemma": "Vogel",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 62.61,
+      "scoreComponents": {
+        "frequencyScore": 73.89,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "biology_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 385
+    },
+    {
+      "candidateLemma": "Ursache",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 62.5,
+      "scoreComponents": {
+        "frequencyScore": 80,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "intellectual_noun",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 386
+    },
+    {
+      "candidateLemma": "Wirkung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 62.5,
+      "scoreComponents": {
+        "frequencyScore": 80,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "intellectual_noun",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 387
+    },
+    {
+      "candidateLemma": "Zusammenhang",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 62.31,
+      "scoreComponents": {
+        "frequencyScore": 79.44,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "intellectual_noun",
+      "domain": "intellectual",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 388
+    },
+    {
+      "candidateLemma": "infolge",
+      "canonicalPos": "prep",
+      "gender": null,
+      "compositeScore": 62.28,
+      "scoreComponents": {
+        "frequencyScore": 57.22,
+        "grammaticalScore": 85,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 7,
+        "subtlexZipf": 3.4,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "closed_class",
+      "functionalRole": "genitive_preposition",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.531Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 389
+    },
+    {
+      "candidateLemma": "Fieber",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 62.25,
+      "scoreComponents": {
+        "frequencyScore": 70,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "health_noun",
+      "domain": "health",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 390
+    },
+    {
+      "candidateLemma": "glücklicherweise",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 62.25,
+      "scoreComponents": {
+        "frequencyScore": 65,
+        "grammaticalScore": 55,
+        "cefrScore": 85,
+        "morphologicalScore": 30,
+        "domainScore": 85
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "evaluative_adverb",
+      "domain": "daily_life",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 391
+    },
+    {
+      "candidateLemma": "Fluss",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 62.22,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "nature_noun",
+      "domain": "nature",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 392
+    },
+    {
+      "candidateLemma": "Heizung",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 62.03,
+      "scoreComponents": {
+        "frequencyScore": 72.22,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "household_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 393
+    },
+    {
+      "candidateLemma": "Handtuch",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 61.94,
+      "scoreComponents": {
+        "frequencyScore": 65.56,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "household_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 394
+    },
+    {
+      "candidateLemma": "Betrieb",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 61.92,
+      "scoreComponents": {
+        "frequencyScore": 78.33,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "economic_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 395
+    },
+    {
+      "candidateLemma": "Gemeinde",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 61.83,
+      "scoreComponents": {
+        "frequencyScore": 76.67,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 6,
+        "leipzigClass": 4,
+        "subtlexZipf": 4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "civic_noun",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 396
+    },
+    {
+      "candidateLemma": "Seife",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 61.75,
+      "scoreComponents": {
+        "frequencyScore": 65,
+        "grammaticalScore": 40,
+        "cefrScore": 100,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.5,
+        "cefrLevel": "A1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "household_noun",
+      "domain": "domestic",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 397
+    },
+    {
+      "candidateLemma": "Gehalt",
+      "canonicalPos": "noun",
+      "gender": "n",
+      "compositeScore": 61.64,
+      "scoreComponents": {
+        "frequencyScore": 71.11,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "economic_noun",
+      "domain": "workplace",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 398
+    },
+    {
+      "candidateLemma": "Augenblick",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 61.56,
+      "scoreComponents": {
+        "frequencyScore": 74.44,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.9,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "temporal_noun",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 399
+    },
+    {
+      "candidateLemma": "höflich",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 61.36,
+      "scoreComponents": {
+        "frequencyScore": 63.89,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.3,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "behavior_adjective",
+      "domain": "social",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 400
+    },
+    {
+      "candidateLemma": "nervös",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 61.33,
+      "scoreComponents": {
+        "frequencyScore": 66.67,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.8,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "emotion_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 401
+    },
+    {
+      "candidateLemma": "gewöhnlich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 61.33,
+      "scoreComponents": {
+        "frequencyScore": 71.67,
+        "grammaticalScore": 55,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 75
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "frequency_adverb",
+      "domain": "temporal",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 402
+    },
+    {
+      "candidateLemma": "Ausweis",
+      "canonicalPos": "noun",
+      "gender": "m",
+      "compositeScore": 61.25,
+      "scoreComponents": {
+        "frequencyScore": 70,
+        "grammaticalScore": 40,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.4,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "identity_noun",
+      "domain": "public_life",
+      "register": "standard",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 403
+    },
+    {
+      "candidateLemma": "mutig",
+      "canonicalPos": "adj",
+      "gender": null,
+      "compositeScore": 60.94,
+      "scoreComponents": {
+        "frequencyScore": 65.56,
+        "grammaticalScore": 45,
+        "cefrScore": 85,
+        "morphologicalScore": 50,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 4,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "A2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adj",
+      "functionalRole": "behavior_adjective",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "standard_adj",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.533Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 404
+    },
+    {
+      "candidateLemma": "sicherlich",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 60.72,
+      "scoreComponents": {
+        "frequencyScore": 72.78,
+        "grammaticalScore": 55,
+        "cefrScore": 70,
+        "morphologicalScore": 30,
+        "domainScore": 65
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4.6,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "probability_adverb",
+      "domain": "cognition",
+      "register": "standard",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 405
+    },
+    {
+      "candidateLemma": "Behörde",
+      "canonicalPos": "noun",
+      "gender": "f",
+      "compositeScore": 59.31,
+      "scoreComponents": {
+        "frequencyScore": 69.44,
+        "grammaticalScore": 40,
+        "cefrScore": 70,
+        "morphologicalScore": 50,
+        "domainScore": 70
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 5,
+        "subtlexZipf": 4,
+        "cefrLevel": "B1",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_noun",
+      "functionalRole": "civic_noun",
+      "domain": "public_life",
+      "register": "formal",
+      "morphType": "standard_noun",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.532Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 406
+    },
+    {
+      "candidateLemma": "keineswegs",
+      "canonicalPos": "adv",
+      "gender": null,
+      "compositeScore": 58.67,
+      "scoreComponents": {
+        "frequencyScore": 68.33,
+        "grammaticalScore": 55,
+        "cefrScore": 50,
+        "morphologicalScore": 30,
+        "domainScore": 90
+      },
+      "evidence": {
+        "dwdsBand": 5,
+        "leipzigClass": 6,
+        "subtlexZipf": 4.1,
+        "cefrLevel": "B2",
+        "hasFrequencyEvidence": true,
+        "hasCefrEvidence": true
+      },
+      "category": "core_adv",
+      "functionalRole": "negative_scalar_adverb",
+      "domain": "grammar",
+      "register": "formal",
+      "morphType": "unproductive",
+      "status": "pending_authoring",
+      "provenance": {
+        "pipelineVersion": "1.0.0",
+        "generatedAt": "2026-10-19T10:43:15.534Z",
+        "sourceSeed": "candidate-seeds.json"
+      },
+      "rank": 407
+    }
+  ]
+}

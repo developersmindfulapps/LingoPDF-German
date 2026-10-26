@@ -2,7 +2,7 @@ import type { HeadwordEntry } from '../../types/dictionary.ts';
 
 export interface LoadedDictionaryData {
   entries: Record<string, HeadwordEntry>;
-  inflections: Record<string, string>;
+  inflections: Record<string, string | string[]>;
 }
 
 /**
@@ -84,7 +84,7 @@ export async function loadDictionaryAssets(): Promise<LoadedDictionaryData> {
  */
 function validateDictionaryAssets(
   entries: Record<string, HeadwordEntry>,
-  inflections: Record<string, string>
+  inflections: Record<string, string | string[]>
 ): void {
   if (!entries || typeof entries !== 'object') {
     throw new Error('Dictionary entries failed validation: expected non-null object');
@@ -101,5 +101,79 @@ function validateDictionaryAssets(
   }
   if (inflectionCount < 40000) {
     throw new Error(`Dictionary inflections failed validation: expected >= 40,000, got ${inflectionCount}`);
+  }
+}
+
+/**
+ * Dedicated loader for independently authored German-English dictionary assets.
+ * Reads authored-de-en-dictionary.json and authored-de-en-inflections.json.
+ */
+export async function loadAuthoredDictionaryAssets(): Promise<LoadedDictionaryData> {
+  // 1. Node.js Environment (Automated CLI verification scripts)
+  if (typeof window === 'undefined') {
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+    const baseDir = path.resolve(process.cwd(), 'public', 'data');
+    const dictPath = path.join(baseDir, 'authored-de-en-dictionary.json');
+    const inflPath = path.join(baseDir, 'authored-de-en-inflections.json');
+
+    if (!fs.existsSync(dictPath) || !fs.existsSync(inflPath)) {
+      throw new Error(`Authored dictionary asset files missing in ${baseDir}`);
+    }
+
+    const entries = JSON.parse(fs.readFileSync(dictPath, 'utf8')) as Record<string, HeadwordEntry>;
+    const inflections = JSON.parse(fs.readFileSync(inflPath, 'utf8')) as Record<string, string | string[]>;
+
+    validateAuthoredDictionaryAssets(entries, inflections);
+    return { entries, inflections };
+  }
+
+  // 2. Browser & Chrome Extension Environment
+  const dictUrl = resolveDataAssetUrl('data/authored-de-en-dictionary.json');
+  const inflUrl = resolveDataAssetUrl('data/authored-de-en-inflections.json');
+
+  const [dictRes, inflRes] = await Promise.all([
+    fetch(dictUrl),
+    fetch(inflUrl)
+  ]);
+
+  if (!dictRes.ok) {
+    throw new Error(`Failed to load authored dictionary dataset from ${dictUrl}: HTTP ${dictRes.status}`);
+  }
+  if (!inflRes.ok) {
+    throw new Error(`Failed to load authored inflections dataset from ${inflUrl}: HTTP ${inflRes.status}`);
+  }
+
+  const [entries, inflections] = await Promise.all([
+    dictRes.json() as Promise<Record<string, HeadwordEntry>>,
+    inflRes.json() as Promise<Record<string, string | string[]>>
+  ]);
+
+  validateAuthoredDictionaryAssets(entries, inflections);
+  return { entries, inflections };
+}
+
+/**
+ * Validates that authored dictionary assets meet expected structure and minimum pilot thresholds.
+ */
+function validateAuthoredDictionaryAssets(
+  entries: Record<string, HeadwordEntry>,
+  inflections: Record<string, string | string[]>
+): void {
+  if (!entries || typeof entries !== 'object') {
+    throw new Error('Authored dictionary entries failed validation: expected non-null object');
+  }
+  if (!inflections || typeof inflections !== 'object') {
+    throw new Error('Authored dictionary inflections failed validation: expected non-null object');
+  }
+
+  const entryCount = Object.keys(entries).length;
+  const inflectionCount = Object.keys(inflections).length;
+
+  if (entryCount < 300) {
+    throw new Error(`Authored dictionary entries failed validation: expected >= 300, got ${entryCount}`);
+  }
+  if (inflectionCount < 1000) {
+    throw new Error(`Authored dictionary inflections failed validation: expected >= 1,000, got ${inflectionCount}`);
   }
 }

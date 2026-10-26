@@ -184,6 +184,20 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
     };
   }, [zoom.mode, zoom.scale, activePage, calculateEffectiveScale, onZoomChange]);
 
+  const handleRunOCR = useCallback(async () => {
+    if (!onRunOCR) return;
+    if (activePage) {
+      try {
+        const ocrCanvas = await pdfService.renderPageForOCR(activePage);
+        onRunOCR(ocrCanvas);
+        return;
+      } catch (err) {
+        console.warn('High-resolution offscreen render for OCR failed, falling back to visible canvas:', err);
+      }
+    }
+    onRunOCR(canvasRef.current);
+  }, [activePage, onRunOCR]);
+
   return (
     <div
       ref={containerRef}
@@ -199,9 +213,9 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
             progress={ocrProgress}
             statusText={ocrStatusText}
             errorMessage={ocrError}
-            onRunOCR={() => onRunOCR?.(canvasRef.current)}
+            onRunOCR={handleRunOCR}
             onCancelOCR={onCancelOCR}
-            onRetryOCR={() => onRunOCR?.(canvasRef.current)}
+            onRetryOCR={handleRunOCR}
           />
         )}
 
