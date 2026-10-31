@@ -12,6 +12,7 @@ import { PDFControls } from './components/PDFControls';
 import { LoadingSpinner } from './components/LoadingSpinner';
 import { ErrorMessage } from './components/ErrorMessage';
 import { AboutModal } from './components/AboutModal';
+import { SettingsModal } from './components/SettingsModal';
 
 export const App: React.FC = () => {
   const [doc, setDoc] = useState<PDFDocumentProxy | null>(null);
@@ -23,6 +24,7 @@ export const App: React.FC = () => {
   const [error, setError] = useState<PDFLoadError | null>(null);
   const [lastSelectedFile, setLastSelectedFile] = useState<File | null>(null);
   const [isAboutOpen, setIsAboutOpen] = useState<boolean>(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
 
   const {
     currentOCRResult,
@@ -32,6 +34,8 @@ export const App: React.FC = () => {
     runOCR,
     cancelOCR,
     clearCache: clearOCRCache,
+    hasCachedResult,
+    isPageFailed,
   } = useOCR({ currentPage });
 
   const {
@@ -108,6 +112,7 @@ export const App: React.FC = () => {
       <Navbar
         documentInfo={docInfo}
         onOpenNewFile={handleReset}
+        onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenAbout={() => setIsAboutOpen(true)}
       />
 
@@ -138,8 +143,10 @@ export const App: React.FC = () => {
               ocrProgress={ocrProgress?.progress}
               ocrStatusText={ocrProgress?.status}
               ocrError={ocrError}
-              onRunOCR={(canvas) => runOCR(canvas, currentPage)}
+              onRunOCR={(canvas, pageNumber, isRetry) => runOCR(canvas, pageNumber ?? currentPage, isRetry)}
               onCancelOCR={cancelOCR}
+              isPageFailed={isPageFailed}
+              hasCachedResult={hasCachedResult}
               onPageChange={handlePageChange}
               onZoomChange={handleZoomChange}
               onLoadingStateChange={setIsLoadingPage}
@@ -154,7 +161,7 @@ export const App: React.FC = () => {
               isLoadingPage={isLoadingPage}
             />
 
-            {/* Phase 7 Floating Dictionary Tooltip */}
+            {/* Floating Dictionary Tooltip */}
             <DictionaryTooltip
               wordSelection={activeSelection}
               result={dictionaryResult}
@@ -166,7 +173,13 @@ export const App: React.FC = () => {
         )}
       </main>
 
-      {/* Pre-release About & Licenses Modal */}
+      {/* Settings Modal */}
+      <SettingsModal
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+      />
+
+      {/* About & Licenses Modal */}
       <AboutModal
         isOpen={isAboutOpen}
         onClose={() => setIsAboutOpen(false)}

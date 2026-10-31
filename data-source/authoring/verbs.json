@@ -3651,5 +3651,208 @@
       "created": "2026-10-22",
       "notes": "Regular textbook instruction verb with -ieren."
     }
+  },
+  {
+    "headword": "schlafen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to sleep",
+      "to be asleep"
+    ],
+    "inflections": [
+      "schlafe",
+      "schläfst",
+      "schläft",
+      "schlafen",
+      "schlaft",
+      "schlief",
+      "schliefst",
+      "schliefen",
+      "schlieft",
+      "geschlafen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 strong verb; vowel change schlafen→schläft."
+    }
+  },
+  {
+    "headword": "träumen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to dream",
+      "to daydream"
+    ],
+    "inflections": [
+      "träume",
+      "träumst",
+      "träumt",
+      "träumen",
+      "träumte",
+      "träumten",
+      "geträumt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A2 regular verb; related to noun Traum."
+    }
+  },
+  {
+    "headword": "ausschneiden",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to cut out",
+      "to clip"
+    ],
+    "examples": [
+      {
+        "de": "Er hatte ein Bild aus der Zeitung ausgeschnitten.",
+        "en": "He had cut out a picture from the newspaper."
+      }
+    ],
+    "inflections": [
+      "ausgeschnitten",
+      "auszuschneiden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Separable verb: aus + schneiden."
+    }
+  },
+  {
+    "headword": "unterbringen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to accommodate",
+      "to house",
+      "to put up",
+      "to place",
+      "to mount"
+    ],
+    "examples": [
+      {
+        "de": "Er hatte das Bild in einem hübschen Rahmen untergebracht.",
+        "en": "He had accommodated the picture in a pretty frame."
+      }
+    ],
+    "inflections": [
+      "untergebracht",
+      "unterzubringen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Separable verb: unter + bringen."
+    }
+  },
+  {
+    "headword": "planen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to plan",
+      "to design",
+      "to project"
+    ],
+    "examples": [
+      {
+        "de": "Geplante Investitionen stärken den Standort.",
+        "en": "Planned investments strengthen the location."
+      }
+    ],
+    "inflections": [
+      "plane",
+      "planst",
+      "plant",
+      "plante",
+      "planten",
+      "geplant"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 verb: to plan."
+    }
+  },
+  {
+    "headword": "verpflichten",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to obligate",
+      "to oblige",
+      "to commit",
+      "to require"
+    ],
+    "examples": [
+      {
+        "de": "Das Gesetz verpflichtet alle Bürger zur Anmeldung.",
+        "en": "The law obligates all citizens to register."
+      }
+    ],
+    "inflections": [
+      "verpflichte",
+      "verpflichtest",
+      "verpflichtet",
+      "verpflichtete",
+      "verpflichteten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Legal verb from Pflicht."
+    }
+  },
+  {
+    "headword": "niedergleiten",
+    "pos": "verb",
+    "cefr": "B2",
+    "translations": [
+      "to slide down",
+      "to glide down",
+      "to slip down"
+    ],
+    "examples": [
+      {
+        "de": "Sie ließ den Vorhang langsam niedergleiten.",
+        "en": "She let the curtain slowly glide down."
+      }
+    ],
+    "inflections": [
+      "niedergleitend",
+      "niedergeglitten",
+      "niederzugleiten",
+      "niedergleite",
+      "niedergleitest",
+      "niedergleitet",
+      "niederglitt",
+      "niederglitten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-29",
+      "notes": "Separable verb: nieder + gleiten; strong verb (gleiten / glitt / geglitten); base verb for nominalized gerund Niedergleiten."
+    }
   }
 ]

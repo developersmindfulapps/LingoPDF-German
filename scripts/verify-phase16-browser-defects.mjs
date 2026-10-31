@@ -6,7 +6,20 @@ import { spawn } from 'node:child_process';
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, 'dist');
 const testDir = path.join(rootDir, 'test-assets');
-const chromePath = 'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe';
+function findChrome() {
+  const candidates = [
+    process.env.CHROME_BIN,
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+    path.join(process.env.LOCALAPPDATA || '', 'Google', 'Chrome', 'Application', 'chrome.exe'),
+    'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe'
+  ].filter(Boolean);
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+  return candidates[0];
+}
+const chromePath = findChrome();
 const profileDir = path.resolve('.chrome-phase16-test-profile');
 const testPort = 8797;
 const cdpPort = 9223;
@@ -137,6 +150,8 @@ try {
     for (let i = 0; i < 20; i++) {
       const ocrClick = await send('Runtime.evaluate', {
         expression: `(() => {
+          const notNow = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Not now'));
+          if (notNow) notNow.click();
           const btn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Run OCR'));
           if (btn) { btn.click(); return true; }
           return false;
@@ -180,6 +195,7 @@ try {
       expression: `(() => {
         const escEvent = new KeyboardEvent('keydown', { key: 'Escape', code: 'Escape', keyCode: 27, which: 27, bubbles: true });
         document.dispatchEvent(escEvent);
+        document.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, clientX: 0, clientY: 0 }));
         window.getSelection()?.removeAllRanges();
       })()`
     }, sessionId);

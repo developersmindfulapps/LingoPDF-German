@@ -6,7 +6,20 @@ import { spawn } from 'node:child_process';
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, 'dist');
 const testDir = path.join(rootDir, 'test-assets');
-const chromePath = 'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe';
+function findChrome() {
+  const candidates = [
+    process.env.CHROME_BIN,
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+    path.join(process.env.LOCALAPPDATA || '', 'Google', 'Chrome', 'Application', 'chrome.exe'),
+    'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe'
+  ].filter(Boolean);
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+  return candidates[0];
+}
+const chromePath = findChrome();
 const profileDir = path.resolve('.chrome-phase15-test-profile');
 const testPort = 8799;
 const cdpPort = 9224;
@@ -151,7 +164,9 @@ try {
   for (let i = 0; i < 20; i++) {
     const ocrClick = await send('Runtime.evaluate', {
       expression: `(() => {
-        const btn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Run OCR'));
+        const notNow = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Not now'));
+          if (notNow) notNow.click();
+          const btn = Array.from(document.querySelectorAll('button')).find(b => b.innerText.includes('Run OCR'));
         if (btn) { btn.click(); return true; }
         return false;
       })()`,

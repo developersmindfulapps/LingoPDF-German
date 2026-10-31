@@ -42,6 +42,16 @@ export function useWordSelection({
 
       // 1. Check if interaction happened inside or in close proximity of the textLayer container
       const target = e.target as Node | null;
+      if (!target) return;
+
+      const targetEl = target instanceof Element ? target : target.parentElement;
+      const targetLayer = targetEl?.closest('.textLayer');
+
+      // If interaction occurred inside a different text layer (e.g. OCR overlay vs native layer), ignore it
+      if (targetLayer && targetLayer !== container) {
+        return;
+      }
+
       const cRect = container.getBoundingClientRect();
       const isNearContainer = (
         e.clientX >= cRect.left - 14 &&
@@ -50,7 +60,7 @@ export function useWordSelection({
         e.clientY <= cRect.bottom + 14
       );
 
-      if (!target || (!container.contains(target) && !isNearContainer)) {
+      if (!container.contains(target) && !isNearContainer) {
         // Clicked outside textLayer
         if (selectedWord) {
           setSelection(null);
@@ -86,43 +96,31 @@ export function useWordSelection({
               const startEl = getOcrWordElement(range.startContainer);
               const endEl = getOcrWordElement(range.endContainer);
 
-              // If the user clicked on a distinct OCR word element, prioritize the clicked element
-              if (clickedOcrEl && startEl !== clickedOcrEl) {
-                // Fall through to click handling for clickedOcrEl
-              } else {
-                // Multi-element selection or non-OCR element is rejected (multi-word selection suppression)
-                if (!startEl || !endEl || startEl !== endEl) {
-                  setSelection(null);
-                  return;
-                }
+              // If user selected within an OCR word span, prioritize the selected word element
+              const targetSpan = (startEl && endEl && startEl === endEl) ? startEl : (clickedOcrEl || startEl);
 
-                // Multiword check on the selected text
-                if (!isSingleWord(rawText)) {
-                  setSelection(null);
-                  return;
-                }
-
-                // In OCR mode, verify that the selection represents the COMPLETE word token.
-                // Partial selections inside a word (e.g. "Lieblingsfil" or "film" inside "Lieblingsfilm") are strictly rejected.
-                const fullOcrText = startEl.getAttribute('data-ocr-word') || startEl.textContent || '';
+              if (targetSpan && isSingleWord(rawText)) {
+                const fullOcrText = targetSpan.getAttribute('data-ocr-word') || targetSpan.textContent || '';
                 const fullCleaned = cleanWordToken(fullOcrText);
                 const selectedCleaned = cleanWordToken(rawText);
 
-                if (!fullCleaned || !selectedCleaned || selectedCleaned.toLowerCase() !== fullCleaned.toLowerCase()) {
-                  setSelection(null);
-                  return;
-                }
-
-                const spanRect = startEl.getBoundingClientRect();
-                if (spanRect && spanRect.width > 0 && spanRect.height > 0) {
-                  setSelection({
-                    word: fullCleaned,
-                    pageNumber,
-                    rect: spanRect,
-                  });
-                  return;
+                // Verify that the selection corresponds to the recognized word token
+                if (fullCleaned && selectedCleaned && selectedCleaned.toLowerCase() === fullCleaned.toLowerCase()) {
+                  const spanRect = targetSpan.getBoundingClientRect();
+                  if (spanRect && spanRect.width > 0 && spanRect.height > 0) {
+                    setSelection({
+                      word: fullCleaned,
+                      pageNumber,
+                      rect: spanRect,
+                    });
+                    return;
+                  }
                 }
               }
+
+              // Multi-element or non-matching selection in selection-only mode is cleared
+              setSelection(null);
+              return;
             } else if (isSingleWord(rawText)) {
               // Normal text-PDF selection mode
               const cleaned = cleanWordToken(rawText);

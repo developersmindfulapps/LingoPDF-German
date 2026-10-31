@@ -12,6 +12,7 @@ export function useOCR({ currentPage }: UseOCROptions) {
   const [progress, setProgress] = useState<OCRProgress | null>(null);
   const [error, setError] = useState<string | null>(null);
   const activeJobPageRef = useRef<number | null>(null);
+  const failedPagesRef = useRef<Set<number>>(new Set());
 
   // Retrieve cached OCR result for the currently active page
   const currentOCRResult = pageCache.get(currentPage) || null;
@@ -29,9 +30,10 @@ export function useOCR({ currentPage }: UseOCROptions) {
 
   /**
    * Triggers OCR recognition on the provided canvas for a specific page number.
+   * Prevents duplicate executions on the same page.
    */
   const runOCR = useCallback(
-    async (canvas: HTMLCanvasElement | null, pageNumber = currentPage) => {
+    async (canvas: HTMLCanvasElement | null, pageNumber = currentPage, isRetry = false) => {
       if (!canvas) {
         setError('Page canvas is not available for OCR.');
         return;
@@ -42,8 +44,17 @@ export function useOCR({ currentPage }: UseOCROptions) {
         return;
       }
 
+      // Prevent duplicate concurrent execution for the same page
+      if (activeJobPageRef.current === pageNumber && isProcessing) {
+        return;
+      }
+
+      if (isRetry) {
+        failedPagesRef.current.delete(pageNumber);
+      }
+
       setIsProcessing(true);
-      setProgress({ status: 'Starting OCR...', progress: 0 });
+      setProgress({ status: 'Recognizing text...', progress: 0 });
       setError(null);
       activeJobPageRef.current = pageNumber;
 
@@ -63,6 +74,8 @@ export function useOCR({ currentPage }: UseOCROptions) {
           return next;
         });
 
+        failedPagesRef.current.delete(pageNumber);
+
         if (activeJobPageRef.current === pageNumber) {
           setIsProcessing(false);
           setProgress(null);
@@ -70,17 +83,18 @@ export function useOCR({ currentPage }: UseOCROptions) {
         }
       } catch (err) {
         if (err instanceof OCRCancelledError) {
-          // Operation was cancelled cleanly by user or page navigation
+          // Clean cancellation by navigation or user request
           setIsProcessing(false);
           setProgress(null);
           activeJobPageRef.current = null;
         } else {
           console.error('OCR recognition error:', err);
+          failedPagesRef.current.add(pageNumber);
           if (activeJobPageRef.current === pageNumber) {
             setError(
               err instanceof Error
                 ? err.message
-                : 'Failed to recognize text on this page.'
+                : "Couldn't recognize text. Try again."
             );
             setIsProcessing(false);
             setProgress(null);
@@ -89,7 +103,7 @@ export function useOCR({ currentPage }: UseOCROptions) {
         }
       }
     },
-    [currentPage, pageCache]
+    [currentPage, isProcessing, pageCache]
   );
 
   /**
@@ -109,6 +123,7 @@ export function useOCR({ currentPage }: UseOCROptions) {
   const clearCache = useCallback(async () => {
     ocrService.cancel();
     setPageCache(new Map());
+    failedPagesRef.current.clear();
     setIsProcessing(false);
     setProgress(null);
     setError(null);
@@ -125,6 +140,7 @@ export function useOCR({ currentPage }: UseOCROptions) {
     cancelOCR,
     clearCache,
     hasCachedResult: (page: number) => pageCache.has(page),
+    isPageFailed: (page: number) => failedPagesRef.current.has(page),
     cachedPagesCount: pageCache.size,
   };
 }

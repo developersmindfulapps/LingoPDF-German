@@ -725,5 +725,501 @@
       "reviewStatus": "verified",
       "created": "2026-10-16"
     }
+  },
+  {
+    "headword": "Meldebehörde",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Meldebehörden",
+    "cefr": "A2",
+    "translations": [
+      "registration office",
+      "registration authority",
+      "residents' registration office"
+    ],
+    "examples": [
+      {
+        "de": "Sie müssen sich bei der zuständigen Meldebehörde anmelden.",
+        "en": "You must register at the responsible registration office."
+      }
+    ],
+    "inflections": [
+      "meldebehörde",
+      "meldebehörden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: melden + Behörde; administrative registration office."
+    }
+  },
+  {
+    "headword": "Wohnungsgeber",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Wohnungsgeber",
+    "cefr": "A2",
+    "translations": [
+      "housing provider",
+      "landlord"
+    ],
+    "examples": [
+      {
+        "de": "Sie benötigen eine Bestätigung des Wohnungsgebers.",
+        "en": "You need a confirmation from the housing provider."
+      }
+    ],
+    "inflections": [
+      "wohnungsgeber",
+      "wohnungsgebers",
+      "wohnungsgebern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Wohnung + s + Geber; masculine noun with Fugen-s."
+    }
+  },
+  {
+    "headword": "Personalausweis",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Personalausweise",
+    "cefr": "A1",
+    "translations": [
+      "identity card",
+      "national ID card",
+      "ID card"
+    ],
+    "examples": [
+      {
+        "de": "Bitte zeigen Sie Ihren Personalausweis oder Reisepass.",
+        "en": "Please show your identity card or passport."
+      }
+    ],
+    "inflections": [
+      "personalausweis",
+      "personalausweises",
+      "personalausweise",
+      "personalausweisen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Personal + Ausweis; primary German identity document."
+    }
+  },
+  {
+    "headword": "Einzugsdatum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Einzugsdaten",
+    "cefr": "A2",
+    "translations": [
+      "move-in date",
+      "date of moving in"
+    ],
+    "examples": [
+      {
+        "de": "Das Einzugsdatum muss in der Bestätigung stehen.",
+        "en": "The move-in date must be in the confirmation."
+      }
+    ],
+    "inflections": [
+      "einzugsdatum",
+      "einzugsdatums",
+      "einzugsdaten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Einzug + s + Datum; administrative tenancy term."
+    }
+  },
+  {
+    "headword": "Mietvertrag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Mietverträge",
+    "cefr": "A1",
+    "translations": [
+      "rental agreement",
+      "lease",
+      "tenancy agreement"
+    ],
+    "examples": [
+      {
+        "de": "Ein Mietvertrag reicht als Bestätigung nicht aus.",
+        "en": "A rental agreement is not sufficient as confirmation."
+      }
+    ],
+    "inflections": [
+      "mietvertrag",
+      "mietvertrags",
+      "mietvertrages",
+      "mietverträge",
+      "mietverträgen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Miete + Vertrag; housing contract."
+    }
+  },
+  {
+    "headword": "Bußgeld",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Bußgelder",
+    "cefr": "A2",
+    "translations": [
+      "fine",
+      "administrative penalty",
+      "monetary fine"
+    ],
+    "examples": [
+      {
+        "de": "Bei Fristüberschreitung kann ein Bußgeld verhängt werden.",
+        "en": "In case of exceeding the deadline, a fine may be imposed."
+      }
+    ],
+    "inflections": [
+      "bußgeld",
+      "bußgeldes",
+      "bußgelds",
+      "bußgelder",
+      "bußgeldern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Buße + Geld; legal administrative fine."
+    }
+  },
+  {
+    "headword": "Bettdecke",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bettdecken",
+    "cefr": "A1",
+    "translations": [
+      "duvet",
+      "blanket",
+      "quilt",
+      "bedspread"
+    ],
+    "examples": [
+      {
+        "de": "Die Bettdecke lag auf dem Bett.",
+        "en": "The duvet lay on the bed."
+      }
+    ],
+    "inflections": [
+      "bettdecke",
+      "bettdecken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Bett + Decke; bedroom vocabulary."
+    }
+  },
+  {
+    "headword": "Menschenzimmer",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Menschenzimmer",
+    "cefr": "B1",
+    "translations": [
+      "human room",
+      "regular room for a human being"
+    ],
+    "examples": [
+      {
+        "de": "Sein Zimmer war ein richtiges Menschenzimmer.",
+        "en": "His room was a real human room."
+      }
+    ],
+    "inflections": [
+      "menschenzimmer",
+      "menschenzimmers",
+      "menschenzimmern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Author-specific literary nonce compound (Kafka, Die Verwandlung hapax legomenon: Mensch + en + Zimmer); denotes a human-appropriate room in contrast to Gregor's insect state; not part of standard German general vocabulary."
+    }
+  },
+  {
+    "headword": "Zeitschrift",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Zeitschriften",
+    "cefr": "A1",
+    "translations": [
+      "magazine",
+      "periodical",
+      "journal"
+    ],
+    "examples": [
+      {
+        "de": "Er liest eine illustrierte Zeitschrift.",
+        "en": "He is reading an illustrated magazine."
+      }
+    ],
+    "inflections": [
+      "zeitschrift",
+      "zeitschriften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Zeit + Schrift; common media noun."
+    }
+  },
+  {
+    "headword": "Heißgetränk",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Heißgetränke",
+    "cefr": "A2",
+    "translations": [
+      "hot beverage",
+      "hot drink"
+    ],
+    "examples": [
+      {
+        "de": "Kaffee und Tee sind beliebte Heißgetränke.",
+        "en": "Coffee and tea are popular hot beverages."
+      }
+    ],
+    "inflections": [
+      "heißgetränk",
+      "heißgetränks",
+      "heißgetränke",
+      "heißgetränken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: heiß + Getränk; beverage category."
+    }
+  },
+  {
+    "headword": "Kaffeebohne",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kaffeebohnen",
+    "cefr": "A2",
+    "translations": [
+      "coffee bean"
+    ],
+    "examples": [
+      {
+        "de": "Aus gerösteten Kaffeebohnen wird Kaffee zubereitet.",
+        "en": "Coffee is prepared from roasted coffee beans."
+      }
+    ],
+    "inflections": [
+      "kaffeebohne",
+      "kaffeebohnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Kaffee + Bohne."
+    }
+  },
+  {
+    "headword": "Kaffeepflanze",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kaffeepflanzen",
+    "cefr": "A2",
+    "translations": [
+      "coffee plant"
+    ],
+    "examples": [
+      {
+        "de": "Die Kaffeepflanze stammt aus Afrika.",
+        "en": "The coffee plant originates from Africa."
+      }
+    ],
+    "inflections": [
+      "kaffeepflanze",
+      "kaffeepflanzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Kaffee + Pflanze."
+    }
+  },
+  {
+    "headword": "Straßenverkehr",
+    "pos": "noun",
+    "gender": "m",
+    "cefr": "A2",
+    "translations": [
+      "road traffic",
+      "street traffic",
+      "traffic"
+    ],
+    "examples": [
+      {
+        "de": "Der Straßenverkehr in der Stadt nimmt zu.",
+        "en": "Road traffic in the city is increasing."
+      }
+    ],
+    "inflections": [
+      "straßenverkehr",
+      "straßenverkehrs"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Straße + n + Verkehr."
+    }
+  },
+  {
+    "headword": "Verkehrsmittel",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Verkehrsmittel",
+    "cefr": "A2",
+    "translations": [
+      "means of transport",
+      "means of transportation",
+      "vehicle"
+    ],
+    "examples": [
+      {
+        "de": "Die Bahn ist ein umweltfreundliches Verkehrsmittel.",
+        "en": "The train is an environmentally friendly means of transport."
+      }
+    ],
+    "inflections": [
+      "verkehrsmittel",
+      "verkehrsmittels",
+      "verkehrsmitteln"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Verkehr + s + Mittel."
+    }
+  },
+  {
+    "headword": "Fahrkartenautomat",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Fahrkartenautomaten",
+    "cefr": "A1",
+    "translations": [
+      "ticket vending machine",
+      "ticket machine"
+    ],
+    "examples": [
+      {
+        "de": "Sie können Fahrkarten am Fahrkartenautomaten kaufen.",
+        "en": "You can buy tickets at the ticket vending machine."
+      }
+    ],
+    "inflections": [
+      "fahrkartenautomat",
+      "fahrkartenautomaten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: Fahrkarte + n + Automat; masculine weak noun."
+    }
+  },
+  {
+    "headword": "Zusammenhalt",
+    "pos": "noun",
+    "gender": "m",
+    "cefr": "B1",
+    "translations": [
+      "cohesion",
+      "solidarity",
+      "togetherness"
+    ],
+    "examples": [
+      {
+        "de": "Der soziale Zusammenhalt in der Gesellschaft ist wichtig.",
+        "en": "Social cohesion in society is important."
+      }
+    ],
+    "inflections": [
+      "zusammenhalt",
+      "zusammenhalts"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound noun: zusammen + Halt; societal solidarity."
+    }
+  },
+  {
+    "headword": "Niedergleiten",
+    "pos": "noun",
+    "gender": "n",
+    "cefr": "B2",
+    "translations": [
+      "sliding down",
+      "slipping down",
+      "gliding down"
+    ],
+    "examples": [
+      {
+        "de": "Die Decke war zum Niedergleiten bereit.",
+        "en": "The blanket was ready to slide down."
+      }
+    ],
+    "inflections": [
+      "niedergleiten",
+      "niedergleitens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Literary nominalized gerund (das Niedergleiten, neuter singulare tantum) from the separable verb niedergleiten (Kafka: zum gänzlichen Niedergleiten bereit)."
+    }
   }
 ]

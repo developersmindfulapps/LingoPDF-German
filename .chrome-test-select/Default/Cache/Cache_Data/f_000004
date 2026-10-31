@@ -1,0 +1,8524 @@
+{
+  "Abend": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "evening"
+        ],
+        "gender": "m",
+        "plural": "Abende"
+      }
+    ]
+  },
+  "Abfahrt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "departure"
+        ],
+        "gender": "f",
+        "plural": "Abfahrten"
+      }
+    ]
+  },
+  "Adjektiv": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "adjective"
+        ],
+        "gender": "n",
+        "plural": "Adjektive"
+      }
+    ]
+  },
+  "Adresse": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "address"
+        ],
+        "gender": "f",
+        "plural": "Adressen"
+      }
+    ]
+  },
+  "Afrika": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Africa"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Akkusativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "accusative case",
+          "accusative"
+        ],
+        "gender": "m",
+        "plural": "Akkusative"
+      }
+    ]
+  },
+  "Angabe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "detail",
+          "statement",
+          "specification"
+        ],
+        "gender": "f",
+        "plural": "Angaben"
+      }
+    ]
+  },
+  "Anmeldung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "registration",
+          "enrollment",
+          "notification"
+        ],
+        "gender": "f",
+        "plural": "Anmeldungen"
+      }
+    ]
+  },
+  "Anschrift": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "address",
+          "postal address"
+        ],
+        "gender": "f",
+        "plural": "Anschriften"
+      }
+    ]
+  },
+  "Antwort": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "answer",
+          "reply"
+        ],
+        "gender": "f",
+        "plural": "Antworten"
+      }
+    ]
+  },
+  "Anzug": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "suit (clothing)"
+        ],
+        "gender": "m",
+        "plural": "Anzüge"
+      }
+    ]
+  },
+  "Apfel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "apple"
+        ],
+        "gender": "m",
+        "plural": "Äpfel"
+      }
+    ]
+  },
+  "April": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "April"
+        ],
+        "gender": "m",
+        "plural": "Aprile"
+      }
+    ]
+  },
+  "Arabisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Arabic (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Arbeit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "work",
+          "job",
+          "labor"
+        ],
+        "gender": "f",
+        "plural": "Arbeiten"
+      }
+    ]
+  },
+  "Arbeitsplatz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "workplace",
+          "job"
+        ],
+        "gender": "m",
+        "plural": "Arbeitsplätze"
+      }
+    ]
+  },
+  "Arbeitszeit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "working hours",
+          "work time"
+        ],
+        "gender": "f",
+        "plural": "Arbeitszeiten"
+      }
+    ]
+  },
+  "Architekt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "architect (male)"
+        ],
+        "gender": "m",
+        "plural": "Architekten"
+      }
+    ]
+  },
+  "Architektin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "architect (female)"
+        ],
+        "gender": "f",
+        "plural": "Architektinnen"
+      }
+    ]
+  },
+  "Artikel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "article (grammar)",
+          "article (text)"
+        ],
+        "gender": "m",
+        "plural": "Artikel"
+      }
+    ]
+  },
+  "Arzt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "doctor (male)",
+          "physician"
+        ],
+        "gender": "m",
+        "plural": "Ärzte"
+      }
+    ]
+  },
+  "Aufgabe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "task",
+          "exercise",
+          "assignment"
+        ],
+        "gender": "f",
+        "plural": "Aufgaben"
+      }
+    ]
+  },
+  "August": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "August"
+        ],
+        "gender": "m",
+        "plural": "Auguste"
+      }
+    ]
+  },
+  "Auskunft": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "information",
+          "inquiry desk"
+        ],
+        "gender": "f",
+        "plural": "Auskünfte"
+      }
+    ]
+  },
+  "Aussage": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "statement",
+          "assertion"
+        ],
+        "gender": "f",
+        "plural": "Aussagen"
+      }
+    ]
+  },
+  "Aussagesatz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "declarative sentence",
+          "statement",
+          "affirmative sentence"
+        ],
+        "gender": "m",
+        "plural": "Aussagesätze"
+      }
+    ]
+  },
+  "Ausstieg": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "exit",
+          "alighting",
+          "way out",
+          "phase-out"
+        ],
+        "gender": "m",
+        "plural": "Ausstiege"
+      }
+    ]
+  },
+  "Auto": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "car",
+          "automobile"
+        ],
+        "gender": "n",
+        "plural": "Autos"
+      }
+    ]
+  },
+  "Autobahn": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "highway",
+          "motorway",
+          "autobahn"
+        ],
+        "gender": "f",
+        "plural": "Autobahnen"
+      }
+    ]
+  },
+  "Bahn": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "train",
+          "railway",
+          "track",
+          "rail network"
+        ],
+        "gender": "f",
+        "plural": "Bahnen"
+      }
+    ]
+  },
+  "Bahnhof": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "train station",
+          "station"
+        ],
+        "gender": "m",
+        "plural": "Bahnhöfe"
+      }
+    ]
+  },
+  "Bahnhofstraße": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Station Street",
+          "station road"
+        ],
+        "gender": "f",
+        "plural": "Bahnhofstraßen"
+      }
+    ]
+  },
+  "Bank": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "bank (financial institution)"
+        ],
+        "gender": "f",
+        "plural": "Banken"
+      },
+      {
+        "pos": "noun",
+        "translations": [
+          "bench",
+          "seat"
+        ],
+        "gender": "f",
+        "plural": "Bänke"
+      }
+    ]
+  },
+  "Beispiel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "example"
+        ],
+        "gender": "n",
+        "plural": "Beispiele"
+      }
+    ]
+  },
+  "Berg": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "mountain",
+          "mount",
+          "hill"
+        ],
+        "gender": "m",
+        "plural": "Berge"
+      }
+    ]
+  },
+  "Beruf": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "profession",
+          "job",
+          "occupation"
+        ],
+        "gender": "m",
+        "plural": "Berufe"
+      }
+    ]
+  },
+  "Bestätigung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "confirmation",
+          "certificate",
+          "verification"
+        ],
+        "gender": "f",
+        "plural": "Bestätigungen"
+      }
+    ]
+  },
+  "Bettdecke": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "duvet",
+          "blanket",
+          "quilt",
+          "bedspread"
+        ],
+        "gender": "f",
+        "plural": "Bettdecken"
+      }
+    ]
+  },
+  "Bild": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "picture",
+          "image",
+          "photo"
+        ],
+        "gender": "n",
+        "plural": "Bilder"
+      }
+    ]
+  },
+  "Brief": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "letter",
+          "mail"
+        ],
+        "gender": "m",
+        "plural": "Briefe"
+      }
+    ]
+  },
+  "Brot": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "bread",
+          "loaf of bread"
+        ],
+        "gender": "n",
+        "plural": "Brote"
+      }
+    ]
+  },
+  "Bruder": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "brother"
+        ],
+        "gender": "m",
+        "plural": "Brüder"
+      }
+    ]
+  },
+  "Buch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "book"
+        ],
+        "gender": "n",
+        "plural": "Bücher"
+      }
+    ]
+  },
+  "Buchstabe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "letter (of the alphabet)"
+        ],
+        "gender": "m",
+        "plural": "Buchstaben"
+      }
+    ]
+  },
+  "Bus": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "bus"
+        ],
+        "gender": "m",
+        "plural": "Busse"
+      }
+    ]
+  },
+  "Bußgeld": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "fine",
+          "administrative penalty",
+          "monetary fine"
+        ],
+        "gender": "n",
+        "plural": "Bußgelder"
+      }
+    ]
+  },
+  "Bürgerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "citizen (female)",
+          "citizen"
+        ],
+        "gender": "f",
+        "plural": "Bürgerinnen"
+      }
+    ]
+  },
+  "Büro": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "office"
+        ],
+        "gender": "n",
+        "plural": "Büros"
+      }
+    ]
+  },
+  "Café": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "café",
+          "coffee shop"
+        ],
+        "gender": "n",
+        "plural": "Cafés"
+      }
+    ]
+  },
+  "Chinesisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Chinese (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Dativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "dative case",
+          "dative"
+        ],
+        "gender": "m",
+        "plural": "Dative"
+      }
+    ]
+  },
+  "Deutschland": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Germany"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Dezember": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "December"
+        ],
+        "gender": "m",
+        "plural": "Dezember"
+      }
+    ]
+  },
+  "Dialog": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "dialogue",
+          "conversation"
+        ],
+        "gender": "m",
+        "plural": "Dialoge"
+      }
+    ]
+  },
+  "Dienstag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Tuesday"
+        ],
+        "gender": "m",
+        "plural": "Dienstage"
+      }
+    ]
+  },
+  "Donnerstag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Thursday"
+        ],
+        "gender": "m",
+        "plural": "Donnerstage"
+      }
+    ]
+  },
+  "E-Mail-Adresse": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "email address"
+        ],
+        "gender": "f",
+        "plural": "E-Mail-Adressen"
+      }
+    ]
+  },
+  "Ebbe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "low tide",
+          "ebb"
+        ],
+        "gender": "f",
+        "plural": "Ebben"
+      }
+    ]
+  },
+  "Eigentümer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "owner",
+          "property owner",
+          "landlord"
+        ],
+        "gender": "m",
+        "plural": "Eigentümer"
+      }
+    ]
+  },
+  "Einstieg": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "entry",
+          "boarding",
+          "access",
+          "starting point"
+        ],
+        "gender": "m",
+        "plural": "Einstiege"
+      }
+    ]
+  },
+  "Einzugsdatum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "move-in date",
+          "date of moving in"
+        ],
+        "gender": "n",
+        "plural": "Einzugsdaten"
+      }
+    ]
+  },
+  "Endung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "ending",
+          "suffix",
+          "termination"
+        ],
+        "gender": "f",
+        "plural": "Endungen"
+      }
+    ]
+  },
+  "Energie": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "energy",
+          "power"
+        ],
+        "gender": "f",
+        "plural": "Energien"
+      }
+    ]
+  },
+  "Englisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "English (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Entschuldigung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "excuse",
+          "apology",
+          "excuse me"
+        ],
+        "gender": "f",
+        "plural": "Entschuldigungen"
+      }
+    ]
+  },
+  "Essen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "food",
+          "meal"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Fahrkarte": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "ticket (transit)",
+          "travel ticket"
+        ],
+        "gender": "f",
+        "plural": "Fahrkarten"
+      }
+    ]
+  },
+  "Fahrkartenautomat": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "ticket vending machine",
+          "ticket machine"
+        ],
+        "gender": "m",
+        "plural": "Fahrkartenautomaten"
+      }
+    ]
+  },
+  "Familie": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "family"
+        ],
+        "gender": "f",
+        "plural": "Familien"
+      }
+    ]
+  },
+  "Februar": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "February"
+        ],
+        "gender": "m",
+        "plural": "Februare"
+      }
+    ]
+  },
+  "Femininum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "feminine gender",
+          "feminine noun",
+          "feminine"
+        ],
+        "gender": "n",
+        "plural": "Feminina"
+      }
+    ]
+  },
+  "Film": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "film",
+          "movie"
+        ],
+        "gender": "m",
+        "plural": "Filme"
+      }
+    ]
+  },
+  "Firma": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "company",
+          "firm"
+        ],
+        "gender": "f",
+        "plural": "Firmen"
+      }
+    ]
+  },
+  "Formular": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "form",
+          "application form"
+        ],
+        "gender": "n",
+        "plural": "Formulare"
+      }
+    ]
+  },
+  "Foto": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "photo",
+          "photograph"
+        ],
+        "gender": "n",
+        "plural": "Fotos"
+      }
+    ]
+  },
+  "Fotoalbum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "photo album"
+        ],
+        "gender": "n",
+        "plural": "Fotoalben"
+      }
+    ]
+  },
+  "Fotograf": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "photographer (male)"
+        ],
+        "gender": "m",
+        "plural": "Fotografen"
+      }
+    ]
+  },
+  "Fotografin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "photographer (female)"
+        ],
+        "gender": "f",
+        "plural": "Fotografinnen"
+      }
+    ]
+  },
+  "Frage": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "question"
+        ],
+        "gender": "f",
+        "plural": "Fragen"
+      }
+    ]
+  },
+  "Fragesatz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "question sentence",
+          "interrogative sentence",
+          "question"
+        ],
+        "gender": "m",
+        "plural": "Fragesätze"
+      }
+    ]
+  },
+  "Französisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "French (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Frau": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "woman",
+          "wife",
+          "Mrs."
+        ],
+        "gender": "f",
+        "plural": "Frauen"
+      }
+    ]
+  },
+  "Freitag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Friday"
+        ],
+        "gender": "m",
+        "plural": "Freitage"
+      }
+    ]
+  },
+  "Freizeit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "free time",
+          "leisure time"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Freund": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "friend (male)",
+          "boyfriend"
+        ],
+        "gender": "m",
+        "plural": "Freunde"
+      }
+    ]
+  },
+  "Freundin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "friend (female)",
+          "girlfriend"
+        ],
+        "gender": "f",
+        "plural": "Freundinnen"
+      }
+    ]
+  },
+  "Frühling": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "spring",
+          "springtime"
+        ],
+        "gender": "m",
+        "plural": "Frühlinge"
+      }
+    ]
+  },
+  "Frühstück": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "breakfast"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Futur": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "future tense",
+          "future"
+        ],
+        "gender": "n",
+        "plural": "Future"
+      }
+    ]
+  },
+  "Fußball": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "soccer",
+          "football",
+          "soccer ball"
+        ],
+        "gender": "m",
+        "plural": "Fußbälle"
+      }
+    ]
+  },
+  "Geburtsdatum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "date of birth",
+          "birth date"
+        ],
+        "gender": "n",
+        "plural": "Geburtsdaten"
+      }
+    ]
+  },
+  "Geburtsort": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "place of birth",
+          "birthplace"
+        ],
+        "gender": "m",
+        "plural": "Geburtsorte"
+      }
+    ]
+  },
+  "Geld": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "money"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Genitiv": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "genitive case",
+          "genitive"
+        ],
+        "gender": "m",
+        "plural": "Genitive"
+      }
+    ]
+  },
+  "Geschäft": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "shop",
+          "store",
+          "business"
+        ],
+        "gender": "n",
+        "plural": "Geschäfte"
+      }
+    ]
+  },
+  "Gesundheit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "health",
+          "well-being"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Getränk": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "drink",
+          "beverage"
+        ],
+        "gender": "n",
+        "plural": "Getränke"
+      }
+    ]
+  },
+  "Grammatik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "grammar"
+        ],
+        "gender": "f",
+        "plural": "Grammatiken"
+      }
+    ]
+  },
+  "Grundform": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "base form",
+          "infinitive form",
+          "canonical form"
+        ],
+        "gender": "f",
+        "plural": "Grundformen"
+      }
+    ]
+  },
+  "Gruppe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "group"
+        ],
+        "gender": "f",
+        "plural": "Gruppen"
+      }
+    ]
+  },
+  "Hallo": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "hello",
+          "hi"
+        ]
+      }
+    ]
+  },
+  "Handynummer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "mobile phone number",
+          "cell phone number"
+        ],
+        "gender": "f",
+        "plural": "Handynummern"
+      }
+    ]
+  },
+  "Hauptstadt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "capital city",
+          "capital"
+        ],
+        "gender": "f",
+        "plural": "Hauptstädte"
+      }
+    ]
+  },
+  "Haus": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "house",
+          "building",
+          "home"
+        ],
+        "gender": "n",
+        "plural": "Häuser"
+      }
+    ]
+  },
+  "Hausaufgabe": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "homework",
+          "home assignment"
+        ],
+        "gender": "f",
+        "plural": "Hausaufgaben"
+      }
+    ]
+  },
+  "Heißgetränk": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "hot beverage",
+          "hot drink"
+        ],
+        "gender": "n",
+        "plural": "Heißgetränke"
+      }
+    ]
+  },
+  "Herbst": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "autumn",
+          "fall"
+        ],
+        "gender": "m",
+        "plural": "Herbste"
+      }
+    ]
+  },
+  "Herr": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Mr.",
+          "gentleman",
+          "sir",
+          "lord"
+        ],
+        "gender": "m",
+        "plural": "Herren"
+      }
+    ]
+  },
+  "Hilfsverb": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "auxiliary verb",
+          "helping verb"
+        ],
+        "gender": "n",
+        "plural": "Hilfsverben"
+      }
+    ]
+  },
+  "Hobby": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "hobby"
+        ],
+        "gender": "n",
+        "plural": "Hobbys"
+      }
+    ]
+  },
+  "Hotel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "hotel"
+        ],
+        "gender": "n",
+        "plural": "Hotels"
+      }
+    ]
+  },
+  "Ihr": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "your (formal)"
+        ]
+      }
+    ]
+  },
+  "Imperativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "imperative mood",
+          "imperative",
+          "command form"
+        ],
+        "gender": "m",
+        "plural": "Imperative"
+      }
+    ]
+  },
+  "Infinitiv": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "infinitive",
+          "infinitive form",
+          "base form of a verb"
+        ],
+        "gender": "m",
+        "plural": "Infinitive"
+      }
+    ]
+  },
+  "Information": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "information"
+        ],
+        "gender": "f",
+        "plural": "Informationen"
+      }
+    ]
+  },
+  "Ingenieur": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "engineer (male)"
+        ],
+        "gender": "m",
+        "plural": "Ingenieure"
+      }
+    ]
+  },
+  "Ingenieurin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "engineer (female)"
+        ],
+        "gender": "f",
+        "plural": "Ingenieurinnen"
+      }
+    ]
+  },
+  "Innovation": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "innovation",
+          "novelty"
+        ],
+        "gender": "f",
+        "plural": "Innovationen"
+      }
+    ]
+  },
+  "Interesse": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "interest"
+        ],
+        "gender": "n",
+        "plural": "Interessen"
+      }
+    ]
+  },
+  "Internet": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "internet"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Investition": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "investment",
+          "capital expenditure"
+        ],
+        "gender": "f",
+        "plural": "Investitionen"
+      }
+    ]
+  },
+  "Italienisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Italian (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Jahr": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "year"
+        ],
+        "gender": "n",
+        "plural": "Jahre"
+      }
+    ]
+  },
+  "Jahreszeit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "season",
+          "time of year"
+        ],
+        "gender": "f",
+        "plural": "Jahreszeiten"
+      }
+    ]
+  },
+  "Januar": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "January"
+        ],
+        "gender": "m",
+        "plural": "Januare"
+      }
+    ]
+  },
+  "Journalist": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "journalist (male)",
+          "reporter"
+        ],
+        "gender": "m",
+        "plural": "Journalisten"
+      }
+    ]
+  },
+  "Journalistin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "journalist (female)",
+          "reporter"
+        ],
+        "gender": "f",
+        "plural": "Journalistinnen"
+      }
+    ]
+  },
+  "Juli": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "July"
+        ],
+        "gender": "m",
+        "plural": "Julis"
+      }
+    ]
+  },
+  "Juni": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "June"
+        ],
+        "gender": "m",
+        "plural": "Junis"
+      }
+    ]
+  },
+  "Kaffee": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "coffee"
+        ],
+        "gender": "m",
+        "plural": "Kaffees"
+      }
+    ]
+  },
+  "Kaffeebohne": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "coffee bean"
+        ],
+        "gender": "f",
+        "plural": "Kaffeebohnen"
+      }
+    ]
+  },
+  "Kaffeepflanze": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "coffee plant"
+        ],
+        "gender": "f",
+        "plural": "Kaffeepflanzen"
+      }
+    ]
+  },
+  "Kalender": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "calendar"
+        ],
+        "gender": "m",
+        "plural": "Kalender"
+      }
+    ]
+  },
+  "Kellner": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "waiter (male)",
+          "server"
+        ],
+        "gender": "m",
+        "plural": "Kellner"
+      }
+    ]
+  },
+  "Kellnerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "waitress (female)",
+          "server"
+        ],
+        "gender": "f",
+        "plural": "Kellnerinnen"
+      }
+    ]
+  },
+  "Kilometer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "kilometer"
+        ],
+        "gender": "m",
+        "plural": "Kilometer"
+      }
+    ]
+  },
+  "Kind": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "child",
+          "kid"
+        ],
+        "gender": "n",
+        "plural": "Kinder"
+      }
+    ]
+  },
+  "Kino": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "cinema",
+          "movie theater"
+        ],
+        "gender": "n",
+        "plural": "Kinos"
+      }
+    ]
+  },
+  "Klinik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "clinic",
+          "hospital"
+        ],
+        "gender": "f",
+        "plural": "Kliniken"
+      }
+    ]
+  },
+  "Kollege": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "colleague (male or general)",
+          "co-worker"
+        ],
+        "gender": "m",
+        "plural": "Kollegen"
+      }
+    ]
+  },
+  "Kollegin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "female colleague",
+          "female co-worker"
+        ],
+        "gender": "f",
+        "plural": "Kolleginnen"
+      }
+    ]
+  },
+  "Komparativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "comparative",
+          "comparative form",
+          "comparative degree"
+        ],
+        "gender": "m",
+        "plural": "Komparative"
+      }
+    ]
+  },
+  "Konjunktiv": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "subjunctive mood",
+          "subjunctive",
+          "conjunctive"
+        ],
+        "gender": "m",
+        "plural": "Konjunktive"
+      }
+    ]
+  },
+  "Kontrollieren": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "checking",
+          "verifying",
+          "inspection"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Kurs": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "course",
+          "class"
+        ],
+        "gender": "m",
+        "plural": "Kurse"
+      }
+    ]
+  },
+  "Kursraum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "classroom"
+        ],
+        "gender": "m",
+        "plural": "Kursräume"
+      }
+    ]
+  },
+  "Kursstatistik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "course statistics",
+          "class survey",
+          "class statistics"
+        ],
+        "gender": "f",
+        "plural": "Kursstatistiken"
+      }
+    ]
+  },
+  "Kursteilnehmer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "course participant (male or general)"
+        ],
+        "gender": "m",
+        "plural": "Kursteilnehmer"
+      }
+    ]
+  },
+  "Laden": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "shop",
+          "store"
+        ],
+        "gender": "m",
+        "plural": "Läden"
+      }
+    ]
+  },
+  "Land": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "country",
+          "land",
+          "nation",
+          "countryside"
+        ],
+        "gender": "n",
+        "plural": "Länder"
+      }
+    ]
+  },
+  "Lehrer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "teacher (male)",
+          "instructor"
+        ],
+        "gender": "m",
+        "plural": "Lehrer"
+      }
+    ]
+  },
+  "Lehrerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "teacher (female)",
+          "instructor"
+        ],
+        "gender": "f",
+        "plural": "Lehrerinnen"
+      }
+    ]
+  },
+  "Lektion": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "lesson",
+          "chapter",
+          "unit"
+        ],
+        "gender": "f",
+        "plural": "Lektionen"
+      }
+    ]
+  },
+  "Lernziel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "learning objective",
+          "learning goal"
+        ],
+        "gender": "n",
+        "plural": "Lernziele"
+      }
+    ]
+  },
+  "Leute": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "people",
+          "folks"
+        ],
+        "gender": "f",
+        "plural": "Leute"
+      }
+    ]
+  },
+  "Liebling": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "darling",
+          "favorite",
+          "sweetheart"
+        ],
+        "gender": "m",
+        "plural": "Lieblinge"
+      }
+    ]
+  },
+  "Lieblingsbuch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "favorite book"
+        ],
+        "gender": "n",
+        "plural": "Lieblingsbücher"
+      }
+    ]
+  },
+  "Lieblingsfilm": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "favorite film",
+          "favorite movie"
+        ],
+        "gender": "m",
+        "plural": "Lieblingsfilme"
+      }
+    ]
+  },
+  "Lieblingsmusik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "favorite music"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Mai": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "May"
+        ],
+        "gender": "m",
+        "plural": "Maie"
+      }
+    ]
+  },
+  "Mann": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "man",
+          "husband"
+        ],
+        "gender": "m",
+        "plural": "Männer"
+      }
+    ]
+  },
+  "Maskulinum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "masculine gender",
+          "masculine noun",
+          "masculine"
+        ],
+        "gender": "n",
+        "plural": "Maskulina"
+      }
+    ]
+  },
+  "Meldebehörde": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "registration office",
+          "registration authority",
+          "residents' registration office"
+        ],
+        "gender": "f",
+        "plural": "Meldebehörden"
+      }
+    ]
+  },
+  "Melodie": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "melody",
+          "tune"
+        ],
+        "gender": "f",
+        "plural": "Melodien"
+      }
+    ]
+  },
+  "Mensch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "human",
+          "person",
+          "human being"
+        ],
+        "gender": "m",
+        "plural": "Menschen"
+      }
+    ]
+  },
+  "Menschenzimmer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "human room",
+          "regular room for a human being"
+        ],
+        "gender": "n",
+        "plural": "Menschenzimmer"
+      }
+    ]
+  },
+  "Mietvertrag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "rental agreement",
+          "lease",
+          "tenancy agreement"
+        ],
+        "gender": "m",
+        "plural": "Mietverträge"
+      }
+    ]
+  },
+  "Ministerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "minister (female)",
+          "minister",
+          "cabinet minister"
+        ],
+        "gender": "f",
+        "plural": "Ministerinnen"
+      }
+    ]
+  },
+  "Minute": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "minute"
+        ],
+        "gender": "f",
+        "plural": "Minuten"
+      }
+    ]
+  },
+  "Mittwoch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Wednesday"
+        ],
+        "gender": "m",
+        "plural": "Mittwoche"
+      }
+    ]
+  },
+  "Modalverb": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "modal verb"
+        ],
+        "gender": "n",
+        "plural": "Modalverben"
+      }
+    ]
+  },
+  "Moderne": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "modernity",
+          "modern era",
+          "modern age"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Monat": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "month"
+        ],
+        "gender": "m",
+        "plural": "Monate"
+      }
+    ]
+  },
+  "Montag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Monday"
+        ],
+        "gender": "m",
+        "plural": "Montage"
+      }
+    ]
+  },
+  "Morgen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "morning"
+        ],
+        "gender": "m",
+        "plural": "Morgen"
+      }
+    ]
+  },
+  "Museum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "museum"
+        ],
+        "gender": "n",
+        "plural": "Museen"
+      }
+    ]
+  },
+  "Musik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "music"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Mutter": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "mother"
+        ],
+        "gender": "f",
+        "plural": "Mütter"
+      }
+    ]
+  },
+  "Mädchen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "girl"
+        ],
+        "gender": "n",
+        "plural": "Mädchen"
+      }
+    ]
+  },
+  "März": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "March"
+        ],
+        "gender": "m",
+        "plural": "Märze"
+      }
+    ]
+  },
+  "Müllerstraße": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Müller Street (street name)",
+          "Mueller Street"
+        ],
+        "gender": "f",
+        "plural": "Müllerstraßen"
+      }
+    ]
+  },
+  "Nachname": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "last name",
+          "surname",
+          "family name"
+        ],
+        "gender": "m",
+        "plural": "Nachnamen"
+      }
+    ]
+  },
+  "Nachricht": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "message",
+          "news"
+        ],
+        "gender": "f",
+        "plural": "Nachrichten"
+      }
+    ]
+  },
+  "Nacht": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "night"
+        ],
+        "gender": "f",
+        "plural": "Nächte"
+      }
+    ]
+  },
+  "Name": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "name"
+        ],
+        "gender": "m",
+        "plural": "Namen"
+      }
+    ]
+  },
+  "Neutrum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "neuter gender",
+          "neuter noun",
+          "neuter"
+        ],
+        "gender": "n",
+        "plural": "Neutra"
+      }
+    ]
+  },
+  "Niedergleiten": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "sliding down",
+          "slipping down",
+          "gliding down"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Nominativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "nominative case",
+          "nominative"
+        ],
+        "gender": "m",
+        "plural": "Nominative"
+      }
+    ]
+  },
+  "Nordsee": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "North Sea"
+        ],
+        "gender": "f",
+        "plural": "Nordseen"
+      }
+    ]
+  },
+  "Notiz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "note",
+          "memo"
+        ],
+        "gender": "f",
+        "plural": "Notizen"
+      }
+    ]
+  },
+  "November": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "November"
+        ],
+        "gender": "m",
+        "plural": "November"
+      }
+    ]
+  },
+  "Nummer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "number"
+        ],
+        "gender": "f",
+        "plural": "Nummern"
+      }
+    ]
+  },
+  "Oktober": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "October"
+        ],
+        "gender": "m",
+        "plural": "Oktober"
+      }
+    ]
+  },
+  "Oktoberfest": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Oktoberfest",
+          "beer festival"
+        ],
+        "gender": "n",
+        "plural": "Oktoberfeste"
+      }
+    ]
+  },
+  "Partizip": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "participle",
+          "past participle",
+          "present participle"
+        ],
+        "gender": "n",
+        "plural": "Partizipien"
+      }
+    ]
+  },
+  "Partner": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "partner (male or general)",
+          "companion"
+        ],
+        "gender": "m",
+        "plural": "Partner"
+      }
+    ]
+  },
+  "Partnerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "female partner",
+          "female companion"
+        ],
+        "gender": "f",
+        "plural": "Partnerinnen"
+      }
+    ]
+  },
+  "Patient": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "patient (male)"
+        ],
+        "gender": "m",
+        "plural": "Patienten"
+      }
+    ]
+  },
+  "Patientin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "patient (female)"
+        ],
+        "gender": "f",
+        "plural": "Patientinnen"
+      }
+    ]
+  },
+  "Person": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "person"
+        ],
+        "gender": "f",
+        "plural": "Personen"
+      }
+    ]
+  },
+  "Personalausweis": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "identity card",
+          "national ID card",
+          "ID card"
+        ],
+        "gender": "m",
+        "plural": "Personalausweise"
+      }
+    ]
+  },
+  "Personalpronomen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "personal pronoun"
+        ],
+        "gender": "n",
+        "plural": "Personalpronomen"
+      }
+    ]
+  },
+  "Plakat": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "poster",
+          "placard"
+        ],
+        "gender": "n",
+        "plural": "Plakate"
+      }
+    ]
+  },
+  "Platz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "square",
+          "plaza",
+          "seat",
+          "place",
+          "space"
+        ],
+        "gender": "m",
+        "plural": "Plätze"
+      }
+    ]
+  },
+  "Plural": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "plural"
+        ],
+        "gender": "m",
+        "plural": "Plurale"
+      }
+    ]
+  },
+  "Plural-Endung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "plural ending",
+          "plural suffix"
+        ],
+        "gender": "f",
+        "plural": "Plural-Endungen"
+      }
+    ]
+  },
+  "Polnisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Polish (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Preis": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "price",
+          "prize",
+          "award"
+        ],
+        "gender": "m",
+        "plural": "Preise"
+      }
+    ]
+  },
+  "Problem": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "problem",
+          "issue"
+        ],
+        "gender": "n",
+        "plural": "Probleme"
+      }
+    ]
+  },
+  "Professor": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "professor (male)"
+        ],
+        "gender": "m",
+        "plural": "Professoren"
+      }
+    ]
+  },
+  "Professorin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "professor (female)"
+        ],
+        "gender": "f",
+        "plural": "Professorinnen"
+      }
+    ]
+  },
+  "Profil": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "profile"
+        ],
+        "gender": "n",
+        "plural": "Profile"
+      }
+    ]
+  },
+  "Präteritum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "simple past tense",
+          "preterite",
+          "past tense"
+        ],
+        "gender": "n",
+        "plural": "Präterita"
+      }
+    ]
+  },
+  "Rahmen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "frame",
+          "framework",
+          "context",
+          "scope"
+        ],
+        "gender": "m",
+        "plural": "Rahmen"
+      }
+    ]
+  },
+  "Redemittel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "useful phrases",
+          "speech resources",
+          "conversational expressions",
+          "idiomatic phrases"
+        ],
+        "gender": "n",
+        "plural": "Redemittel"
+      }
+    ]
+  },
+  "Region": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "region",
+          "area",
+          "district"
+        ],
+        "gender": "f",
+        "plural": "Regionen"
+      }
+    ]
+  },
+  "Reise": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "journey",
+          "trip",
+          "travel"
+        ],
+        "gender": "f",
+        "plural": "Reisen"
+      }
+    ]
+  },
+  "Reiseführer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "tour guide (male/general)",
+          "guidebook"
+        ],
+        "gender": "m",
+        "plural": "Reiseführer"
+      }
+    ]
+  },
+  "Reiseführerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "female tour guide"
+        ],
+        "gender": "f",
+        "plural": "Reiseführerinnen"
+      }
+    ]
+  },
+  "Restaurant": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "restaurant"
+        ],
+        "gender": "n",
+        "plural": "Restaurants"
+      }
+    ]
+  },
+  "Rucksack": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "backpack",
+          "rucksack"
+        ],
+        "gender": "m",
+        "plural": "Rucksäcke"
+      }
+    ]
+  },
+  "Russisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Russian (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Samstag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Saturday"
+        ],
+        "gender": "m",
+        "plural": "Samstage"
+      }
+    ]
+  },
+  "Satz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "sentence",
+          "clause"
+        ],
+        "gender": "m",
+        "plural": "Sätze"
+      }
+    ]
+  },
+  "Satzmelodie": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "sentence intonation",
+          "sentence melody"
+        ],
+        "gender": "f",
+        "plural": "Satzmelodien"
+      }
+    ]
+  },
+  "Schloss": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "castle",
+          "palace"
+        ],
+        "gender": "n",
+        "plural": "Schlösser"
+      },
+      {
+        "pos": "noun",
+        "translations": [
+          "lock"
+        ],
+        "gender": "n",
+        "plural": "Schlösser"
+      }
+    ]
+  },
+  "Schule": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "school"
+        ],
+        "gender": "f",
+        "plural": "Schulen"
+      }
+    ]
+  },
+  "Schutz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "protection",
+          "shelter",
+          "defense"
+        ],
+        "gender": "m"
+      }
+    ]
+  },
+  "Schweiz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Switzerland"
+        ],
+        "gender": "f"
+      }
+    ]
+  },
+  "Schwester": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "sister"
+        ],
+        "gender": "f",
+        "plural": "Schwestern"
+      }
+    ]
+  },
+  "Schwimmbad": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "swimming pool",
+          "public pool"
+        ],
+        "gender": "n",
+        "plural": "Schwimmbäder"
+      }
+    ]
+  },
+  "Schüler": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "pupil (male)",
+          "student",
+          "schoolboy"
+        ],
+        "gender": "m",
+        "plural": "Schüler"
+      }
+    ]
+  },
+  "Schülerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "pupil (female)",
+          "student",
+          "schoolgirl"
+        ],
+        "gender": "f",
+        "plural": "Schülerinnen"
+      }
+    ]
+  },
+  "September": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "September"
+        ],
+        "gender": "m",
+        "plural": "September"
+      }
+    ]
+  },
+  "Sie": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "you (formal)"
+        ]
+      }
+    ]
+  },
+  "Singular": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "singular",
+          "singular form"
+        ],
+        "gender": "m",
+        "plural": "Singulare"
+      }
+    ]
+  },
+  "Situation": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "situation"
+        ],
+        "gender": "f",
+        "plural": "Situationen"
+      }
+    ]
+  },
+  "Sommer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "summer"
+        ],
+        "gender": "m",
+        "plural": "Sommer"
+      }
+    ]
+  },
+  "Sonntag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Sunday"
+        ],
+        "gender": "m",
+        "plural": "Sonntage"
+      }
+    ]
+  },
+  "Spanisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Spanish (language)"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Spiel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "game",
+          "match"
+        ],
+        "gender": "n",
+        "plural": "Spiele"
+      }
+    ]
+  },
+  "Sprache": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "language",
+          "speech"
+        ],
+        "gender": "f",
+        "plural": "Sprachen"
+      }
+    ]
+  },
+  "Sprachkurs": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "language course"
+        ],
+        "gender": "m",
+        "plural": "Sprachkurse"
+      }
+    ]
+  },
+  "Sprachschule": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "language school"
+        ],
+        "gender": "f",
+        "plural": "Sprachschulen"
+      }
+    ]
+  },
+  "Stadt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "city",
+          "town"
+        ],
+        "gender": "f",
+        "plural": "Städte"
+      }
+    ]
+  },
+  "Stammform": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "principal part",
+          "stem form",
+          "root form"
+        ],
+        "gender": "f",
+        "plural": "Stammformen"
+      }
+    ]
+  },
+  "Statistik": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "statistics",
+          "statistic",
+          "chart"
+        ],
+        "gender": "f",
+        "plural": "Statistiken"
+      }
+    ]
+  },
+  "Straße": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "street",
+          "road"
+        ],
+        "gender": "f",
+        "plural": "Straßen"
+      }
+    ]
+  },
+  "Straßenverkehr": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "road traffic",
+          "street traffic",
+          "traffic"
+        ],
+        "gender": "m"
+      }
+    ]
+  },
+  "Student": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "university student (male)",
+          "college student"
+        ],
+        "gender": "m",
+        "plural": "Studenten"
+      }
+    ]
+  },
+  "Studentin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "university student (female)",
+          "college student"
+        ],
+        "gender": "f",
+        "plural": "Studentinnen"
+      }
+    ]
+  },
+  "Stuhl": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "chair"
+        ],
+        "gender": "m",
+        "plural": "Stühle"
+      }
+    ]
+  },
+  "Stunde": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "hour",
+          "lesson"
+        ],
+        "gender": "f",
+        "plural": "Stunden"
+      }
+    ]
+  },
+  "Substantiv": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "noun",
+          "substantive"
+        ],
+        "gender": "n",
+        "plural": "Substantive"
+      }
+    ]
+  },
+  "Superlativ": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "superlative",
+          "superlative form",
+          "highest degree"
+        ],
+        "gender": "m",
+        "plural": "Superlative"
+      }
+    ]
+  },
+  "Tabelle": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "table",
+          "chart",
+          "spreadsheet"
+        ],
+        "gender": "f",
+        "plural": "Tabellen"
+      }
+    ]
+  },
+  "Tag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "day"
+        ],
+        "gender": "m",
+        "plural": "Tage"
+      }
+    ]
+  },
+  "Taxifahrer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "taxi driver (male)",
+          "cab driver"
+        ],
+        "gender": "m",
+        "plural": "Taxifahrer"
+      }
+    ]
+  },
+  "Taxifahrerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "taxi driver (female)",
+          "cab driver"
+        ],
+        "gender": "f",
+        "plural": "Taxifahrerinnen"
+      }
+    ]
+  },
+  "Techniker": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "technician (male)"
+        ],
+        "gender": "m",
+        "plural": "Techniker"
+      }
+    ]
+  },
+  "Technikerin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "technician (female)"
+        ],
+        "gender": "f",
+        "plural": "Technikerinnen"
+      }
+    ]
+  },
+  "Technologie": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "technology",
+          "technological process"
+        ],
+        "gender": "f",
+        "plural": "Technologien"
+      }
+    ]
+  },
+  "Telefon": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "telephone",
+          "phone"
+        ],
+        "gender": "n",
+        "plural": "Telefone"
+      }
+    ]
+  },
+  "Telefongespräch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "telephone conversation",
+          "phone call"
+        ],
+        "gender": "n",
+        "plural": "Telefongespräche"
+      }
+    ]
+  },
+  "Telefonnummer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "telephone number",
+          "phone number"
+        ],
+        "gender": "f",
+        "plural": "Telefonnummern"
+      }
+    ]
+  },
+  "Termin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "appointment",
+          "date",
+          "scheduled time"
+        ],
+        "gender": "m",
+        "plural": "Termine"
+      }
+    ]
+  },
+  "Text": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "text"
+        ],
+        "gender": "m",
+        "plural": "Texte"
+      }
+    ]
+  },
+  "Theater": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "theater"
+        ],
+        "gender": "n",
+        "plural": "Theater"
+      }
+    ]
+  },
+  "Tisch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "table",
+          "desk"
+        ],
+        "gender": "m",
+        "plural": "Tische"
+      }
+    ]
+  },
+  "Traum": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "dream",
+          "wish",
+          "aspiration"
+        ],
+        "gender": "m",
+        "plural": "Träume"
+      }
+    ]
+  },
+  "Tschüs": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "bye",
+          "goodbye"
+        ]
+      }
+    ]
+  },
+  "Uhr": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "clock",
+          "watch",
+          "o'clock"
+        ],
+        "gender": "f",
+        "plural": "Uhren"
+      }
+    ]
+  },
+  "Ungeziefer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "vermin",
+          "pest",
+          "bug",
+          "insect"
+        ],
+        "gender": "n",
+        "plural": "Ungeziefer"
+      }
+    ]
+  },
+  "Universität": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "university",
+          "college"
+        ],
+        "gender": "f",
+        "plural": "Universitäten"
+      }
+    ]
+  },
+  "Unterstützung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "support",
+          "assistance",
+          "backing",
+          "aid"
+        ],
+        "gender": "f",
+        "plural": "Unterstützungen"
+      }
+    ]
+  },
+  "Vater": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "father"
+        ],
+        "gender": "m",
+        "plural": "Väter"
+      }
+    ]
+  },
+  "Verabredung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "appointment",
+          "date",
+          "meeting"
+        ],
+        "gender": "f",
+        "plural": "Verabredungen"
+      }
+    ]
+  },
+  "Verb": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "verb"
+        ],
+        "gender": "n",
+        "plural": "Verben"
+      }
+    ]
+  },
+  "Verkehrsmittel": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "means of transport",
+          "means of transportation",
+          "vehicle"
+        ],
+        "gender": "n",
+        "plural": "Verkehrsmittel"
+      }
+    ]
+  },
+  "Verkäufer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "salesperson (male)",
+          "shop assistant",
+          "clerk"
+        ],
+        "gender": "m",
+        "plural": "Verkäufer"
+      }
+    ]
+  },
+  "Verkäuferin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "salesperson (female)",
+          "shop assistant",
+          "clerk"
+        ],
+        "gender": "f",
+        "plural": "Verkäuferinnen"
+      }
+    ]
+  },
+  "Versteifung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "stiffening",
+          "reinforcement",
+          "brace",
+          "rib"
+        ],
+        "gender": "f",
+        "plural": "Versteifungen"
+      }
+    ]
+  },
+  "Vorname": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "given name",
+          "first name"
+        ],
+        "gender": "m",
+        "plural": "Vornamen"
+      }
+    ]
+  },
+  "Wasser": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "water"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Wattenmeer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Wadden Sea",
+          "mudflat shallows",
+          "coastal wetland"
+        ],
+        "gender": "n",
+        "plural": "Wattenmeere"
+      }
+    ]
+  },
+  "Weg": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "way",
+          "path",
+          "road",
+          "route"
+        ],
+        "gender": "m",
+        "plural": "Wege"
+      }
+    ]
+  },
+  "Weihnachtsmarkt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Christmas market"
+        ],
+        "gender": "m",
+        "plural": "Weihnachtsmärkte"
+      }
+    ]
+  },
+  "Wiedersehen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "seeing again",
+          "reunion (used in 'Auf Wiedersehen')"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Winter": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "winter"
+        ],
+        "gender": "m",
+        "plural": "Winter"
+      }
+    ]
+  },
+  "Woche": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "week"
+        ],
+        "gender": "f",
+        "plural": "Wochen"
+      }
+    ]
+  },
+  "Wochenende": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "weekend"
+        ],
+        "gender": "n",
+        "plural": "Wochenenden"
+      }
+    ]
+  },
+  "Wochentag": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "weekday",
+          "day of the week"
+        ],
+        "gender": "m",
+        "plural": "Wochentage"
+      }
+    ]
+  },
+  "Wohnort": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "place of residence",
+          "hometown"
+        ],
+        "gender": "m",
+        "plural": "Wohnorte"
+      }
+    ]
+  },
+  "Wohnung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "apartment",
+          "flat",
+          "dwelling",
+          "home"
+        ],
+        "gender": "f",
+        "plural": "Wohnungen"
+      }
+    ]
+  },
+  "Wohnungsgeber": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "housing provider",
+          "landlord"
+        ],
+        "gender": "m",
+        "plural": "Wohnungsgeber"
+      }
+    ]
+  },
+  "Wort": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "word"
+        ],
+        "gender": "n",
+        "plural": "Wörter"
+      }
+    ]
+  },
+  "Wortschatz": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "vocabulary"
+        ],
+        "gender": "m"
+      }
+    ]
+  },
+  "Wörterbuch": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "dictionary"
+        ],
+        "gender": "n",
+        "plural": "Wörterbücher"
+      }
+    ]
+  },
+  "Würstchen": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "small sausage",
+          "wiener"
+        ],
+        "gender": "n",
+        "plural": "Würstchen"
+      }
+    ]
+  },
+  "Zahl": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "number",
+          "digit",
+          "figure"
+        ],
+        "gender": "f",
+        "plural": "Zahlen"
+      }
+    ]
+  },
+  "Zeit": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "time"
+        ],
+        "gender": "f",
+        "plural": "Zeiten"
+      }
+    ]
+  },
+  "Zeitschrift": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "magazine",
+          "periodical",
+          "journal"
+        ],
+        "gender": "f",
+        "plural": "Zeitschriften"
+      }
+    ]
+  },
+  "Zimmer": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "room"
+        ],
+        "gender": "n",
+        "plural": "Zimmer"
+      }
+    ]
+  },
+  "Zug": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "train"
+        ],
+        "gender": "m",
+        "plural": "Züge"
+      }
+    ]
+  },
+  "Zusammenhalt": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "cohesion",
+          "solidarity",
+          "togetherness"
+        ],
+        "gender": "m"
+      }
+    ]
+  },
+  "ab": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "from",
+          "starting from",
+          "as of"
+        ]
+      }
+    ]
+  },
+  "aber": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "but",
+          "however"
+        ]
+      }
+    ]
+  },
+  "abfahren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to depart",
+          "to leave (by vehicle)"
+        ]
+      }
+    ]
+  },
+  "abholen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to pick up",
+          "to collect"
+        ]
+      }
+    ]
+  },
+  "acht": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "eight"
+        ]
+      }
+    ]
+  },
+  "achte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "eighth"
+        ]
+      }
+    ]
+  },
+  "achtzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "eighteen"
+        ]
+      }
+    ]
+  },
+  "alle": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "all",
+          "everyone"
+        ]
+      }
+    ]
+  },
+  "als": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "when",
+          "as",
+          "than"
+        ]
+      },
+      {
+        "pos": "prep",
+        "translations": [
+          "as",
+          "in the role of",
+          "in the capacity of"
+        ]
+      }
+    ]
+  },
+  "alt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "old"
+        ]
+      }
+    ]
+  },
+  "am": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "at the",
+          "on the"
+        ]
+      }
+    ]
+  },
+  "an": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "at",
+          "on",
+          "to"
+        ]
+      }
+    ]
+  },
+  "ander": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "other",
+          "different"
+        ]
+      }
+    ]
+  },
+  "anfangen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to begin",
+          "to start"
+        ]
+      }
+    ]
+  },
+  "ankommen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to arrive",
+          "to reach"
+        ]
+      }
+    ]
+  },
+  "anrufen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to call (on the phone)",
+          "to ring up"
+        ]
+      }
+    ]
+  },
+  "ans": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "onto the",
+          "to the"
+        ]
+      }
+    ]
+  },
+  "antworten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to answer",
+          "to reply"
+        ]
+      }
+    ]
+  },
+  "arbeiten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to work",
+          "to labor"
+        ]
+      }
+    ]
+  },
+  "auch": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "also",
+          "too",
+          "as well"
+        ]
+      }
+    ]
+  },
+  "auf": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "on",
+          "upon",
+          "onto",
+          "at"
+        ]
+      }
+    ]
+  },
+  "aufmachen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to open",
+          "to unlock"
+        ]
+      }
+    ]
+  },
+  "aufpassen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to pay attention",
+          "to watch out",
+          "to look after"
+        ]
+      }
+    ]
+  },
+  "aufs": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "on the",
+          "upon the",
+          "onto the"
+        ]
+      }
+    ]
+  },
+  "aufstehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to get up",
+          "to stand up"
+        ]
+      }
+    ]
+  },
+  "aus": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "from",
+          "out of",
+          "made of"
+        ]
+      }
+    ]
+  },
+  "ausschneiden": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to cut out",
+          "to clip"
+        ]
+      }
+    ]
+  },
+  "aussehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to look",
+          "to appear",
+          "to look like"
+        ]
+      }
+    ]
+  },
+  "aussteigen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to get off",
+          "to alight",
+          "to step out of (vehicle)"
+        ]
+      }
+    ]
+  },
+  "bald": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "soon"
+        ]
+      }
+    ]
+  },
+  "beginnen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "begin",
+          "start"
+        ]
+      }
+    ]
+  },
+  "bei": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "at",
+          "near",
+          "with",
+          "at the house/firm of"
+        ]
+      }
+    ]
+  },
+  "beide": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "both",
+          "the two"
+        ]
+      },
+      {
+        "pos": "det",
+        "translations": [
+          "both"
+        ]
+      }
+    ]
+  },
+  "beim": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "at the",
+          "by the"
+        ]
+      }
+    ]
+  },
+  "bekannt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "well-known",
+          "familiar",
+          "known"
+        ]
+      }
+    ]
+  },
+  "beliebt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "popular",
+          "well-liked"
+        ]
+      }
+    ]
+  },
+  "benennen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to name",
+          "to designate"
+        ]
+      }
+    ]
+  },
+  "bereits": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "already",
+          "as early as"
+        ]
+      }
+    ]
+  },
+  "berichten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to report",
+          "to recount",
+          "to tell"
+        ]
+      }
+    ]
+  },
+  "besonders": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "especially",
+          "particularly"
+        ]
+      }
+    ]
+  },
+  "bezahlbar": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "affordable",
+          "payable"
+        ]
+      }
+    ]
+  },
+  "billig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "cheap",
+          "inexpensive",
+          "affordable"
+        ]
+      }
+    ]
+  },
+  "bis": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "until",
+          "up to",
+          "to",
+          "by"
+        ]
+      }
+    ]
+  },
+  "bitte": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "please",
+          "you're welcome"
+        ]
+      }
+    ]
+  },
+  "bleiben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "stay",
+          "remain"
+        ]
+      }
+    ]
+  },
+  "bogenförmig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "arch-shaped",
+          "arched",
+          "curved"
+        ]
+      }
+    ]
+  },
+  "brauchen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "need",
+          "require"
+        ]
+      }
+    ]
+  },
+  "bringen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "bring",
+          "take (something somewhere)"
+        ]
+      }
+    ]
+  },
+  "buchstabieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "spell",
+          "spell out"
+        ]
+      }
+    ]
+  },
+  "bürokratisch": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "bureaucratic",
+          "red-tape"
+        ]
+      }
+    ]
+  },
+  "chatten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to chat (online)"
+        ]
+      }
+    ]
+  },
+  "da": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "there",
+          "here",
+          "then"
+        ]
+      },
+      {
+        "pos": "conj",
+        "translations": [
+          "since",
+          "as",
+          "because"
+        ]
+      }
+    ]
+  },
+  "dafür": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "for it",
+          "for that",
+          "in favor of it"
+        ]
+      }
+    ]
+  },
+  "damit": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "with it",
+          "with that",
+          "thereby"
+        ]
+      },
+      {
+        "pos": "conj",
+        "translations": [
+          "so that",
+          "in order that"
+        ]
+      }
+    ]
+  },
+  "danke": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "thanks",
+          "thank you"
+        ]
+      }
+    ]
+  },
+  "dann": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "then",
+          "afterwards"
+        ]
+      }
+    ]
+  },
+  "daran": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "at it",
+          "on it",
+          "about it",
+          "to it"
+        ]
+      }
+    ]
+  },
+  "darauf": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "on it",
+          "on that",
+          "thereupon",
+          "after that"
+        ]
+      }
+    ]
+  },
+  "darin": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "in it",
+          "inside",
+          "therein"
+        ]
+      }
+    ]
+  },
+  "darum": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "around it",
+          "therefore",
+          "that is why"
+        ]
+      }
+    ]
+  },
+  "darüber": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "about it",
+          "over it",
+          "above that"
+        ]
+      }
+    ]
+  },
+  "das": {
+    "senses": [
+      {
+        "pos": "art",
+        "translations": [
+          "the (neuter)",
+          "that",
+          "which"
+        ]
+      }
+    ]
+  },
+  "dass": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "that"
+        ]
+      }
+    ]
+  },
+  "davon": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "of it",
+          "from it",
+          "about that",
+          "away"
+        ]
+      }
+    ]
+  },
+  "dazu": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "to it",
+          "in addition",
+          "for that purpose"
+        ]
+      }
+    ]
+  },
+  "dein": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "your (informal singular)"
+        ]
+      }
+    ]
+  },
+  "denken": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "think"
+        ]
+      }
+    ]
+  },
+  "denn": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "because",
+          "for"
+        ]
+      }
+    ]
+  },
+  "der": {
+    "senses": [
+      {
+        "pos": "art",
+        "translations": [
+          "the (masculine)",
+          "that",
+          "who"
+        ]
+      }
+    ]
+  },
+  "deren": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "whose",
+          "of which",
+          "their",
+          "her"
+        ]
+      }
+    ]
+  },
+  "deshalb": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "therefore",
+          "that is why",
+          "for that reason"
+        ]
+      }
+    ]
+  },
+  "dessen": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "whose",
+          "of which",
+          "his",
+          "its"
+        ]
+      }
+    ]
+  },
+  "deutsch": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "German"
+        ]
+      }
+    ]
+  },
+  "die": {
+    "senses": [
+      {
+        "pos": "art",
+        "translations": [
+          "the (feminine and plural)",
+          "that",
+          "who"
+        ]
+      }
+    ]
+  },
+  "dieser": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "this",
+          "these"
+        ]
+      }
+    ]
+  },
+  "doch": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "yes (contradicting negative)",
+          "yet",
+          "however",
+          "surely"
+        ]
+      }
+    ]
+  },
+  "dort": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "there",
+          "over there"
+        ]
+      }
+    ]
+  },
+  "draußen": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "outside",
+          "outdoors"
+        ]
+      }
+    ]
+  },
+  "drei": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "three"
+        ]
+      }
+    ]
+  },
+  "dreizehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "thirteen"
+        ]
+      }
+    ]
+  },
+  "drinnen": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "inside",
+          "indoors"
+        ]
+      }
+    ]
+  },
+  "dritte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "third"
+        ]
+      }
+    ]
+  },
+  "du": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "you (informal singular)"
+        ]
+      }
+    ]
+  },
+  "durch": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "through",
+          "by means of"
+        ]
+      }
+    ]
+  },
+  "durstig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "thirsty"
+        ]
+      }
+    ]
+  },
+  "dürfen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "may",
+          "to be allowed to"
+        ]
+      }
+    ]
+  },
+  "eben": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "just",
+          "simply",
+          "precisely"
+        ]
+      },
+      {
+        "pos": "adv",
+        "translations": [
+          "just now",
+          "a moment ago"
+        ]
+      }
+    ]
+  },
+  "eigentlich": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "actually",
+          "really",
+          "in fact"
+        ]
+      },
+      {
+        "pos": "adj",
+        "translations": [
+          "actual",
+          "real",
+          "proper",
+          "original"
+        ]
+      }
+    ]
+  },
+  "ein": {
+    "senses": [
+      {
+        "pos": "art",
+        "translations": [
+          "a",
+          "an",
+          "one"
+        ]
+      }
+    ]
+  },
+  "einfach": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "simple",
+          "easy"
+        ]
+      }
+    ]
+  },
+  "einige": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "some",
+          "a few",
+          "several"
+        ]
+      },
+      {
+        "pos": "det",
+        "translations": [
+          "some",
+          "a few",
+          "several"
+        ]
+      }
+    ]
+  },
+  "einkaufen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to shop",
+          "to buy groceries"
+        ]
+      }
+    ]
+  },
+  "einladen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to invite",
+          "to treat"
+        ]
+      }
+    ]
+  },
+  "einmal": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "once",
+          "one time"
+        ]
+      }
+    ]
+  },
+  "eins": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "one"
+        ]
+      }
+    ]
+  },
+  "einsteigen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to get in",
+          "to board",
+          "to step into (vehicle)"
+        ]
+      }
+    ]
+  },
+  "elf": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "eleven"
+        ]
+      }
+    ]
+  },
+  "er": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "he"
+        ]
+      }
+    ]
+  },
+  "erforderlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "required",
+          "necessary",
+          "requisite"
+        ]
+      }
+    ]
+  },
+  "ergänzen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "complete",
+          "fill in",
+          "supplement"
+        ]
+      }
+    ]
+  },
+  "erklären": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "explain"
+        ]
+      }
+    ]
+  },
+  "erst": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "only",
+          "not until",
+          "first"
+        ]
+      }
+    ]
+  },
+  "erste": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "first"
+        ]
+      }
+    ]
+  },
+  "erstellen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to create",
+          "to generate",
+          "to make"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "it"
+        ]
+      }
+    ]
+  },
+  "essen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to eat"
+        ]
+      }
+    ]
+  },
+  "etwas": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "something",
+          "some",
+          "a little"
+        ]
+      }
+    ]
+  },
+  "euer": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "your (informal plural)"
+        ]
+      }
+    ]
+  },
+  "fahren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to drive",
+          "to ride",
+          "to travel"
+        ]
+      }
+    ]
+  },
+  "fallen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to fall",
+          "to drop",
+          "to tumble"
+        ]
+      }
+    ]
+  },
+  "falsch": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "wrong",
+          "false",
+          "incorrect"
+        ]
+      }
+    ]
+  },
+  "fehlen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "be missing",
+          "lack"
+        ]
+      }
+    ]
+  },
+  "fertig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "ready",
+          "finished",
+          "done"
+        ]
+      }
+    ]
+  },
+  "finden": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to find",
+          "to think (opinion)"
+        ]
+      }
+    ]
+  },
+  "fotografieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to photograph",
+          "to take photos"
+        ]
+      }
+    ]
+  },
+  "fragen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to ask",
+          "to question"
+        ]
+      }
+    ]
+  },
+  "frei": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "free",
+          "available",
+          "off (work)"
+        ]
+      }
+    ]
+  },
+  "früh": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "early"
+        ]
+      }
+    ]
+  },
+  "führen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to lead",
+          "to guide",
+          "to conduct",
+          "to manage"
+        ]
+      }
+    ]
+  },
+  "fünf": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "five"
+        ]
+      }
+    ]
+  },
+  "fünfte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "fifth"
+        ]
+      }
+    ]
+  },
+  "fünfzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "fifteen"
+        ]
+      }
+    ]
+  },
+  "für": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "for"
+        ]
+      }
+    ]
+  },
+  "fürs": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "for the"
+        ]
+      }
+    ]
+  },
+  "gar": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "at all",
+          "even",
+          "completely (with negation: gar nicht / gar kein)"
+        ]
+      }
+    ]
+  },
+  "geben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to give"
+        ]
+      }
+    ]
+  },
+  "gebührenfrei": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "free of charge",
+          "exempt from fees",
+          "fee-free",
+          "toll-free"
+        ]
+      }
+    ]
+  },
+  "gefallen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to please",
+          "to appeal to",
+          "to be liked"
+        ]
+      }
+    ]
+  },
+  "gegen": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "against",
+          "around (with times)"
+        ]
+      }
+    ]
+  },
+  "gehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to go",
+          "to walk"
+        ]
+      }
+    ]
+  },
+  "geht's": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "how goes it",
+          "how are you (contraction of geht es)"
+        ]
+      }
+    ]
+  },
+  "gehören": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "belong to"
+        ]
+      }
+    ]
+  },
+  "gelten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to apply",
+          "to be valid",
+          "to count as"
+        ]
+      }
+    ]
+  },
+  "gemahlen": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "ground",
+          "milled"
+        ]
+      }
+    ]
+  },
+  "gemeinsam": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "together",
+          "joint",
+          "jointly",
+          "common",
+          "mutual"
+        ]
+      }
+    ]
+  },
+  "gerade": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "just now",
+          "right now",
+          "straight",
+          "exactly"
+        ]
+      }
+    ]
+  },
+  "geradeaus": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "straight ahead",
+          "straight on"
+        ]
+      }
+    ]
+  },
+  "gern": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "gladly",
+          "with pleasure",
+          "likes to"
+        ]
+      }
+    ]
+  },
+  "gesellschaftlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "social",
+          "societal"
+        ]
+      }
+    ]
+  },
+  "gesetzlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "statutory",
+          "legal",
+          "by law"
+        ]
+      }
+    ]
+  },
+  "gesund": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "healthy",
+          "well",
+          "fit"
+        ]
+      }
+    ]
+  },
+  "geteilt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "divided",
+          "partitioned",
+          "split",
+          "shared"
+        ]
+      }
+    ]
+  },
+  "gewölbt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "arched",
+          "vaulted",
+          "curved",
+          "domed",
+          "convex"
+        ]
+      }
+    ]
+  },
+  "glauben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "believe",
+          "think"
+        ]
+      }
+    ]
+  },
+  "groß": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "big",
+          "large",
+          "tall"
+        ]
+      }
+    ]
+  },
+  "grüßen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "greet",
+          "say hello to"
+        ]
+      }
+    ]
+  },
+  "gut": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "good",
+          "well",
+          "fine"
+        ]
+      }
+    ]
+  },
+  "haben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to have"
+        ]
+      }
+    ]
+  },
+  "halt": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "just",
+          "simply (indicating resignation or accepted fact)"
+        ]
+      }
+    ]
+  },
+  "halten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to hold",
+          "to stop",
+          "to keep",
+          "to consider"
+        ]
+      }
+    ]
+  },
+  "heiß": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "hot",
+          "burning",
+          "scorching"
+        ]
+      }
+    ]
+  },
+  "heißen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to be named",
+          "to be called"
+        ]
+      }
+    ]
+  },
+  "helfen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "help",
+          "assist"
+        ]
+      }
+    ]
+  },
+  "heute": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "today"
+        ]
+      }
+    ]
+  },
+  "hier": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "here"
+        ]
+      }
+    ]
+  },
+  "hinter": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "behind"
+        ]
+      }
+    ]
+  },
+  "hoffen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "hope"
+        ]
+      }
+    ]
+  },
+  "hungrig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "hungry",
+          "starving"
+        ]
+      }
+    ]
+  },
+  "hören": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to hear",
+          "to listen"
+        ]
+      }
+    ]
+  },
+  "hübsch": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "pretty",
+          "nice",
+          "lovely",
+          "handsome"
+        ]
+      }
+    ]
+  },
+  "ich": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "I"
+        ]
+      }
+    ]
+  },
+  "ihr": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "you (informal plural)",
+          "her (dative)"
+        ]
+      },
+      {
+        "pos": "det",
+        "translations": [
+          "her",
+          "their"
+        ]
+      }
+    ]
+  },
+  "illustriert": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "illustrated"
+        ]
+      }
+    ]
+  },
+  "im": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "in the"
+        ]
+      }
+    ]
+  },
+  "immer": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "always"
+        ]
+      }
+    ]
+  },
+  "in": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "in",
+          "into",
+          "at"
+        ]
+      }
+    ]
+  },
+  "ins": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "into the",
+          "in the"
+        ]
+      }
+    ]
+  },
+  "interessant": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "interesting"
+        ]
+      }
+    ]
+  },
+  "ja": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "yes",
+          "indeed",
+          "obviously"
+        ]
+      }
+    ]
+  },
+  "jeder": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "each",
+          "every"
+        ]
+      }
+    ]
+  },
+  "jemand": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "someone",
+          "somebody",
+          "anyone"
+        ]
+      }
+    ]
+  },
+  "jetzt": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "now",
+          "at present"
+        ]
+      }
+    ]
+  },
+  "joggen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to jog"
+        ]
+      }
+    ]
+  },
+  "jung": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "young",
+          "youthful"
+        ]
+      }
+    ]
+  },
+  "kalt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "cold"
+        ]
+      }
+    ]
+  },
+  "kaufen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to buy",
+          "to purchase"
+        ]
+      }
+    ]
+  },
+  "kaum": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "hardly",
+          "barely",
+          "scarcely"
+        ]
+      }
+    ]
+  },
+  "kein": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "no",
+          "not a",
+          "not any"
+        ]
+      }
+    ]
+  },
+  "keiner": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "no one",
+          "nobody",
+          "none",
+          "neither"
+        ]
+      }
+    ]
+  },
+  "kennen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "know",
+          "be acquainted with",
+          "be familiar with"
+        ]
+      }
+    ]
+  },
+  "klar": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "clear",
+          "obvious",
+          "plain"
+        ]
+      }
+    ]
+  },
+  "klein": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "small",
+          "little"
+        ]
+      }
+    ]
+  },
+  "kläglich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "pitiful",
+          "wretched",
+          "feeble",
+          "lamentable"
+        ]
+      }
+    ]
+  },
+  "kochen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to cook",
+          "to boil"
+        ]
+      }
+    ]
+  },
+  "kommen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to come",
+          "to arrive"
+        ]
+      }
+    ]
+  },
+  "kontinuierlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "continuous",
+          "steady",
+          "uninterrupted",
+          "ongoing"
+        ]
+      }
+    ]
+  },
+  "kontrollieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to check",
+          "to verify",
+          "to control",
+          "to inspect"
+        ]
+      }
+    ]
+  },
+  "kosten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "cost"
+        ]
+      }
+    ]
+  },
+  "krank": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "sick",
+          "ill"
+        ]
+      }
+    ]
+  },
+  "kreuzen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to tick",
+          "to check (a box)",
+          "to cross"
+        ]
+      }
+    ]
+  },
+  "kurz": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "short",
+          "brief"
+        ]
+      }
+    ]
+  },
+  "können": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "can",
+          "to be able to"
+        ]
+      }
+    ]
+  },
+  "lang": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "long"
+        ]
+      }
+    ]
+  },
+  "langsam": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "slow",
+          "slowly"
+        ]
+      }
+    ]
+  },
+  "lassen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to let",
+          "to allow",
+          "to leave",
+          "to have done"
+        ]
+      }
+    ]
+  },
+  "laut": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "loud",
+          "noisy"
+        ]
+      }
+    ]
+  },
+  "leben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "live",
+          "be alive"
+        ]
+      }
+    ]
+  },
+  "legen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to lay",
+          "to put horizontally",
+          "to place"
+        ]
+      }
+    ]
+  },
+  "leicht": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "easy",
+          "light",
+          "simple"
+        ]
+      }
+    ]
+  },
+  "leider": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "unfortunately",
+          "regrettably",
+          "sadly"
+        ]
+      }
+    ]
+  },
+  "leise": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "quiet",
+          "soft",
+          "gentle"
+        ]
+      }
+    ]
+  },
+  "lernen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to learn",
+          "to study"
+        ]
+      }
+    ]
+  },
+  "lesen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to read"
+        ]
+      }
+    ]
+  },
+  "lieben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to love"
+        ]
+      }
+    ]
+  },
+  "liegen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "lie",
+          "be situated",
+          "be located"
+        ]
+      }
+    ]
+  },
+  "links": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "left",
+          "on the left",
+          "to the left"
+        ]
+      }
+    ]
+  },
+  "lustig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "funny",
+          "amusing",
+          "cheerful"
+        ]
+      }
+    ]
+  },
+  "machen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to do",
+          "to make"
+        ]
+      }
+    ]
+  },
+  "mal": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "times",
+          "once",
+          "just"
+        ]
+      }
+    ]
+  },
+  "man": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "one",
+          "you (impersonal)",
+          "people"
+        ]
+      }
+    ]
+  },
+  "manchmal": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "sometimes",
+          "occasionally"
+        ]
+      }
+    ]
+  },
+  "mein": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "my"
+        ]
+      }
+    ]
+  },
+  "mit": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "with",
+          "by means of"
+        ]
+      }
+    ]
+  },
+  "mitbringen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to bring along",
+          "to bring with"
+        ]
+      }
+    ]
+  },
+  "mitkommen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to come along",
+          "to join"
+        ]
+      }
+    ]
+  },
+  "mitnehmen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to take along",
+          "to take with",
+          "to take away"
+        ]
+      }
+    ]
+  },
+  "modern": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "modern",
+          "contemporary",
+          "up-to-date"
+        ]
+      }
+    ]
+  },
+  "morgen": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "tomorrow"
+        ]
+      }
+    ]
+  },
+  "männlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "male",
+          "masculine"
+        ]
+      }
+    ]
+  },
+  "möchten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "would like to"
+        ]
+      }
+    ]
+  },
+  "müde": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "tired",
+          "sleepy"
+        ]
+      }
+    ]
+  },
+  "müssen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "must",
+          "to have to"
+        ]
+      }
+    ]
+  },
+  "nach": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "to",
+          "towards",
+          "after"
+        ]
+      }
+    ]
+  },
+  "nachts": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "at night",
+          "during the night"
+        ]
+      }
+    ]
+  },
+  "neben": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "next to",
+          "beside"
+        ]
+      }
+    ]
+  },
+  "nee": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "no (informal)",
+          "nope"
+        ]
+      }
+    ]
+  },
+  "nehmen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to take"
+        ]
+      }
+    ]
+  },
+  "nein": {
+    "senses": [
+      {
+        "pos": "interj",
+        "translations": [
+          "no"
+        ]
+      }
+    ]
+  },
+  "nennen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "name",
+          "call",
+          "mention"
+        ]
+      }
+    ]
+  },
+  "nett": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "nice",
+          "kind",
+          "friendly"
+        ]
+      }
+    ]
+  },
+  "neu": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "neun": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "nine"
+        ]
+      }
+    ]
+  },
+  "neunte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "ninth"
+        ]
+      }
+    ]
+  },
+  "neunzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "nineteen"
+        ]
+      }
+    ]
+  },
+  "nicht": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "not"
+        ]
+      }
+    ]
+  },
+  "nichts": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "nothing"
+        ]
+      }
+    ]
+  },
+  "nie": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "never"
+        ]
+      }
+    ]
+  },
+  "niedergleiten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to slide down",
+          "to glide down",
+          "to slip down"
+        ]
+      }
+    ]
+  },
+  "niemand": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "no one",
+          "nobody"
+        ]
+      }
+    ]
+  },
+  "noch": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "still",
+          "yet",
+          "another"
+        ]
+      }
+    ]
+  },
+  "notieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "note down",
+          "write down"
+        ]
+      }
+    ]
+  },
+  "null": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "zero"
+        ]
+      }
+    ]
+  },
+  "nur": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "only",
+          "just",
+          "merely"
+        ]
+      }
+    ]
+  },
+  "nämlich": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "namely",
+          "you see",
+          "that is because"
+        ]
+      }
+    ]
+  },
+  "ob": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "whether",
+          "if"
+        ]
+      }
+    ]
+  },
+  "oben": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "above",
+          "upstairs",
+          "at the top"
+        ]
+      }
+    ]
+  },
+  "obwohl": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "although",
+          "even though",
+          "though"
+        ]
+      }
+    ]
+  },
+  "oder": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "or"
+        ]
+      }
+    ]
+  },
+  "oft": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "often",
+          "frequently"
+        ]
+      }
+    ]
+  },
+  "ohne": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "without"
+        ]
+      }
+    ]
+  },
+  "online": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "online"
+        ]
+      }
+    ]
+  },
+  "ordnen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "arrange",
+          "put in order",
+          "sort"
+        ]
+      }
+    ]
+  },
+  "panzerartig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "armor-like",
+          "shell-like",
+          "like a carapace"
+        ]
+      }
+    ]
+  },
+  "passen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "fit",
+          "suit"
+        ]
+      }
+    ]
+  },
+  "persönlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "personal"
+        ]
+      }
+    ]
+  },
+  "planen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to plan",
+          "to design",
+          "to project"
+        ]
+      }
+    ]
+  },
+  "pro": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "per",
+          "each"
+        ]
+      }
+    ]
+  },
+  "produzieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to produce",
+          "to manufacture"
+        ]
+      }
+    ]
+  },
+  "präsentieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to present",
+          "to showcase"
+        ]
+      }
+    ]
+  },
+  "raten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "guess",
+          "advise"
+        ]
+      }
+    ]
+  },
+  "rechts": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "right",
+          "on the right",
+          "to the right"
+        ]
+      }
+    ]
+  },
+  "registrieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to register",
+          "to sign up"
+        ]
+      }
+    ]
+  },
+  "reisen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "travel",
+          "journey"
+        ]
+      }
+    ]
+  },
+  "richtig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "correct",
+          "right",
+          "proper"
+        ]
+      }
+    ]
+  },
+  "sagen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "say",
+          "tell"
+        ]
+      }
+    ]
+  },
+  "sammeln": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "collect",
+          "gather"
+        ]
+      }
+    ]
+  },
+  "scheinen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to shine",
+          "to seem",
+          "to appear"
+        ]
+      }
+    ]
+  },
+  "schlafen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to sleep",
+          "to be asleep"
+        ]
+      }
+    ]
+  },
+  "schlecht": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "bad",
+          "poor"
+        ]
+      }
+    ]
+  },
+  "schließen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to close",
+          "to shut",
+          "to conclude"
+        ]
+      }
+    ]
+  },
+  "schmecken": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "taste",
+          "taste good"
+        ]
+      }
+    ]
+  },
+  "schnell": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "fast",
+          "quick",
+          "rapid"
+        ]
+      }
+    ]
+  },
+  "schon": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "already"
+        ]
+      }
+    ]
+  },
+  "schreiben": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to write"
+        ]
+      }
+    ]
+  },
+  "schriftlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "written",
+          "in writing"
+        ]
+      }
+    ]
+  },
+  "schwer": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "heavy",
+          "difficult",
+          "hard"
+        ]
+      }
+    ]
+  },
+  "schwimmen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to swim"
+        ]
+      }
+    ]
+  },
+  "schön": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "beautiful",
+          "lovely",
+          "nice"
+        ]
+      }
+    ]
+  },
+  "sechs": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "six"
+        ]
+      }
+    ]
+  },
+  "sechste": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "sixth"
+        ]
+      }
+    ]
+  },
+  "sechzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "sixteen"
+        ]
+      }
+    ]
+  },
+  "sehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to see",
+          "to look",
+          "to watch"
+        ]
+      }
+    ]
+  },
+  "sehr": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "very",
+          "greatly"
+        ]
+      }
+    ]
+  },
+  "sein": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "his",
+          "its"
+        ]
+      },
+      {
+        "pos": "verb",
+        "translations": [
+          "to be",
+          "to exist"
+        ]
+      }
+    ]
+  },
+  "seit": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "since",
+          "for (a period of time)"
+        ]
+      },
+      {
+        "pos": "conj",
+        "translations": [
+          "since",
+          "ever since"
+        ]
+      }
+    ]
+  },
+  "setzen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to set",
+          "to put",
+          "to place",
+          "to sit down (reflexive)"
+        ]
+      }
+    ]
+  },
+  "sich": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "himself",
+          "herself",
+          "itself",
+          "themselves",
+          "oneself"
+        ]
+      }
+    ]
+  },
+  "sie": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "she",
+          "her",
+          "they",
+          "them"
+        ]
+      }
+    ]
+  },
+  "sieben": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "seven"
+        ]
+      }
+    ]
+  },
+  "siebte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "seventh"
+        ]
+      }
+    ]
+  },
+  "siebzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "seventeen"
+        ]
+      }
+    ]
+  },
+  "singen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to sing"
+        ]
+      }
+    ]
+  },
+  "sitzen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "sit",
+          "be seated"
+        ]
+      }
+    ]
+  },
+  "so": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "so",
+          "thus",
+          "like this",
+          "such"
+        ]
+      }
+    ]
+  },
+  "sogar": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "even"
+        ]
+      }
+    ]
+  },
+  "sollen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "should",
+          "ought to",
+          "to be supposed to"
+        ]
+      }
+    ]
+  },
+  "sondern": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "but (rather)",
+          "instead"
+        ]
+      }
+    ]
+  },
+  "sonst": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "otherwise",
+          "else",
+          "usually"
+        ]
+      }
+    ]
+  },
+  "sonstig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "other",
+          "remaining",
+          "further",
+          "miscellaneous"
+        ]
+      }
+    ]
+  },
+  "spielen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to play"
+        ]
+      }
+    ]
+  },
+  "sprechen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to speak",
+          "to talk"
+        ]
+      }
+    ]
+  },
+  "spät": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "late"
+        ]
+      }
+    ]
+  },
+  "spürbar": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "noticeable",
+          "perceptible",
+          "tangible",
+          "appreciable"
+        ]
+      }
+    ]
+  },
+  "stehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "stand",
+          "be upright"
+        ]
+      }
+    ]
+  },
+  "stellen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "put",
+          "place",
+          "set",
+          "pose (a question)"
+        ]
+      }
+    ]
+  },
+  "stimmen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "be correct",
+          "be right",
+          "tune (instrument)"
+        ]
+      }
+    ]
+  },
+  "studieren": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to study (at university)",
+          "to major in"
+        ]
+      }
+    ]
+  },
+  "suchen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to search",
+          "to look for"
+        ]
+      }
+    ]
+  },
+  "super": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "super",
+          "great",
+          "terrific"
+        ]
+      }
+    ]
+  },
+  "tanzen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to dance"
+        ]
+      }
+    ]
+  },
+  "teuer": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "expensive",
+          "costly",
+          "dear"
+        ]
+      }
+    ]
+  },
+  "toll": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "great",
+          "terrific",
+          "fantastic"
+        ]
+      }
+    ]
+  },
+  "tragen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to wear",
+          "to carry",
+          "to bear"
+        ]
+      }
+    ]
+  },
+  "treffen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "meet",
+          "encounter"
+        ]
+      }
+    ]
+  },
+  "trennbar": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "separable",
+          "detachable",
+          "separable (verb)"
+        ]
+      }
+    ]
+  },
+  "trinken": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to drink"
+        ]
+      }
+    ]
+  },
+  "tropisch": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "tropical"
+        ]
+      }
+    ]
+  },
+  "trotz": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "despite",
+          "in spite of"
+        ]
+      }
+    ]
+  },
+  "träumen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to dream",
+          "to daydream"
+        ]
+      }
+    ]
+  },
+  "um": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "around",
+          "at (time)"
+        ]
+      }
+    ]
+  },
+  "umweltfreundlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "environmentally friendly",
+          "eco-friendly",
+          "green"
+        ]
+      }
+    ]
+  },
+  "unbestimmt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "indefinite",
+          "undetermined",
+          "vague"
+        ]
+      }
+    ]
+  },
+  "und": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "and"
+        ]
+      }
+    ]
+  },
+  "unruhig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "restless",
+          "troubled",
+          "uneasy",
+          "agitated"
+        ]
+      }
+    ]
+  },
+  "unser": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "our"
+        ]
+      }
+    ]
+  },
+  "unten": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "below",
+          "downstairs",
+          "at the bottom"
+        ]
+      }
+    ]
+  },
+  "unter": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "under",
+          "beneath",
+          "among"
+        ]
+      }
+    ]
+  },
+  "unterbringen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to accommodate",
+          "to house",
+          "to put up",
+          "to place",
+          "to mount"
+        ]
+      }
+    ]
+  },
+  "unterstreichen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to underline",
+          "to emphasize"
+        ]
+      }
+    ]
+  },
+  "ursprünglich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "original",
+          "originally",
+          "initial",
+          "native"
+        ]
+      }
+    ]
+  },
+  "verabreden": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to arrange (to meet)",
+          "to make an appointment"
+        ]
+      }
+    ]
+  },
+  "verabschieden": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "say goodbye to",
+          "bid farewell"
+        ]
+      }
+    ]
+  },
+  "verlässlich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "reliable",
+          "dependable",
+          "trustworthy"
+        ]
+      }
+    ]
+  },
+  "verpflichten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to obligate",
+          "to oblige",
+          "to commit",
+          "to require"
+        ]
+      }
+    ]
+  },
+  "verpflichtet": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "obligated",
+          "obliged",
+          "required",
+          "committed"
+        ]
+      }
+    ]
+  },
+  "verstehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to understand"
+        ]
+      }
+    ]
+  },
+  "viel": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "much",
+          "a lot of",
+          "many"
+        ]
+      }
+    ]
+  },
+  "vielleicht": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "maybe",
+          "perhaps"
+        ]
+      }
+    ]
+  },
+  "vier": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "four"
+        ]
+      }
+    ]
+  },
+  "vierte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "fourth"
+        ]
+      }
+    ]
+  },
+  "vierzehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "fourteen"
+        ]
+      }
+    ]
+  },
+  "vollständig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "complete",
+          "completely",
+          "full",
+          "entire"
+        ]
+      }
+    ]
+  },
+  "vom": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "from the",
+          "of the"
+        ]
+      }
+    ]
+  },
+  "von": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "from",
+          "of",
+          "by"
+        ]
+      }
+    ]
+  },
+  "vor": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "in front of",
+          "before",
+          "ago"
+        ]
+      }
+    ]
+  },
+  "vorbereiten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to prepare",
+          "to get ready"
+        ]
+      }
+    ]
+  },
+  "vorstellen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "introduce",
+          "imagine"
+        ]
+      }
+    ]
+  },
+  "wann": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "when",
+          "at what time"
+        ]
+      }
+    ]
+  },
+  "warm": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "warm"
+        ]
+      }
+    ]
+  },
+  "warten": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "wait",
+          "await"
+        ]
+      }
+    ]
+  },
+  "warum": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "why"
+        ]
+      }
+    ]
+  },
+  "was": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "what"
+        ]
+      }
+    ]
+  },
+  "wegen": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "because of",
+          "on account of",
+          "due to"
+        ]
+      }
+    ]
+  },
+  "weiblich": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "female",
+          "feminine"
+        ]
+      }
+    ]
+  },
+  "weil": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "because",
+          "since"
+        ]
+      }
+    ]
+  },
+  "weit": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "far",
+          "wide",
+          "distant",
+          "broad"
+        ]
+      }
+    ]
+  },
+  "weiter": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "further",
+          "on",
+          "onward",
+          "ahead",
+          "continue"
+        ]
+      },
+      {
+        "pos": "adj",
+        "translations": [
+          "additional",
+          "further",
+          "more",
+          "wider"
+        ]
+      }
+    ]
+  },
+  "welcher": {
+    "senses": [
+      {
+        "pos": "det",
+        "translations": [
+          "which",
+          "what"
+        ]
+      }
+    ]
+  },
+  "weltweit": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "worldwide",
+          "global",
+          "globally"
+        ]
+      }
+    ]
+  },
+  "wenn": {
+    "senses": [
+      {
+        "pos": "conj",
+        "translations": [
+          "if",
+          "when",
+          "whenever"
+        ]
+      }
+    ]
+  },
+  "wer": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "who"
+        ]
+      }
+    ]
+  },
+  "werden": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to become",
+          "will (future auxiliary)"
+        ]
+      }
+    ]
+  },
+  "wichtig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "important"
+        ]
+      }
+    ]
+  },
+  "wie": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "how",
+          "what (in questions like 'what is your name')"
+        ]
+      }
+    ]
+  },
+  "wieder": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "again",
+          "once more"
+        ]
+      }
+    ]
+  },
+  "wir": {
+    "senses": [
+      {
+        "pos": "pron",
+        "translations": [
+          "we"
+        ]
+      }
+    ]
+  },
+  "wissen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "know (a fact/information)"
+        ]
+      }
+    ]
+  },
+  "wo": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "where"
+        ]
+      }
+    ]
+  },
+  "woher": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "from where",
+          "where ... from"
+        ]
+      }
+    ]
+  },
+  "wohin": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "where to"
+        ]
+      }
+    ]
+  },
+  "wohl": {
+    "senses": [
+      {
+        "pos": "part",
+        "translations": [
+          "probably",
+          "presumably",
+          "surely"
+        ]
+      },
+      {
+        "pos": "adv",
+        "translations": [
+          "well",
+          "comfortably"
+        ]
+      }
+    ]
+  },
+  "wohlbekannt": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "well-known",
+          "familiar"
+        ]
+      }
+    ]
+  },
+  "wohnen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to live",
+          "to reside"
+        ]
+      }
+    ]
+  },
+  "wollen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to want",
+          "to intend to"
+        ]
+      }
+    ]
+  },
+  "woran": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "at what",
+          "about what",
+          "on what",
+          "whereon"
+        ]
+      }
+    ]
+  },
+  "während": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "during",
+          "throughout"
+        ]
+      },
+      {
+        "pos": "conj",
+        "translations": [
+          "while",
+          "whereas"
+        ]
+      }
+    ]
+  },
+  "zahlen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "pay"
+        ]
+      }
+    ]
+  },
+  "zehn": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "ten"
+        ]
+      }
+    ]
+  },
+  "zehnte": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "tenth"
+        ]
+      }
+    ]
+  },
+  "zeigen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "show",
+          "point to"
+        ]
+      }
+    ]
+  },
+  "ziehen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to pull",
+          "to draw",
+          "to move (residence)"
+        ]
+      }
+    ]
+  },
+  "zu": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "to",
+          "towards",
+          "at"
+        ]
+      },
+      {
+        "pos": "adv",
+        "translations": [
+          "too",
+          "excessively"
+        ]
+      }
+    ]
+  },
+  "zuerst": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "first",
+          "at first",
+          "first of all"
+        ]
+      }
+    ]
+  },
+  "zum": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "to the",
+          "for the"
+        ]
+      }
+    ]
+  },
+  "zumachen": {
+    "senses": [
+      {
+        "pos": "verb",
+        "translations": [
+          "to close",
+          "to shut"
+        ]
+      }
+    ]
+  },
+  "zur": {
+    "senses": [
+      {
+        "pos": "prep+art",
+        "translations": [
+          "to the",
+          "for the"
+        ]
+      }
+    ]
+  },
+  "zusammen": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "together"
+        ]
+      }
+    ]
+  },
+  "zuständig": {
+    "senses": [
+      {
+        "pos": "adj",
+        "translations": [
+          "responsible",
+          "competent",
+          "in charge",
+          "having jurisdiction"
+        ]
+      }
+    ]
+  },
+  "zwanzig": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "twenty"
+        ]
+      }
+    ]
+  },
+  "zwei": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "two"
+        ]
+      }
+    ]
+  },
+  "zweite": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "second"
+        ]
+      }
+    ]
+  },
+  "zwischen": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "between"
+        ]
+      }
+    ]
+  },
+  "zwölf": {
+    "senses": [
+      {
+        "pos": "num",
+        "translations": [
+          "twelve"
+        ]
+      }
+    ]
+  },
+  "Ärztin": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "doctor (female)",
+          "physician"
+        ],
+        "gender": "f",
+        "plural": "Ärztinnen"
+      }
+    ]
+  },
+  "Öl": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "oil"
+        ],
+        "gender": "n",
+        "plural": "Öle"
+      }
+    ]
+  },
+  "Österreich": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "Austria"
+        ],
+        "gender": "n"
+      }
+    ]
+  },
+  "Überschreitung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "exceeding",
+          "breach",
+          "violation",
+          "overstepping"
+        ],
+        "gender": "f",
+        "plural": "Überschreitungen"
+      }
+    ]
+  },
+  "Übung": {
+    "senses": [
+      {
+        "pos": "noun",
+        "translations": [
+          "exercise",
+          "practice"
+        ],
+        "gender": "f",
+        "plural": "Übungen"
+      }
+    ]
+  },
+  "über": {
+    "senses": [
+      {
+        "pos": "prep",
+        "translations": [
+          "about",
+          "over",
+          "above",
+          "across"
+        ]
+      }
+    ]
+  },
+  "überhaupt": {
+    "senses": [
+      {
+        "pos": "adv",
+        "translations": [
+          "at all",
+          "generally",
+          "in general"
+        ]
+      }
+    ]
+  }
+}

@@ -61,18 +61,121 @@ function resolveLangPath(): string {
   return 'public/tessdata';
 }
 
-interface EmbeddedRegion {
+export interface ClippedRegion {
   x: number;
   y: number;
   width: number;
   height: number;
 }
 
+export type EmbeddedRegion = ClippedRegion;
+
+/**
+ * Clips an arbitrary bounding box or region to image boundaries [0, 0, imgWidth, imgHeight].
+ * Returns null if the resulting region is empty, non-positive, out of bounds, or invalid.
+ * Never forces dimensions beyond image boundaries.
+ */
+export function clipRegionToImage(
+  region: { x: number; y: number; width: number; height: number },
+  imgWidth: number,
+  imgHeight: number,
+  minDimension = 1
+): ClippedRegion | null {
+  if (imgWidth <= 0 || imgHeight <= 0) return null;
+  if (
+    !Number.isFinite(region.x) ||
+    !Number.isFinite(region.y) ||
+    !Number.isFinite(region.width) ||
+    !Number.isFinite(region.height)
+  ) {
+    return null;
+  }
+
+  // Reject input regions with non-positive dimensions immediately
+  if (region.width <= 0 || region.height <= 0) {
+    return null;
+  }
+
+  // Calculate inclusive coordinates
+  const rawX0 = region.x;
+  const rawX1 = region.x + region.width;
+  const rawY0 = region.y;
+  const rawY1 = region.y + region.height;
+
+  // If the box is completely outside the image, reject immediately
+  if (rawX1 <= 0 || rawX0 >= imgWidth || rawY1 <= 0 || rawY0 >= imgHeight) {
+    return null;
+  }
+
+  // Strictly clamp to [0, imgWidth] and [0, imgHeight]
+  const x0 = Math.max(0, Math.min(rawX0, imgWidth));
+  const x1 = Math.max(0, Math.min(rawX1, imgWidth));
+  const y0 = Math.max(0, Math.min(rawY0, imgHeight));
+  const y1 = Math.max(0, Math.min(rawY1, imgHeight));
+
+  const width = x1 - x0;
+  const height = y1 - y0;
+
+  // Reject regions that became zero-sized or smaller than the requested minimum dimension
+  if (width < minDimension || height < minDimension) {
+    return null;
+  }
+
+  return {
+    x: Math.round(x0),
+    y: Math.round(y0),
+    width: Math.round(width),
+    height: Math.round(height),
+  };
+}
+
+/**
+ * Clips a word bounding box to image boundaries.
+ * Returns null if the resulting box is empty, negative, or completely out of bounds.
+ */
+export function clipBoundingBox(
+  bbox: OCRBoundingBox,
+  imgWidth: number,
+  imgHeight: number
+): OCRBoundingBox | null {
+  if (imgWidth <= 0 || imgHeight <= 0) return null;
+  if (
+    !Number.isFinite(bbox.x0) ||
+    !Number.isFinite(bbox.y0) ||
+    !Number.isFinite(bbox.x1) ||
+    !Number.isFinite(bbox.y1)
+  ) {
+    return null;
+  }
+
+  // Reject inverted, empty or backwards bounding boxes
+  if (bbox.x1 <= bbox.x0 || bbox.y1 <= bbox.y0) {
+    return null;
+  }
+
+  // Reject completely out-of-bounds boxes
+  if (bbox.x1 <= 0 || bbox.x0 >= imgWidth || bbox.y1 <= 0 || bbox.y0 >= imgHeight) {
+    return null;
+  }
+
+  const x0 = Math.round(Math.max(0, Math.min(bbox.x0, imgWidth)));
+  const x1 = Math.round(Math.max(0, Math.min(bbox.x1, imgWidth)));
+  const y0 = Math.round(Math.max(0, Math.min(bbox.y0, imgHeight)));
+  const y1 = Math.round(Math.max(0, Math.min(bbox.y1, imgHeight)));
+
+  // If clipping resulted in zero area, reject
+  if (x1 <= x0 || y1 <= y0) {
+    return null;
+  }
+
+  return { x0, y0, x1, y1 };
+}
+
 /**
  * Detects embedded tinted/callout/sidebar regions on a page canvas or bitmap.
  * Downsamples by 4x for sub-millisecond connected component analysis.
  */
-function detectEmbeddedRegionsFromRgba(
+export function detectEmbeddedRegionsFromRgba(
   rgba: Uint8ClampedArray | Uint8Array,
   width: number,
   height: number
@@ -143,17 +246,19 @@ function detectEmbeddedRegionsFromRgba(
         // Bounding box filter: minimum 100x50px for callout boxes/tables, max 95% of page
         if (nativeW >= 100 && nativeH >= 50 && count >= 50 && nativeW < width * 0.95 && nativeH < height * 0.95) {
           const pad = 10;
-          const px0 = Math.max(0, minX * ds - pad);
-          const py0 = Math.max(0, minY * ds - pad);
-          const px1 = Math.min(width, (maxX + 1) * ds + pad);
-          const py1 = Math.min(height, (maxY + 1) * ds + pad);
-          regions.push({
-            x: px0,
-            y: py0,
-            width: px1 - px0,
-            height: py1 - py0,
-            score: count,
-          });
+          const candidate = {
+            x: minX * ds - pad,
+            y: minY * ds - pad,
+            width: (maxX - minX + 1) * ds + pad * 2,
+            height: (maxY - minY + 1) * ds + pad * 2,
+          };
+          const clipped = clipRegionToImage(candidate, width, height, 32);
+          if (clipped) {
+            regions.push({
+              ...clipped,
+              score: count,
+            });
+          }
         }
       }
     }
@@ -180,6 +285,11 @@ function extractWordsFromData(data: { blocks?: any[] | null; words?: any[] | nul
                     let y0 = Math.round(word.bbox.y0);
                     let x1 = Math.round(word.bbox.x1);
                     let y1 = Math.round(word.bbox.y1);
+
+                    // Reject invalid or negative bounding boxes safely
+                    if (x1 <= x0 || y1 <= y0) {
+                      continue;
+                    }
 
                     // Clamp to line bounds if line has valid bounding box and word spans anomalously
                     if (line.bbox) {
@@ -249,6 +359,7 @@ export class OCRService {
   private status: OCRStatus = 'idle';
   private activeJob: ActiveJob | null = null;
   private jobCounter = 0;
+  private queuePromise: Promise<void> = Promise.resolve();
 
   // Custom path overrides for Node.js / testing environments
   private customWorkerPath?: string;
@@ -405,9 +516,21 @@ export class OCRService {
       options.signal.addEventListener('abort', abortListener, { once: true });
     }
 
+    let releaseQueue: (() => void) | null = null;
+    const prevTask = this.queuePromise;
+    this.queuePromise = new Promise<void>((resolve) => {
+      releaseQueue = resolve;
+    });
+
     try {
       const recognitionPromise = (async () => {
-        const worker = await this.initialize();
+        try {
+          await prevTask;
+          // Check if this job was cancelled while waiting in queue
+          if (this.activeJob?.id !== jobId) {
+            throw new OCRCancelledError();
+          }
+          const worker = await this.initialize();
 
         // Check if job was cancelled while initializing worker
         if (this.activeJob?.id !== jobId) {
@@ -426,6 +549,12 @@ export class OCRService {
           if (this.activeJob?.id !== jobId || this.status === 'cancelled') {
             throw new OCRCancelledError();
           }
+          // On fatal worker failure, terminate the broken worker and reset reference
+          // so subsequent recognition requests cleanly recreate a fresh worker.
+          try {
+            await worker.terminate();
+          } catch {}
+          this.worker = null;
           throw recognizeErr;
         }
 
@@ -452,7 +581,7 @@ export class OCRService {
 
         // Detect embedded callout boxes, sidebars, and tables
         let embeddedRegions: EmbeddedRegion[] = [];
-        let createSubImage: ((r: EmbeddedRegion) => ImageLike) | null = null;
+        let createSubImage: ((r: EmbeddedRegion) => ImageLike | null) | null = null;
 
         if (typeof HTMLCanvasElement !== 'undefined' && imageSource instanceof HTMLCanvasElement) {
           const ctx = imageSource.getContext('2d', { willReadFrequently: true });
@@ -460,12 +589,24 @@ export class OCRService {
             const imgData = ctx.getImageData(0, 0, imageSource.width, imageSource.height);
             embeddedRegions = detectEmbeddedRegionsFromRgba(imgData.data, imageSource.width, imageSource.height);
             createSubImage = (r) => {
+              const clipped = clipRegionToImage(r, imageSource.width, imageSource.height, 1);
+              if (!clipped) return null;
               const subCanvas = document.createElement('canvas');
-              subCanvas.width = r.width;
-              subCanvas.height = r.height;
+              subCanvas.width = clipped.width;
+              subCanvas.height = clipped.height;
               const subCtx = subCanvas.getContext('2d');
               if (subCtx) {
-                subCtx.drawImage(imageSource, r.x, r.y, r.width, r.height, 0, 0, r.width, r.height);
+                subCtx.drawImage(
+                  imageSource,
+                  clipped.x,
+                  clipped.y,
+                  clipped.width,
+                  clipped.height,
+                  0,
+                  0,
+                  clipped.width,
+                  clipped.height
+                );
               }
               return subCanvas;
             };
@@ -497,17 +638,19 @@ export class OCRService {
           }
           embeddedRegions = detectEmbeddedRegionsFromRgba(rgba, bW, bH);
           createSubImage = (r) => {
-            const cropRowSize = Math.floor((24 * r.width + 31) / 32) * 4;
-            const cropBuf = Buffer.alloc(54 + cropRowSize * r.height);
+            const clipped = clipRegionToImage(r, bW, bH, 1);
+            if (!clipped) return null;
+            const cropRowSize = Math.floor((24 * clipped.width + 31) / 32) * 4;
+            const cropBuf = Buffer.alloc(54 + cropRowSize * clipped.height);
             imageSource.copy(cropBuf, 0, 0, 54);
-            cropBuf.writeInt32LE(r.width, 18);
-            cropBuf.writeInt32LE(-r.height, 22);
-            cropBuf.writeUInt32LE(cropRowSize * r.height, 34);
+            cropBuf.writeInt32LE(clipped.width, 18);
+            cropBuf.writeInt32LE(-clipped.height, 22);
+            cropBuf.writeUInt32LE(cropRowSize * clipped.height, 34);
             let dst = 54;
-            for (let y = r.y; y < r.y + r.height; y++) {
+            for (let y = clipped.y; y < clipped.y + clipped.height; y++) {
               const srcRow = 54 + y * rowSize;
               const rowDst = dst;
-              for (let x = r.x; x < r.x + r.width; x++) {
+              for (let x = clipped.x; x < clipped.x + clipped.width; x++) {
                 const px = srcRow + x * 3;
                 cropBuf[dst++] = imageSource[px];
                 cropBuf[dst++] = imageSource[px + 1];
@@ -526,17 +669,40 @@ export class OCRService {
             for (const r of embeddedRegions) {
               if (this.activeJob?.id !== jobId) break;
               const subImage = createSubImage(r);
-              const regResult = await worker.recognize(subImage, {}, { blocks: true });
+              if (!subImage) continue;
+              let regResult;
+              try {
+                regResult = await worker.recognize(subImage, {}, { blocks: true });
+              } catch (subErr) {
+                if (this.activeJob?.id !== jobId || this.status === 'cancelled') {
+                  throw new OCRCancelledError();
+                }
+                console.warn('Sub-image OCR failed for region, skipping:', subErr);
+                continue;
+              }
               if (this.activeJob?.id !== jobId) break;
 
               const regWords = extractWordsFromData(regResult.data);
               if (regWords.length > 0) {
-                // Offset bounding boxes to full page coordinate space
+                // Offset bounding boxes to full page coordinate space and validate boundaries
+                const validRegWords: OCRWord[] = [];
                 for (const rw of regWords) {
-                  rw.bbox.x0 += r.x;
-                  rw.bbox.x1 += r.x;
-                  rw.bbox.y0 += r.y;
-                  rw.bbox.y1 += r.y;
+                  const shiftedBox: OCRBoundingBox = {
+                    x0: rw.bbox.x0 + r.x,
+                    x1: rw.bbox.x1 + r.x,
+                    y0: rw.bbox.y0 + r.y,
+                    y1: rw.bbox.y1 + r.y,
+                  };
+                  if (imageWidth > 0 && imageHeight > 0) {
+                    const clippedBox = clipBoundingBox(shiftedBox, imageWidth, imageHeight);
+                    if (clippedBox) {
+                      rw.bbox = clippedBox;
+                      validRegWords.push(rw);
+                    }
+                  } else {
+                    rw.bbox = shiftedBox;
+                    validRegWords.push(rw);
+                  }
                 }
 
                 // Remove coarse/overlapping words inside or significantly intersecting this region
@@ -554,7 +720,7 @@ export class OCRService {
                 });
 
                 // Add high-precision region words
-                words.push(...regWords);
+                words.push(...validRegWords);
               }
             }
           } finally {
@@ -576,15 +742,15 @@ export class OCRService {
         }
 
         // Defensive bounding box clamping to image boundaries
-        for (const word of words) {
-          if (imageWidth > 0) {
-            word.bbox.x0 = Math.max(0, Math.min(word.bbox.x0, imageWidth));
-            word.bbox.x1 = Math.max(0, Math.min(word.bbox.x1, imageWidth));
-          }
-          if (imageHeight > 0) {
-            word.bbox.y0 = Math.max(0, Math.min(word.bbox.y0, imageHeight));
-            word.bbox.y1 = Math.max(0, Math.min(word.bbox.y1, imageHeight));
-          }
+        if (imageWidth > 0 && imageHeight > 0) {
+          words = words.filter((word) => {
+            const clipped = clipBoundingBox(word.bbox, imageWidth, imageHeight);
+            if (clipped) {
+              word.bbox = clipped;
+              return true;
+            }
+            return false;
+          });
         }
 
         const pageResult: OCRPageResult = {
@@ -597,6 +763,12 @@ export class OCRService {
         };
 
         return pageResult;
+        } finally {
+          if (releaseQueue) {
+            releaseQueue();
+            releaseQueue = null;
+          }
+        }
       })();
 
       // Catch and swallow background worker termination errors if the job was cancelled
@@ -640,22 +812,9 @@ export class OCRService {
       const job = this.activeJob;
       this.activeJob = null;
       this.status = 'cancelled';
-
-      // Terminate running worker to immediately halt background processing
-      if (this.worker) {
-        const workerToTerminate = this.worker;
-        this.worker = null;
-        workerToTerminate.terminate().catch((err) => {
-          console.warn('Error during OCR worker cancellation termination:', err);
-        });
-      } else if (this.initPromise) {
-        // Cold-start guard: worker is still initializing in the background.
-        // Once resolved, ensure it terminates cleanly without leaking resources.
-        this.initPromise.then((w) => {
-          w.terminate().catch(() => {});
-        }).catch(() => {});
-      }
-
+      // Reject active job promise immediately with OCRCancelledError
+      // NOTE: Do not terminate the shared Tesseract worker!
+      // In-flight WASM execution finishes safely in background, and worker stays warm for next request.
       job.abortReject(new OCRCancelledError());
     }
   }

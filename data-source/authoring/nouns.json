@@ -6109,5 +6109,1114 @@
       "created": "2026-10-22",
       "notes": "Natural science / geography noun; feminine with -n plural."
     }
+  },
+  {
+    "headword": "Adjektiv",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Adjektive",
+    "cefr": "A1",
+    "translations": [
+      "adjective"
+    ],
+    "inflections": [
+      "adjektivs",
+      "adjektive",
+      "adjektiven"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: adjective part-of-speech label."
+    }
+  },
+  {
+    "headword": "Infinitiv",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Infinitive",
+    "cefr": "A2",
+    "translations": [
+      "infinitive",
+      "infinitive form",
+      "base form of a verb"
+    ],
+    "inflections": [
+      "infinitivs",
+      "infinitive",
+      "infinitiven"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: verb infinitive form."
+    }
+  },
+  {
+    "headword": "Partizip",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Partizipien",
+    "cefr": "A2",
+    "translations": [
+      "participle",
+      "past participle",
+      "present participle"
+    ],
+    "inflections": [
+      "partizips",
+      "partizipien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: participle."
+    }
+  },
+  {
+    "headword": "Komparativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Komparative",
+    "cefr": "A2",
+    "translations": [
+      "comparative",
+      "comparative form",
+      "comparative degree"
+    ],
+    "inflections": [
+      "komparativs",
+      "komparative",
+      "komparativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: comparative degree."
+    }
+  },
+  {
+    "headword": "Superlativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Superlative",
+    "cefr": "A2",
+    "translations": [
+      "superlative",
+      "superlative form",
+      "highest degree"
+    ],
+    "inflections": [
+      "superlativs",
+      "superlative",
+      "superlativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: superlative degree."
+    }
+  },
+  {
+    "headword": "Präteritum",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Präterita",
+    "cefr": "A2",
+    "translations": [
+      "simple past tense",
+      "preterite",
+      "past tense"
+    ],
+    "inflections": [
+      "präteritums",
+      "präterita"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: simple past tense in German."
+    }
+  },
+  {
+    "headword": "Futur",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Future",
+    "cefr": "A2",
+    "translations": [
+      "future tense",
+      "future"
+    ],
+    "inflections": [
+      "futurs",
+      "future"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: future tense."
+    }
+  },
+  {
+    "headword": "Singular",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Singulare",
+    "cefr": "A1",
+    "translations": [
+      "singular",
+      "singular form"
+    ],
+    "inflections": [
+      "singulars",
+      "singulare",
+      "singularen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: singular number."
+    }
+  },
+  {
+    "headword": "Fragesatz",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Fragesätze",
+    "cefr": "A1",
+    "translations": [
+      "question sentence",
+      "interrogative sentence",
+      "question"
+    ],
+    "inflections": [
+      "fragesatzes",
+      "fragesatze",
+      "fragesätze",
+      "fragesätzen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: question sentence type."
+    }
+  },
+  {
+    "headword": "Hilfsverb",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Hilfsverben",
+    "cefr": "A2",
+    "translations": [
+      "auxiliary verb",
+      "helping verb"
+    ],
+    "inflections": [
+      "hilfsverbs",
+      "hilfsverbe",
+      "hilfsverben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: auxiliary verb (haben, sein, werden)."
+    }
+  },
+  {
+    "headword": "Lektion",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Lektionen",
+    "cefr": "A1",
+    "translations": [
+      "lesson",
+      "chapter",
+      "unit"
+    ],
+    "inflections": [
+      "lektion",
+      "lektionen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core textbook term: lesson/chapter number."
+    }
+  },
+  {
+    "headword": "Wohnung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Wohnungen",
+    "cefr": "A1",
+    "translations": [
+      "apartment",
+      "flat",
+      "dwelling",
+      "home"
+    ],
+    "inflections": [
+      "wohnung",
+      "wohnungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 noun; high-frequency in housing contexts."
+    }
+  },
+  {
+    "headword": "Energie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Energien",
+    "cefr": "A2",
+    "translations": [
+      "energy",
+      "power"
+    ],
+    "inflections": [
+      "energie",
+      "energien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "High-frequency noun in news and informational texts."
+    }
+  },
+  {
+    "headword": "Schutz",
+    "pos": "noun",
+    "gender": "m",
+    "translations": [
+      "protection",
+      "shelter",
+      "defense"
+    ],
+    "inflections": [
+      "schutzes",
+      "schutze"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common noun; no plural in standard usage."
+    }
+  },
+  {
+    "headword": "Gesundheit",
+    "pos": "noun",
+    "gender": "f",
+    "translations": [
+      "health",
+      "well-being"
+    ],
+    "inflections": [
+      "gesundheit"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common noun; uncountable in standard usage."
+    }
+  },
+  {
+    "headword": "Traum",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Träume",
+    "cefr": "A2",
+    "translations": [
+      "dream",
+      "wish",
+      "aspiration"
+    ],
+    "inflections": [
+      "traums",
+      "traume",
+      "träume",
+      "träumen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common A2 noun; umlaut plural."
+    }
+  },
+  {
+    "headword": "Rahmen",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Rahmen",
+    "cefr": "B1",
+    "translations": [
+      "frame",
+      "framework",
+      "context",
+      "scope"
+    ],
+    "inflections": [
+      "rahmens",
+      "rahmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "B1 noun; high frequency in administrative and formal text."
+    }
+  },
+  {
+    "headword": "Minute",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Minuten",
+    "cefr": "A1",
+    "translations": [
+      "minute"
+    ],
+    "inflections": [
+      "minute",
+      "minuten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 time noun."
+    }
+  },
+  {
+    "headword": "Universität",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Universitäten",
+    "cefr": "A1",
+    "translations": [
+      "university",
+      "college"
+    ],
+    "inflections": [
+      "universität",
+      "universitäten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 academic institution noun."
+    }
+  },
+  {
+    "headword": "Café",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Cafés",
+    "cefr": "A1",
+    "translations": [
+      "café",
+      "coffee shop"
+    ],
+    "inflections": [
+      "café",
+      "cafés",
+      "cafe",
+      "cafes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 noun; also spelled without accent informally."
+    }
+  },
+  {
+    "headword": "Laden",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Läden",
+    "cefr": "A1",
+    "translations": [
+      "shop",
+      "store"
+    ],
+    "inflections": [
+      "ladens",
+      "läden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 noun; umlaut plural. Distinct from verb laden."
+    }
+  },
+  {
+    "headword": "Weg",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Wege",
+    "cefr": "A1",
+    "translations": [
+      "way",
+      "path",
+      "road",
+      "route"
+    ],
+    "inflections": [
+      "wegs",
+      "wege",
+      "wegen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 noun. Note: lowercase weg is adverb away."
+    }
+  },
+  {
+    "headword": "Bahn",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bahnen",
+    "cefr": "A1",
+    "translations": [
+      "train",
+      "railway",
+      "track",
+      "rail network"
+    ],
+    "inflections": [
+      "bahn",
+      "bahnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 transport noun."
+    }
+  },
+  {
+    "headword": "Konjunktiv",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Konjunktive",
+    "cefr": "B1",
+    "translations": [
+      "subjunctive mood",
+      "subjunctive",
+      "conjunctive"
+    ],
+    "examples": [
+      {
+        "de": "Der Konjunktiv II wird oft für höfliche Bitten verwendet.",
+        "en": "The subjunctive II is often used for polite requests."
+      }
+    ],
+    "inflections": [
+      "konjunktiv",
+      "konjunktivs",
+      "konjunktive",
+      "konjunktiven"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: subjunctive mood (Konjunktiv I and Konjunktiv II)."
+    }
+  },
+  {
+    "headword": "Imperativ",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Imperative",
+    "cefr": "A1",
+    "translations": [
+      "imperative mood",
+      "imperative",
+      "command form"
+    ],
+    "examples": [
+      {
+        "de": "Der Imperativ von 'kommen' ist 'Komm!'.",
+        "en": "The imperative of 'kommen' is 'Come!'."
+      }
+    ],
+    "inflections": [
+      "imperativ",
+      "imperativs",
+      "imperative",
+      "imperativen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: imperative command form."
+    }
+  },
+  {
+    "headword": "Grundform",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Grundformen",
+    "cefr": "A1",
+    "translations": [
+      "base form",
+      "infinitive form",
+      "canonical form"
+    ],
+    "examples": [
+      {
+        "de": "Die Grundform des Verbs steht im Wörterbuch.",
+        "en": "The base form of the verb is in the dictionary."
+      }
+    ],
+    "inflections": [
+      "grundform",
+      "grundformen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: base/canonical form of a word."
+    }
+  },
+  {
+    "headword": "Stammform",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Stammformen",
+    "cefr": "A2",
+    "translations": [
+      "principal part",
+      "stem form",
+      "root form"
+    ],
+    "examples": [
+      {
+        "de": "Lernen Sie die drei Stammformen der unregelmäßigen Verben.",
+        "en": "Learn the three principal parts of the irregular verbs."
+      }
+    ],
+    "inflections": [
+      "stammform",
+      "stammformen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar terminology: principal parts / stem forms of verbs."
+    }
+  },
+  {
+    "headword": "Anmeldung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Anmeldungen",
+    "cefr": "A1",
+    "translations": [
+      "registration",
+      "enrollment",
+      "notification"
+    ],
+    "examples": [
+      {
+        "de": "Die Anmeldung beim Bürgeramt ist obligatorisch.",
+        "en": "Registration at the citizen's office is mandatory."
+      }
+    ],
+    "inflections": [
+      "anmeldung",
+      "anmeldungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative noun from verb anmelden."
+    }
+  },
+  {
+    "headword": "Bestätigung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bestätigungen",
+    "cefr": "A2",
+    "translations": [
+      "confirmation",
+      "certificate",
+      "verification"
+    ],
+    "examples": [
+      {
+        "de": "Sie erhalten eine schriftliche Bestätigung.",
+        "en": "You will receive a written confirmation."
+      }
+    ],
+    "inflections": [
+      "bestätigung",
+      "bestätigungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative noun from verb bestätigen."
+    }
+  },
+  {
+    "headword": "Anschrift",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Anschriften",
+    "cefr": "A1",
+    "translations": [
+      "address",
+      "postal address"
+    ],
+    "examples": [
+      {
+        "de": "Bitte geben Sie Ihre neue Anschrift an.",
+        "en": "Please provide your new address."
+      }
+    ],
+    "inflections": [
+      "anschrift",
+      "anschriften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative address noun."
+    }
+  },
+  {
+    "headword": "Eigentümer",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eigentümer",
+    "cefr": "A2",
+    "translations": [
+      "owner",
+      "property owner",
+      "landlord"
+    ],
+    "examples": [
+      {
+        "de": "Der Name des Eigentümers muss genannt werden.",
+        "en": "The name of the owner must be stated."
+      }
+    ],
+    "inflections": [
+      "eigentümer",
+      "eigentümers",
+      "eigentümern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Administrative noun for property owner."
+    }
+  },
+  {
+    "headword": "Überschreitung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Überschreitungen",
+    "cefr": "B1",
+    "translations": [
+      "exceeding",
+      "breach",
+      "violation",
+      "overstepping"
+    ],
+    "examples": [
+      {
+        "de": "Bei einer Überschreitung der Frist droht eine Strafe.",
+        "en": "In case of exceeding the deadline, a penalty is imminent."
+      }
+    ],
+    "inflections": [
+      "überschreitung",
+      "überschreitungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Administrative noun from verb überschreiten."
+    }
+  },
+  {
+    "headword": "Ungeziefer",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Ungeziefer",
+    "cefr": "B1",
+    "translations": [
+      "vermin",
+      "pest",
+      "bug",
+      "insect"
+    ],
+    "examples": [
+      {
+        "de": "Gregor fand sich zu einem Ungeziefer verwandelt.",
+        "en": "Gregor found himself transformed into vermin."
+      }
+    ],
+    "inflections": [
+      "ungeziefer",
+      "ungeziefers"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Primarily a collective neuter noun (singulare tantum) for vermin/pests in standard German; used countably in literary contexts (Kafka: zu einem Ungeziefer)."
+    }
+  },
+  {
+    "headword": "Versteifung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Versteifungen",
+    "cefr": "B2",
+    "translations": [
+      "stiffening",
+      "reinforcement",
+      "brace",
+      "rib"
+    ],
+    "examples": [
+      {
+        "de": "Sein Bauch war von bogenförmigen Versteifungen geteilt.",
+        "en": "His belly was partitioned by arched stiffening ribs."
+      }
+    ],
+    "inflections": [
+      "versteifung",
+      "versteifungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Literary anatomical noun from versteifen (Kafka)."
+    }
+  },
+  {
+    "headword": "Region",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Regionen",
+    "cefr": "A2",
+    "translations": [
+      "region",
+      "area",
+      "district"
+    ],
+    "examples": [
+      {
+        "de": "Die Pflanze wächst in tropischen Regionen.",
+        "en": "The plant grows in tropical regions."
+      }
+    ],
+    "inflections": [
+      "region",
+      "regionen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "General geographical noun."
+    }
+  },
+  {
+    "headword": "Afrika",
+    "pos": "noun",
+    "gender": "n",
+    "cefr": "A1",
+    "translations": [
+      "Africa"
+    ],
+    "examples": [
+      {
+        "de": "Kaffee stammt ursprünglich aus den tropischen Regionen Afrikas.",
+        "en": "Coffee originally originates from tropical regions of Africa."
+      }
+    ],
+    "inflections": [
+      "afrika",
+      "afrikas",
+      "Afrikas"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Proper geographic noun: continent."
+    }
+  },
+  {
+    "headword": "Bürgerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bürgerinnen",
+    "cefr": "A2",
+    "translations": [
+      "citizen (female)",
+      "citizen"
+    ],
+    "examples": [
+      {
+        "de": "Die Bürgerinnen und Bürger wurden informiert.",
+        "en": "The female and male citizens were informed."
+      }
+    ],
+    "inflections": [
+      "bürgerin",
+      "bürgerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Feminine form of Bürger."
+    }
+  },
+  {
+    "headword": "Ministerin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Ministerinnen",
+    "cefr": "B1",
+    "translations": [
+      "minister (female)",
+      "minister",
+      "cabinet minister"
+    ],
+    "examples": [
+      {
+        "de": "Die Ministerinnen stellten das neue Gesetz vor.",
+        "en": "The ministers presented the new law."
+      }
+    ],
+    "inflections": [
+      "ministerin",
+      "ministerinnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Feminine form of Minister."
+    }
+  },
+  {
+    "headword": "Innovation",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Innovationen",
+    "cefr": "B1",
+    "translations": [
+      "innovation",
+      "novelty"
+    ],
+    "examples": [
+      {
+        "de": "Technologische Innovation stärkt die Wirtschaft.",
+        "en": "Technological innovation strengthens the economy."
+      }
+    ],
+    "inflections": [
+      "innovation",
+      "innovationen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common political and technological noun."
+    }
+  },
+  {
+    "headword": "Unterstützung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Unterstützungen",
+    "cefr": "B1",
+    "translations": [
+      "support",
+      "assistance",
+      "backing",
+      "aid"
+    ],
+    "examples": [
+      {
+        "de": "Familien brauchen verlässliche Unterstützung.",
+        "en": "Families need reliable support."
+      }
+    ],
+    "inflections": [
+      "unterstützung",
+      "unterstützungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Civic and political noun from unterstützen."
+    }
+  },
+  {
+    "headword": "Moderne",
+    "pos": "noun",
+    "gender": "f",
+    "cefr": "B1",
+    "translations": [
+      "modernity",
+      "modern era",
+      "modern age"
+    ],
+    "examples": [
+      {
+        "de": "Die Architektur der Moderne fasziniert viele Kunstliebhaber.",
+        "en": "The architecture of modernity fascinates many art lovers."
+      }
+    ],
+    "inflections": [
+      "moderne"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Cultural and historical era noun (die Moderne = modernity / modern era); singulare tantum; distinct from the inflected adjective modern."
+    }
+  },
+  {
+    "headword": "Technologie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Technologien",
+    "cefr": "B1",
+    "translations": [
+      "technology",
+      "technological process"
+    ],
+    "examples": [
+      {
+        "de": "Neue Technologien verändern die Arbeitswelt.",
+        "en": "New technologies are transforming the working world."
+      }
+    ],
+    "inflections": [
+      "technologie",
+      "technologien"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Scientific and news noun."
+    }
+  },
+  {
+    "headword": "Investition",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Investitionen",
+    "cefr": "B1",
+    "translations": [
+      "investment",
+      "capital expenditure"
+    ],
+    "examples": [
+      {
+        "de": "Investitionen in Bildung sichern die Zukunft.",
+        "en": "Investments in education secure the future."
+      }
+    ],
+    "inflections": [
+      "investition",
+      "investitionen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Economic and news noun."
+    }
   }
 ]

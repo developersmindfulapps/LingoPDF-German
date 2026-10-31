@@ -1236,5 +1236,1216 @@
       "created": "2026-10-22",
       "notes": "Core grammatical adjective; unbestimmter Artikel."
     }
+  },
+  {
+    "headword": "hungrig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "hungry",
+      "starving"
+    ],
+    "inflections": [
+      "hungrige",
+      "hungrigem",
+      "hungrigen",
+      "hungriger",
+      "hungriges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: feeling hunger."
+    }
+  },
+  {
+    "headword": "durstig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "thirsty"
+    ],
+    "inflections": [
+      "durstige",
+      "durstigem",
+      "durstigen",
+      "durstiger",
+      "durstiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: feeling thirst."
+    }
+  },
+  {
+    "headword": "gesund",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "healthy",
+      "well",
+      "fit"
+    ],
+    "inflections": [
+      "gesunde",
+      "gesundem",
+      "gesunden",
+      "gesunder",
+      "gesundes",
+      "gesünder",
+      "gesündeste",
+      "gesündesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 adjective: healthy. Comparative: gesünder."
+    }
+  },
+  {
+    "headword": "jung",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "young",
+      "youthful"
+    ],
+    "inflections": [
+      "junge",
+      "jungem",
+      "jungen",
+      "junger",
+      "junges",
+      "jünger",
+      "jüngste",
+      "jüngsten",
+      "jüngster",
+      "jüngeres",
+      "jüngerer"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 adjective: young. Comparative: jünger, superlative: jüngste."
+    }
+  },
+  {
+    "headword": "laut",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "loud",
+      "noisy"
+    ],
+    "inflections": [
+      "laute",
+      "lautem",
+      "lauten",
+      "lauter",
+      "lautes",
+      "lauter",
+      "lauteste",
+      "lautesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: loud. Also used as preposition (according to)."
+    }
+  },
+  {
+    "headword": "leise",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "quiet",
+      "soft",
+      "gentle"
+    ],
+    "inflections": [
+      "leisem",
+      "leisen",
+      "leiser",
+      "leises",
+      "leiser",
+      "leiseste",
+      "leisesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: quiet/soft."
+    }
+  },
+  {
+    "headword": "teuer",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "expensive",
+      "costly",
+      "dear"
+    ],
+    "inflections": [
+      "teure",
+      "teurem",
+      "teuren",
+      "teurer",
+      "teures",
+      "teurer",
+      "teuerste",
+      "teuersten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 adjective: expensive."
+    }
+  },
+  {
+    "headword": "billig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "cheap",
+      "inexpensive",
+      "affordable"
+    ],
+    "inflections": [
+      "billige",
+      "billigem",
+      "billigen",
+      "billiger",
+      "billiges",
+      "billiger",
+      "billigste",
+      "billigsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: cheap/inexpensive."
+    }
+  },
+  {
+    "headword": "leicht",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "easy",
+      "light",
+      "simple"
+    ],
+    "inflections": [
+      "leichte",
+      "leichtem",
+      "leichten",
+      "leichter",
+      "leichtes",
+      "leichter",
+      "leichteste",
+      "leichtesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: easy or light in weight."
+    }
+  },
+  {
+    "headword": "heiß",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "hot",
+      "burning",
+      "scorching"
+    ],
+    "inflections": [
+      "heiße",
+      "heißem",
+      "heißen",
+      "heißer",
+      "heißes",
+      "heißer",
+      "heißeste",
+      "heißesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 adjective: hot."
+    }
+  },
+  {
+    "headword": "trennbar",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "separable",
+      "detachable",
+      "separable (verb)"
+    ],
+    "examples": [
+      {
+        "de": "Viele deutsche Verben mit Präfix sind trennbar.",
+        "en": "Many German verbs with prefixes are separable."
+      }
+    ],
+    "inflections": [
+      "trennbare",
+      "trennbarem",
+      "trennbaren",
+      "trennbarer",
+      "trennbares",
+      "trennbarere",
+      "trennbareren",
+      "trennbareres",
+      "trennbarste",
+      "trennbarsten",
+      "trennbarster",
+      "trennbarstes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Grammar/linguistic adjective: separable (especially separable prefix verbs)."
+    }
+  },
+  {
+    "headword": "panzerartig",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "armor-like",
+      "shell-like",
+      "like a carapace"
+    ],
+    "examples": [
+      {
+        "de": "Er lag auf seinem panzerartig harten Rücken.",
+        "en": "He lay on his armor-like hard back."
+      }
+    ],
+    "inflections": [
+      "panzerartige",
+      "panzerartigem",
+      "panzerartigen",
+      "panzerartiger",
+      "panzerartiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Literary derived adjective with suffix -artig (Kafka)."
+    }
+  },
+  {
+    "headword": "bogenförmig",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "arch-shaped",
+      "arched",
+      "curved"
+    ],
+    "examples": [
+      {
+        "de": "Der Bauch war von bogenförmigen Versteifungen geteilt.",
+        "en": "The belly was divided by arched stiffening ribs."
+      }
+    ],
+    "inflections": [
+      "bogenförmige",
+      "bogenförmigem",
+      "bogenförmigen",
+      "bogenförmiger",
+      "bogenförmiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Literary derived adjective with suffix -förmig (Kafka)."
+    }
+  },
+  {
+    "headword": "verpflichtet",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "obligated",
+      "obliged",
+      "required",
+      "committed"
+    ],
+    "examples": [
+      {
+        "de": "Wer eine Wohnung bezieht, ist verpflichtet, sich anzumelden.",
+        "en": "Anyone moving into an apartment is obligated to register."
+      }
+    ],
+    "inflections": [
+      "verpflichtete",
+      "verpflichtetem",
+      "verpflichteten",
+      "verpflichteter",
+      "verpflichtetes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Participial adjective indicating legal obligation."
+    }
+  },
+  {
+    "headword": "zuständig",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "responsible",
+      "competent",
+      "in charge",
+      "having jurisdiction"
+    ],
+    "examples": [
+      {
+        "de": "Wenden Sie sich an die zuständige Behörde.",
+        "en": "Contact the responsible authority."
+      }
+    ],
+    "inflections": [
+      "zuständige",
+      "zuständigem",
+      "zuständigen",
+      "zuständiger",
+      "zuständiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative adjective."
+    }
+  },
+  {
+    "headword": "schriftlich",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "written",
+      "in writing"
+    ],
+    "examples": [
+      {
+        "de": "Sie benötigen eine schriftliche Bestätigung.",
+        "en": "You need a written confirmation."
+      }
+    ],
+    "inflections": [
+      "schriftliche",
+      "schriftlichem",
+      "schriftlichen",
+      "schriftlicher",
+      "schriftliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative adjective."
+    }
+  },
+  {
+    "headword": "erforderlich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "required",
+      "necessary",
+      "requisite"
+    ],
+    "examples": [
+      {
+        "de": "Ein gültiger Pass ist erforderlich.",
+        "en": "A valid passport is required."
+      }
+    ],
+    "inflections": [
+      "erforderliche",
+      "erforderlichem",
+      "erforderlichen",
+      "erforderlicher",
+      "erforderliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core administrative requirement adjective."
+    }
+  },
+  {
+    "headword": "gebührenfrei",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "free of charge",
+      "exempt from fees",
+      "fee-free",
+      "toll-free"
+    ],
+    "examples": [
+      {
+        "de": "Die Anmeldung ist gebührenfrei.",
+        "en": "Registration is free of charge."
+      }
+    ],
+    "inflections": [
+      "gebührenfreie",
+      "gebührenfreiem",
+      "gebührenfreien",
+      "gebührenfreier",
+      "gebührenfreies"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound adjective: Gebühr + frei."
+    }
+  },
+  {
+    "headword": "gesetzlich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "statutory",
+      "legal",
+      "by law"
+    ],
+    "examples": [
+      {
+        "de": "Die gesetzliche Frist beträgt zwei Wochen.",
+        "en": "The statutory deadline is two weeks."
+      }
+    ],
+    "inflections": [
+      "gesetzliche",
+      "gesetzlichem",
+      "gesetzlichen",
+      "gesetzlicher",
+      "gesetzliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Legal/administrative adjective from Gesetz."
+    }
+  },
+  {
+    "headword": "vollständig",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "complete",
+      "completely",
+      "full",
+      "entire"
+    ],
+    "examples": [
+      {
+        "de": "Bringen Sie alle Unterlagen vollständig mit.",
+        "en": "Bring all documents completely."
+      }
+    ],
+    "inflections": [
+      "vollständige",
+      "vollständigem",
+      "vollständigen",
+      "vollständiger",
+      "vollständiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common descriptive adjective."
+    }
+  },
+  {
+    "headword": "unruhig",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "restless",
+      "troubled",
+      "uneasy",
+      "agitated"
+    ],
+    "examples": [
+      {
+        "de": "Er erwachte aus unruhigen Träumen.",
+        "en": "He awoke from restless dreams."
+      }
+    ],
+    "inflections": [
+      "unruhige",
+      "unruhigem",
+      "unruhigen",
+      "unruhiger",
+      "unruhiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Descriptive adjective: un- + ruhig (Kafka)."
+    }
+  },
+  {
+    "headword": "gewölbt",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "arched",
+      "vaulted",
+      "curved",
+      "domed",
+      "convex"
+    ],
+    "examples": [
+      {
+        "de": "Sein Bauch war braun und gewölbt.",
+        "en": "His belly was brown and domed."
+      }
+    ],
+    "inflections": [
+      "gewölbte",
+      "gewölbtem",
+      "gewölbten",
+      "gewölbter",
+      "gewölbtes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Participial descriptive adjective from wölben (Kafka)."
+    }
+  },
+  {
+    "headword": "geteilt",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "divided",
+      "partitioned",
+      "split",
+      "shared"
+    ],
+    "examples": [
+      {
+        "de": "Der Bauch war von Versteifungen geteilt.",
+        "en": "The belly was divided by stiffening ribs."
+      }
+    ],
+    "inflections": [
+      "geteilte",
+      "geteiltem",
+      "geteilten",
+      "geteilter",
+      "geteiltes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Participial adjective from teilen (Kafka)."
+    }
+  },
+  {
+    "headword": "sonstig",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "other",
+      "remaining",
+      "further",
+      "miscellaneous"
+    ],
+    "examples": [
+      {
+        "de": "Im Vergleich zu seinem sonstigen Umfang waren die Beine dünn.",
+        "en": "In comparison to his other bulk, the legs were thin."
+      }
+    ],
+    "inflections": [
+      "sonstige",
+      "sonstigem",
+      "sonstigen",
+      "sonstiger",
+      "sonstiges"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Descriptive adjective indicating other/remaining (Kafka)."
+    }
+  },
+  {
+    "headword": "kläglich",
+    "pos": "adj",
+    "cefr": "B2",
+    "translations": [
+      "pitiful",
+      "wretched",
+      "feeble",
+      "lamentable"
+    ],
+    "examples": [
+      {
+        "de": "Seine Beine waren kläglich dünn.",
+        "en": "His legs were pitifully thin."
+      }
+    ],
+    "inflections": [
+      "klägliche",
+      "kläglichem",
+      "kläglichen",
+      "kläglicher",
+      "klägliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Literary descriptive adjective (Kafka)."
+    }
+  },
+  {
+    "headword": "wohlbekannt",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "well-known",
+      "familiar"
+    ],
+    "examples": [
+      {
+        "de": "Das Zimmer lag zwischen vier wohlbekannten Wänden.",
+        "en": "The room lay between four familiar walls."
+      }
+    ],
+    "inflections": [
+      "wohlbekannte",
+      "wohlbekanntem",
+      "wohlbekannten",
+      "wohlbekannter",
+      "wohlbekanntes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound adjective: wohl + bekannt (Kafka)."
+    }
+  },
+  {
+    "headword": "illustriert",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "illustrated"
+    ],
+    "examples": [
+      {
+        "de": "Er schnitt ein Bild aus einer illustrierten Zeitschrift aus.",
+        "en": "He cut out a picture from an illustrated magazine."
+      }
+    ],
+    "inflections": [
+      "illustrierte",
+      "illustriertem",
+      "illustrierten",
+      "illustrierter",
+      "illustriertes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Participial adjective from illustrieren (Kafka)."
+    }
+  },
+  {
+    "headword": "hübsch",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "pretty",
+      "nice",
+      "lovely",
+      "handsome"
+    ],
+    "examples": [
+      {
+        "de": "Das Bild war in einem hübschen Rahmen.",
+        "en": "The picture was in a pretty frame."
+      }
+    ],
+    "inflections": [
+      "hübsche",
+      "hübschem",
+      "hübschen",
+      "hübscher",
+      "hübsches",
+      "hübschere",
+      "hübscheste",
+      "hübschesten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "A1 descriptive adjective."
+    }
+  },
+  {
+    "headword": "umweltfreundlich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "environmentally friendly",
+      "eco-friendly",
+      "green"
+    ],
+    "examples": [
+      {
+        "de": "Die Bahn gehört zu den umweltfreundlichsten Verkehrsmitteln.",
+        "en": "The train is among the most environmentally friendly means of transport."
+      }
+    ],
+    "inflections": [
+      "umweltfreundliche",
+      "umweltfreundlichem",
+      "umweltfreundlichen",
+      "umweltfreundlicher",
+      "umweltfreundliches",
+      "umweltfreundlichste",
+      "umweltfreundlichsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound adjective: Umwelt + freundlich."
+    }
+  },
+  {
+    "headword": "weltweit",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "worldwide",
+      "global",
+      "globally"
+    ],
+    "examples": [
+      {
+        "de": "Kaffee ist eines der weltweit am meisten konsumierten Getränke.",
+        "en": "Coffee is one of the most consumed beverages worldwide."
+      }
+    ],
+    "inflections": [
+      "weltweite",
+      "weltweitem",
+      "weltweiten",
+      "weltweiter",
+      "weltweites"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Compound adjective/adverb: Welt + weit."
+    }
+  },
+  {
+    "headword": "spürbar",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "noticeable",
+      "perceptible",
+      "tangible",
+      "appreciable"
+    ],
+    "examples": [
+      {
+        "de": "Die Entlastung im Straßenverkehr ist spürbar.",
+        "en": "The relief in road traffic is noticeable."
+      }
+    ],
+    "inflections": [
+      "spürbare",
+      "spürbarem",
+      "spürbaren",
+      "spürbarer",
+      "spürbares"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Derived adjective from spüren + -bar."
+    }
+  },
+  {
+    "headword": "kontinuierlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "continuous",
+      "steady",
+      "uninterrupted",
+      "ongoing"
+    ],
+    "examples": [
+      {
+        "de": "Eine kontinuierliche Verbesserung ist wichtig.",
+        "en": "A continuous improvement is important."
+      }
+    ],
+    "inflections": [
+      "kontinuierliche",
+      "kontinuierlichem",
+      "kontinuierlichen",
+      "kontinuierlicher",
+      "kontinuierliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common descriptive adjective."
+    }
+  },
+  {
+    "headword": "modern",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "modern",
+      "contemporary",
+      "up-to-date"
+    ],
+    "examples": [
+      {
+        "de": "Moderne Züge sind schnell und sauber.",
+        "en": "Modern trains are fast and clean."
+      }
+    ],
+    "inflections": [
+      "moderne",
+      "modernem",
+      "modernen",
+      "moderner",
+      "modernes",
+      "modernste",
+      "modernsten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 adjective: modern."
+    }
+  },
+  {
+    "headword": "tropisch",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "tropical"
+    ],
+    "examples": [
+      {
+        "de": "Die Pflanze wächst in tropischen Regionen.",
+        "en": "The plant grows in tropical regions."
+      }
+    ],
+    "inflections": [
+      "tropische",
+      "tropischem",
+      "tropischen",
+      "tropischer",
+      "tropisches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Geographical adjective from Tropen."
+    }
+  },
+  {
+    "headword": "ursprünglich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "original",
+      "originally",
+      "initial",
+      "native"
+    ],
+    "examples": [
+      {
+        "de": "Ursprünglich stammt die Pflanze aus Afrika.",
+        "en": "Originally, the plant comes from Africa."
+      }
+    ],
+    "inflections": [
+      "ursprüngliche",
+      "ursprünglichem",
+      "ursprünglichen",
+      "ursprünglicher",
+      "ursprüngliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Adjective and adverb of origin."
+    }
+  },
+  {
+    "headword": "bezahlbar",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "affordable",
+      "payable"
+    ],
+    "examples": [
+      {
+        "de": "Bezahlbarer Wohnraum ist knapp.",
+        "en": "Affordable living space is scarce."
+      }
+    ],
+    "inflections": [
+      "bezahlbare",
+      "bezahlbarem",
+      "bezahlbaren",
+      "bezahlbarer",
+      "bezahlbares"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Derived adjective from bezahlen + -bar."
+    }
+  },
+  {
+    "headword": "verlässlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "reliable",
+      "dependable",
+      "trustworthy"
+    ],
+    "examples": [
+      {
+        "de": "Wir brauchen eine verlässliche Unterstützung.",
+        "en": "We need reliable support."
+      }
+    ],
+    "inflections": [
+      "verlässliche",
+      "verlässlichem",
+      "verlässlichen",
+      "verlässlicher",
+      "verlässliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Adjective from verlassen + -lich."
+    }
+  },
+  {
+    "headword": "gesellschaftlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "social",
+      "societal"
+    ],
+    "examples": [
+      {
+        "de": "Der gesellschaftliche Zusammenhalt steht im Mittelpunkt.",
+        "en": "Societal cohesion is at the center."
+      }
+    ],
+    "inflections": [
+      "gesellschaftliche",
+      "gesellschaftlichem",
+      "gesellschaftlichen",
+      "gesellschaftlicher",
+      "gesellschaftliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Social/political adjective from Gesellschaft."
+    }
+  },
+  {
+    "headword": "gemeinsam",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "together",
+      "joint",
+      "jointly",
+      "common",
+      "mutual"
+    ],
+    "examples": [
+      {
+        "de": "Gemeinsam haben die Ministerinnen den Plan beschlossen.",
+        "en": "Together the ministers decided on the plan."
+      }
+    ],
+    "inflections": [
+      "gemeinsame",
+      "gemeinsamem",
+      "gemeinsamen",
+      "gemeinsamer",
+      "gemeinsames"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Common descriptive adjective/adverb."
+    }
+  },
+  {
+    "headword": "bürokratisch",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "bureaucratic",
+      "red-tape"
+    ],
+    "examples": [
+      {
+        "de": "Bürokratische Hürden sollen abgebaut werden.",
+        "en": "Bureaucratic hurdles should be reduced."
+      }
+    ],
+    "inflections": [
+      "bürokratische",
+      "bürokratischem",
+      "bürokratischen",
+      "bürokratischer",
+      "bürokratisches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Administrative adjective from Bürokratie."
+    }
+  },
+  {
+    "headword": "gemahlen",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "ground",
+      "milled"
+    ],
+    "examples": [
+      {
+        "de": "Frisch gemahlener Kaffee duftet herrlich.",
+        "en": "Freshly ground coffee smells wonderful."
+      }
+    ],
+    "inflections": [
+      "gemahlene",
+      "gemahlenem",
+      "gemahlenen",
+      "gemahlener",
+      "gemahlenes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-29",
+      "notes": "Participial adjective from mahlen (ground/milled); coffee preparation."
+    }
   }
 ]

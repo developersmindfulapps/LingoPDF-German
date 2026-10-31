@@ -1,17 +1,19 @@
 import React from 'react';
-import { BookOpen, FolderOpen, Info } from 'lucide-react';
+import { BookOpen, FolderOpen, Info, Settings } from 'lucide-react';
 import type { PDFDocumentInfo } from '../types/pdf';
 
 interface NavbarProps {
   documentInfo: PDFDocumentInfo | null;
   onOpenNewFile: () => void;
   onOpenAbout?: () => void;
+  onOpenSettings?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   documentInfo,
   onOpenNewFile,
   onOpenAbout,
+  onOpenSettings,
 }) => {
   return (
     <header className="h-14 border-b border-slate-200 bg-white px-4 flex items-center justify-between select-none shrink-0 z-10 shadow-xs">
@@ -29,13 +31,25 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2 sm:gap-3">
         {documentInfo && (
           <div className="hidden sm:flex items-center gap-2 text-xs text-slate-600 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-md max-w-xs truncate">
             <span className="font-medium truncate">{documentInfo.fileName}</span>
             <span className="text-slate-400">|</span>
             <span className="shrink-0">{documentInfo.numPages} {documentInfo.numPages === 1 ? 'page' : 'pages'}</span>
           </div>
+        )}
+
+        {onOpenSettings && (
+          <button
+            onClick={onOpenSettings}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-md transition-colors"
+            title="Settings & OCR Preferences"
+            aria-label="Settings & OCR Preferences"
+          >
+            <Settings className="w-4 h-4 text-slate-600" />
+            <span className="hidden xs:inline">Settings</span>
+          </button>
         )}
 
         {onOpenAbout && (

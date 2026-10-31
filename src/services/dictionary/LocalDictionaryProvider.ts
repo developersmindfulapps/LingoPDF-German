@@ -246,6 +246,22 @@ export class LocalDictionaryProvider implements InitializableDictionaryProvider 
   }
 
   /**
+   * Evaluates whether a candidate entry or resolved candidate result can legitimately serve
+   * as a base stem for rule-based adjective/participle suffix stripping fallback.
+   * Rejects entries that are incompatible (e.g. pure nouns without adjective, verbal, or numeral senses)
+   * to prevent false-positive category errors where an adjective-looking form resolves to an incompatible noun
+   * (e.g. superlativem -> Superlativ, bilden -> Bild, or buchem -> Buch).
+   */
+  private isCompatibleSuffixStrippingTarget(item: HeadwordEntry | DictionaryResult | null | undefined): boolean {
+    if (!item || !Array.isArray(item.senses) || item.senses.length === 0) {
+      return false;
+    }
+    return item.senses.some(
+      (sense) => sense.pos === 'adj' || sense.pos === 'verb' || sense.pos === 'num'
+    );
+  }
+
+  /**
    * Looks up a German word and resolves to its English translations.
    * Multi-stage lookup pipeline:
    * 1. Exact case-sensitive match (preserves homographs: Sie vs sie, Morgen vs morgen)
@@ -312,20 +328,28 @@ export class LocalDictionaryProvider implements InitializableDictionaryProvider 
 
           // Direct stem check
           if (Object.prototype.hasOwnProperty.call(this.entries, stem)) {
-            return this.formatResult(query, this.entries[stem], stem);
+            const entry = this.entries[stem];
+            if (this.isCompatibleSuffixStrippingTarget(entry)) {
+              return this.formatResult(query, entry, stem);
+            }
           }
 
           // Capitalized stem check
           const capStem = stem[0].toUpperCase() + stem.slice(1);
           if (Object.prototype.hasOwnProperty.call(this.entries, capStem)) {
-            return this.formatResult(query, this.entries[capStem], capStem);
+            const entry = this.entries[capStem];
+            if (this.isCompatibleSuffixStrippingTarget(entry)) {
+              return this.formatResult(query, entry, capStem);
+            }
           }
 
           // Stem in inflections index
           const stemLemma = this.inflections[stem];
           if (stemLemma) {
             const result = this.resolveCandidateLemmas(query, stemLemma);
-            if (result) return result;
+            if (result && this.isCompatibleSuffixStrippingTarget(result)) {
+              return result;
+            }
           }
         }
       }

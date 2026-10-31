@@ -141,41 +141,77 @@ export function buildAuthoredDictionary(options = {}) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  // Sort keys alphabetically for deterministic, reproducible output
+  const sortedEntries = {};
+  for (const k of Object.keys(finalEntries).sort()) {
+    sortedEntries[k] = finalEntries[k];
+  }
+
+  const sortedInflections = {};
+  for (const k of Object.keys(finalInflections).sort()) {
+    sortedInflections[k] = finalInflections[k];
+  }
+
   const dictFile = path.join(outputDir, 'de-en-dictionary.json');
   const inflFile = path.join(outputDir, 'de-en-inflections.json');
   const metaFile = path.join(outputDir, 'de-en-metadata.json');
+  const manifestFile = path.join(outputDir, 'de-en-manifest.json');
 
-  const dictContent = JSON.stringify(finalEntries, null, 2);
-  const inflContent = JSON.stringify(finalInflections, null, 2);
+  const dictContent = JSON.stringify(sortedEntries, null, 2);
+  const inflContent = JSON.stringify(sortedInflections, null, 2);
 
   const dictSha256 = crypto.createHash('sha256').update(dictContent, 'utf8').digest('hex');
   const inflSha256 = crypto.createHash('sha256').update(inflContent, 'utf8').digest('hex');
+  const combinedContent = dictContent + '\n' + inflContent;
+  const contentChecksum = crypto.createHash('sha256').update(combinedContent, 'utf8').digest('hex');
 
-  const metadata = {
-    datasetName: 'PDF Language Companion — Independently Authored German-English Learner Dictionary (Pilot)',
-    version: '0.2.0-pilot',
+  // Deterministic dataset version derived directly from dictionary content
+  const datasetVersion = `1.0.0-${contentChecksum.slice(0, 10)}`;
+
+  // Deterministic build timestamp derived from latest source mtime (independent of execution time)
+  const latestMtimeMs = files.reduce((max, f) => {
+    const stat = fs.statSync(path.join(authoringDir, f));
+    return Math.max(max, stat.mtimeMs);
+  }, 0);
+  const buildTimestamp = options.buildTimestamp || new Date(latestMtimeMs).toISOString();
+
+  const manifest = {
+    languagePair: 'de-en',
+    datasetVersion,
+    schemaVersion: '1.0.0',
+    datasetName: 'PDF Language Companion — Independently Authored German-English Learner Dictionary',
     license: 'Proprietary / Independently Authored',
     attribution: 'Authored by PDF Language Companion lexicography team',
-    generatedAt: new Date().toISOString(),
-    headwordsCount: Object.keys(finalEntries).length,
-    inflectionKeysCount: Object.keys(finalInflections).length,
+    headwordsCount: Object.keys(sortedEntries).length,
+    inflectionKeysCount: Object.keys(sortedInflections).length,
+    contentChecksum,
+    dictSha256,
+    inflSha256,
+    buildTimestamp,
     posDistribution,
     reviewStatusDistribution,
     nounsWithGender,
-    nounsWithPlural,
-    dictSha256,
-    inflSha256
+    nounsWithPlural
+  };
+
+  const metadata = {
+    ...manifest,
+    version: datasetVersion,
+    generatedAt: buildTimestamp
   };
 
   const metaContent = JSON.stringify(metadata, null, 2);
+  const manifestContent = JSON.stringify(manifest, null, 2);
 
   fs.writeFileSync(dictFile, dictContent, 'utf-8');
   fs.writeFileSync(inflFile, inflContent, 'utf-8');
   fs.writeFileSync(metaFile, metaContent, 'utf-8');
+  fs.writeFileSync(manifestFile, manifestContent, 'utf-8');
 
-  console.log(`  ✓ Written ${dictFile} (${(fs.statSync(dictFile).size / 1024).toFixed(1)} KB, ${Object.keys(finalEntries).length} headwords)`);
-  console.log(`  ✓ Written ${inflFile} (${(fs.statSync(inflFile).size / 1024).toFixed(1)} KB, ${Object.keys(finalInflections).length} inflection keys)`);
+  console.log(`  ✓ Written ${dictFile} (${(fs.statSync(dictFile).size / 1024).toFixed(1)} KB, ${Object.keys(sortedEntries).length} headwords)`);
+  console.log(`  ✓ Written ${inflFile} (${(fs.statSync(inflFile).size / 1024).toFixed(1)} KB, ${Object.keys(sortedInflections).length} inflection keys)`);
   console.log(`  ✓ Written ${metaFile}`);
+  console.log(`  ✓ Written ${manifestFile}`);
 
   // Also package authored assets under distinct public/data/authored-de-en-* filenames
   const publicDataDir = path.resolve(process.cwd(), 'public', 'data');
@@ -183,25 +219,30 @@ export function buildAuthoredDictionary(options = {}) {
     const pubDictFile = path.join(publicDataDir, 'authored-de-en-dictionary.json');
     const pubInflFile = path.join(publicDataDir, 'authored-de-en-inflections.json');
     const pubMetaFile = path.join(publicDataDir, 'authored-de-en-metadata.json');
+    const pubManifestFile = path.join(publicDataDir, 'authored-de-en-manifest.json');
 
     fs.writeFileSync(pubDictFile, dictContent, 'utf-8');
     fs.writeFileSync(pubInflFile, inflContent, 'utf-8');
     fs.writeFileSync(pubMetaFile, metaContent, 'utf-8');
+    fs.writeFileSync(pubManifestFile, manifestContent, 'utf-8');
 
     console.log(`  ✓ Packaged ${pubDictFile} (${(fs.statSync(pubDictFile).size / 1024).toFixed(1)} KB)`);
     console.log(`  ✓ Packaged ${pubInflFile} (${(fs.statSync(pubInflFile).size / 1024).toFixed(1)} KB)`);
     console.log(`  ✓ Packaged ${pubMetaFile}`);
+    console.log(`  ✓ Packaged ${pubManifestFile}`);
   }
 
   console.log('\n===============================================================');
-  console.log('🎉 AUTHORED DICTIONARY PILOT BUILD COMPLETED SUCCESSFULLY!');
+  console.log(`🎉 AUTHORED DICTIONARY BUILD SUCCESSFUL! (Version: ${datasetVersion})`);
   console.log('===============================================================\n');
 
   return {
     dictFile,
     inflFile,
     metaFile,
-    metadata
+    manifestFile,
+    metadata,
+    manifest
   };
 }
 

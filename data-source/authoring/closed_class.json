@@ -3021,5 +3021,257 @@
       "created": "2026-10-19",
       "notes": "Negative determiner / indefinite article; declension patterns like ein."
     }
+  },
+  {
+    "headword": "erste",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "first"
+    ],
+    "examples": [
+      {
+        "de": "Das ist die erste Lektion.",
+        "en": "That is the first lesson."
+      },
+      {
+        "de": "Im ersten Kapitel lernen wir Deutsch.",
+        "en": "In the first chapter, we learn German."
+      }
+    ],
+    "inflections": [
+      "erstem",
+      "ersten",
+      "erster",
+      "erstes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: first. Canonical lemma: erste. Inflections: erstem, ersten, erster, erstes."
+    }
+  },
+  {
+    "headword": "zweite",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "second"
+    ],
+    "examples": [
+      {
+        "de": "Das zweite Kapitel beginnt hier.",
+        "en": "The second chapter begins here."
+      }
+    ],
+    "inflections": [
+      "zweitem",
+      "zweiten",
+      "zweiter",
+      "zweites",
+      "zweit"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: second. Canonical lemma: zweite. Inflections: zweitem, zweiten, zweiter, zweites, zweit."
+    }
+  },
+  {
+    "headword": "dritte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "third"
+    ],
+    "examples": [
+      {
+        "de": "Die dritte Straße rechts.",
+        "en": "The third street on the right."
+      }
+    ],
+    "inflections": [
+      "drittem",
+      "dritten",
+      "dritter",
+      "drittes",
+      "dritt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: third. Canonical lemma: dritte. Inflections: drittem, dritten, dritter, drittes, dritt."
+    }
+  },
+  {
+    "headword": "vierte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "fourth"
+    ],
+    "examples": [
+      {
+        "de": "Der vierte Tag der Woche.",
+        "en": "The fourth day of the week."
+      }
+    ],
+    "inflections": [
+      "viertem",
+      "vierten",
+      "vierter",
+      "viertes",
+      "viert"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: fourth. Canonical lemma: vierte. Inflections: viertem, vierten, vierter, viertes, viert."
+    }
+  },
+  {
+    "headword": "fünfte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "fifth"
+    ],
+    "examples": [
+      {
+        "de": "Die fünfte Übung ist einfach.",
+        "en": "The fifth exercise is simple."
+      }
+    ],
+    "inflections": [
+      "fünftem",
+      "fünften",
+      "fünfter",
+      "fünftes",
+      "fünft"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: fifth. Canonical lemma: fünfte. Inflections: fünftem, fünften, fünfter, fünftes, fünft."
+    }
+  },
+  {
+    "headword": "sechste",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "sixth"
+    ],
+    "inflections": [
+      "sechstem",
+      "sechsten",
+      "sechster",
+      "sechstes",
+      "sechst"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: sixth. Canonical lemma: sechste."
+    }
+  },
+  {
+    "headword": "siebte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "seventh"
+    ],
+    "inflections": [
+      "siebtem",
+      "siebten",
+      "siebter",
+      "siebtes",
+      "siebt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: seventh. Canonical lemma: siebte."
+    }
+  },
+  {
+    "headword": "achte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "eighth"
+    ],
+    "inflections": [
+      "achtem",
+      "achten",
+      "achter",
+      "achtes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: eighth. Canonical lemma: achte."
+    }
+  },
+  {
+    "headword": "neunte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "ninth"
+    ],
+    "inflections": [
+      "neuntem",
+      "neunten",
+      "neunter",
+      "neuntes",
+      "neunt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: ninth. Canonical lemma: neunte."
+    }
+  },
+  {
+    "headword": "zehnte",
+    "pos": "num",
+    "cefr": "A1",
+    "translations": [
+      "tenth"
+    ],
+    "inflections": [
+      "zehntem",
+      "zehnten",
+      "zehnter",
+      "zehntes",
+      "zehnt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Ordinal: tenth. Canonical lemma: zehnte."
+    }
   }
 ]

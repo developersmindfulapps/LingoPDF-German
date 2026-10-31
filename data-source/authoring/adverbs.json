@@ -1069,5 +1069,45 @@
       "created": "2026-10-19",
       "notes": "Adverb and comparative adjective headword with inflected forms."
     }
+  },
+  {
+    "headword": "manchmal",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "sometimes",
+      "occasionally"
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Core A1 frequency adverb: sometimes."
+    }
+  },
+  {
+    "headword": "geradeaus",
+    "pos": "adv",
+    "cefr": "A1",
+    "translations": [
+      "straight ahead",
+      "straight on"
+    ],
+    "examples": [
+      {
+        "de": "Gehen Sie bitte immer geradeaus.",
+        "en": "Please go straight ahead."
+      }
+    ],
+    "inflections": [],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "verified",
+      "created": "2026-10-28",
+      "notes": "Directional adverb: straight ahead."
+    }
   }
 ]

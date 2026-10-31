@@ -1,14 +1,19 @@
 {
-  "datasetName": "PDF Language Companion — Independently Authored German-English Learner Dictionary (Pilot)",
-  "version": "0.2.0-pilot",
+  "languagePair": "de-en",
+  "datasetVersion": "1.0.0-ecd7c8ecd5",
+  "schemaVersion": "1.0.0",
+  "datasetName": "PDF Language Companion — Independently Authored German-English Learner Dictionary",
   "license": "Proprietary / Independently Authored",
   "attribution": "Authored by PDF Language Companion lexicography team",
-  "generatedAt": "2026-10-21T22:17:32.328Z",
-  "headwordsCount": 585,
-  "inflectionKeysCount": 1881,
+  "headwordsCount": 705,
+  "inflectionKeysCount": 2364,
+  "contentChecksum": "ecd7c8ecd5fb0de844e4fceff7859cc7e6448449e0f9f3c7a2f0cac4efe1e6fb",
+  "dictSha256": "dd0c3e6e21cd276bb63366ec016f2ef4ab6ad85874469cd95f2ee425884f1921",
+  "inflSha256": "4d619e88ed3624104e276a400c53a4f16a7f053afb26fa6f21ebb936d6e38113",
+  "buildTimestamp": "2026-10-29T15:24:45.038Z",
   "posDistribution": {
-    "adj": 42,
-    "adv": 65,
+    "adj": 83,
+    "adv": 67,
     "pron": 22,
     "det": 13,
     "art": 4,
@@ -17,16 +22,16 @@
     "part": 7,
     "interj": 6,
     "conj": 15,
-    "noun": 248,
-    "num": 21,
-    "verb": 120
+    "noun": 308,
+    "num": 31,
+    "verb": 127
   },
   "reviewStatusDistribution": {
-    "verified": 379,
+    "verified": 499,
     "reviewed": 207
   },
-  "nounsWithGender": 248,
-  "nounsWithPlural": 226,
-  "dictSha256": "0b10fc5bc9289371f0e018807159d0a2f69e94196463ead08fe8b43cf7c1d35b",
-  "inflSha256": "8a12cac298783ed9b0b5250ee3d97cdad49f68fd399fb2bfadb4a6feb476bc9e"
+  "nounsWithGender": 308,
+  "nounsWithPlural": 279,
+  "version": "1.0.0-ecd7c8ecd5",
+  "generatedAt": "2026-10-29T15:24:45.038Z"
 }

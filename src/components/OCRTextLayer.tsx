@@ -113,6 +113,7 @@ export const OCRTextLayer: React.FC<OCRTextLayerProps> = ({
       style={{
         width: `${viewportWidth}px`,
         height: `${viewportHeight}px`,
+        pointerEvents: 'none',
       }}
       aria-hidden="true"
     >

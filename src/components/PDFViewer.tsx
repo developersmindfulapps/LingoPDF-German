@@ -6,7 +6,10 @@ import { LoadingSpinner } from './LoadingSpinner';
 import { TextLayer } from './TextLayer';
 import { OCRTextLayer } from './OCRTextLayer';
 import { EmptyTextWarning } from './EmptyTextWarning';
+import { AutoOCROptInBanner } from './AutoOCROptInBanner';
 import type { OCRPageResult } from '../services/ocr/ocrTypes';
+import type { PageClassificationResult } from '../services/ocr/ocrDetection';
+import { settingsService, type AutoOCRPreference } from '../services/settings/settingsService';
 
 interface PDFViewerProps {
   doc: PDFDocumentProxy;
@@ -17,8 +20,10 @@ interface PDFViewerProps {
   ocrProgress?: number;
   ocrStatusText?: string;
   ocrError?: string | null;
-  onRunOCR?: (canvas: HTMLCanvasElement | null) => void;
+  onRunOCR?: (canvas: HTMLCanvasElement | null, pageNumber?: number, isRetry?: boolean) => void;
   onCancelOCR?: () => void;
+  isPageFailed?: (pageNumber: number) => boolean;
+  hasCachedResult?: (pageNumber: number) => boolean;
   onPageChange: (newPage: number) => void;
   onZoomChange: (newZoom: ZoomState) => void;
   onLoadingStateChange: (isLoading: boolean) => void;
@@ -36,6 +41,8 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
   ocrError,
   onRunOCR,
   onCancelOCR,
+  isPageFailed,
+  hasCachedResult,
   onPageChange,
   onZoomChange,
   onLoadingStateChange,
@@ -47,9 +54,29 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
   const [renderError, setRenderError] = useState<string | null>(null);
   const [activePage, setActivePage] = useState<PDFPageProxy | null>(null);
   const [currentScale, setCurrentScale] = useState<number>(zoom.scale);
-  const [hasTextContent, setHasTextContent] = useState<boolean | null>(null);
+  const [classification, setClassification] = useState<PageClassificationResult | null>(null);
+  const [autoOCRPreference, setAutoOCRPreference] = useState<AutoOCRPreference>(() =>
+    settingsService.getAutoOCRPreference()
+  );
 
+  const AUTO_OCR_DEBOUNCE_MS = 750;
   const cancelRenderRef = useRef<(() => void) | null>(null);
+  const autoTriggeredPageRef = useRef<number | null>(null);
+  const debounceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const currentPageRef = useRef<number>(currentPage);
+
+  useEffect(() => {
+    currentPageRef.current = currentPage;
+  }, [currentPage]);
+
+  // Sync with persistent settings service
+  useEffect(() => {
+    setAutoOCRPreference(settingsService.getAutoOCRPreference());
+    const unsubscribe = settingsService.subscribe((newPref) => {
+      setAutoOCRPreference(newPref);
+    });
+    return unsubscribe;
+  }, []);
 
   // Calculate fit-to-width scale if required
   const calculateEffectiveScale = useCallback(
@@ -135,9 +162,14 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
     };
   }, [doc, currentPage, zoom.scale, zoom.mode, calculateEffectiveScale, onZoomChange, onLoadingStateChange]);
 
-  // Reset text content presence check when changing pages
+  // Reset classification, auto-trigger guard, and pending debounce timer when changing pages
   useEffect(() => {
-    setHasTextContent(null);
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+      debounceTimerRef.current = null;
+    }
+    setClassification(null);
+    autoTriggeredPageRef.current = null;
   }, [currentPage, doc]);
 
   // Handle keyboard navigation
@@ -184,19 +216,103 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
     };
   }, [zoom.mode, zoom.scale, activePage, calculateEffectiveScale, onZoomChange]);
 
-  const handleRunOCR = useCallback(async () => {
-    if (!onRunOCR) return;
-    if (activePage) {
+  const handleRunOCR = useCallback(
+    async (isRetry = false) => {
+      if (!onRunOCR || !activePage) return;
+      const targetPageNumber = activePage.pageNumber;
+
       try {
         const ocrCanvas = await pdfService.renderPageForOCR(activePage);
-        onRunOCR(ocrCanvas);
+        // Verify user has not navigated away during offscreen rendering
+        if (currentPageRef.current !== targetPageNumber) {
+          return;
+        }
+        onRunOCR(ocrCanvas, targetPageNumber, isRetry);
         return;
       } catch (err) {
         console.warn('High-resolution offscreen render for OCR failed, falling back to visible canvas:', err);
       }
+
+      if (currentPageRef.current === targetPageNumber) {
+        onRunOCR(canvasRef.current, targetPageNumber, isRetry);
+      }
+    },
+    [activePage, onRunOCR]
+  );
+
+  // Automatic OCR Execution Lifecycle with 750ms Debounce and Safe Queue Management
+  useEffect(() => {
+    // Clear any existing debounce timer whenever page or eligibility changes
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+      debounceTimerRef.current = null;
     }
-    onRunOCR(canvasRef.current);
-  }, [activePage, onRunOCR]);
+
+    const isEligible = (
+      autoOCRPreference === 'enabled' &&
+      classification?.isScannedCandidate &&
+      !ocrResult &&
+      !isOCRProcessing &&
+      !isRendering &&
+      activePage &&
+      activePage.pageNumber === currentPage &&
+      autoTriggeredPageRef.current !== currentPage &&
+      !hasCachedResult?.(currentPage) &&
+      !isPageFailed?.(currentPage)
+    );
+
+    if (!isEligible) {
+      return;
+    }
+
+    const candidatePage = currentPage;
+    debounceTimerRef.current = setTimeout(() => {
+      debounceTimerRef.current = null;
+      // Re-verify that page has remained relevant and stable for 750 ms
+      if (
+        settingsService.getAutoOCRPreference() === 'enabled' &&
+        currentPageRef.current === candidatePage &&
+        activePage &&
+        activePage.pageNumber === candidatePage &&
+        !hasCachedResult?.(candidatePage) &&
+        !isPageFailed?.(candidatePage) &&
+        autoTriggeredPageRef.current !== candidatePage
+      ) {
+        autoTriggeredPageRef.current = candidatePage;
+        handleRunOCR(false);
+      }
+    }, AUTO_OCR_DEBOUNCE_MS);
+
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+        debounceTimerRef.current = null;
+      }
+    };
+  }, [
+    autoOCRPreference,
+    classification,
+    ocrResult,
+    isOCRProcessing,
+    isRendering,
+    activePage,
+    currentPage,
+    hasCachedResult,
+    isPageFailed,
+    handleRunOCR,
+  ]);
+
+  const handleEnableAutoOCR = useCallback(() => {
+    settingsService.setAutoOCRPreference('enabled');
+    setAutoOCRPreference('enabled');
+    autoTriggeredPageRef.current = currentPage;
+    handleRunOCR();
+  }, [currentPage, handleRunOCR]);
+
+  const handleDeclineAutoOCR = useCallback(() => {
+    settingsService.setAutoOCRPreference('disabled');
+    setAutoOCRPreference('disabled');
+  }, []);
 
   return (
     <div
@@ -205,27 +321,54 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
       className="flex-1 overflow-auto bg-slate-200/80 p-6 flex items-start justify-center focus:outline-none"
     >
       <div className="relative flex flex-col items-center">
-        {/* Scanned / Image-only PDF Warning or OCR Status Banner */}
-        {(hasTextContent === false || isOCRProcessing || ocrError) && !ocrResult && (
-          <EmptyTextWarning
-            className="mb-4 w-full max-w-lg animate-in fade-in duration-200"
-            isProcessing={isOCRProcessing}
-            progress={ocrProgress}
-            statusText={ocrStatusText}
-            errorMessage={ocrError}
-            onRunOCR={handleRunOCR}
-            onCancelOCR={onCancelOCR}
-            onRetryOCR={handleRunOCR}
-          />
-        )}
+        {/* Case A: One-time opt-in banner when preference is unset and page is scanned candidate */}
+        {classification?.isScannedCandidate &&
+          autoOCRPreference === 'unset' &&
+          !ocrResult &&
+          !isOCRProcessing && (
+            <AutoOCROptInBanner
+              onEnable={handleEnableAutoOCR}
+              onDecline={handleDeclineAutoOCR}
+              className="mb-4"
+            />
+          )}
+
+        {/* Case B: EmptyTextWarning banner for processing, error, or manual OCR fallback */}
+        {((classification?.isScannedCandidate && autoOCRPreference === 'disabled') ||
+          isOCRProcessing ||
+          ocrError) &&
+          !ocrResult && (
+            <EmptyTextWarning
+              className="mb-4 w-full max-w-lg animate-in fade-in duration-200"
+              isProcessing={isOCRProcessing}
+              progress={ocrProgress}
+              statusText={ocrStatusText}
+              errorMessage={ocrError}
+              onRunOCR={() => handleRunOCR(false)}
+              onCancelOCR={onCancelOCR}
+              onRetryOCR={() => handleRunOCR(true)}
+            />
+          )}
 
         {/* Page Container holding Canvas + TextLayer */}
         <div className="relative shadow-lg rounded-sm bg-white overflow-hidden transition-all duration-150">
           <canvas ref={canvasRef} className="block" />
 
-          {/* Text Layer aligned 1:1 with Canvas */}
+          {/* Native Text Layer: Always rendered for active page to preserve browser text selection */}
           {activePage && !isRendering && (
-            ocrResult && ocrResult.pageNumber === currentPage ? (
+            <TextLayer
+              page={activePage}
+              scale={currentScale}
+              onClassificationChange={setClassification}
+              onWordSelected={onWordSelected}
+            />
+          )}
+
+          {/* OCR Text Layer: Non-blocking transparent overlay for recognized words */}
+          {activePage &&
+            !isRendering &&
+            ocrResult &&
+            ocrResult.pageNumber === currentPage && (
               <OCRTextLayer
                 ocrResult={ocrResult}
                 pageNumber={currentPage}
@@ -233,15 +376,7 @@ export const PDFViewer: React.FC<PDFViewerProps> = ({
                 scale={currentScale}
                 onWordSelected={onWordSelected}
               />
-            ) : (
-              <TextLayer
-                page={activePage}
-                scale={currentScale}
-                onHasTextChange={setHasTextContent}
-                onWordSelected={onWordSelected}
-              />
-            )
-          )}
+            )}
 
           {/* Page Loading Overlay */}
           {isRendering && (

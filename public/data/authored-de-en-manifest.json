@@ -1,0 +1,35 @@
+{
+  "languagePair": "de-en",
+  "datasetVersion": "1.0.0-ecd7c8ecd5",
+  "schemaVersion": "1.0.0",
+  "datasetName": "PDF Language Companion — Independently Authored German-English Learner Dictionary",
+  "license": "Proprietary / Independently Authored",
+  "attribution": "Authored by PDF Language Companion lexicography team",
+  "headwordsCount": 705,
+  "inflectionKeysCount": 2364,
+  "contentChecksum": "ecd7c8ecd5fb0de844e4fceff7859cc7e6448449e0f9f3c7a2f0cac4efe1e6fb",
+  "dictSha256": "dd0c3e6e21cd276bb63366ec016f2ef4ab6ad85874469cd95f2ee425884f1921",
+  "inflSha256": "4d619e88ed3624104e276a400c53a4f16a7f053afb26fa6f21ebb936d6e38113",
+  "buildTimestamp": "2026-10-29T15:24:45.038Z",
+  "posDistribution": {
+    "adj": 83,
+    "adv": 67,
+    "pron": 22,
+    "det": 13,
+    "art": 4,
+    "prep": 28,
+    "prep+art": 10,
+    "part": 7,
+    "interj": 6,
+    "conj": 15,
+    "noun": 308,
+    "num": 31,
+    "verb": 127
+  },
+  "reviewStatusDistribution": {
+    "verified": 499,
+    "reviewed": 207
+  },
+  "nounsWithGender": 308,
+  "nounsWithPlural": 279
+}

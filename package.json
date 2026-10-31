@@ -11,6 +11,8 @@
     "dictionary:fetch": "node scripts/fetch-dictionary-source.mjs",
     "dictionary:build": "node scripts/build-dictionary.mjs",
     "dictionary:verify": "node scripts/verify-dictionary.mjs",
+    "dictionary:release-gate": "node scripts/run-dictionary-release-gate.mjs",
+    "release:gate": "node scripts/run-dictionary-release-gate.mjs",
     "pilot:validate": "node scripts/validate-authored-data.mjs",
     "pilot:build": "node scripts/build-authored-dictionary.mjs",
     "pilot:test": "node scripts/test-authored-lookups.mjs",
@@ -21,6 +23,8 @@
     "evaluate:ch1-2": "node scripts/evaluate-chapters-1-2.mjs",
     "test:browser": "node scripts/verify-phase15-browser-defects.mjs",
     "test:phase16": "node scripts/verify-phase16-browser-defects.mjs",
+    "ocr:verify": "node scripts/verify-auto-ocr-opt-in.mjs",
+    "ocr:browser": "node scripts/verify-auto-ocr-browser.mjs",
     "package:release": "node scripts/build-release-package.mjs"
   },
   "dependencies": {
