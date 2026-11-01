@@ -1,72 +1,253 @@
 ===============================================================================
-THIRD-PARTY SOFTWARE & DATA NOTICES
+LINGOPDF — THIRD-PARTY SOFTWARE, COMPONENT & DATA LICENCE NOTICES
 ===============================================================================
 
-This package (PDF Language Companion) bundles third-party software libraries,
-WebAssembly binaries, language models, and font assets. This document provides
-the copyright notices and license texts required by their respective upstream
-licenses.
+LingoPDF is proprietary commercial software.
+Copyright (c) 2026 LingoPDF Authors. All rights reserved.
 
-For the German–English lexical dataset, see LICENSE_DICTIONARY.txt.
+The LingoPDF browser extension incorporates and distributes third-party open-source
+software libraries, WebAssembly modules, compiled utilities, language models,
+character mapping resources, and font software.
 
-===============================================================================
-TABLE OF BUNDLED THIRD-PARTY ASSETS
-===============================================================================
+This document identifies all bundled third-party components and reproduces the
+copyright notices, permission notices, and full licence texts required by their
+respective upstream authors and licences.
 
-1. Mozilla PDF.js (pdfjs-dist)
-   - Bundled Asset: pdf.worker.min.mjs
-   - Upstream Version: 4.10.38
-   - Copyright: Copyright (c) 2012-2026 Mozilla Foundation and individual contributors
-   - Homepage: https://github.com/mozilla/pdf.js
-   - License: Apache License, Version 2.0 (see full text below)
-
-2. Tesseract.js
-   - Bundled Asset: tesseract/worker.min.js
-   - Upstream Version: 7.0.0
-   - Copyright: Copyright (c) 2019-2026 Jerome Wu and Tesseract.js contributors
-   - Homepage: https://github.com/naptha/tesseract.js
-   - License: Apache License, Version 2.0 (see full text below)
-
-3. Tesseract.js-core (WebAssembly Engine)
-   - Bundled Assets:
-     * tesseract/tesseract-core-lstm.wasm
-     * tesseract/tesseract-core-lstm.wasm.js
-     * tesseract/tesseract-core-simd-lstm.wasm
-     * tesseract/tesseract-core-simd-lstm.wasm.js
-     * tesseract/tesseract-core-relaxedsimd-lstm.wasm
-     * tesseract/tesseract-core-relaxedsimd-lstm.wasm.js
-   - Upstream Version: 7.0.0
-   - Copyright: Copyright (c) 2019-2026 Jerome Wu, antimatter15, and contributors
-   - Homepage: https://github.com/naptha/tesseract.js-core
-   - License: Apache License, Version 2.0 (see full text below)
-
-4. Tesseract German Traineddata (@tesseract.js-data/deu)
-   - Bundled Asset: tessdata/deu.traineddata.gz
-   - Upstream Version: 1.0.0 (based on Tesseract 4.0.0_best_int)
-   - Copyright: Copyright (c) Google Inc. and Tesseract OCR contributors
-   - Packaging Copyright: Copyright (c) 2020-2026 Balearica, Jerome Wu
-   - Homepage: https://github.com/naptha/tessdata
-   - Source Repository: https://github.com/tesseract-ocr/tessdata_fast
-   - License: Apache License, Version 2.0 / MIT
-
-5. Adobe CMap Character Collections
-   - Bundled Assets: cmaps/*.bcmap
-   - Copyright: Copyright (c) 1990-2009 Adobe Systems Incorporated. All rights reserved.
-   - License: 3-Clause BSD-style Adobe License (see cmaps/LICENSE for full text)
-
-6. Foxit Standard 14 PDFium Fonts
-   - Bundled Assets: standard_fonts/Foxit*.pfb
-   - Copyright: Copyright (c) 2014 PDFium Authors. All rights reserved.
-   - License: 3-Clause BSD-style License (see standard_fonts/LICENSE_FOXIT for full text)
-
-7. Liberation Standard Fonts
-   - Bundled Assets: standard_fonts/LiberationSans-*.ttf
-   - Copyright: Digitized data copyright (c) 2010 Google Corporation; Copyright (c) 2012 Red Hat, Inc.
-   - License: SIL Open Font License, Version 1.1 (see standard_fonts/LICENSE_LIBERATION for full text)
+For licensing and attribution terms governing the German–English reference
+dictionary dataset, see LICENSE_DICTIONARY.txt bundled in this package.
 
 ===============================================================================
-APACHE LICENSE, VERSION 2.0
+TABLE OF CONTENTS
 ===============================================================================
+
+1. SUMMARY INVENTORY OF BUNDLED THIRD-PARTY COMPONENTS
+2. DETAILED COMPONENT NOTICES & COPYRIGHT STATEMENTS
+   2.1  Mozilla PDF.js (pdfjs-dist)
+   2.2  React, React DOM & Scheduler
+   2.3  Floating UI Suite
+   2.4  Tabbable
+   2.5  Lucide React & Feather Icons
+   2.6  Tesseract.js Engine & Web Worker
+   2.7  Tesseract.js-core (WebAssembly Binary & Runtime)
+   2.8  Leptonica Image Processing Library (Compiled in WASM)
+   2.9  Bundled Worker Polyfills & Utilities (buffer, ieee754, regenerator, zlib)
+   2.10 Bundled Runtime Helpers (idb-keyval, bmp-js, is-url, wasm-feature-detect)
+   2.11 Tesseract German Traineddata Model (@tesseract.js-data/deu)
+   2.12 Adobe CMap Character Collections
+   2.13 Foxit Standard 14 PDFium Fonts
+   2.14 Liberation Standard Fonts
+3. FULL LICENCE TEXTS
+   3.1  Apache License, Version 2.0
+   3.2  The MIT License
+   3.3  The ISC License
+   3.4  The 3-Clause BSD License (Adobe, Foxit, IEEE-754)
+   3.5  The 2-Clause BSD License (Leptonica)
+   3.6  SIL Open Font License, Version 1.1
+
+===============================================================================
+1. SUMMARY INVENTORY OF BUNDLED THIRD-PARTY COMPONENTS
+===============================================================================
+
+Component                      Version      Licence Identifier     Distribution Location
+-------------------------------------------------------------------------------
+Mozilla PDF.js (pdfjs-dist)    4.10.38      Apache-2.0             dist/pdf.worker.min.mjs, dist/assets/
+React                          18.3.1       MIT                    dist/assets/
+React DOM                      18.3.1       MIT                    dist/assets/
+Scheduler                      0.23.2       MIT                    dist/assets/
+Floating UI (@floating-ui/*)   0.27.20      MIT                    dist/assets/
+Tabbable                       6.5.0        MIT                    dist/assets/
+Lucide React                   1.52.0       ISC / MIT              dist/assets/
+Tesseract.js                   7.0.0        Apache-2.0             dist/tesseract/worker.min.js, dist/assets/
+Tesseract.js-core (WASM)       7.0.0        Apache-2.0             dist/tesseract/tesseract-core-*.wasm
+Leptonica                      1.84.1       BSD-2-Clause           statically compiled in WASM
+buffer                         6.0.3        MIT                    inlined in dist/tesseract/worker.min.js
+ieee754                        1.2.1        BSD-3-Clause           inlined in dist/tesseract/worker.min.js
+regenerator-runtime            0.13.11      MIT                    inlined in dist/tesseract/worker.min.js
+zlib.js                        0.3.1        MIT                    inlined in dist/tesseract/worker.min.js
+idb-keyval                     6.3.0        Apache-2.0             dist/assets/
+bmp-js                         0.1.0        MIT                    dist/assets/
+is-url                         1.2.4        MIT                    dist/assets/
+wasm-feature-detect            1.9.0        Apache-2.0             dist/assets/
+Tesseract German Traineddata   1.0.0        Apache-2.0 / MIT       dist/tessdata/deu.traineddata.gz
+Adobe CMap Collections         1990-2009    BSD-3-Clause           dist/cmaps/*.bcmap
+Foxit PDFium Standard Fonts    2014         BSD-3-Clause           dist/standard_fonts/Foxit*.pfb
+Liberation Standard Fonts      1.1          SIL OFL 1.1            dist/standard_fonts/LiberationSans-*.ttf
+
+===============================================================================
+2. DETAILED COMPONENT NOTICES & COPYRIGHT STATEMENTS
+===============================================================================
+
+-------------------------------------------------------------------------------
+2.1 Mozilla PDF.js (pdfjs-dist)
+-------------------------------------------------------------------------------
+Upstream Version: 4.10.38
+Homepage: https://github.com/mozilla/pdf.js
+Licence: Apache License, Version 2.0 (see Section 3.1)
+Copyright (c) 2012-2026 Mozilla Foundation and individual contributors.
+
+-------------------------------------------------------------------------------
+2.2 React, React DOM & Scheduler
+-------------------------------------------------------------------------------
+Upstream Versions: React 18.3.1, React DOM 18.3.1, Scheduler 0.23.2
+Homepage: https://react.dev / https://github.com/facebook/react
+Licence: The MIT License (see Section 3.2)
+Copyright (c) Meta Platforms, Inc. and affiliates.
+Copyright (c) Facebook, Inc. and its affiliates.
+
+-------------------------------------------------------------------------------
+2.3 Floating UI Suite
+-------------------------------------------------------------------------------
+Includes: @floating-ui/react (0.27.20), @floating-ui/dom (1.8.0),
+          @floating-ui/core (1.8.0), @floating-ui/react-dom (2.1.9),
+          @floating-ui/utils (0.2.12)
+Homepage: https://floating-ui.com / https://github.com/floating-ui/floating-ui
+Licence: The MIT License (see Section 3.2)
+Copyright (c) 2021-present Floating UI contributors.
+
+-------------------------------------------------------------------------------
+2.4 Tabbable
+-------------------------------------------------------------------------------
+Upstream Version: 6.5.0
+Homepage: https://github.com/focus-trap/tabbable
+Licence: The MIT License (see Section 3.2)
+Copyright (c) 2016 David Clark.
+
+-------------------------------------------------------------------------------
+2.5 Lucide React & Feather Icons
+-------------------------------------------------------------------------------
+Upstream Version: 1.52.0
+Homepage: https://lucide.dev / https://github.com/lucide-icons/lucide
+Licence: ISC License (see Section 3.3)
+Copyright (c) 2022-2026 Lucide Contributors.
+Portions derived from Feather Icons:
+Copyright (c) 2013-present Cole Bemis (MIT License, see Section 3.2).
+
+-------------------------------------------------------------------------------
+2.6 Tesseract.js Engine & Web Worker
+-------------------------------------------------------------------------------
+Upstream Version: 7.0.0
+Bundled Assets: dist/tesseract/worker.min.js, dist/tesseract/worker-entry.js
+Homepage: https://github.com/naptha/tesseract.js
+Licence: Apache License, Version 2.0 (see Section 3.1)
+Copyright (c) 2019-2026 Jerome Wu and Tesseract.js contributors.
+
+-------------------------------------------------------------------------------
+2.7 Tesseract.js-core (WebAssembly Engine)
+-------------------------------------------------------------------------------
+Upstream Version: 7.0.0
+Bundled Assets:
+  - dist/tesseract/tesseract-core-lstm.wasm & .wasm.js
+  - dist/tesseract/tesseract-core-simd-lstm.wasm & .wasm.js
+  - dist/tesseract/tesseract-core-relaxedsimd-lstm.wasm & .wasm.js
+Homepage: https://github.com/naptha/tesseract.js-core
+Licence: Apache License, Version 2.0 (see Section 3.1)
+Copyright (c) 2019-2026 Jerome Wu, antimatter15, and contributors.
+Originating from Tesseract OCR:
+Copyright (c) 2006-2026 Google Inc. and Tesseract contributors.
+
+-------------------------------------------------------------------------------
+2.8 Leptonica Image Processing Library
+-------------------------------------------------------------------------------
+Compiled within: tesseract-core WASM binaries
+Upstream Version: 1.84.1
+Homepage: http://www.leptonica.org / https://github.com/DanBloomberg/leptonica
+Licence: 2-Clause BSD License (see Section 3.5)
+Copyright (c) 2001-2026 Dan Bloomberg. All rights reserved.
+
+-------------------------------------------------------------------------------
+2.9 Bundled Worker Polyfills & Utilities
+-------------------------------------------------------------------------------
+The compiled Web Worker (dist/tesseract/worker.min.js) incorporates the
+following sub-components:
+
+* buffer (v6.0.3)
+  Homepage: https://github.com/feross/buffer
+  Licence: The MIT License (see Section 3.2)
+  Copyright (c) Feross Aboukhadijeh <https://feross.org> and contributors.
+
+* ieee754 (v1.2.1)
+  Homepage: https://github.com/feross/ieee754
+  Licence: 3-Clause BSD License (see Section 3.4)
+  Copyright (c) 2008 Fair Oaks Labs, Inc.
+
+* regenerator-runtime (v0.13.11)
+  Homepage: https://github.com/facebook/regenerator
+  Licence: The MIT License (see Section 3.2)
+  Copyright (c) 2014-present Facebook, Inc.
+
+* zlib.js (v0.3.1)
+  Homepage: https://github.com/imaya/zlib.js
+  Licence: The MIT License (see Section 3.2)
+  Copyright (c) 2012 imaya.
+
+-------------------------------------------------------------------------------
+2.10 Bundled Runtime Helpers
+-------------------------------------------------------------------------------
+* idb-keyval (v6.3.0)
+  Homepage: https://github.com/jakearchibald/idb-keyval
+  Licence: Apache License, Version 2.0 (see Section 3.1)
+  Copyright (c) 2016 Jake Archibald.
+
+* bmp-js (v0.1.0)
+  Homepage: https://github.com/shaozilee/bmp-js
+  Licence: The MIT License (see Section 3.2)
+  Copyright (c) 2014 shaozilee.
+
+* is-url (v1.2.4)
+  Homepage: https://github.com/segmentio/is-url
+  Licence: The MIT License (see Section 3.2)
+  Copyright (c) 2014 Segment.io Inc. <friends@segment.io>.
+
+* wasm-feature-detect (v1.9.0)
+  Homepage: https://github.com/GoogleChromeLabs/wasm-feature-detect
+  Licence: Apache License, Version 2.0 (see Section 3.1)
+  Copyright (c) 2019 Google Inc.
+
+-------------------------------------------------------------------------------
+2.11 Tesseract German Traineddata Model (@tesseract.js-data/deu)
+-------------------------------------------------------------------------------
+Bundled Asset: dist/tessdata/deu.traineddata.gz
+Model Version: 1.0.0 (Tesseract 4.0.0 LSTM integer fast model)
+Homepage: https://github.com/naptha/tessdata
+Source Model: https://github.com/tesseract-ocr/tessdata_fast
+Model Licence: Apache License, Version 2.0 (see Section 3.1)
+Copyright (c) 2018 Google Inc. and Tesseract OCR contributors.
+Packaging Licence: The MIT License (see Section 3.2)
+Copyright (c) 2020-2026 Balearica, Jerome Wu.
+
+-------------------------------------------------------------------------------
+2.12 Adobe CMap Character Collections
+-------------------------------------------------------------------------------
+Bundled Assets: dist/cmaps/*.bcmap (189 files)
+Homepage: https://github.com/adobe-type-tools/cmap-resources
+Licence: 3-Clause BSD License (see Section 3.4 and dist/cmaps/LICENSE)
+Copyright (c) 1990-2009 Adobe Systems Incorporated. All rights reserved.
+
+-------------------------------------------------------------------------------
+2.13 Foxit Standard 14 PDFium Fonts
+-------------------------------------------------------------------------------
+Bundled Assets: dist/standard_fonts/Foxit*.pfb (14 files)
+Homepage: https://pdfium.googlesource.com/pdfium/
+Licence: 3-Clause BSD License (see Section 3.4 and dist/standard_fonts/LICENSE_FOXIT)
+Copyright (c) 2014 PDFium Authors. All rights reserved.
+Copyright (c) 2014 Foxit Corporation. All rights reserved.
+
+-------------------------------------------------------------------------------
+2.14 Liberation Standard Fonts
+-------------------------------------------------------------------------------
+Bundled Assets: dist/standard_fonts/LiberationSans-*.ttf (4 files)
+Homepage: https://github.com/liberationfonts/liberation-sans
+Licence: SIL Open Font License, Version 1.1 (see Section 3.6 and dist/standard_fonts/LICENSE_LIBERATION)
+Digitized data copyright (c) 2010 Google Corporation with Reserved Font Arimo, Tinos and Cousine.
+Copyright (c) 2012 Red Hat, Inc. with Reserved Font Name Liberation.
+
+===============================================================================
+3. FULL LICENCE TEXTS
+===============================================================================
+
+-------------------------------------------------------------------------------
+3.1 APACHE LICENSE, VERSION 2.0
+-------------------------------------------------------------------------------
 
                                  Apache License
                            Version 2.0, January 2004
@@ -244,3 +425,179 @@ APACHE LICENSE, VERSION 2.0
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
+
+-------------------------------------------------------------------------------
+3.2 THE MIT LICENSE
+-------------------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+3.3 THE ISC LICENSE
+-------------------------------------------------------------------------------
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+-------------------------------------------------------------------------------
+3.4 THE 3-CLAUSE BSD LICENSE
+-------------------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+3.5 THE 2-CLAUSE BSD LICENSE
+-------------------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+3.6 SIL OPEN FONT LICENSE, VERSION 1.1
+-------------------------------------------------------------------------------
+
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development
+of collaborative font projects, to support the font creation efforts of academic
+and linguistic communities, and to provide a free and open framework in which
+fonts may be shared and improved in partnership with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The fonts,
+including any derivative works, can be bundled, embedded, redistributed and/or
+sold with any software provided that any reserved names are not used by
+derivative works. The fonts and derivatives, however, cannot be released under
+any other type of license. The requirement for fonts to remain under this
+license does not apply to any document created using the fonts or their
+derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright Holder(s)
+under this license and clearly marked as such. This may include source files,
+build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the copyright
+statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting, or
+substituting — in part or in whole — any of the components of the Original
+Version, by changing formats or by porting the Font Software to a new environment.
+
+"Author" refers to any designer, engineer, programmer, technical writer or other
+person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the Font Software, to use, study, copy, merge, embed, modify, redistribute, and
+sell modified and unmodified copies of the Font Software, subject to the
+following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original
+   or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+   redistributed and/or sold with any software, provided that each copy contains
+   the above copyright notice and this license. These can be included either as
+   stand-alone text files, human-readable headers or in the appropriate
+   machine-readable metadata fields within text or binary files as long as those
+   fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font Name(s)
+   unless prominent written permission is granted by the corresponding Copyright
+   Holder. This restriction only applies to the primary font name as presented
+   to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software
+   shall not be used to promote, endorse or advertise any Modified Version,
+   except to acknowledge the contribution(s) of the Copyright Holder(s) and the
+   Author(s) or with their explicit written permission.
+
+5) The Font Software, modified or unmodified, in part or in whole, must be
+   distributed entirely under this license, and must not be distributed under
+   any other license. The requirement for fonts to remain under this license
+   does not apply to any document created using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR
+OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR
+FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+===============================================================================

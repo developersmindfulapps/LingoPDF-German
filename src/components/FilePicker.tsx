@@ -90,9 +90,12 @@ export const FilePicker: React.FC<FilePickerProps> = ({ onFileSelect }) => {
             )}
           </div>
 
-          <h2 className="text-xl font-bold text-slate-800 mb-2 text-center">
-            PDF Language Companion
+          <h2 className="text-xl font-bold text-slate-800 leading-tight text-center">
+            LingoPDF
           </h2>
+          <span className="text-xs text-slate-500 font-medium mb-3 text-center">
+            German
+          </span>
           <p className="text-sm text-slate-500 mb-6 text-center max-w-sm">
             Open a PDF to get started reading with instant lookups
           </p>

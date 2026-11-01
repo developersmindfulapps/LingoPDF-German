@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "PDF Language Companion",
+  "name": "LingoPDF",
   "version": "0.1.0",
   "description": "Read PDFs with instant local word lookups.",
   "action": {
-    "default_title": "Open PDF Language Companion"
+    "default_title": "Open LingoPDF"
   },
   "background": {
     "service_worker": "background.js",

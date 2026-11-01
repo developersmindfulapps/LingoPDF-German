@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — PDF Language Companion</title>
+  <title>Privacy Policy — LingoPDF</title>
   <style>
     :root {
       --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -92,6 +92,13 @@
       font-size: 14px;
       font-weight: 500;
     }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
     footer {
       margin-top: 40px;
       padding-top: 20px;
@@ -108,45 +115,52 @@
       <div class="badge">
         <span>✓</span> 100% Offline &amp; Zero-Data Collection
       </div>
-      <h1>Privacy Policy for PDF Language Companion</h1>
-      <div class="meta">Effective Date: October 19, 2026 &bull; Version 1.0</div>
+      <h1>Privacy Policy for LingoPDF</h1>
+      <div class="meta">Effective Date: October 19, 2026 &bull; Last Updated: November 2026 &bull; Version 1.0 &bull; License: Proprietary Commercial Software with Bundled Open-Source Components</div>
     </div>
 
     <div class="callout">
       <p>
-        <strong>Executive Summary:</strong> PDF Language Companion operates completely locally inside your browser. We do not collect, transmit, store, sell, or analyze your personal information, reading materials, search queries, or browsing behavior. Zero network requests are initiated by this extension.
+        <strong>Executive Summary:</strong> LingoPDF operates completely locally inside your browser. We do not collect, transmit, store, sell, or analyze your personal information, reading materials, search queries, or browsing behavior. Zero network requests are initiated by this extension during reading and word lookup.
       </p>
     </div>
 
-    <h2>1. Single Purpose</h2>
+    <h2>1. Single Purpose &amp; Product Positioning</h2>
     <p>
-      PDF Language Companion is an offline study aid designed to allow users to read local PDF documents with instant German-to-English dictionary lookups and built-in optical character recognition (OCR).
+      LingoPDF is an offline-first vocabulary-building PDF reader designed to help users read German documents and study vocabulary without distractions.
+    </p>
+    <p>
+      Users open their local PDF documents directly in the reader and select individual words or terms to view instant English translations, grammatical classifications, inflections, and CEFR levels. LingoPDF also includes built-in client-side optical character recognition (OCR) for scanned documents.
+    </p>
+    <p>
+      <em>Important Note:</em> LingoPDF is an individual word-lookup and vocabulary-learning reader, <strong>not a whole-document machine translation tool</strong>. Documents are never sent to remote translation APIs or cloud servers.
     </p>
 
     <h2>2. Zero Data Collection</h2>
     <p>
-      When you use PDF Language Companion:
+      When you use the LingoPDF extension:
     </p>
     <ul>
       <li><strong>No Personal Identifiers:</strong> We do not collect names, email addresses, IP addresses, or device identifiers.</li>
-      <li><strong>No Document Transmission:</strong> Your PDF files are read solely into browser memory. Files are never uploaded, synchronized, or transmitted to any external server or cloud service.</li>
-      <li><strong>No Query Tracking:</strong> The words and phrases you look up are resolved against bundled local dictionary files. Lookup history is neither logged nor sent over the network.</li>
+      <li><strong>No Document Transmission:</strong> Your PDF files are read and rendered solely inside your local browser tab memory. Files and page images are never uploaded, synchronized, or transmitted to any remote server or third-party service.</li>
+      <li><strong>No Query Tracking:</strong> Selected words and lookup queries are resolved entirely against local, bundled dictionary files. Your lookup history is neither recorded nor transmitted over any network.</li>
       <li><strong>No Telemetry or Analytics:</strong> The extension contains zero tracking pixels, analytics scripts (such as Google Analytics or Mixpanel), advertising trackers, or error reporting beacons.</li>
     </ul>
 
     <h2>3. Offline Architecture &amp; Bundled Assets</h2>
     <p>
-      All assets required for operation are packaged locally inside the extension archive:
+      All core assets required for offline reading, word lookup, and OCR are packaged directly inside the extension:
     </p>
     <ul>
-      <li>PDF rendering is executed via a locally bundled Mozilla PDF.js web worker.</li>
-      <li>OCR is executed in-browser using locally packaged Tesseract.js WebAssembly (WASM) and local German language models (<code>deu.traineddata.gz</code>).</li>
-      <li>Dictionary definitions are retrieved from pre-indexed, locally packaged JSON files.</li>
+      <li><strong>PDF Rendering:</strong> Executed locally via a bundled Mozilla PDF.js web worker.</li>
+      <li><strong>OCR Engine:</strong> Executed in-browser using locally packaged Tesseract.js WebAssembly (WASM) and local German language models (<code>deu.traineddata.gz</code>).</li>
+      <li><strong>Dictionary Lookups:</strong> Retrieved from locally bundled, pre-indexed JSON datasets.</li>
+      <li><strong>Third-Party Open-Source Components:</strong> Bundled third-party components (including PDF.js and Tesseract.js) are distributed under their respective open-source licenses (e.g., Apache 2.0). Complete attribution and license notices are available in the bundled <code>THIRD_PARTY_LICENSES.txt</code> and within the extension's About dialog.</li>
     </ul>
 
-    <h2>4. Manifest Permissions</h2>
+    <h2>4. Minimal Manifest Permissions</h2>
     <p>
-      In accordance with Chrome Web Store Minimal Permissions guidelines, PDF Language Companion requests <strong>zero broad permissions</strong>:
+      In accordance with Google Chrome Web Store Minimal Permissions guidelines, LingoPDF requests <strong>zero broad host or data permissions</strong>:
     </p>
     <ul>
       <li><code>permissions</code>: None.</li>
@@ -156,26 +170,27 @@
 
     <h2>5. Local Storage &amp; Caching</h2>
     <p>
-      Any application state (such as UI zoom preference or transient OCR word positions for the active page) is maintained solely in the active tab's volatile memory or browser-managed local cache. This data remains entirely under the user's control on their local device.
+      Any application state (such as UI zoom preferences, user settings, or transient OCR word coordinate cache for the active page) is maintained solely in the active tab's volatile memory or browser-managed local storage. All data remains exclusively on your personal device and can be cleared at any time through your browser settings.
     </p>
 
     <h2>6. Children's Privacy</h2>
     <p>
-      Because PDF Language Companion collects no data whatsoever, it is inherently compliant with children's privacy regulations, including COPPA and GDPR-K.
+      Because LingoPDF collects, transmits, and stores zero personal data, it is inherently compliant with global children's privacy regulations, including COPPA and GDPR-K.
     </p>
 
-    <h2>7. Changes to This Policy</h2>
+    <h2>7. Support &amp; Inquiries</h2>
     <p>
-      If our privacy practices change in future versions, this document will be updated accordingly. However, our commitment to complete offline operation and zero data collection remains foundational.
+      For questions, support requests, or privacy inquiries regarding LingoPDF, please contact our support team:
     </p>
-
-    <h2>8. Contact &amp; Open Source</h2>
-    <p>
-      PDF Language Companion is open source. You may inspect the code, verify offline behavior, or report issues on our project repository.
-    </p>
+    <ul>
+      <li><strong>Official Support Email:</strong> <a href="mailto:support@lingopdf.in">support@lingopdf.in</a></li>
+      <li><strong>Official Website:</strong> <a href="https://www.lingopdf.in" target="_blank" rel="noopener noreferrer">https://www.lingopdf.in</a></li>
+      <li><strong>Hosted Privacy Policy:</strong> <a href="https://www.lingopdf.in/privacy" target="_blank" rel="noopener noreferrer">https://www.lingopdf.in/privacy</a></li>
+      <li><strong>Terms of Service:</strong> <a href="https://www.lingopdf.in/terms" target="_blank" rel="noopener noreferrer">https://www.lingopdf.in/terms</a></li>
+    </ul>
 
     <footer>
-      PDF Language Companion &bull; Built with Privacy by Design &bull; 100% Offline
+      LingoPDF &bull; Built with Privacy by Design &bull; 100% Offline
     </footer>
   </div>
 </body>

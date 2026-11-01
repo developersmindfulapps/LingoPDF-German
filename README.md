@@ -1,10 +1,10 @@
-PDF Language Companion
+LingoPDF
 
 A privacy-first Chrome extension for learning languages directly from PDF textbooks.
 
 Overview
 
-PDF Language Companion is a lightweight, privacy-focused Chrome Extension designed to help language learners read foreign language PDFs without constant tab-switching.
+LingoPDF is a lightweight, privacy-focused Chrome Extension designed to help language learners read foreign language PDFs without constant tab-switching.
 
 When reading a German PDF (such as a textbook, article, or Kursbuch):
 - Open the document inside the extension's dedicated reader.
@@ -77,7 +77,7 @@ Optical Character Recognition (OCR) for scanned PDFs is a planned future enhance
 
 Privacy & Offline Design
 
-PDF Language Companion operates entirely locally:
+LingoPDF operates entirely locally:
 
 - Local execution: All PDF rendering, text extraction, word detection, and dictionary queries run locally inside the browser.
 - Zero data transmission: No document content, selected text, or user interaction data is ever sent over the network.
@@ -188,7 +188,7 @@ The compiled extension will be output to the `dist/` directory.
 3. Enable Developer mode using the toggle in the top-right corner.
 4. Click Load unpacked in the top-left corner.
 5. Select the `dist/` directory from this project folder.
-6. Click the PDF Language Companion extension icon in your Chrome toolbar to open the reader.
+6. Click the LingoPDF extension icon in your Chrome toolbar to open the reader.
 
 Usage
 
@@ -271,7 +271,7 @@ The German → English dictionary dataset (`public/data/de-en-dictionary.json` a
 
 Development Principles
 
-To preserve simplicity and user privacy, PDF Language Companion is developed under the following guidelines:
+To preserve simplicity and user privacy, LingoPDF is developed under the following guidelines:
 - No remote dependencies: Core features must run without third-party network services or translation APIs.
 - No user accounts: No login walls, account registration, or cloud databases.
 - Minimal permissions: Avoid requesting unnecessary browser permissions in `manifest.json`.

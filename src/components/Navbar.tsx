@@ -23,10 +23,10 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
         <div className="flex flex-col">
           <h1 className="text-sm font-bold text-slate-800 leading-tight">
-            PDF Language Companion
+            LingoPDF
           </h1>
           <span className="text-xs text-slate-500 font-medium">
-            Reader
+            German
           </span>
         </div>
       </div>
@@ -57,7 +57,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={onOpenAbout}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-md transition-colors"
             title="About & Licenses"
-            aria-label="About PDF Language Companion and Licenses"
+            aria-label="About LingoPDF and Licenses"
           >
             <Info className="w-4 h-4 text-slate-600" />
             <span className="hidden xs:inline">About</span>

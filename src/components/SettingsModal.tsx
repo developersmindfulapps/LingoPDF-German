@@ -99,7 +99,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose })
                 Extension Settings
               </h2>
               <span className="text-xs text-slate-500 font-medium">
-                Preferences &bull; PDF Language Companion
+                Preferences &bull; LingoPDF
               </span>
             </div>
           </div>
