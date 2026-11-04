@@ -3273,5 +3273,49 @@
       "created": "2026-10-28",
       "notes": "Ordinal: tenth. Canonical lemma: zehnte."
     }
+  },
+  {
+    "headword": "falls",
+    "pos": "conj",
+    "cefr": "B1",
+    "translations": [
+      "in case",
+      "if"
+    ],
+    "examples": [
+      {
+        "de": "Falls Sie Fragen haben, rufen Sie mich an.",
+        "en": "In case you have questions, call me."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Subordinating conditional conjunction placing finite verb at end."
+    }
+  },
+  {
+    "headword": "sodass",
+    "pos": "conj",
+    "cefr": "B1",
+    "translations": [
+      "so that",
+      "with the result that"
+    ],
+    "examples": [
+      {
+        "de": "Er sprach langsam, sodass alle ihn verstehen konnten.",
+        "en": "He spoke slowly so that everyone could understand him."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Consecutive subordinating conjunction placing finite verb at end."
+    }
   }
 ]

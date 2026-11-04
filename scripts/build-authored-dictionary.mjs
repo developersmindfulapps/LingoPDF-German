@@ -3,12 +3,34 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { validateAuthoredData } from './validate-authored-data.mjs';
 
+const VALID_REVIEW_STATUSES = new Set(['draft', 'reviewed', 'verified']);
+const APPROVED_REVIEW_STATUSES = new Set(['reviewed', 'verified']);
+
 export function buildAuthoredDictionary(options = {}) {
   const authoringDir = options.authoringDir || path.resolve(process.cwd(), 'data-source', 'authoring');
-  const outputDir = options.outputDir || path.resolve(process.cwd(), 'dist-pilot');
+  
+  // CLI flag or options-based draft preview
+  const includeDrafts = options.includeDrafts === true;
+  const isDraftPreview = includeDrafts;
+  
+  const defaultOutputDir = isDraftPreview
+    ? path.resolve(process.cwd(), 'dist-draft')
+    : path.resolve(process.cwd(), 'dist-pilot');
+  const outputDir = options.outputDir || defaultOutputDir;
+
+  const publicDataDir = path.resolve(process.cwd(), 'public', 'data');
+
+  // STRICT SAFETY INVARIANT: Draft previews must NEVER write to public/data
+  if (isDraftPreview && (options.outputDir === publicDataDir || options.writePublic === true)) {
+    throw new Error('CRITICAL SAFETY VIOLATION: Draft builds must never be written to customer-facing public/data directory!');
+  }
+
+  // Only the default customer build (or when explicitly requested without drafts) packages into public/data
+  const isDefaultCustomerBuild = !isDraftPreview && (!options.outputDir || options.outputDir === path.resolve(process.cwd(), 'dist-pilot')) && options.writePublic !== false;
 
   console.log('===============================================================');
-  console.log('   PDF LANGUAGE COMPANION — COMPILE AUTHORED PILOT DATASET     ');
+  console.log(`   PDF LANGUAGE COMPANION — COMPILE AUTHORED DATASET           `);
+  console.log(`   Mode: ${isDraftPreview ? 'DRAFT PREVIEW (Isolated)' : 'CUSTOMER BUILD (Drafts Excluded)'} `);
   console.log('===============================================================\n');
 
   // Step 1: Pre-validation
@@ -28,13 +50,40 @@ export function buildAuthoredDictionary(options = {}) {
   const reviewStatusDistribution = {};
   let nounsWithGender = 0;
   let nounsWithPlural = 0;
+  let totalSourceRecords = 0;
+  let includedRecordsCount = 0;
+  let excludedDraftsCount = 0;
 
   for (const file of files) {
     const raw = fs.readFileSync(path.join(authoringDir, file), 'utf-8');
     const items = JSON.parse(raw);
 
     for (const item of items) {
+      totalSourceRecords++;
       const hw = item.headword.trim();
+
+      // Validate review status strictly
+      const status = item.provenance?.reviewStatus;
+      if (!status || typeof status !== 'string' || !VALID_REVIEW_STATUSES.has(status)) {
+        throw new Error(
+          `[${file}] Entry "${hw}": Missing or unknown reviewStatus: "${status}". ` +
+          `Must be explicitly 'reviewed', 'verified', or 'draft'. Failing safely.`
+        );
+      }
+
+      // Record distribution across all source records
+      reviewStatusDistribution[status] = (reviewStatusDistribution[status] || 0) + 1;
+
+      // Determine inclusion: default customer build excludes drafts
+      const isApproved = APPROVED_REVIEW_STATUSES.has(status);
+      const shouldInclude = includeDrafts ? true : isApproved;
+
+      if (!shouldInclude) {
+        excludedDraftsCount++;
+        continue; // Exclude draft entry: do NOT add senses, do NOT add inflections
+      }
+
+      includedRecordsCount++;
 
       // Normalize senses
       const senses = [];
@@ -64,16 +113,12 @@ export function buildAuthoredDictionary(options = {}) {
         if (item.pos === 'noun' && item.plural) nounsWithPlural++;
       }
 
+      // If headword already has senses from another approved record (e.g. homonym across files),
+      // append the new approved senses; otherwise initialize.
       if (finalEntries[hw]) {
         finalEntries[hw].senses.push(...senses);
       } else {
         finalEntries[hw] = { senses };
-      }
-
-      // Record review status
-      if (item.provenance && item.provenance.reviewStatus) {
-        const st = item.provenance.reviewStatus;
-        reviewStatusDistribution[st] = (reviewStatusDistribution[st] || 0) + 1;
       }
 
       // Helper to add inflection supporting multiple candidate lemmas
@@ -99,7 +144,7 @@ export function buildAuthoredDictionary(options = {}) {
         }
       };
 
-      // Add explicit inflections to index
+      // Add explicit inflections to index (only for included approved entries)
       if (Array.isArray(item.inflections)) {
         for (const inf of item.inflections) {
           addInflectionMapping(inf, hw);
@@ -135,8 +180,8 @@ export function buildAuthoredDictionary(options = {}) {
     }
   }
 
-  // Step 3: Write to isolated output directory (dist-pilot/) and public/data/authored-de-en-*
-  console.log(`\n[Step 3] Emitting compiled pilot assets to ${outputDir}...`);
+  // Step 3: Write compiled assets
+  console.log(`\n[Step 3] Emitting compiled assets to ${outputDir}...`);
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -168,7 +213,7 @@ export function buildAuthoredDictionary(options = {}) {
   // Deterministic dataset version derived directly from dictionary content
   const datasetVersion = `1.0.0-${contentChecksum.slice(0, 10)}`;
 
-  // Deterministic build timestamp derived from latest source mtime (independent of execution time)
+  // Deterministic build timestamp derived from latest source mtime
   const latestMtimeMs = files.reduce((max, f) => {
     const stat = fs.statSync(path.join(authoringDir, f));
     return Math.max(max, stat.mtimeMs);
@@ -179,9 +224,15 @@ export function buildAuthoredDictionary(options = {}) {
     languagePair: 'de-en',
     datasetVersion,
     schemaVersion: '1.0.0',
-    datasetName: 'PDF Language Companion — Independently Authored German-English Learner Dictionary',
+    datasetName: isDraftPreview
+      ? 'PDF Language Companion — Authored German-English Learner Dictionary (Draft Preview)'
+      : 'PDF Language Companion — Independently Authored German-English Learner Dictionary',
     license: 'Proprietary / Independently Authored',
     attribution: 'Authored by PDF Language Companion lexicography team',
+    buildMode: isDraftPreview ? 'draft-preview' : 'customer',
+    totalSourceRecords,
+    includedRecordsCount,
+    excludedDraftsCount,
     headwordsCount: Object.keys(sortedEntries).length,
     inflectionKeysCount: Object.keys(sortedInflections).length,
     contentChecksum,
@@ -212,10 +263,10 @@ export function buildAuthoredDictionary(options = {}) {
   console.log(`  ✓ Written ${inflFile} (${(fs.statSync(inflFile).size / 1024).toFixed(1)} KB, ${Object.keys(sortedInflections).length} inflection keys)`);
   console.log(`  ✓ Written ${metaFile}`);
   console.log(`  ✓ Written ${manifestFile}`);
+  console.log(`  • Build Statistics: ${includedRecordsCount} records included, ${excludedDraftsCount} drafts excluded.`);
 
-  // Also package authored assets under distinct public/data/authored-de-en-* filenames
-  const publicDataDir = path.resolve(process.cwd(), 'public', 'data');
-  if (fs.existsSync(publicDataDir)) {
+  // Also package authored assets under distinct public/data/authored-de-en-* filenames ONLY if default customer build
+  if (isDefaultCustomerBuild && fs.existsSync(publicDataDir)) {
     const pubDictFile = path.join(publicDataDir, 'authored-de-en-dictionary.json');
     const pubInflFile = path.join(publicDataDir, 'authored-de-en-inflections.json');
     const pubMetaFile = path.join(publicDataDir, 'authored-de-en-metadata.json');
@@ -248,7 +299,9 @@ export function buildAuthoredDictionary(options = {}) {
 
 if (process.argv[1] && process.argv[1].endsWith('build-authored-dictionary.mjs')) {
   try {
-    buildAuthoredDictionary();
+    const args = process.argv.slice(2);
+    const includeDrafts = args.includes('--include-drafts') || args.includes('--drafts');
+    buildAuthoredDictionary({ includeDrafts });
     process.exit(0);
   } catch (err) {
     console.error('Fatal build error:', err);

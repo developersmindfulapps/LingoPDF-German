@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Info, X, ExternalLink, BookOpen, Layers, ShieldCheck, FileText } from 'lucide-react';
+import { Info, X, ExternalLink, BookOpen, Layers, ShieldCheck, FileText, Mail } from 'lucide-react';
 import { resolveDataAssetUrl } from '../services/dictionary/index';
 
 interface AboutModalProps {
@@ -205,6 +205,26 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
                 <FileText className="w-3.5 h-3.5" />
                 <span>View Complete Third-Party Legal Notices (TXT)</span>
                 <ExternalLink className="w-3 h-3 text-slate-400" />
+              </a>
+            </div>
+          </div>
+
+          {/* Support & Contact */}
+          <div className="border-t border-slate-100 pt-3 space-y-1.5">
+            <div className="flex items-center gap-1.5 font-semibold text-slate-800 text-xs">
+              <Mail className="w-4 h-4 text-indigo-600" />
+              <span>Support &amp; Contact</span>
+            </div>
+            <p className="text-[11px] text-slate-600">
+              For questions, assistance, bug reports, or feedback, contact our support team at:
+            </p>
+            <div>
+              <a
+                href="mailto:support@lingopdf.in"
+                className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800 hover:underline"
+              >
+                <Mail className="w-3.5 h-3.5 text-indigo-500" />
+                <span>support@lingopdf.in</span>
               </a>
             </div>
           </div>

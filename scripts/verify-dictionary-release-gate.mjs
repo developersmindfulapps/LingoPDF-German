@@ -173,7 +173,7 @@ async function run() {
     const data = JSON.parse(fs.readFileSync(path.join(authoringDir, f), 'utf8'));
     totalRawEntries += data.length;
   }
-  assert(totalRawEntries === 706, `Raw source entries === 706 (actual: ${totalRawEntries})`);
+  assert(totalRawEntries === 806, `Raw source entries === 806 (actual: ${totalRawEntries})`);
 
   // ==========================================================================
   // SECTION 3: AUTHORED MANIFEST & CONTENT CHECKSUM VERIFICATION
@@ -200,7 +200,29 @@ async function run() {
   assert(manifest.inflectionKeysCount === 2364, `Manifest inflectionKeysCount === 2364 (actual: ${manifest.inflectionKeysCount})`);
   assert(manifest.nounsWithGender === 308, `Manifest nounsWithGender === 308 (actual: ${manifest.nounsWithGender})`);
   assert(manifest.nounsWithPlural === 279, `Manifest nounsWithPlural === 279 (actual: ${manifest.nounsWithPlural})`);
+  assert(manifest.excludedDraftsCount === 100, `Manifest excludedDraftsCount === 100 (actual: ${manifest.excludedDraftsCount})`);
+  assert(manifest.includedRecordsCount === 706, `Manifest includedRecordsCount === 706 (actual: ${manifest.includedRecordsCount})`);
+  assert(manifest.totalSourceRecords === 806, `Manifest totalSourceRecords === 806 (actual: ${manifest.totalSourceRecords})`);
   assert(manifest.contentChecksum.length === 64, 'Manifest contentChecksum is valid 64-character hex SHA-256');
+
+  // Verify Draft Isolation in customer-facing compiled assets
+  const pubDict = JSON.parse(fs.readFileSync(pubDictPath, 'utf8'));
+  const pubInfl = JSON.parse(fs.readFileSync(pubInflPath, 'utf8'));
+  const sampleDraftHeadwords = [
+    'Bewerbung', 'Vorstellungsgespräch', 'Erfahrung', 'zuverlässig',
+    'Zusammenhang', 'überzeugen', 'begegnen', 'kennenlernen', 'schaffen',
+    'Herz', 'Gedanke', 'Nebenkosten', 'wirklich', 'außerdem', 'deswegen'
+  ];
+  for (const dh of sampleDraftHeadwords) {
+    assert(!pubDict[dh], `Draft headword "${dh}" is absent from customer dictionary`);
+  }
+  const sampleDraftInflections = [
+    'bewerbungen', 'schuf', 'schufen', 'herzens', 'gedankens', 'nebenkosten',
+    'kennengelernt', 'überrascht'
+  ];
+  for (const di of sampleDraftInflections) {
+    assert(!pubInfl[di], `Draft inflection "${di}" is absent from customer inflection index`);
+  }
 
   // Verify that metadata matches manifest
   const pubMetaPath = path.join(publicDataDir, 'authored-de-en-metadata.json');

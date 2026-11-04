@@ -13,6 +13,60 @@ import {
 import type { WordSelection } from '../../types/selection';
 import type { DictionaryResult } from '../../types/dictionary';
 
+// Known German plural-only nouns (Pluraliatantum) where assigning a singular grammatical gender is misleading
+const PLURAL_ONLY_WORDS = new Set<string>([
+  'leute',
+  'nebenkosten',
+  'eltern',
+  'ferien',
+  'kosten',
+  'geschwister',
+  'personalien',
+  'trümmer',
+  'alpen',
+  'finanzen',
+  'lebensmittel',
+  'gebrüder',
+  'spaghetti',
+  'zutaten',
+  'memoiren',
+  'pocken',
+  'masern',
+  'röteln',
+  'alliierten',
+  'diäten',
+  'einkünfte',
+  'spesen',
+  'wirren',
+]);
+
+function isPluralOnlyNoun(word?: string, lemma?: string): boolean {
+  const check = (str?: string) => {
+    if (!str) return false;
+    const lower = str.trim().toLowerCase();
+    if (PLURAL_ONLY_WORDS.has(lower)) return true;
+    if (
+      lower.endsWith('kosten') ||
+      lower.endsWith('eltern') ||
+      lower.endsWith('ferien') ||
+      lower.endsWith('leute')
+    ) {
+      return true;
+    }
+    return false;
+  };
+  return check(lemma) || check(word);
+}
+
+function getNounArticle(gender: unknown): 'der' | 'die' | 'das' | null {
+  if (typeof gender !== 'string') return null;
+  const normalized = gender.trim().toLowerCase();
+  if (normalized === 'm' || normalized === 'masculine' || normalized === 'der') return 'der';
+  if (normalized === 'f' || normalized === 'feminine' || normalized === 'die') return 'die';
+  if (normalized === 'n' || normalized === 'neuter' || normalized === 'das') return 'das';
+  return null;
+}
+
 interface DictionaryTooltipProps {
   wordSelection: WordSelection | null;
   result: DictionaryResult | null;
@@ -69,6 +123,46 @@ export const DictionaryTooltip: React.FC<DictionaryTooltipProps> = ({
   const role = useRole(context, { role: 'tooltip' });
   const { getFloatingProps } = useInteractions([dismiss, role]);
 
+  const isNoun = useMemo(() => {
+    if (!result?.partOfSpeech || typeof result.partOfSpeech !== 'string') return false;
+    const parts = result.partOfSpeech.toLowerCase().split('/');
+    return parts.some((p) => p.trim() === 'noun');
+  }, [result?.partOfSpeech]);
+
+  const grammarInfo = useMemo(() => {
+    if (!isNoun || !result || isLoading || error) {
+      return null;
+    }
+
+    // 1. Plural extraction & validation
+    let pluralForm: string | null = null;
+    if (typeof result.plural === 'string') {
+      const trimmed = result.plural.trim();
+      if (trimmed.length > 0) {
+        pluralForm = trimmed;
+      }
+    }
+
+    // 2. Plural-only detection to prevent misleading gender display
+    const queryWord = wordSelection?.word;
+    const isPluralOnly = isPluralOnlyNoun(queryWord, result.lemma);
+
+    // 3. Gender mapping (Masculine -> der, Feminine -> die, Neuter -> das)
+    let genderArticle: 'der' | 'die' | 'das' | null = null;
+    if (!isPluralOnly && result.gender) {
+      genderArticle = getNounArticle(result.gender);
+    }
+
+    if (!genderArticle && !pluralForm) {
+      return null;
+    }
+
+    return {
+      article: genderArticle,
+      plural: pluralForm,
+    };
+  }, [isNoun, result, wordSelection?.word, isLoading, error]);
+
   if (!wordSelection) {
     return null;
   }
@@ -86,7 +180,7 @@ export const DictionaryTooltip: React.FC<DictionaryTooltipProps> = ({
         role="tooltip"
         aria-live="polite"
       >
-        {/* Header: Query Word, Optional Lemma & Part of Speech Badge */}
+        {/* Header: Query Word, Optional Lemma, Grammatical Info & Part of Speech Badge */}
         <div className="flex items-start justify-between gap-2 pb-2 border-b border-slate-100">
           <div className="flex flex-col">
             <span className="font-bold text-base text-slate-900 leading-tight">
@@ -96,6 +190,21 @@ export const DictionaryTooltip: React.FC<DictionaryTooltipProps> = ({
               <span className="text-xs text-slate-500 font-medium mt-0.5">
                 Base: <span className="font-semibold text-slate-700">{result.lemma}</span>
               </span>
+            )}
+            {grammarInfo && (
+              <div className="text-xs text-slate-600 font-medium mt-0.5 flex items-center gap-1.5 flex-wrap">
+                {grammarInfo.article && (
+                  <span className="font-semibold text-indigo-600">{grammarInfo.article}</span>
+                )}
+                {grammarInfo.article && grammarInfo.plural && (
+                  <span className="text-slate-300">·</span>
+                )}
+                {grammarInfo.plural && (
+                  <span className="text-slate-500">
+                    Plural: <span className="font-semibold text-slate-700">{grammarInfo.plural}</span>
+                  </span>
+                )}
+              </div>
             )}
           </div>
 

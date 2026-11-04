@@ -5,12 +5,16 @@
   "datasetName": "PDF Language Companion — Independently Authored German-English Learner Dictionary",
   "license": "Proprietary / Independently Authored",
   "attribution": "Authored by PDF Language Companion lexicography team",
+  "buildMode": "customer",
+  "totalSourceRecords": 806,
+  "includedRecordsCount": 706,
+  "excludedDraftsCount": 100,
   "headwordsCount": 705,
   "inflectionKeysCount": 2364,
   "contentChecksum": "ecd7c8ecd5fb0de844e4fceff7859cc7e6448449e0f9f3c7a2f0cac4efe1e6fb",
   "dictSha256": "dd0c3e6e21cd276bb63366ec016f2ef4ab6ad85874469cd95f2ee425884f1921",
   "inflSha256": "4d619e88ed3624104e276a400c53a4f16a7f053afb26fa6f21ebb936d6e38113",
-  "buildTimestamp": "2026-10-29T15:24:45.038Z",
+  "buildTimestamp": "2026-11-03T18:48:51.220Z",
   "posDistribution": {
     "adj": 83,
     "adv": 67,
@@ -28,10 +32,11 @@
   },
   "reviewStatusDistribution": {
     "verified": 499,
-    "reviewed": 207
+    "reviewed": 207,
+    "draft": 100
   },
   "nounsWithGender": 308,
   "nounsWithPlural": 279,
   "version": "1.0.0-ecd7c8ecd5",
-  "generatedAt": "2026-10-29T15:24:45.038Z"
+  "generatedAt": "2026-11-03T18:48:51.220Z"
 }

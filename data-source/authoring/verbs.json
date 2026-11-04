@@ -3854,5 +3854,1035 @@
       "created": "2026-10-29",
       "notes": "Separable verb: nieder + gleiten; strong verb (gleiten / glitt / geglitten); base verb for nominalized gerund Niedergleiten."
     }
+  },
+  {
+    "headword": "bieten",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to offer",
+      "to provide"
+    ],
+    "examples": [
+      {
+        "de": "Das Hotel bietet ein kostenloses Frühstück.",
+        "en": "The hotel offers a free breakfast."
+      }
+    ],
+    "inflections": [
+      "biete",
+      "bietest",
+      "bietet",
+      "bot",
+      "boten",
+      "geboten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Core strong verb with vowel gradation (bot, geboten); auxiliary haben."
+    }
+  },
+  {
+    "headword": "kennenlernen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to get to know",
+      "to meet"
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte neue Freunde kennenlernen.",
+        "en": "I want to get to know new friends."
+      }
+    ],
+    "inflections": [
+      "kennenlerne",
+      "kennenlernst",
+      "kennenlernt",
+      "kennenlernte",
+      "kennenlernten",
+      "kennengelernt",
+      "kennenzulernen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable compound verb (kennen + lernen); auxiliary haben."
+    }
+  },
+  {
+    "headword": "vorhaben",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to plan",
+      "to intend",
+      "to have in mind"
+    ],
+    "examples": [
+      {
+        "de": "Was hast du am Wochenende vor?",
+        "en": "What are you planning for the weekend?"
+      }
+    ],
+    "inflections": [
+      "vorhabe",
+      "vorhast",
+      "vorhat",
+      "vorhaben",
+      "vorhabt",
+      "vorhatte",
+      "vorhatten",
+      "vorgehabt",
+      "vorzuhaben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable verb with irregular auxiliary haben; auxiliary haben."
+    }
+  },
+  {
+    "headword": "aufhören",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to stop",
+      "to cease",
+      "to quit"
+    ],
+    "examples": [
+      {
+        "de": "Der Regen hört bald auf.",
+        "en": "The rain will stop soon."
+      }
+    ],
+    "inflections": [
+      "aufhöre",
+      "aufhörst",
+      "aufhört",
+      "aufhörte",
+      "aufhörten",
+      "aufgehört",
+      "aufzuhören"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable weak verb taking mit + dative; auxiliary haben."
+    }
+  },
+  {
+    "headword": "mitmachen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to participate",
+      "to join in"
+    ],
+    "examples": [
+      {
+        "de": "Möchtest du beim Spiel mitmachen?",
+        "en": "Would you like to join in the game?"
+      }
+    ],
+    "inflections": [
+      "mitmache",
+      "mitmachst",
+      "mitmacht",
+      "mitmachte",
+      "mitmachten",
+      "mitgemacht",
+      "mitzumachen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable weak verb (mit + machen); auxiliary haben."
+    }
+  },
+  {
+    "headword": "herausfinden",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to find out",
+      "to discover",
+      "to ascertain"
+    ],
+    "examples": [
+      {
+        "de": "Wir müssen herausfinden, wann der Zug fährt.",
+        "en": "We need to find out when the train leaves."
+      }
+    ],
+    "inflections": [
+      "herausfinde",
+      "herausfindest",
+      "herausfindet",
+      "herausfand",
+      "herausfanden",
+      "herausgefunden",
+      "herauszufinden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable strong verb with prefix heraus-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "überzeugen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to convince",
+      "to persuade"
+    ],
+    "examples": [
+      {
+        "de": "Seine Argumente haben uns überzeugt.",
+        "en": "His arguments convinced us."
+      }
+    ],
+    "inflections": [
+      "überzeuge",
+      "überzeugst",
+      "überzeugt",
+      "überzeugte",
+      "überzeugten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb with prefix über-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "verhandeln",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to negotiate",
+      "to bargain"
+    ],
+    "examples": [
+      {
+        "de": "Wir verhandeln über den Vertrag.",
+        "en": "We are negotiating the contract."
+      }
+    ],
+    "inflections": [
+      "verhandle",
+      "verhandelst",
+      "verhandelt",
+      "verhandelte",
+      "verhandelten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb taking über + accusative; auxiliary haben."
+    }
+  },
+  {
+    "headword": "enttäuschen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to disappoint"
+    ],
+    "examples": [
+      {
+        "de": "Das Ergebnis hat mich enttäuscht.",
+        "en": "The result disappointed me."
+      }
+    ],
+    "inflections": [
+      "enttäusche",
+      "enttäuschst",
+      "enttäuscht",
+      "enttäuschte",
+      "enttäuschten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb with prefix ent-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "begegnen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to encounter",
+      "to meet",
+      "to bump into"
+    ],
+    "examples": [
+      {
+        "de": "Ich bin ihr zufällig auf der Straße begegnet.",
+        "en": "I met her by chance on the street."
+      }
+    ],
+    "inflections": [
+      "begegne",
+      "begegnest",
+      "begegnet",
+      "begegnete",
+      "begegneten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Intransitive verb governing dative; conjugated with auxiliary sein."
+    }
+  },
+  {
+    "headword": "überraschen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to surprise",
+      "to astonish"
+    ],
+    "examples": [
+      {
+        "de": "Sein plötzlicher Besuch hat uns sehr überrascht.",
+        "en": "His sudden visit surprised us very much."
+      }
+    ],
+    "inflections": [
+      "überrasche",
+      "überraschst",
+      "überrascht",
+      "überraschte",
+      "überraschten",
+      "überraschtem",
+      "überraschter",
+      "überraschtes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb; auxiliary haben. Participial adjective forms (überrascht) mapped as inflections."
+    }
+  },
+  {
+    "headword": "entscheiden",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to decide",
+      "to determine"
+    ],
+    "examples": [
+      {
+        "de": "Wir müssen uns bald entscheiden.",
+        "en": "We have to decide soon."
+      }
+    ],
+    "inflections": [
+      "entscheide",
+      "entscheidest",
+      "entscheidet",
+      "entschied",
+      "entschieden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable strong verb with vowel change (entschied, entschieden); auxiliary haben. Frequently reflexive."
+    }
+  },
+  {
+    "headword": "erlauben",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to allow",
+      "to permit"
+    ],
+    "examples": [
+      {
+        "de": "Rauchen ist hier nicht erlaubt.",
+        "en": "Smoking is not permitted here."
+      }
+    ],
+    "inflections": [
+      "erlaube",
+      "erlaubst",
+      "erlaubt",
+      "erlaubte",
+      "erlaubten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak transitive verb with prefix er-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "erreichen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to reach",
+      "to achieve",
+      "to contact"
+    ],
+    "examples": [
+      {
+        "de": "Unter dieser Nummer können Sie mich erreichen.",
+        "en": "You can reach me at this number."
+      }
+    ],
+    "inflections": [
+      "erreiche",
+      "erreichst",
+      "erreicht",
+      "erreichte",
+      "erreichten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb; auxiliary haben."
+    }
+  },
+  {
+    "headword": "erwarten",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to expect",
+      "to anticipate"
+    ],
+    "examples": [
+      {
+        "de": "Wir erwarten die Lieferung morgen.",
+        "en": "We expect the delivery tomorrow."
+      }
+    ],
+    "inflections": [
+      "erwarte",
+      "erwartest",
+      "erwartet",
+      "erwartete",
+      "erwarteten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb with prefix er-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "fühlen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to feel",
+      "to sense"
+    ],
+    "examples": [
+      {
+        "de": "Ich fühle mich heute viel besser.",
+        "en": "I feel much better today."
+      }
+    ],
+    "inflections": [
+      "fühle",
+      "fühlst",
+      "fühlt",
+      "fühlte",
+      "fühlten",
+      "gefühlt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak verb; auxiliary haben. Commonly reflexive with accusative (sich fühlen)."
+    }
+  },
+  {
+    "headword": "interessieren",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to interest"
+    ],
+    "examples": [
+      {
+        "de": "Ich interessiere mich für deutsche Geschichte.",
+        "en": "I am interested in German history."
+      }
+    ],
+    "inflections": [
+      "interessiere",
+      "interessierst",
+      "interessiert",
+      "interessierte",
+      "interessierten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak verb ending in -ieren; auxiliary haben. Reflexive taking für + accusative."
+    }
+  },
+  {
+    "headword": "kümmern",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to take care of",
+      "to attend to",
+      "to look after"
+    ],
+    "examples": [
+      {
+        "de": "Er kümmert sich um die Formalitäten.",
+        "en": "He is taking care of the formalities."
+      }
+    ],
+    "inflections": [
+      "kümmere",
+      "kümmerst",
+      "kümmert",
+      "kümmerte",
+      "kümmerten",
+      "gekümmert"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Reflexive weak verb taking um + accusative; auxiliary haben."
+    }
+  },
+  {
+    "headword": "merken",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to notice",
+      "to realize",
+      "to memorize"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe den Fehler sofort gemerkt.",
+        "en": "I noticed the mistake immediately."
+      }
+    ],
+    "inflections": [
+      "merke",
+      "merkst",
+      "merkt",
+      "merkte",
+      "merkten",
+      "gemerkt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak verb; auxiliary haben. Also dative reflexive (sich etw. merken = to memorize)."
+    }
+  },
+  {
+    "headword": "schaffen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to manage",
+      "to accomplish",
+      "to succeed in",
+      "to create"
+    ],
+    "examples": [
+      {
+        "de": "Keine Sorge, du schaffst das!",
+        "en": "Don't worry, you can manage it!"
+      }
+    ],
+    "inflections": [
+      "schaffe",
+      "schaffst",
+      "schafft",
+      "schaffte",
+      "schafften",
+      "geschafft",
+      "schuf",
+      "schufst",
+      "schufen",
+      "schuft",
+      "geschaffen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Dual paradigm verb: weak conjugation in sense 'to manage/accomplish' (schaffte, geschafft); strong conjugation in sense 'to create' (schuf, geschaffen); auxiliary haben."
+    }
+  },
+  {
+    "headword": "versuchen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to try",
+      "to attempt"
+    ],
+    "examples": [
+      {
+        "de": "Ich versuche, pünktlich zu sein.",
+        "en": "I try to be on time."
+      }
+    ],
+    "inflections": [
+      "versuche",
+      "versuchst",
+      "versucht",
+      "versuchte",
+      "versuchten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb taking infinitive with zu; auxiliary haben."
+    }
+  },
+  {
+    "headword": "wählen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to choose",
+      "to select",
+      "to dial",
+      "to vote"
+    ],
+    "examples": [
+      {
+        "de": "Bitte wählen Sie eine Option aus der Liste.",
+        "en": "Please choose an option from the list."
+      }
+    ],
+    "inflections": [
+      "wähle",
+      "wählst",
+      "wählt",
+      "wählte",
+      "wählten",
+      "gewählt"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak transitive verb; auxiliary haben."
+    }
+  },
+  {
+    "headword": "wünschen",
+    "pos": "verb",
+    "cefr": "A1",
+    "translations": [
+      "to wish",
+      "to desire"
+    ],
+    "examples": [
+      {
+        "de": "Wir wünschen Ihnen alles Gute.",
+        "en": "We wish you all the best."
+      }
+    ],
+    "inflections": [
+      "wünsche",
+      "wünschst",
+      "wünscht",
+      "wünschte",
+      "wünschten",
+      "gewünscht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Core greeting verb governing dative person and accusative thing; auxiliary haben."
+    }
+  },
+  {
+    "headword": "teilnehmen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to participate",
+      "to take part",
+      "to attend"
+    ],
+    "examples": [
+      {
+        "de": "Sie nimmt an einem Sprachkurs teil.",
+        "en": "She is participating in a language course."
+      }
+    ],
+    "inflections": [
+      "teilnehme",
+      "teilnimmst",
+      "teilnimmt",
+      "teilnehmt",
+      "teilnahm",
+      "teilnahmen",
+      "teilgenommen",
+      "teilzunehmen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable strong verb taking an + dative; vowel change e->i; auxiliary haben."
+    }
+  },
+  {
+    "headword": "vorschlagen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to suggest",
+      "to propose"
+    ],
+    "examples": [
+      {
+        "de": "Was schlägst du für heute Abend vor?",
+        "en": "What do you propose for tonight?"
+      }
+    ],
+    "inflections": [
+      "vorschlage",
+      "vorschlägst",
+      "vorschlägt",
+      "vorschlagt",
+      "vorschlug",
+      "vorschlugen",
+      "vorgeschlagen",
+      "vorzuschlagen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Separable strong verb with vowel change a->ä and vowel gradation in past (vorschlug); auxiliary haben."
+    }
+  },
+  {
+    "headword": "verbringen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to spend (time)",
+      "to stay"
+    ],
+    "examples": [
+      {
+        "de": "Wir haben den Urlaub in Italien verbracht.",
+        "en": "We spent the vacation in Italy."
+      }
+    ],
+    "inflections": [
+      "verbringe",
+      "verbringst",
+      "verbringt",
+      "verbrachte",
+      "verbrachten",
+      "verbracht"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable mixed verb with irregular past forms (verbrachte, verbracht); auxiliary haben."
+    }
+  },
+  {
+    "headword": "beschließen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to decide",
+      "to resolve",
+      "to adopt (a resolution)"
+    ],
+    "examples": [
+      {
+        "de": "Der Stadtrat hat das neue Gesetz beschlossen.",
+        "en": "The city council resolved upon the new law."
+      }
+    ],
+    "inflections": [
+      "beschließe",
+      "beschließt",
+      "beschloss",
+      "beschlossen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable strong verb with vowel change (beschloss, beschlossen); auxiliary haben."
+    }
+  },
+  {
+    "headword": "verlieren",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to lose"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe meinen Schlüssel verloren.",
+        "en": "I lost my key."
+      }
+    ],
+    "inflections": [
+      "verliere",
+      "verlierst",
+      "verliert",
+      "verlor",
+      "verloren"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable strong verb with vowel gradation (verlor, verloren); auxiliary haben."
+    }
+  },
+  {
+    "headword": "gewinnen",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to win",
+      "to gain"
+    ],
+    "examples": [
+      {
+        "de": "Unsere Mannschaft hat das Spiel gewonnen.",
+        "en": "Our team won the game."
+      }
+    ],
+    "inflections": [
+      "gewinne",
+      "gewinnst",
+      "gewinnt",
+      "gewann",
+      "gewannen",
+      "gewonnen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable strong verb with vowel gradation (gewann, gewonnen); auxiliary haben."
+    }
+  },
+  {
+    "headword": "unterstützen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to support",
+      "to assist"
+    ],
+    "examples": [
+      {
+        "de": "Meine Familie unterstützt mich finanziell.",
+        "en": "My family supports me financially."
+      }
+    ],
+    "inflections": [
+      "unterstütze",
+      "unterstützt",
+      "unterstützte",
+      "unterstützten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb with prefix unter-; auxiliary haben."
+    }
+  },
+  {
+    "headword": "verbessern",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to improve",
+      "to correct"
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte mein Deutsch verbessern.",
+        "en": "I want to improve my German."
+      }
+    ],
+    "inflections": [
+      "verbessere",
+      "verbesserst",
+      "verbessert",
+      "verbesserte",
+      "verbesserten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak transitive verb derived from besser; auxiliary haben."
+    }
+  },
+  {
+    "headword": "ändern",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to change",
+      "to alter",
+      "to modify"
+    ],
+    "examples": [
+      {
+        "de": "Er hat seine Telefonnummer geändert.",
+        "en": "He changed his phone number."
+      }
+    ],
+    "inflections": [
+      "ändere",
+      "änderst",
+      "ändert",
+      "änderte",
+      "änderten",
+      "geändert"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak verb derived from ander; auxiliary haben. Also reflexive (sich ändern)."
+    }
+  },
+  {
+    "headword": "beantragen",
+    "pos": "verb",
+    "cefr": "B1",
+    "translations": [
+      "to apply for",
+      "to request officially"
+    ],
+    "examples": [
+      {
+        "de": "Ich muss ein Visum bei der Botschaft beantragen.",
+        "en": "I have to apply for a visa at the embassy."
+      }
+    ],
+    "inflections": [
+      "beantrage",
+      "beantragst",
+      "beantragt",
+      "beantragte",
+      "beantragten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable weak verb in modern legal/administrative use; auxiliary haben."
+    }
+  },
+  {
+    "headword": "unterschreiben",
+    "pos": "verb",
+    "cefr": "A2",
+    "translations": [
+      "to sign"
+    ],
+    "examples": [
+      {
+        "de": "Bitte unterschreiben Sie das Formular hier unten.",
+        "en": "Please sign the form down here."
+      }
+    ],
+    "inflections": [
+      "unterschreibe",
+      "unterschreibst",
+      "unterschreibt",
+      "unterschrieb",
+      "unterschrieben"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Inseparable strong verb with vowel change (unterschrieb, unterschrieben); auxiliary haben."
+    }
   }
 ]
