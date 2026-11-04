@@ -12,10 +12,10 @@ import { OCRService, OCRCancelledError } from '../src/services/ocr/index.ts';
 import { cleanWordToken, isSingleWord, extractWordAtOffset } from '../src/utils/textUtils.ts';
 
 const rootDir = process.cwd();
-const zipPath = path.join(rootDir, 'pdf-language-companion-v0.1.0.zip');
+const zipPath = path.join(rootDir, 'lingopdf-chrome-v0.1.0.zip');
 const unpackedDir = path.join(rootDir, 'dist-unpacked');
 const testDir = path.join(rootDir, 'test-assets');
-const chromePath = 'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe';
+const chromePath = fs.existsSync('C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe') ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' : 'C:\\Users\\LENOVO\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe';
 
 console.log('=====================================================================');
 console.log('   PDF LANGUAGE COMPANION v0.1.0 — RC ACCEPTANCE TEST SUITE (PHASE 14)');
@@ -41,7 +41,7 @@ async function runAcceptanceSuite() {
   // TEST 1 — INSPECT THE RELEASE PACKAGE
   // =========================================================================
   console.log('--- TEST 1 — INSPECT THE RELEASE PACKAGE ---');
-  assert(fs.existsSync(zipPath), 'pdf-language-companion-v0.1.0.zip exists at repository root');
+  assert(fs.existsSync(zipPath), 'lingopdf-chrome-v0.1.0.zip exists at repository root');
   assert(fs.existsSync(unpackedDir), 'dist-unpacked extracted directory exists');
 
   // Check manifest.json
@@ -49,7 +49,7 @@ async function runAcceptanceSuite() {
   assert(fs.existsSync(manifestPath), 'manifest.json exists at archive root');
   const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
   assert(manifest.manifest_version === 3, 'manifest_version is 3');
-  assert(manifest.name === 'PDF Language Companion', 'Extension name is "PDF Language Companion"');
+  assert(manifest.name === 'LingoPDF', 'Extension name is "LingoPDF"');
   assert(manifest.version === '0.1.0', 'Extension version is 0.1.0');
   assert(!manifest.permissions || manifest.permissions.length === 0, 'No permissions requested in manifest');
   assert(!manifest.host_permissions || manifest.host_permissions.length === 0, 'No host permissions requested in manifest');
@@ -424,7 +424,7 @@ async function runAcceptanceSuite() {
       returnByValue: true
     }, sessionId);
 
-    assert(initialDom.result.value.title === 'PDF Language Companion', 'Viewer title is "PDF Language Companion"');
+    assert(initialDom.result.value.title === 'LingoPDF', 'Viewer title is "LingoPDF"');
     assert(initialDom.result.value.hasOpenPdfBtn, 'Open PDF button present in Navbar');
     assert(initialDom.result.value.hasFileInput, 'File picker input present');
 

@@ -2447,5 +2447,444 @@
       "created": "2026-10-29",
       "notes": "Participial adjective from mahlen (ground/milled); coffee preparation."
     }
+  },
+  {
+    "headword": "wirklich",
+    "senses": [
+      {
+        "pos": "adj",
+        "cefr": "A1",
+        "translations": [
+          "real",
+          "actual"
+        ],
+        "examples": [
+          {
+            "de": "Das ist ein wirklicher Notfall.",
+            "en": "That is a real emergency."
+          }
+        ]
+      },
+      {
+        "pos": "adv",
+        "cefr": "A1",
+        "translations": [
+          "really",
+          "truly",
+          "actually"
+        ],
+        "examples": [
+          {
+            "de": "Das ist ein wirklich schönes Bild.",
+            "en": "That is a really beautiful picture."
+          }
+        ]
+      }
+    ],
+    "inflections": [
+      "wirkliche",
+      "wirklichem",
+      "wirklichen",
+      "wirklicher",
+      "wirkliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Dual grammatical function: qualitative adjective and sentence/intensifying adverb."
+    }
+  },
+  {
+    "headword": "zuverlässig",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "reliable",
+      "dependable"
+    ],
+    "examples": [
+      {
+        "de": "Er ist ein sehr zuverlässiger Mitarbeiter.",
+        "en": "He is a very reliable employee."
+      }
+    ],
+    "inflections": [
+      "zuverlässige",
+      "zuverlässigem",
+      "zuverlässigen",
+      "zuverlässiger",
+      "zuverlässiges",
+      "zuverlässigere",
+      "zuverlässigste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Workplace and character qualitative adjective."
+    }
+  },
+  {
+    "headword": "ausführlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "detailed",
+      "extensive",
+      "thorough"
+    ],
+    "examples": [
+      {
+        "de": "Sie gab uns eine ausführliche Erklärung.",
+        "en": "She gave us a detailed explanation."
+      }
+    ],
+    "inflections": [
+      "ausführliche",
+      "ausführlichem",
+      "ausführlichen",
+      "ausführlicher",
+      "ausführliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Descriptive adjective functioning predicatively and adverbially."
+    }
+  },
+  {
+    "headword": "verantwortlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "responsible",
+      "in charge"
+    ],
+    "examples": [
+      {
+        "de": "Wer ist für dieses Projekt verantwortlich?",
+        "en": "Who is responsible for this project?"
+      }
+    ],
+    "inflections": [
+      "verantwortliche",
+      "verantwortlichem",
+      "verantwortlichen",
+      "verantwortlicher",
+      "verantwortliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Adjective commonly taking für + accusative."
+    }
+  },
+  {
+    "headword": "schwierig",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "difficult",
+      "hard",
+      "tough"
+    ],
+    "examples": [
+      {
+        "de": "Die deutsche Grammatik ist manchmal schwierig.",
+        "en": "German grammar is sometimes difficult."
+      }
+    ],
+    "inflections": [
+      "schwierige",
+      "schwierigem",
+      "schwierigen",
+      "schwieriger",
+      "schwieriges",
+      "schwierigere",
+      "schwierigste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Core qualitative adjective; antonym of einfach."
+    }
+  },
+  {
+    "headword": "möglich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "possible",
+      "feasible"
+    ],
+    "examples": [
+      {
+        "de": "Ist ein Termin heute noch möglich?",
+        "en": "Is an appointment still possible today?"
+      }
+    ],
+    "inflections": [
+      "mögliche",
+      "möglichem",
+      "möglichen",
+      "möglicher",
+      "mögliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Modal adjective derived from mögen/können."
+    }
+  },
+  {
+    "headword": "unmöglich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "impossible"
+    ],
+    "examples": [
+      {
+        "de": "Ohne Hilfe ist das völlig unmöglich.",
+        "en": "Without help that is completely impossible."
+      }
+    ],
+    "inflections": [
+      "unmögliche",
+      "unmöglichem",
+      "unmöglichen",
+      "unmöglicher",
+      "unmögliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Antonym of möglich with negative prefix un-."
+    }
+  },
+  {
+    "headword": "bereit",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "ready",
+      "prepared",
+      "willing"
+    ],
+    "examples": [
+      {
+        "de": "Sind Sie bereit für die Abfahrt?",
+        "en": "Are you ready for departure?"
+      }
+    ],
+    "inflections": [
+      "bereite",
+      "bereitem",
+      "bereiten",
+      "bereiter",
+      "bereites"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Predicative and attributive adjective."
+    }
+  },
+  {
+    "headword": "deutlich",
+    "pos": "adj",
+    "cefr": "B1",
+    "translations": [
+      "clear",
+      "distinct",
+      "plain"
+    ],
+    "examples": [
+      {
+        "de": "Sprechen Sie bitte etwas deutlicher.",
+        "en": "Please speak a bit more clearly."
+      }
+    ],
+    "inflections": [
+      "deutliche",
+      "deutlichem",
+      "deutlichen",
+      "deutlicher",
+      "deutliches",
+      "deutlichere",
+      "deutlichste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Communicative adjective and adverb."
+    }
+  },
+  {
+    "headword": "dringend",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "urgent",
+      "pressing"
+    ],
+    "examples": [
+      {
+        "de": "Ich brauche dringend Ihre Hilfe.",
+        "en": "I urgently need your help."
+      }
+    ],
+    "inflections": [
+      "dringende",
+      "dringendem",
+      "dringenden",
+      "dringender",
+      "dringendes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Participial adjective commonly used in medical and administrative requests."
+    }
+  },
+  {
+    "headword": "ehrlich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "honest",
+      "sincere"
+    ],
+    "examples": [
+      {
+        "de": "Sag mir bitte deine ehrliche Meinung.",
+        "en": "Please tell me your honest opinion."
+      }
+    ],
+    "inflections": [
+      "ehrliche",
+      "ehrlichem",
+      "ehrlichen",
+      "ehrlicher",
+      "ehrliches"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Character adjective derived from Ehre."
+    }
+  },
+  {
+    "headword": "gemütlich",
+    "pos": "adj",
+    "cefr": "A1",
+    "translations": [
+      "cozy",
+      "comfortable",
+      "pleasant"
+    ],
+    "examples": [
+      {
+        "de": "Das Café ist sehr gemütlich eingerichtet.",
+        "en": "The café is very cozily furnished."
+      }
+    ],
+    "inflections": [
+      "gemütliche",
+      "gemütlichem",
+      "gemütlichen",
+      "gemütlicher",
+      "gemütliches",
+      "gemütlichere",
+      "gemütlichste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Cultural and descriptive qualitative adjective."
+    }
+  },
+  {
+    "headword": "höflich",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "polite",
+      "courteous"
+    ],
+    "examples": [
+      {
+        "de": "Er hat eine sehr höfliche Antwort geschrieben.",
+        "en": "He wrote a very polite response."
+      }
+    ],
+    "inflections": [
+      "höfliche",
+      "höflichem",
+      "höflichen",
+      "höflicher",
+      "höfliches",
+      "höflichere",
+      "höflichste"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Social conduct adjective; antonym of unhöflich."
+    }
+  },
+  {
+    "headword": "kompliziert",
+    "pos": "adj",
+    "cefr": "A2",
+    "translations": [
+      "complicated",
+      "intricate"
+    ],
+    "examples": [
+      {
+        "de": "Das Formular ist mir zu kompliziert.",
+        "en": "The form is too complicated for me."
+      }
+    ],
+    "inflections": [
+      "komplizierte",
+      "kompliziertem",
+      "komplizierten",
+      "komplizierter",
+      "kompliziertes"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Qualitative adjective commonly describing procedures or explanations."
+    }
   }
 ]

@@ -64,4 +64,6 @@ test-assets/*.json
 
 
 /pdf-language-companion-v*.zip
+/lingopdf*.zip
+*.zip
 .cache/

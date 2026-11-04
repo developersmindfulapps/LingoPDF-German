@@ -488,6 +488,159 @@ export async function testAuthoredLookups() {
   }
   console.log('  ✓ All Phase 11 linguistic corrections & homograph resolutions verified accurately.\n');
 
+  // Step 13: Step 7 Draft Isolation Invariant & Targeted Draft Linguistic Validation
+  console.log('[Check 13] Draft Isolation Invariants & Targeted Linguistic Validation:');
+
+  // Part A: Customer Dataset Draft Exclusion Invariant
+  console.log('  Sub-check 13A: Verifying Draft Entries and Inflections are ABSENT from customer pilot dataset:');
+  const draftOnlyHeadwords = [
+    'Bewerbung', 'Vorstellungsgespräch', 'Erfahrung', 'zuverlässig',
+    'Zusammenhang', 'überzeugen', 'begegnen', 'kennenlernen', 'schaffen',
+    'Herz', 'Gedanke', 'Nebenkosten', 'wirklich', 'außerdem', 'deswegen'
+  ];
+  for (const dh of draftOnlyHeadwords) {
+    const res = await pilotProvider.lookup(dh, 'de', 'en');
+    if (res !== null) {
+      throw new Error(`CRITICAL DRAFT LEAK: Draft headword "${dh}" was found in customer pilot dictionary!`);
+    }
+  }
+  console.log(`    ✓ All ${draftOnlyHeadwords.length} sample draft headwords return null in customer pilot dataset.`);
+
+  const draftOnlyInflections = [
+    'bewerbungen', 'schuf', 'schufen', 'herzens', 'gedankens', 'nebenkosten',
+    'kennengelernt', 'überrascht'
+  ];
+  for (const di of draftOnlyInflections) {
+    const res = await pilotProvider.lookup(di, 'de', 'en');
+    if (res !== null) {
+      throw new Error(`CRITICAL DRAFT LEAK: Draft inflection "${di}" was found in customer pilot dictionary!`);
+    }
+  }
+  console.log(`    ✓ All ${draftOnlyInflections.length} sample draft inflections return null in customer pilot dataset.`);
+
+  // Part B: Linguistic Validation in Isolated Draft Preview Provider
+  console.log('  Sub-check 13B: Verifying Targeted Linguistic Handling in Isolated Draft Preview Build:');
+  const tempDraftDir = path.resolve(process.cwd(), '.temp-draft-pilot-test');
+  let draftProvider;
+  try {
+    const { buildAuthoredDictionary } = await import('./build-authored-dictionary.mjs');
+    buildAuthoredDictionary({ outputDir: tempDraftDir, includeDrafts: true, writePublic: false });
+    const draftEntries = JSON.parse(fs.readFileSync(path.join(tempDraftDir, 'de-en-dictionary.json'), 'utf8'));
+    const draftInflections = JSON.parse(fs.readFileSync(path.join(tempDraftDir, 'de-en-inflections.json'), 'utf8'));
+    draftProvider = new LocalDictionaryProvider(draftEntries, draftInflections);
+  } finally {
+    try { fs.rmSync(tempDraftDir, { recursive: true, force: true }); } catch {}
+  }
+
+  // 1. schaffen: both weak and strong paradigms
+  const schaffenCases = [
+    { query: 'schaffen', expectedPos: 'verb', expectedTrans: 'manage' },
+    { query: 'schaffte', expectedLemma: 'schaffen', expectedTrans: 'manage' },
+    { query: 'geschafft', expectedLemma: 'schaffen', expectedTrans: 'manage' },
+    { query: 'schuf', expectedLemma: 'schaffen', expectedTrans: 'create' },
+    { query: 'geschaffen', expectedLemma: 'schaffen', expectedTrans: 'create' },
+    { query: 'schufen', expectedLemma: 'schaffen', expectedTrans: 'create' }
+  ];
+  for (const tc of schaffenCases) {
+    const res = await draftProvider.lookup(tc.query, 'de', 'en');
+    if (!res) throw new Error(`schaffen paradigm lookup failed for "${tc.query}"`);
+    if (tc.expectedLemma && res.lemma !== tc.expectedLemma) {
+      throw new Error(`schaffen lemma mismatch for "${tc.query}": expected "${tc.expectedLemma}", got "${res.lemma}"`);
+    }
+    console.log(`    ✓ "schaffen" paradigm: "${tc.query}" -> ${res.lemma ? '(lemma: ' + res.lemma + ') ' : ''}[${res.translations.slice(0, 2).join(', ')}]`);
+  }
+
+  // 2. Herz: genitive and dative/plural forms
+  const resHerz = await draftProvider.lookup('Herz', 'de', 'en');
+  if (!resHerz || resHerz.gender !== 'n' || resHerz.plural !== 'Herzen') {
+    throw new Error('Herz headword or metadata verification failed');
+  }
+  const resHerzens = await draftProvider.lookup('herzens', 'de', 'en');
+  if (!resHerzens || resHerzens.lemma !== 'Herz') {
+    throw new Error('Herz genitive "herzens" lookup failed');
+  }
+  const resHerzen = await draftProvider.lookup('herzen', 'de', 'en');
+  if (!resHerzen || resHerzen.lemma !== 'Herz') {
+    throw new Error('Herz dative/plural "herzen" lookup failed');
+  }
+  console.log(`    ✓ "Herz": genitive "herzens" -> Lemma: ${resHerzens.lemma}, dative/plural "herzen" -> Lemma: ${resHerzen.lemma} (gender: n)`);
+
+  // 3. Gedanke: N-declension forms
+  const resGedanke = await draftProvider.lookup('Gedanke', 'de', 'en');
+  if (!resGedanke || resGedanke.gender !== 'm' || resGedanke.plural !== 'Gedanken') {
+    throw new Error('Gedanke headword or metadata verification failed');
+  }
+  const resGedankens = await draftProvider.lookup('gedankens', 'de', 'en');
+  if (!resGedankens || resGedankens.lemma !== 'Gedanke') {
+    throw new Error('Gedanke genitive "gedankens" lookup failed');
+  }
+  const resGedanken = await draftProvider.lookup('gedanken', 'de', 'en');
+  if (!resGedanken || resGedanken.lemma !== 'Gedanke') {
+    throw new Error('Gedanke oblique/plural "gedanken" lookup failed');
+  }
+  console.log(`    ✓ "Gedanke": genitive "gedankens" -> Lemma: ${resGedankens.lemma}, plural/dative "gedanken" -> Lemma: ${resGedanken.lemma} (gender: m)`);
+
+  // 4. begegnen: auxiliary sein and dative usage
+  const resBegegnen = await draftProvider.lookup('begegnen', 'de', 'en');
+  if (!resBegegnen || !resBegegnen.translations.some(t => t.includes('encounter') || t.includes('meet'))) {
+    throw new Error('begegnen headword lookup failed');
+  }
+  const resBegegnet = await draftProvider.lookup('begegnet', 'de', 'en');
+  if (!resBegegnet || resBegegnet.lemma !== 'begegnen') {
+    throw new Error('begegnen participle/present "begegnet" lookup failed');
+  }
+  const resBegegnete = await draftProvider.lookup('begegnete', 'de', 'en');
+  if (!resBegegnete || resBegegnete.lemma !== 'begegnen') {
+    throw new Error('begegnen past "begegnete" lookup failed');
+  }
+  console.log(`    ✓ "begegnen": "begegnet" -> Lemma: ${resBegegnet.lemma}, "begegnete" -> Lemma: ${resBegegnete.lemma}`);
+
+  // 5. kennenlernen: separable forms
+  const kennenlernenCases = [
+    { query: 'kennenlernen', expectedPos: 'verb', expectedTrans: 'get to know' },
+    { query: 'kennengelernt', expectedLemma: 'kennenlernen', expectedTrans: 'get to know' },
+    { query: 'kennenzulernen', expectedLemma: 'kennenlernen', expectedTrans: 'get to know' },
+    { query: 'kennenlernt', expectedLemma: 'kennenlernen', expectedTrans: 'get to know' },
+    { query: 'kennenlernte', expectedLemma: 'kennenlernen', expectedTrans: 'get to know' }
+  ];
+  for (const tc of kennenlernenCases) {
+    const res = await draftProvider.lookup(tc.query, 'de', 'en');
+    if (!res) throw new Error(`kennenlernen lookup failed for "${tc.query}"`);
+    if (tc.expectedLemma && res.lemma !== tc.expectedLemma) {
+      throw new Error(`kennenlernen lemma mismatch for "${tc.query}": expected "${tc.expectedLemma}", got "${res.lemma}"`);
+    }
+    console.log(`    ✓ "kennenlernen" separable form: "${tc.query}" -> ${res.lemma ? '(lemma: ' + res.lemma + ') ' : ''}[${res.translations.slice(0, 2).join(', ')}]`);
+  }
+
+  // 6. überraschen: inseparable participle without ge-
+  const ueberraschenCases = [
+    { query: 'überraschen', expectedPos: 'verb', expectedTrans: 'surprise' },
+    { query: 'überrascht', expectedLemma: 'überraschen', expectedTrans: 'surprise' },
+    { query: 'überraschte', expectedLemma: 'überraschen', expectedTrans: 'surprise' },
+    { query: 'überraschten', expectedLemma: 'überraschen', expectedTrans: 'surprise' },
+    { query: 'überraschtem', expectedLemma: 'überraschen', expectedTrans: 'surprise' }
+  ];
+  for (const tc of ueberraschenCases) {
+    const res = await draftProvider.lookup(tc.query, 'de', 'en');
+    if (!res) throw new Error(`überraschen lookup failed for "${tc.query}"`);
+    if (tc.expectedLemma && res.lemma !== tc.expectedLemma) {
+      throw new Error(`überraschen lemma mismatch for "${tc.query}": expected "${tc.expectedLemma}", got "${res.lemma}"`);
+    }
+    console.log(`    ✓ "überraschen" inseparable form: "${tc.query}" -> ${res.lemma ? '(lemma: ' + res.lemma + ') ' : ''}[${res.translations.slice(0, 2).join(', ')}]`);
+  }
+
+  // 7. Nebenkosten: plural-only behaviour and gender metadata
+  const resNebenkosten = await draftProvider.lookup('Nebenkosten', 'de', 'en');
+  if (!resNebenkosten || resNebenkosten.gender !== 'f' || resNebenkosten.plural !== 'Nebenkosten') {
+    throw new Error('Nebenkosten plural-only metadata check failed');
+  }
+  const resNebenkostenLower = await draftProvider.lookup('nebenkosten', 'de', 'en');
+  if (!resNebenkostenLower || resNebenkostenLower.lemma !== 'Nebenkosten') {
+    throw new Error('Nebenkosten lowercase lookup failed');
+  }
+  console.log(`    ✓ "Nebenkosten": plural-only (plural: ${resNebenkosten.plural}, gender: ${resNebenkosten.gender}) resolved accurately.`);
+  console.log('  ✓ All Step 7 draft isolation & linguistic validation checks passed successfully.\n');
+
   console.log('===============================================================');
   console.log('🎉 ALL AUTHORED PILOT LOOKUP TESTS PASSED SUCCESSFULLY!');
   console.log('===============================================================\n');

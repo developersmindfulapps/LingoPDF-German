@@ -7218,5 +7218,1248 @@
       "created": "2026-10-28",
       "notes": "Economic and news noun."
     }
+  },
+  {
+    "headword": "Herz",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Herzen",
+    "cefr": "A1",
+    "translations": [
+      "heart"
+    ],
+    "examples": [
+      {
+        "de": "Sie hat ein gutes Herz.",
+        "en": "She has a good heart."
+      }
+    ],
+    "inflections": [
+      "herzen",
+      "herzens"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak neuter noun with irregular genitive ending -ns (des Herzens)."
+    }
+  },
+  {
+    "headword": "Erfahrung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Erfahrungen",
+    "cefr": "B1",
+    "translations": [
+      "experience",
+      "practical knowledge"
+    ],
+    "examples": [
+      {
+        "de": "Sie hat viel Erfahrung in diesem Beruf.",
+        "en": "She has a lot of experience in this profession."
+      }
+    ],
+    "inflections": [
+      "erfahrungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Core B1 professional and life noun."
+    }
+  },
+  {
+    "headword": "Bewerbung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Bewerbungen",
+    "cefr": "B1",
+    "translations": [
+      "application",
+      "job application"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe meine Bewerbung gestern abgeschickt.",
+        "en": "I sent off my application yesterday."
+      }
+    ],
+    "inflections": [
+      "bewerbungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Essential workplace noun; derived from bewerben."
+    }
+  },
+  {
+    "headword": "Vorstellungsgespräch",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Vorstellungsgespräche",
+    "cefr": "B1",
+    "translations": [
+      "job interview",
+      "interview"
+    ],
+    "examples": [
+      {
+        "de": "Morgen habe ich ein Vorstellungsgespräch.",
+        "en": "Tomorrow I have a job interview."
+      }
+    ],
+    "inflections": [
+      "vorstellungsgesprächs",
+      "vorstellungsgespräches",
+      "vorstellungsgespräche",
+      "vorstellungsgesprächen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Vorstellung + Gespräch."
+    }
+  },
+  {
+    "headword": "Erlaubnis",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Erlaubnisse",
+    "cefr": "B1",
+    "translations": [
+      "permission",
+      "permit"
+    ],
+    "examples": [
+      {
+        "de": "Ohne Erlaubnis darf man hier nicht parken.",
+        "en": "Without permission one is not allowed to park here."
+      }
+    ],
+    "inflections": [
+      "erlaubnisse",
+      "erlaubnissen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine noun ending in -nis with plural -nisse."
+    }
+  },
+  {
+    "headword": "Zusammenhang",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Zusammenhänge",
+    "cefr": "B1",
+    "translations": [
+      "context",
+      "connection",
+      "correlation"
+    ],
+    "examples": [
+      {
+        "de": "In diesem Zusammenhang gibt es viele Fragen.",
+        "en": "In this context there are many questions."
+      }
+    ],
+    "inflections": [
+      "zusammenhangs",
+      "zusammenhanges",
+      "zusammenhänge",
+      "zusammenhängen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun with umlaut plural (Zusammenhänge)."
+    }
+  },
+  {
+    "headword": "Eindruck",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Eindrücke",
+    "cefr": "B1",
+    "translations": [
+      "impression",
+      "impact"
+    ],
+    "examples": [
+      {
+        "de": "Der erste Eindruck war sehr positiv.",
+        "en": "The first impression was very positive."
+      }
+    ],
+    "inflections": [
+      "eindrucks",
+      "eindruckes",
+      "eindrücke",
+      "eindrücken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun with umlaut plural (Eindrücke)."
+    }
+  },
+  {
+    "headword": "Arbeitsvertrag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Arbeitsverträge",
+    "cefr": "B1",
+    "translations": [
+      "employment contract",
+      "work contract"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe den Arbeitsvertrag heute unterschrieben.",
+        "en": "I signed the employment contract today."
+      }
+    ],
+    "inflections": [
+      "arbeitsvertrags",
+      "arbeitsvertrages",
+      "arbeitsverträge",
+      "arbeitsverträgen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Arbeit + Vertrag."
+    }
+  },
+  {
+    "headword": "Kündigung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kündigungen",
+    "cefr": "B1",
+    "translations": [
+      "termination",
+      "cancellation",
+      "notice of dismissal"
+    ],
+    "examples": [
+      {
+        "de": "Die Kündigung muss schriftlich erfolgen.",
+        "en": "The termination must be made in writing."
+      }
+    ],
+    "inflections": [
+      "kündigungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Standard legal and employment noun ending in -ung."
+    }
+  },
+  {
+    "headword": "Kündigungsfrist",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kündigungsfristen",
+    "cefr": "B1",
+    "translations": [
+      "notice period"
+    ],
+    "examples": [
+      {
+        "de": "Die Kündigungsfrist beträgt drei Monate.",
+        "en": "The notice period is three months."
+      }
+    ],
+    "inflections": [
+      "kündigungsfristen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Kündigung + Frist."
+    }
+  },
+  {
+    "headword": "Gehalt",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Gehälter",
+    "cefr": "B1",
+    "translations": [
+      "salary",
+      "pay"
+    ],
+    "examples": [
+      {
+        "de": "Das Gehalt wird am Monatsende überwiesen.",
+        "en": "The salary is transferred at the end of the month."
+      }
+    ],
+    "inflections": [
+      "gehalts",
+      "gehaltes",
+      "gehälter",
+      "gehältern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Neuter workplace noun with umlaut plural (Gehälter)."
+    }
+  },
+  {
+    "headword": "Gehaltsabrechnung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Gehaltsabrechnungen",
+    "cefr": "B1",
+    "translations": [
+      "payslip",
+      "salary statement"
+    ],
+    "examples": [
+      {
+        "de": "Bitte bewahren Sie Ihre Gehaltsabrechnung gut auf.",
+        "en": "Please keep your payslip in a safe place."
+      }
+    ],
+    "inflections": [
+      "gehaltsabrechnungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Gehalt + Abrechnung."
+    }
+  },
+  {
+    "headword": "Krankenkasse",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Krankenkassen",
+    "cefr": "A2",
+    "translations": [
+      "health insurance fund",
+      "health insurance provider"
+    ],
+    "examples": [
+      {
+        "de": "Welche Krankenkasse haben Sie gewählt?",
+        "en": "Which health insurance provider have you chosen?"
+      }
+    ],
+    "inflections": [
+      "krankenkassen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Kranker + Kasse."
+    }
+  },
+  {
+    "headword": "Krankmeldung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Krankmeldungen",
+    "cefr": "A2",
+    "translations": [
+      "sick note",
+      "notification of sickness"
+    ],
+    "examples": [
+      {
+        "de": "Der Arbeitgeber verlangt eine Krankmeldung ab dem ersten Tag.",
+        "en": "The employer requires a sick note from the first day."
+      }
+    ],
+    "inflections": [
+      "krankmeldungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: krank + Meldung."
+    }
+  },
+  {
+    "headword": "Versicherung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Versicherungen",
+    "cefr": "A2",
+    "translations": [
+      "insurance",
+      "insurance policy"
+    ],
+    "examples": [
+      {
+        "de": "Haben Sie eine Haftpflichtversicherung?",
+        "en": "Do you have liability insurance?"
+      }
+    ],
+    "inflections": [
+      "versicherungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Derived noun ending in -ung; feminine."
+    }
+  },
+  {
+    "headword": "Aufenthaltstitel",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Aufenthaltstitel",
+    "cefr": "B1",
+    "translations": [
+      "residence permit",
+      "residence title"
+    ],
+    "examples": [
+      {
+        "de": "Mein Aufenthaltstitel ist für zwei Jahre gültig.",
+        "en": "My residence permit is valid for two years."
+      }
+    ],
+    "inflections": [
+      "aufenthaltstitels"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Aufenthalt + Titel; zero plural change."
+    }
+  },
+  {
+    "headword": "Wohnungsgeberbestätigung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Wohnungsgeberbestätigungen",
+    "cefr": "B1",
+    "translations": [
+      "landlord confirmation",
+      "landlord confirmation of accommodation"
+    ],
+    "examples": [
+      {
+        "de": "Für die Anmeldung brauchen Sie die Wohnungsgeberbestätigung.",
+        "en": "For the registration you need the landlord confirmation."
+      }
+    ],
+    "inflections": [
+      "wohnungsgeberbestätigungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Administrative compound: Wohnungsgeber + Bestätigung (BAMF Integration course / BMG §19)."
+    }
+  },
+  {
+    "headword": "Meldebestätigung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Meldebestätigungen",
+    "cefr": "A2",
+    "translations": [
+      "registration certificate",
+      "confirmation of registration"
+    ],
+    "examples": [
+      {
+        "de": "Das Bürgeramt stellt die Meldebestätigung aus.",
+        "en": "The citizens' office issues the registration certificate."
+      }
+    ],
+    "inflections": [
+      "meldebestätigungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Administrative compound: Melde + Bestätigung."
+    }
+  },
+  {
+    "headword": "Steuernummer",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Steuernummern",
+    "cefr": "A2",
+    "translations": [
+      "tax number"
+    ],
+    "examples": [
+      {
+        "de": "Wo finde ich meine Steuernummer?",
+        "en": "Where do I find my tax number?"
+      }
+    ],
+    "inflections": [
+      "steuernummern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Steuer + Nummer."
+    }
+  },
+  {
+    "headword": "Finanzamt",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Finanzämter",
+    "cefr": "A2",
+    "translations": [
+      "tax office",
+      "revenue office"
+    ],
+    "examples": [
+      {
+        "de": "Das Finanzamt prüft die Steuererklärung.",
+        "en": "The tax office reviews the tax return."
+      }
+    ],
+    "inflections": [
+      "finanzamts",
+      "finanzamtes",
+      "finanzämter",
+      "finanzämtern"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Finanz + Amt; umlaut plural Finanzämter."
+    }
+  },
+  {
+    "headword": "Ausweis",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Ausweise",
+    "cefr": "A1",
+    "translations": [
+      "ID",
+      "identity card",
+      "pass"
+    ],
+    "examples": [
+      {
+        "de": "Bitte zeigen Sie Ihren Ausweis vor.",
+        "en": "Please show your identity card."
+      }
+    ],
+    "inflections": [
+      "ausweises",
+      "ausweise",
+      "ausweisen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Core A1 noun for daily identification."
+    }
+  },
+  {
+    "headword": "Reisepass",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Reisepässe",
+    "cefr": "A1",
+    "translations": [
+      "passport"
+    ],
+    "examples": [
+      {
+        "de": "Mein Reisepass läuft nächsten Monat ab.",
+        "en": "My passport expires next month."
+      }
+    ],
+    "inflections": [
+      "reisepasses",
+      "reisepässe",
+      "reisepässen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Reise + Pass; umlaut plural Reisepässe."
+    }
+  },
+  {
+    "headword": "Führerschein",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Führerscheine",
+    "cefr": "A1",
+    "translations": [
+      "driver's license",
+      "driving licence"
+    ],
+    "examples": [
+      {
+        "de": "Er hat seinen Führerschein seit zwei Jahren.",
+        "en": "He has had his driver's license for two years."
+      }
+    ],
+    "inflections": [
+      "führerscheins",
+      "führerscheines",
+      "führerscheine",
+      "führerscheinen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Führer + Schein."
+    }
+  },
+  {
+    "headword": "Konto",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Konten",
+    "cefr": "A1",
+    "translations": [
+      "bank account",
+      "account"
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte ein neues Konto eröffnen.",
+        "en": "I would like to open a new bank account."
+      }
+    ],
+    "inflections": [
+      "kontos",
+      "konten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Neuter banking noun with plural Konten."
+    }
+  },
+  {
+    "headword": "Überweisung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Überweisungen",
+    "cefr": "A2",
+    "translations": [
+      "bank transfer",
+      "referral (medical)"
+    ],
+    "examples": [
+      {
+        "de": "Die Überweisung der Miete erfolgt pünktlich.",
+        "en": "The transfer of the rent is carried out punctually."
+      }
+    ],
+    "inflections": [
+      "überweisungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine noun with dual banking and medical senses."
+    }
+  },
+  {
+    "headword": "Dauerauftrag",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Daueraufträge",
+    "cefr": "A2",
+    "translations": [
+      "standing order",
+      "recurring payment"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen Dauerauftrag für den Rundfunkbeitrag eingerichtet.",
+        "en": "I set up a standing order for the broadcasting fee."
+      }
+    ],
+    "inflections": [
+      "dauerauftrags",
+      "dauerauftrages",
+      "daueraufträge",
+      "daueraufträgen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Dauer + Auftrag; umlaut plural."
+    }
+  },
+  {
+    "headword": "Lebenslauf",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Lebensläufe",
+    "cefr": "A2",
+    "translations": [
+      "curriculum vitae",
+      "CV",
+      "resume"
+    ],
+    "examples": [
+      {
+        "de": "Fügen Sie Ihrem Anschreiben einen tabellarischen Lebenslauf bei.",
+        "en": "Attach a tabular CV to your cover letter."
+      }
+    ],
+    "inflections": [
+      "lebenslaufs",
+      "lebenslaufes",
+      "lebensläufe",
+      "lebensläufen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Compound noun: Leben + Lauf; umlaut plural Lebensläufe."
+    }
+  },
+  {
+    "headword": "Zeugnis",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Zeugnisse",
+    "cefr": "A2",
+    "translations": [
+      "certificate",
+      "report card",
+      "reference"
+    ],
+    "examples": [
+      {
+        "de": "Nach dem Praktikum erhielt sie ein sehr gutes Zeugnis.",
+        "en": "After the internship she received a very good reference."
+      }
+    ],
+    "inflections": [
+      "zeugnisses",
+      "zeugnisse",
+      "zeugnissen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Neuter noun ending in -nis with genitive -nisses and plural -nisse."
+    }
+  },
+  {
+    "headword": "Vermieter",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Vermieter",
+    "cefr": "A2",
+    "translations": [
+      "landlord"
+    ],
+    "examples": [
+      {
+        "de": "Der Vermieter wohnt im selben Gebäude.",
+        "en": "The landlord lives in the same building."
+      }
+    ],
+    "inflections": [
+      "vermieters"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine agent noun derived from vermieten; zero plural change."
+    }
+  },
+  {
+    "headword": "Mieter",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Mieter",
+    "cefr": "A2",
+    "translations": [
+      "tenant",
+      "renter"
+    ],
+    "examples": [
+      {
+        "de": "Die neuen Mieter ziehen am ersten März ein.",
+        "en": "The new tenants are moving in on March first."
+      }
+    ],
+    "inflections": [
+      "mieters"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine agent noun derived from mieten; zero plural change."
+    }
+  },
+  {
+    "headword": "Nebenkosten",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Nebenkosten",
+    "cefr": "A2",
+    "translations": [
+      "utility costs",
+      "additional expenses",
+      "service charges"
+    ],
+    "examples": [
+      {
+        "de": "Die Warmmiete enthält alle Nebenkosten.",
+        "en": "The warm rent includes all utility costs."
+      }
+    ],
+    "inflections": [
+      "nebenkosten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Plural-only feminine compound noun in practical tenancy contexts."
+    }
+  },
+  {
+    "headword": "Kaution",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Kautionen",
+    "cefr": "A2",
+    "translations": [
+      "security deposit",
+      "bail"
+    ],
+    "examples": [
+      {
+        "de": "Die Kaution beträgt drei Monatskaltmieten.",
+        "en": "The security deposit is three months of basic rent."
+      }
+    ],
+    "inflections": [
+      "kautionen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine noun ending in -ion; plural -en."
+    }
+  },
+  {
+    "headword": "Krankheit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Krankheiten",
+    "cefr": "A2",
+    "translations": [
+      "illness",
+      "disease",
+      "sickness"
+    ],
+    "examples": [
+      {
+        "de": "Gegen diese Krankheit gibt es Medikamente.",
+        "en": "There are medications against this disease."
+      }
+    ],
+    "inflections": [
+      "krankheiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine noun ending in -heit."
+    }
+  },
+  {
+    "headword": "Unterkunft",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Unterkünfte",
+    "cefr": "A2",
+    "translations": [
+      "accommodation",
+      "lodging"
+    ],
+    "examples": [
+      {
+        "de": "Wir suchen eine günstige Unterkunft für drei Nächte.",
+        "en": "We are looking for affordable accommodation for three nights."
+      }
+    ],
+    "inflections": [
+      "unterkünfte",
+      "unterkünften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine travel noun with umlaut plural."
+    }
+  },
+  {
+    "headword": "Lösung",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Lösungen",
+    "cefr": "A2",
+    "translations": [
+      "solution"
+    ],
+    "examples": [
+      {
+        "de": "Wir haben eine gute Lösung für das Problem gefunden.",
+        "en": "We found a good solution to the problem."
+      }
+    ],
+    "inflections": [
+      "lösungen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine derived noun ending in -ung."
+    }
+  },
+  {
+    "headword": "Unterschied",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Unterschiede",
+    "cefr": "A2",
+    "translations": [
+      "difference"
+    ],
+    "examples": [
+      {
+        "de": "Was ist der Unterschied zwischen diesen beiden Wörtern?",
+        "en": "What is the difference between these two words?"
+      }
+    ],
+    "inflections": [
+      "unterschieds",
+      "unterschiedes",
+      "unterschiede",
+      "unterschieden"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun derived from unterscheiden."
+    }
+  },
+  {
+    "headword": "Vorteil",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Vorteile",
+    "cefr": "A2",
+    "translations": [
+      "advantage",
+      "benefit"
+    ],
+    "examples": [
+      {
+        "de": "Diese Wohnung hat viele Vorteile.",
+        "en": "This apartment has many advantages."
+      }
+    ],
+    "inflections": [
+      "vorteils",
+      "vorteiles",
+      "vorteile",
+      "vorteilen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun; opposite of Nachteil."
+    }
+  },
+  {
+    "headword": "Nachteil",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Nachteile",
+    "cefr": "A2",
+    "translations": [
+      "disadvantage",
+      "drawback"
+    ],
+    "examples": [
+      {
+        "de": "Ein Nachteil ist der hohe Preis.",
+        "en": "One disadvantage is the high price."
+      }
+    ],
+    "inflections": [
+      "nachteils",
+      "nachteiles",
+      "nachteile",
+      "nachteilen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun; opposite of Vorteil."
+    }
+  },
+  {
+    "headword": "Ergebnis",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Ergebnisse",
+    "cefr": "A2",
+    "translations": [
+      "result",
+      "outcome"
+    ],
+    "examples": [
+      {
+        "de": "Das Ergebnis der Prüfung war sehr erfreulich.",
+        "en": "The result of the exam was very pleasing."
+      }
+    ],
+    "inflections": [
+      "ergebnisses",
+      "ergebnisse",
+      "ergebnissen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Neuter noun ending in -nis with genitive -nisses and plural -nisse."
+    }
+  },
+  {
+    "headword": "Grund",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Gründe",
+    "cefr": "A2",
+    "translations": [
+      "reason",
+      "cause",
+      "ground"
+    ],
+    "examples": [
+      {
+        "de": "Aus welchem Grund sind Sie umgezogen?",
+        "en": "For what reason did you move?"
+      }
+    ],
+    "inflections": [
+      "grunds",
+      "grundes",
+      "gründe",
+      "gründen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Masculine noun with umlaut plural (Gründe)."
+    }
+  },
+  {
+    "headword": "Zukunft",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Zukünfte",
+    "cefr": "A2",
+    "translations": [
+      "future"
+    ],
+    "examples": [
+      {
+        "de": "Wir planen gemeinsam unsere Zukunft.",
+        "en": "We are planning our future together."
+      }
+    ],
+    "inflections": [
+      "zukünfte",
+      "zukünften"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine temporal noun; plural rarely used."
+    }
+  },
+  {
+    "headword": "Vergangenheit",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "Vergangenheiten",
+    "cefr": "B1",
+    "translations": [
+      "past"
+    ],
+    "examples": [
+      {
+        "de": "In der Vergangenheit war das ganz anders.",
+        "en": "In the past that was completely different."
+      }
+    ],
+    "inflections": [
+      "vergangenheiten"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Feminine temporal noun ending in -heit."
+    }
+  },
+  {
+    "headword": "Gefühl",
+    "pos": "noun",
+    "gender": "n",
+    "plural": "Gefühle",
+    "cefr": "A2",
+    "translations": [
+      "feeling",
+      "emotion"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe ein gutes Gefühl bei der Sache.",
+        "en": "I have a good feeling about this."
+      }
+    ],
+    "inflections": [
+      "gefühls",
+      "gefühles",
+      "gefühle",
+      "gefühlen"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Neuter noun derived from fühlen."
+    }
+  },
+  {
+    "headword": "Gedanke",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "Gedanken",
+    "cefr": "B1",
+    "translations": [
+      "thought",
+      "idea"
+    ],
+    "examples": [
+      {
+        "de": "Das ist ein interessanter Gedanke.",
+        "en": "That is an interesting thought."
+      }
+    ],
+    "inflections": [
+      "gedankens",
+      "gedanken"
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Weak masculine noun with genitive ending -ns (des Gedankens)."
+    }
   }
 ]

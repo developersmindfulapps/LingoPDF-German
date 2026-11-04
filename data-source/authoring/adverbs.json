@@ -1109,5 +1109,142 @@
       "created": "2026-10-28",
       "notes": "Directional adverb: straight ahead."
     }
+  },
+  {
+    "headword": "außerdem",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "besides",
+      "furthermore",
+      "in addition"
+    ],
+    "examples": [
+      {
+        "de": "Er spricht Deutsch und außerdem Spanisch.",
+        "en": "He speaks German and furthermore Spanish."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Adverbial connector triggering subject-verb inversion."
+    }
+  },
+  {
+    "headword": "deswegen",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "therefore",
+      "that is why",
+      "for that reason"
+    ],
+    "examples": [
+      {
+        "de": "Er ist krank, deswegen kommt er nicht.",
+        "en": "He is sick, that is why he is not coming."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Causal adverbial connector triggering subject-verb inversion."
+    }
+  },
+  {
+    "headword": "früher",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "earlier",
+      "formerly",
+      "in the past"
+    ],
+    "examples": [
+      {
+        "de": "Früher gab es hier keinen Supermarkt.",
+        "en": "In the past there was no supermarket here."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Temporal adverb; lexicalized comparative of früh."
+    }
+  },
+  {
+    "headword": "später",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "later",
+      "afterwards"
+    ],
+    "examples": [
+      {
+        "de": "Wir rufen dich später an.",
+        "en": "We will call you later."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Temporal adverb; lexicalized comparative of spät."
+    }
+  },
+  {
+    "headword": "schließlich",
+    "pos": "adv",
+    "cefr": "B1",
+    "translations": [
+      "finally",
+      "in the end",
+      "after all"
+    ],
+    "examples": [
+      {
+        "de": "Schließlich haben wir eine Lösung gefunden.",
+        "en": "Finally we found a solution."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Temporal and conclusive sentence adverb."
+    }
+  },
+  {
+    "headword": "trotzdem",
+    "pos": "adv",
+    "cefr": "A2",
+    "translations": [
+      "nevertheless",
+      "still",
+      "anyway"
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, trotzdem gehen wir spazieren.",
+        "en": "It is raining, nevertheless we are going for a walk."
+      }
+    ],
+    "provenance": {
+      "author": "pdf-language-companion-team",
+      "method": "independent_lexicography",
+      "reviewStatus": "draft",
+      "created": "2026-11-01",
+      "notes": "Concessive adverbial connector triggering inversion."
+    }
   }
 ]

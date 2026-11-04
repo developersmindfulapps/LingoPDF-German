@@ -478,63 +478,63 @@ export function generatePromoTile() {
     }
   }
 
-  // Draw App Icon (48x48 rendered, scaled nicely or drawn as 64px)
+  // Draw App Icon (48x48 rendered, scaled nicely)
   const iconRaw = renderAppIconBuffer(48);
-  blitIcon(buf, W, H, iconRaw, 48, 28, 28);
+  blitIcon(buf, W, H, iconRaw, 48, 24, 24);
 
-  // Title: "PDF Language Companion"
-  drawText(buf, W, H, 'PDF Language Companion', 88, 32, 2, 255, 255, 255, 1);
+  // Title: "LingoPDF"
+  drawText(buf, W, H, 'LingoPDF', 84, 26, 3, 255, 255, 255, 1);
   // Subtitle
-  drawText(buf, W, H, 'Offline German-English Reader & OCR', 88, 54, 1, 165, 180, 252, 0.9);
+  drawText(buf, W, H, 'German Edition • Offline Vocabulary Reader', 84, 54, 1, 165, 180, 252, 0.95);
 
   // Feature Badges (3 horizontal pills)
   // Badge 1: 100% Offline
-  fillRoundedRect(buf, W, H, 28, 92, 114, 26, 6, 16, 185, 129, 0.2);
-  fillRoundedRect(buf, W, H, 28, 92, 114, 26, 6, 16, 185, 129, 0.4);
-  drawText(buf, W, H, '100% OFFLINE', 36, 100, 1, 52, 211, 153, 1);
+  fillRoundedRect(buf, W, H, 24, 88, 116, 26, 6, 16, 185, 129, 0.2);
+  fillRoundedRect(buf, W, H, 24, 88, 116, 26, 6, 16, 185, 129, 0.4);
+  drawText(buf, W, H, '100% OFFLINE', 34, 96, 1, 52, 211, 153, 1);
 
-  // Badge 2: Zero Permissions
-  fillRoundedRect(buf, W, H, 150, 92, 134, 26, 6, 99, 102, 241, 0.2);
-  fillRoundedRect(buf, W, H, 150, 92, 134, 26, 6, 99, 102, 241, 0.4);
-  drawText(buf, W, H, 'ZERO PERMISSIONS', 158, 100, 1, 165, 180, 252, 1);
+  // Badge 2: Word Lookup
+  fillRoundedRect(buf, W, H, 148, 88, 136, 26, 6, 99, 102, 241, 0.2);
+  fillRoundedRect(buf, W, H, 148, 88, 136, 26, 6, 99, 102, 241, 0.4);
+  drawText(buf, W, H, 'WORD LOOKUP', 174, 96, 1, 165, 180, 252, 1);
 
-  // Badge 3: Dual-Tier
-  fillRoundedRect(buf, W, H, 292, 92, 120, 26, 6, 245, 158, 11, 0.2);
-  fillRoundedRect(buf, W, H, 292, 92, 120, 26, 6, 245, 158, 11, 0.4);
-  drawText(buf, W, H, 'BUILT-IN OCR', 312, 100, 1, 251, 191, 36, 1);
+  // Badge 3: Built-In OCR
+  fillRoundedRect(buf, W, H, 292, 88, 124, 26, 6, 245, 158, 11, 0.2);
+  fillRoundedRect(buf, W, H, 292, 88, 124, 26, 6, 245, 158, 11, 0.4);
+  drawText(buf, W, H, 'BUILT-IN OCR', 314, 96, 1, 251, 191, 36, 1);
 
   // Interactive Lookup Preview Card (mock reader + floating tooltip)
   // Base reader card
-  fillRoundedRect(buf, W, H, 28, 132, 384, 124, 8, 255, 255, 255, 0.08);
-  fillRoundedRect(buf, W, H, 28, 132, 384, 124, 8, 255, 255, 255, 0.15);
+  fillRoundedRect(buf, W, H, 24, 126, 392, 134, 8, 255, 255, 255, 0.08);
+  fillRoundedRect(buf, W, H, 24, 126, 392, 134, 8, 255, 255, 255, 0.15);
 
   // Document lines inside preview
-  drawText(buf, W, H, 'Netzwerk A1 - Kapitel 1: Guten Tag!', 42, 146, 1, 226, 232, 240, 0.85);
-  drawText(buf, W, H, 'Ich komme aus Deutschland und wohne in Berlin.', 42, 162, 1, 203, 213, 225, 0.75);
+  drawText(buf, W, H, 'Goethe A1: Start Deutsch 1 - Lesen', 38, 140, 1, 226, 232, 240, 0.85);
+  drawText(buf, W, H, 'Sie moechten mehr Informationen bekommen.', 38, 156, 1, 203, 213, 225, 0.75);
 
-  // Blue selection on "wohne"
-  fillRect(buf, W, H, 224, 159, 36, 12, 59, 130, 246, 0.4);
+  // Blue selection on "bekommen"
+  fillRect(buf, W, H, 230, 153, 52, 12, 59, 130, 246, 0.4);
 
   // Floating Dictionary Tooltip Card
-  const tipX = 180, tipY = 178, tipW = 216, tipH = 66;
+  const tipX = 168, tipY = 172, tipW = 236, tipH = 74;
   fillRoundedRect(buf, W, H, tipX, tipY, tipW, tipH, 6, 255, 255, 255, 0.98);
   fillRoundedRect(buf, W, H, tipX, tipY, tipW, tipH, 6, 99, 102, 241, 0.6); // border
 
   // Tooltip content
-  drawText(buf, W, H, 'wohnen', tipX + 8, tipY + 8, 1, 15, 23, 42, 1);
+  drawText(buf, W, H, 'bekommen', tipX + 8, tipY + 8, 1, 15, 23, 42, 1);
   // POS & CEFR badges
-  fillRoundedRect(buf, W, H, tipX + 54, tipY + 6, 38, 12, 3, 238, 242, 255, 1);
-  drawText(buf, W, H, 'verb', tipX + 58, tipY + 8, 1, 79, 70, 229, 1);
+  fillRoundedRect(buf, W, H, tipX + 66, tipY + 6, 38, 12, 3, 238, 242, 255, 1);
+  drawText(buf, W, H, 'verb', tipX + 70, tipY + 8, 1, 79, 70, 229, 1);
 
-  fillRoundedRect(buf, W, H, tipX + 96, tipY + 6, 24, 12, 3, 236, 253, 245, 1);
-  drawText(buf, W, H, 'A1', tipX + 102, tipY + 8, 1, 5, 150, 105, 1);
+  fillRoundedRect(buf, W, H, tipX + 108, tipY + 6, 24, 12, 3, 236, 253, 245, 1);
+  drawText(buf, W, H, 'A1', tipX + 114, tipY + 8, 1, 5, 150, 105, 1);
 
   // Translation & Inflections
-  drawText(buf, W, H, '1. to live, to reside, to dwell', tipX + 8, tipY + 24, 1, 30, 41, 59, 1);
-  drawText(buf, W, H, 'Forms: wohnt, wohnte, gewohnt', tipX + 8, tipY + 38, 1, 100, 116, 139, 0.9);
+  drawText(buf, W, H, '1. to receive, to get', tipX + 8, tipY + 24, 1, 30, 41, 59, 1);
+  drawText(buf, W, H, 'Forms: bekommt, bekam, hat bekommen', tipX + 8, tipY + 40, 1, 100, 116, 139, 0.9);
 
   // Provider Pill
-  drawText(buf, W, H, 'Authored Learner Dictionary', tipX + 8, tipY + 52, 1, 16, 185, 129, 1);
+  drawText(buf, W, H, '✓ Authored Learner Dictionary', tipX + 8, tipY + 56, 1, 16, 185, 129, 1);
 
   const pngBuf = encodePng(W, H, buf);
   const outPath = path.join(process.cwd(), 'store-assets', 'promo-tile-440x280.png');
@@ -560,78 +560,81 @@ export function generateScreenshot() {
   // Navbar brand icon + title
   const iconRaw = renderAppIconBuffer(32);
   blitIcon(buf, W, H, iconRaw, 32, 20, 12);
-  drawText(buf, W, H, 'PDF Language Companion', 60, 16, 2, 15, 23, 42, 1);
-  drawText(buf, W, H, 'Reader', 60, 36, 1, 100, 116, 139, 1);
+  drawText(buf, W, H, 'LingoPDF', 60, 14, 2, 15, 23, 42, 1);
+  drawText(buf, W, H, 'German', 60, 34, 1, 100, 116, 139, 1);
 
   // Document pill in navbar
-  fillRoundedRect(buf, W, H, 440, 12, 280, 32, 6, 248, 250, 252, 1);
-  fillRoundedRect(buf, W, H, 440, 12, 280, 32, 6, 203, 213, 225, 0.6); // border
-  drawText(buf, W, H, 'Netzwerk_A1_Kapitel1.pdf', 456, 22, 1, 30, 41, 59, 1);
-  drawText(buf, W, H, '|  12 pages', 630, 22, 1, 148, 163, 184, 1);
+  fillRoundedRect(buf, W, H, 400, 12, 320, 32, 6, 248, 250, 252, 1);
+  fillRoundedRect(buf, W, H, 400, 12, 320, 32, 6, 203, 213, 225, 0.6); // border
+  drawText(buf, W, H, 'GOETHE PDF TEST.pdf', 416, 22, 1, 30, 41, 59, 1);
+  drawText(buf, W, H, '|  47 pages', 615, 22, 1, 148, 163, 184, 1);
 
   // Navbar actions (right)
   // OCR button
-  fillRoundedRect(buf, W, H, 950, 12, 120, 32, 6, 79, 70, 229, 0.1);
-  drawText(buf, W, H, 'OCR German', 970, 22, 1, 67, 56, 202, 1);
+  fillRoundedRect(buf, W, H, 820, 12, 105, 32, 6, 79, 70, 229, 0.1);
+  drawText(buf, W, H, 'OCR German', 836, 22, 1, 67, 56, 202, 1);
   // Zoom pill
-  fillRoundedRect(buf, W, H, 1084, 12, 80, 32, 6, 241, 245, 249, 1);
-  drawText(buf, W, H, '100%', 1106, 22, 1, 51, 65, 85, 1);
+  fillRoundedRect(buf, W, H, 935, 12, 70, 32, 6, 241, 245, 249, 1);
+  drawText(buf, W, H, '100%', 952, 22, 1, 51, 65, 85, 1);
+  // Settings button
+  fillRoundedRect(buf, W, H, 1015, 12, 85, 32, 6, 241, 245, 249, 1);
+  drawText(buf, W, H, 'Settings', 1030, 22, 1, 51, 65, 85, 1);
   // About button
-  fillRoundedRect(buf, W, H, 1176, 12, 80, 32, 6, 241, 245, 249, 1);
-  drawText(buf, W, H, 'About', 1200, 22, 1, 51, 65, 85, 1);
+  fillRoundedRect(buf, W, H, 1110, 12, 75, 32, 6, 241, 245, 249, 1);
+  drawText(buf, W, H, 'About', 1128, 22, 1, 51, 65, 85, 1);
+  // Open PDF button
+  fillRoundedRect(buf, W, H, 1195, 12, 70, 32, 6, 241, 245, 249, 1);
+  drawText(buf, W, H, 'Open', 1214, 22, 1, 51, 65, 85, 1);
 
-  // 3. Centered PDF Page (width 680, height 700, #FFFFFF, shadow)
-  const pageX = 300, pageY = 76, pageW = 680, pageH = 690;
+  // 3. Centered PDF Page (width 740, height 690, #FFFFFF, shadow)
+  const pageX = 270, pageY = 76, pageW = 740, pageH = 690;
   // Drop shadow
   fillRect(buf, W, H, pageX + 4, pageY + 4, pageW, pageH, 0, 0, 0, 0.06);
   fillRect(buf, W, H, pageX, pageY, pageW, pageH, 255, 255, 255, 1);
   fillRect(buf, W, H, pageX, pageY, pageW, 1, 226, 232, 240, 1);
   fillRect(buf, W, H, pageX, pageY, 1, pageH, 226, 232, 240, 1);
 
-  // Inside PDF page: Textbook typography
-  drawText(buf, W, H, 'Netzwerk Deutsch als Fremdsprache A1', pageX + 48, pageY + 44, 2, 79, 70, 229, 1);
-  drawText(buf, W, H, 'Kapitel 1: Guten Tag! Erste Kontakte', pageX + 48, pageY + 76, 3, 15, 23, 42, 1);
+  // Inside PDF page: Authentic Goethe A1 Exam Layout
+  drawText(buf, W, H, 'Goethe-Zertifikat A1: Start Deutsch 1', pageX + 48, pageY + 36, 2, 79, 70, 229, 1);
+  drawText(buf, W, H, 'Uebungssatz 01 • Teil 1: Lesen', pageX + 48, pageY + 68, 3, 15, 23, 42, 1);
 
-  // Exercise section
-  drawText(buf, W, H, '1. Personen vorstellen und Dialoge verstehen', pageX + 48, pageY + 120, 2, 30, 41, 59, 1);
-  drawText(buf, W, H, 'Lesen Sie die Texte und ergaenzen Sie die Angaben.', pageX + 48, pageY + 144, 1, 100, 116, 139, 1);
+  // Exercise instructions
+  drawText(buf, W, H, 'Lesen Sie die Texte und die Aufgaben 1 bis 5.', pageX + 48, pageY + 112, 2, 30, 41, 59, 1);
+  drawText(buf, W, H, 'Waehlen Sie die richtige Loesung: a, b oder c.', pageX + 48, pageY + 136, 1, 100, 116, 139, 1);
 
-  // Dialogues - start lower so tooltip has ample clearance
-  let textY = pageY + 220;
+  // Real test reading lines featuring authentic vocabulary from test
+  let textY = pageY + 190;
   const lines = [
-    'Thomas: Guten Tag! Mein Name ist Thomas Weber.',
-    'Ich komme aus Deutschland und wohne in Berlin.',
-    'Ich arbeite als Ingenieur und trinke gern Kaffee.',
-    '',
-    'Elena: Hallo Thomas! Ich bin Elena aus Spanien.',
-    'Ich lerne Deutsch an der Universitaet.',
-    'Meine Hobbys sind Musik, Reisen und Sport.',
-    '',
-    'Herr Mueller: Herzlich willkommen im Kurs!',
-    'Wir lernen zusammen Deutsch sprechen, lesen und schreiben.'
+    'Liebe Besucherinnen und Besucher,',
+    'herzlich willkommen in unserem Kulturzentrum.',
+    'Sie moechten Auskunft ueber Kursangebote bekommen?',
+    'Unsere Partnerin beraet Sie gern im Erdgeschoss.',
+    'Oeffnungszeiten am Vormittag: Montag bis Freitag 9-12 Uhr.',
+    'Am Wochenende bleibt unser Informationszentrum geschlossen.',
+    'Wir freuen uns auf Ihren Besuch und wuenschen viel Erfolg!'
   ];
 
   for (const line of lines) {
     if (line.length > 0) {
       drawText(buf, W, H, line, pageX + 48, textY, 2, 51, 65, 85, 1);
     }
-    textY += 28;
+    textY += 30;
   }
 
-  // Word selection highlight on "wohne" in line 2:
-  // "Ich komme aus Deutschland und wohne in Berlin."
-  // "wohne" starts after 30 characters in scale 2: 30 * (6 * 2) = 360 px
-  const selX = pageX + 48 + 360;
-  const selY = pageY + 220 + 28 - 2;
-  const selW = 60;
+  // Word selection highlight on "bekommen" in line 3:
+  // "Sie moechten Auskunft ueber Kursangebote bekommen?"
+  // "Sie moechten Auskunft ueber Kursangebote " = 39 chars in scale 2: 39 * 12 = 468 px
+  const selX = pageX + 48 + 468;
+  const selY = pageY + 190 + 2 * 30 - 2;
+  const selW = 98;
   const selH = 20;
   fillRect(buf, W, H, selX, selY, selW, selH, 59, 130, 246, 0.35);
 
   // Floating Dictionary Tooltip (placed directly above selection with ample clearance)
-  const tipX = selX - 100;
-  const tipY = selY - 148;
+  const tipX = selX - 110;
+  const tipY = selY - 176;
   const tipW = 340;
-  const tipH = 140;
+  const tipH = 168;
 
   // Tooltip drop shadow
   fillRoundedRect(buf, W, H, tipX + 4, tipY + 4, tipW, tipH, 8, 0, 0, 0, 0.12);
@@ -641,31 +644,33 @@ export function generateScreenshot() {
 
   // Inside Tooltip:
   // Header: Word + POS + CEFR
-  drawText(buf, W, H, 'wohnen', tipX + 16, tipY + 14, 2, 15, 23, 42, 1);
-  fillRoundedRect(buf, W, H, tipX + 110, tipY + 12, 44, 18, 3, 238, 242, 255, 1);
-  drawText(buf, W, H, 'verb', tipX + 118, tipY + 16, 1, 79, 70, 229, 1);
+  drawText(buf, W, H, 'bekommen', tipX + 16, tipY + 14, 2, 15, 23, 42, 1);
+  fillRoundedRect(buf, W, H, tipX + 124, tipY + 12, 44, 18, 3, 238, 242, 255, 1);
+  drawText(buf, W, H, 'VERB', tipX + 130, tipY + 16, 1, 79, 70, 229, 1);
 
-  fillRoundedRect(buf, W, H, tipX + 162, tipY + 12, 28, 18, 3, 236, 253, 245, 1);
-  drawText(buf, W, H, 'A1', tipX + 168, tipY + 16, 1, 5, 150, 105, 1);
+  fillRoundedRect(buf, W, H, tipX + 176, tipY + 12, 28, 18, 3, 236, 253, 245, 1);
+  drawText(buf, W, H, 'A1', tipX + 182, tipY + 16, 1, 5, 150, 105, 1);
 
   // Divider
   fillRect(buf, W, H, tipX + 16, tipY + 38, tipW - 32, 1, 241, 245, 249, 1);
 
   // Translations
-  drawText(buf, W, H, '1. to live, to reside, to dwell', tipX + 16, tipY + 48, 2, 30, 41, 59, 1);
-  drawText(buf, W, H, 'Forms: wohnt, wohnte, hat gewohnt', tipX + 16, tipY + 74, 1, 100, 116, 139, 1);
+  drawText(buf, W, H, '1. to receive, to get', tipX + 16, tipY + 48, 2, 30, 41, 59, 1);
+  drawText(buf, W, H, '2. to catch (an illness)', tipX + 16, tipY + 74, 1, 71, 85, 105, 1);
+  drawText(buf, W, H, '3. to agree with', tipX + 16, tipY + 90, 1, 71, 85, 105, 1);
+  drawText(buf, W, H, 'Forms: bekommt, bekam, hat bekommen', tipX + 16, tipY + 108, 1, 100, 116, 139, 1);
 
   // Divider 2
-  fillRect(buf, W, H, tipX + 16, tipY + 94, tipW - 32, 1, 241, 245, 249, 1);
+  fillRect(buf, W, H, tipX + 16, tipY + 126, tipW - 32, 1, 241, 245, 249, 1);
 
   // Provider Pill / Badge
-  fillRoundedRect(buf, W, H, tipX + 16, tipY + 104, 220, 22, 4, 240, 253, 244, 1);
-  drawText(buf, W, H, '✓ Authored Learner Dictionary', tipX + 24, tipY + 110, 1, 22, 163, 74, 1);
+  fillRoundedRect(buf, W, H, tipX + 16, tipY + 134, 220, 22, 4, 240, 253, 244, 1);
+  drawText(buf, W, H, '✓ Authored Learner Dictionary', tipX + 24, tipY + 140, 1, 22, 163, 74, 1);
 
   // 4. Bottom Page Controls Bar (floating at bottom center)
   fillRoundedRect(buf, W, H, 540, 740, 200, 36, 18, 255, 255, 255, 0.95);
   fillRoundedRect(buf, W, H, 540, 740, 200, 36, 18, 203, 213, 225, 0.5);
-  drawText(buf, W, H, '<   Page 1 of 12   >', 570, 752, 1, 51, 65, 85, 1);
+  drawText(buf, W, H, '<   Page 3 of 47   >', 570, 752, 1, 51, 65, 85, 1);
 
   const pngBuf = encodePng(W, H, buf);
   const outPath = path.join(process.cwd(), 'store-assets', 'screenshot-1280x800.png');
@@ -678,7 +683,7 @@ export function generateScreenshot() {
 // ============================================================================
 if (process.argv[1] && process.argv[1].endsWith('generate-brand-assets.mjs')) {
   console.log('=====================================================================');
-  console.log('   PDF LANGUAGE COMPANION — STORE ASSETS GENERATOR                   ');
+  console.log('   LINGOPDF — STORE ASSETS GENERATOR                                 ');
   console.log('=====================================================================\n');
 
   const storeAssetsDir = path.join(process.cwd(), 'store-assets');

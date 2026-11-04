@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { Info, X, ExternalLink, BookOpen, Layers, ShieldCheck } from 'lucide-react';
+import { Info, X, ExternalLink, BookOpen, Layers, ShieldCheck, FileText, Mail } from 'lucide-react';
+import { resolveDataAssetUrl } from '../services/dictionary/index';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -89,7 +90,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
             </div>
             <div>
               <h2 id="about-modal-title" className="text-sm font-bold text-slate-800 leading-tight">
-                About PDF Language Companion
+                About LingoPDF
               </h2>
               <span id="about-modal-description" className="text-xs text-slate-500 font-medium">
                 Version 0.1.0 &bull; Early Release
@@ -116,7 +117,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
               <span>Offline &amp; Privacy-First Reader</span>
             </div>
             <p className="text-slate-600">
-              PDF Language Companion operates entirely locally inside your browser. All PDF rendering,
+              LingoPDF operates entirely locally inside your browser. All PDF rendering,
               optical character recognition (OCR), text tokenization, and word translation lookups
               execute offline with zero external network requests, third-party APIs, or telemetry.
             </p>
@@ -129,7 +130,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
               <span>Dual-Provider Dictionary Architecture</span>
             </div>
             <p>
-              PDF Language Companion combines two offline dictionary tiers to balance learner-focused clarity with comprehensive lexical coverage:
+              LingoPDF combines two offline dictionary tiers to balance learner-focused clarity with comprehensive lexical coverage:
             </p>
             <div className="space-y-2 pl-2.5 border-l-2 border-indigo-200 text-[11px]">
               <div>
@@ -177,19 +178,55 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose }) => {
               <span>Bundled Third-Party Components</span>
             </div>
             <p>
-              This extension incorporates open-source libraries and binary assets for offline operation:
+              This extension incorporates open-source libraries, runtimes, and binary assets for offline operation:
             </p>
             <ul className="list-disc list-inside space-y-1 pl-1 text-[11px] text-slate-600">
               <li><strong className="text-slate-700">Mozilla PDF.js</strong> (v4.10.38) &mdash; Apache-2.0</li>
-              <li><strong className="text-slate-700">Tesseract.js &amp; Core</strong> (v7.0.0) &mdash; Apache-2.0</li>
+              <li><strong className="text-slate-700">React &amp; React DOM</strong> (v18.3.1) &mdash; MIT</li>
+              <li><strong className="text-slate-700">Floating UI</strong> (v0.27.20) &mdash; MIT</li>
+              <li><strong className="text-slate-700">Lucide React</strong> (v1.52.0) &mdash; ISC / MIT</li>
+              <li><strong className="text-slate-700">Tesseract.js &amp; Core WASM</strong> (v7.0.0) &mdash; Apache-2.0</li>
+              <li><strong className="text-slate-700">Leptonica</strong> (v1.84.1) &mdash; BSD-2-Clause</li>
               <li><strong className="text-slate-700">Tesseract German Traineddata</strong> (v1.0.0) &mdash; Apache-2.0 / MIT</li>
               <li><strong className="text-slate-700">Adobe CMap Resources</strong> &mdash; 3-Clause BSD Adobe License</li>
               <li><strong className="text-slate-700">Liberation &amp; Foxit Standard Fonts</strong> &mdash; SIL OFL 1.1 / 3-Clause BSD</li>
             </ul>
             <p className="text-[11px] text-slate-500 pt-0.5">
-              Full copyright notices and license texts for all bundled third-party assets are documented
+              Full copyright notices and licence texts for all bundled third-party assets are documented
               in <code className="px-1 py-0.5 bg-slate-100 rounded text-slate-700">THIRD_PARTY_LICENSES.txt</code>.
             </p>
+            <div className="pt-1.5">
+              <a
+                href={resolveDataAssetUrl('THIRD_PARTY_LICENSES.txt')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800 hover:underline"
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span>View Complete Third-Party Legal Notices (TXT)</span>
+                <ExternalLink className="w-3 h-3 text-slate-400" />
+              </a>
+            </div>
+          </div>
+
+          {/* Support & Contact */}
+          <div className="border-t border-slate-100 pt-3 space-y-1.5">
+            <div className="flex items-center gap-1.5 font-semibold text-slate-800 text-xs">
+              <Mail className="w-4 h-4 text-indigo-600" />
+              <span>Support &amp; Contact</span>
+            </div>
+            <p className="text-[11px] text-slate-600">
+              For questions, assistance, bug reports, or feedback, contact our support team at:
+            </p>
+            <div>
+              <a
+                href="mailto:support@lingopdf.in"
+                className="inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800 hover:underline"
+              >
+                <Mail className="w-3.5 h-3.5 text-indigo-500" />
+                <span>support@lingopdf.in</span>
+              </a>
+            </div>
           </div>
 
           {/* Licensing Status */}
